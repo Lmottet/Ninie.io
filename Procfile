@@ -1,1 +1,1 @@
-worker: deno run --allow-env --allow-net --cached-only index.ts --discord_client_id=${DISCORD_CLIENT_ID} --discord_bot_token=${DISCORD_BOT_TOKEN} 
+worker: deno run --allow-env --allow-net --cached-only mod.ts --discord_client_id=${DISCORD_CLIENT_ID} --discord_bot_token=${DISCORD_BOT_TOKEN} 
