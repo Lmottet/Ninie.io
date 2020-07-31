@@ -4,22 +4,7 @@ This repo is meant as a template which you can use to create a Discord bot very 
 
 [Discord Server](https://discord.gg/J4NqJ72)
 
-## Pre-requisites
+# ninie.io
+Some funny discord bot in Denojs
 
-- Deno
-
-**Note:** Having to type all that can be quite annoying everytime you want to start a bot. To make it simpler, this template supports Velociraptor module. Once you install it(link above in pre-requisites) it is as simple as `vr start` or `vr update`(to update) or `vr dev` to both update and start the bot at once.
-
-**Note:** To run the bot with `PM2`: `pm2 start mod.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-read -r" `
-
-The `-r` is short for `--reload`, it reloads your deno cache whenever the bot restarts to get the latest and greatest changes to Discordeno. You don't have to include it.
-
-## Features
-
-- [x] Arguments folder to parse and validate arguments for all your commands.
-- [x] Commands to contain all your bots amazing commands.
-- [x] Events folder to keep all your events.
-- [x] Inhibitors to contain pre-check requirements on commands before running a command
-- [x] Monitors to contain functions you want to run on all messages
-- [x] Utils to help make developing a Discord bot even easier and faster!
-- [x] Embed constructor with character limit checks to prevent errors.
+Will respond to funny commands, see below
