@@ -1,7 +1,7 @@
 import Client, {
   updateEventHandlers,
 } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts";
-import { configs } from "./configs.ts";
+import { config } from "./config.ts";
 import {
   Intents,
   EventHandlers,
@@ -45,8 +45,18 @@ await Promise.all(
   ),
 );
 
+
+const discord_client_id = Deno.env.get("DISCORD_CLIENT_ID");
+const discord_token_id = Deno.env.get("DISCORD_BOT_TOKEN");
+
+const intents = [
+  Intents.GUILD_PRESENCES,
+]
+
+console.log("token id : " + discord_token_id);
+
 Client({
-  token: configs.token,
+  token: discord_token_id ? discord_token_id : "",
   // Pick the intents you wish to have for your bot.
   intents: [Intents.GUILDS, Intents.GUILD_MESSAGES],
   // These are all your event handler functions. Imported from the events folder
