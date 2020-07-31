@@ -30,6 +30,7 @@ const importDirectory = async (path: string) => {
 };
 
 // Forces deno to read all the files which will fill the commands/inhibitors cache etc.
+/*
 await Promise.all(
   [
     "./src/commands",
@@ -38,6 +39,7 @@ await Promise.all(
     "./src/arguments",
   ].map((path) => importDirectory(path))
 );
+*/
 
 const discord_client_id = Deno.env.get("DISCORD_CLIENT_ID");
 const discord_token_id = Deno.env.get("DISCORD_BOT_TOKEN");

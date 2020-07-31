@@ -60,9 +60,6 @@ botCache.commands.set(`invincible`, {
   },
 });
 
-// other ways to call the command, must be in lowercase
-createCommandAliases("kick", ["boot", "tempban"]);
-
 interface KickArgs {
   member: Member;
   reason: string;
