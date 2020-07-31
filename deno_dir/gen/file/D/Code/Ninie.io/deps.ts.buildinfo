@@ -1,0 +1,1070 @@
+{
+  "program": {
+    "fileInfos": {
+      "asset:///lib.es5.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2015.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": false
+      },
+      "asset:///lib.es2016.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": false
+      },
+      "asset:///lib.es2017.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": false
+      },
+      "asset:///lib.es2018.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": false
+      },
+      "asset:///lib.es2019.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": false
+      },
+      "asset:///lib.es2020.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": false
+      },
+      "asset:///lib.esnext.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": false
+      },
+      "asset:///lib.es2015.core.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2015.collection.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2015.generator.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2015.iterable.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2015.promise.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2015.proxy.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2015.reflect.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2015.symbol.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2015.symbol.wellknown.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2016.array.include.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2017.object.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2017.sharedmemory.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2017.string.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2017.intl.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2017.typedarrays.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2018.asyncgenerator.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2018.asynciterable.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2018.intl.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2018.promise.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2018.regexp.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2019.array.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2019.object.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2019.string.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2019.symbol.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2020.bigint.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2020.promise.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2020.string.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.es2020.symbol.wellknown.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.esnext.intl.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.esnext.string.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.esnext.promise.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.deno.ns.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.deno.window.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.deno.shared_globals.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts": {
+        "version": "441cf85c0e504d6e5630bccf6b1bbd1c3944c408b00e9b322aec66acde827ffa",
+        "signature": "18889817053",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts": {
+        "version": "cef6a215912d1cee0dc6e0f5e2ec564379d133b31094ee35c0709c399dda3cea",
+        "signature": "-20445872180",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts": {
+        "version": "1f1f054df864b994755aee4ff15de93f9f01bf5be162267c2ecacc5828f300d3",
+        "signature": "81694942131",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/presence.ts": {
+        "version": "298638ea9ea2bfcaf5ea965b3de4f8abc9d81f8347f69b722ea1b5b730417f03",
+        "signature": "-17873789361",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts": {
+        "version": "443a4dc58cfa9951688d9c8c28c51ca5092e5e99f605c40a26cae374a8a762c9",
+        "signature": "91261306260",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/role.ts": {
+        "version": "5f8a545a2f5cff338194916f9a020ba3a02f6e69c88cf22cef4cc8041f316f37",
+        "signature": "17065950993",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts": {
+        "version": "bc11583d2444f34c3259c4c585e2a09ca6caa079f108e0ca0ad7acc94e68c7a7",
+        "signature": "126257031052",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts": {
+        "version": "3000ad6e4a3af81092915f511c43336b27eae46d8ccafc8c0ee4d0c29e2fffa7",
+        "signature": "-50906385902",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/activity.ts": {
+        "version": "1550fd7d58fd0f48cddd8cb81341e968f7ac60c006be2f8bba0471bf3c782b7b",
+        "signature": "-7621802536",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/constants/discord.ts": {
+        "version": "4996b6db86ade2259fb67b08cd1776ce888d778efb8ab733110e5e26bb635958",
+        "signature": "-69088014636",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts": {
+        "version": "12ee7fc7309e3c056f76bb49d757a47ebfb53bb7900e0951dc2fb558c1cb7f9d",
+        "signature": "15846706265",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts": {
+        "version": "15fc015cae22c322443216e649d0f82e73b13943177ecfe81c53cd31f03f13d0",
+        "signature": "40601902033",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts": {
+        "version": "d9dc75fa41959bd9d77ba8a88c0c7b4b09b42af6edb3491af944f3ccaf80364a",
+        "signature": "189196226",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts": {
+        "version": "e468e07e1edde00295bbf7723f123416c0ea402f4ab0cd65ec9063e534317244",
+        "signature": "128200763097",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/options.ts": {
+        "version": "53c489a55d2eb74374e0df7ab9e0e452bf75d475f2d87a73eff2ddd2d7d861d5",
+        "signature": "-57465010341",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/fetch.ts": {
+        "version": "1545618ca6c12854f9fcae782a434fa45cbe2f9c6d03f183bed746a1747e843a",
+        "signature": "-12333298833",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/async/delay.ts": {
+        "version": "42b68657085e113828098ca4ddc27601091b77595580dd414ea432987531107f",
+        "signature": "-16927350",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/errors.ts": {
+        "version": "328c3d022b88f7ffb31d630afe0f812c3936340fe6daa845f57d6fa527406d18",
+        "signature": "-31067692037",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/fmt/colors.ts": {
+        "version": "ef0fa41f9ca25790563d238bc6c8fe49ac105c22d43d877fb7615dd5e2007406",
+        "signature": "-35509310111",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts": {
+        "version": "090ba6c26c0c1fde4f8ed3da1b91cfa1a1a198f7116600298c4a44179123fb57",
+        "signature": "19059952713",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/requestManager.ts": {
+        "version": "e489d19d0d3307eeec25fd855e5496aa82db89f4d40702e5e4d90527cf60c3ed",
+        "signature": "22670324414",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts": {
+        "version": "4992614c128e155dd3af5af5a2e9d5cfe28f2230c422c3bfa7b9e2732c03ce8b",
+        "signature": "-33330131682",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/channels.ts": {
+        "version": "3e3afd4fc41ef9bdd0dd802ed80f73b63dda63ef05726d6c2db7743415cb089f",
+        "signature": "9574262172",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/guilds.ts": {
+        "version": "cf4202d2ffd5f899f98126b3798eb671cf890074c8270b8e9732706312f42a57",
+        "signature": "10230540324",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/encoding/utf8.ts": {
+        "version": "13c4ea5a2e4b5ef531f71c3a65b24da09bcfbd9aad69941d69ae1f5069269471",
+        "signature": "-9536159269",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/_util/has_own_property.ts": {
+        "version": "b6a1e41d1fe1669fd91fb74cefe8e76906e77faa9a3c1d2b35cda475da9129ef",
+        "signature": "-7116351741",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/bytes/mod.ts": {
+        "version": "42f18d7d05921bcbae3270fa7679f022c7785551f290a3179058e8200ad79196",
+        "signature": "-814175339",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/_util/assert.ts": {
+        "version": "0907056b48c15edf883fe2d1450461ccd8dac419704535d1f7d24518f1ed5bee",
+        "signature": "-16409965166",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/io/bufio.ts": {
+        "version": "9371c95ddb338543cb0edd4a081ddac14e644c4a633b5ba6e8d65ef47f3fe074",
+        "signature": "7475322339",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/io/ioutil.ts": {
+        "version": "27fc53afc6d351fd6109f002f9f25e6e866d40782c4ba1691a5d7cd016bd3270",
+        "signature": "-43148999918",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/hash/sha1.ts": {
+        "version": "c629b9084b7c331885ed8bf837cca1a3a9af164774a16704d0d6b35bb3aae3fe",
+        "signature": "-11435360377",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/textproto/mod.ts": {
+        "version": "da48a4ffcb89499dd3e87c4ba289444e5914b72fe8b9ca256c4c128dd65233f1",
+        "signature": "68968002",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/async/deferred.ts": {
+        "version": "5e6eb49f81a93f820f665b5266a044c74104435aa5465c9dccf9a6c1d9b8694e",
+        "signature": "919087033",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/async/mux_async_iterator.ts": {
+        "version": "79bd8a6cf9ed09069ba2b2d024bbc6611f8aa302909a037ca3f3e816316ef18d",
+        "signature": "-19065168227",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/async/mod.ts": {
+        "version": "878ff4e020e8b1969bc38b44a57c8416733a2408ce9f959c211963623a366e39",
+        "signature": "-19049588026",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/http/server.ts": {
+        "version": "8b393ea8f0e205a64ec011a258c3ffbe3479c2bfcc2a022b336dd1d511fb1f9a",
+        "signature": "30542349274",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/http/http_status.ts": {
+        "version": "f1e53ea6c320f49ff2a305123c96dad89951a00b67ce959fd37e20e5c437a84a",
+        "signature": "-67096563847",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/http/_io.ts": {
+        "version": "bf9bbdfa2aabba0ecb622475f732f08c4298697db5dcbd2165746a210c39741c",
+        "signature": "34366521554",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/ws/mod.ts": {
+        "version": "2539dc94d61edd5cd0c8e8b6567f9a246f447ed4256d53412a352764b03fea52",
+        "signature": "-24063533335",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/basicShard.ts": {
+        "version": "1768886bc96f03054ae2efc9d195f1bf1f10c4ef71f3d34b1d4c672a2f6e6ca3",
+        "signature": "-43662268675",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/shardingManager.ts": {
+        "version": "440259511a93674cab8743aa804aa6a2bc6d3edbb61c66525d5ce85f1d6879ea",
+        "signature": "-17626460085",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.61.0/encoding/base64.ts": {
+        "version": "aa7921b34699f75f2ce08c6d93a28662f040558af663084bb56a1bb824f81050",
+        "signature": "-6803819929",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/utils.ts": {
+        "version": "7f0fc63d3d39f5c8c72fa016a4dabe0b7af4a5f7fe77b12ad405fb66e4b898d1",
+        "signature": "-20094901731",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/collection.ts": {
+        "version": "d77a9ebed9e99d977078b92ae9fd8f73e9cc208acedbb5682a463a9979f4eb2a",
+        "signature": "-5399323422",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts": {
+        "version": "411c1275b0c491b2fee16d717cbda43540d326d2bef7f84b126bbfa1df8229b6",
+        "signature": "34157838145",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/permissions.ts": {
+        "version": "0604c93be1259b6290533c8a2defcb022a3b0f9caf4b3912c9de518b8c1ae013",
+        "signature": "-22630675761",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts": {
+        "version": "8c480980308cf273682643deab9afbe0cfa65e11b588c990c73be17d14c12265",
+        "signature": "-121783283511",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts": {
+        "version": "dc892ac5c419c0fce8cac452ae26c22ad09973daf69782c30133aabc28432e84",
+        "signature": "43654515487",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/cdn.ts": {
+        "version": "18ab79338a8f412a674dea8302b4ff3fb332537149ac9562059ac3df6f75f43f",
+        "signature": "-3657297151",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cdn.ts": {
+        "version": "67468aef182a1472e01f0a90829826a11c4fcc4cf112fafe27b0b6df5e20158c",
+        "signature": "-16987736712",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/member.ts": {
+        "version": "2f9313f1ac518816148e11a8c45dffeb6d63b90f11f2e9fbbf92ddaba6477805",
+        "signature": "-45411514876",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/message.ts": {
+        "version": "a35153ac49c08ba2cd420d2d338014b7333fb4720ae7996b88781400421d86c0",
+        "signature": "29702390450",
+        "affectsGlobalScope": false
+      },
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/guild.ts": {
+        "version": "82e684969aa56659c56f146fe3534b39a5d504270e1e3ce8aa24818cf00f2586",
+        "signature": "99608285342",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/deps.ts": {
+        "version": "5c151e6536944c82bfa8a6736cd1c98683cb47e249fc3337a99695b647fb9e0a",
+        "signature": "110521097470",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "allowJs": false,
+      "allowNonTsExtensions": true,
+      "checkJs": false,
+      "esModuleInterop": true,
+      "jsx": 2,
+      "module": 99,
+      "outDir": "deno://",
+      "sourceMap": false,
+      "strict": true,
+      "removeComments": true,
+      "target": 99,
+      "incremental": true,
+      "inlineSourceMap": true,
+      "resolveJsonModule": true,
+      "stripComments": true,
+      "tsBuildInfoFile": "./tsbuildinfo.json"
+    },
+    "referencedMap": {
+      "file:///D:/Code/Ninie.io/deps.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/errors.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts"
+      ],
+      "https://deno.land/std@0.61.0/async/mod.ts": [
+        "https://deno.land/std@0.61.0/async/deferred.ts",
+        "https://deno.land/std@0.61.0/async/delay.ts",
+        "https://deno.land/std@0.61.0/async/mux_async_iterator.ts"
+      ],
+      "https://deno.land/std@0.61.0/async/mux_async_iterator.ts": [
+        "https://deno.land/std@0.61.0/async/deferred.ts"
+      ],
+      "https://deno.land/std@0.61.0/http/_io.ts": [
+        "https://deno.land/std@0.61.0/_util/assert.ts",
+        "https://deno.land/std@0.61.0/encoding/utf8.ts",
+        "https://deno.land/std@0.61.0/http/http_status.ts",
+        "https://deno.land/std@0.61.0/http/server.ts",
+        "https://deno.land/std@0.61.0/io/bufio.ts",
+        "https://deno.land/std@0.61.0/textproto/mod.ts"
+      ],
+      "https://deno.land/std@0.61.0/http/server.ts": [
+        "https://deno.land/std@0.61.0/_util/assert.ts",
+        "https://deno.land/std@0.61.0/async/mod.ts",
+        "https://deno.land/std@0.61.0/encoding/utf8.ts",
+        "https://deno.land/std@0.61.0/http/_io.ts",
+        "https://deno.land/std@0.61.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.61.0/io/bufio.ts": [
+        "https://deno.land/std@0.61.0/_util/assert.ts",
+        "https://deno.land/std@0.61.0/bytes/mod.ts"
+      ],
+      "https://deno.land/std@0.61.0/io/ioutil.ts": [
+        "https://deno.land/std@0.61.0/_util/assert.ts",
+        "https://deno.land/std@0.61.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.61.0/textproto/mod.ts": [
+        "https://deno.land/std@0.61.0/bytes/mod.ts",
+        "https://deno.land/std@0.61.0/encoding/utf8.ts",
+        "https://deno.land/std@0.61.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.61.0/ws/mod.ts": [
+        "https://deno.land/std@0.61.0/_util/assert.ts",
+        "https://deno.land/std@0.61.0/_util/has_own_property.ts",
+        "https://deno.land/std@0.61.0/async/deferred.ts",
+        "https://deno.land/std@0.61.0/bytes/mod.ts",
+        "https://deno.land/std@0.61.0/encoding/utf8.ts",
+        "https://deno.land/std@0.61.0/hash/sha1.ts",
+        "https://deno.land/std@0.61.0/http/_io.ts",
+        "https://deno.land/std@0.61.0/io/bufio.ts",
+        "https://deno.land/std@0.61.0/io/ioutil.ts",
+        "https://deno.land/std@0.61.0/textproto/mod.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/channels.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/guilds.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/constants/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/requestManager.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/errors.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/permissions.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/guild.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/constants/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/requestManager.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/shardingManager.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/cdn.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/errors.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/options.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/role.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cdn.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/permissions.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/utils.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/member.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/constants/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/requestManager.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/cdn.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/errors.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cdn.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/permissions.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/message.ts": [
+        "https://deno.land/std@0.61.0/async/delay.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/constants/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/requestManager.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/errors.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/permissions.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/basicShard.ts": [
+        "https://deno.land/std@0.61.0/async/delay.ts",
+        "https://deno.land/std@0.61.0/ws/mod.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/shardingManager.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/utils.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/constants/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/requestManager.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/shardingManager.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/options.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/requestManager.ts": [
+        "https://deno.land/std@0.61.0/async/delay.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/errors.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/fetch.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/shardingManager.ts": [
+        "https://deno.land/std@0.61.0/async/delay.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/channels.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/guilds.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/basicShard.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/options.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/utils.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/permissions.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/collection.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/role.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/activity.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/presence.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/presence.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/role.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/options.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/presence.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts": [
+        "https://deno.land/std@0.61.0/async/delay.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/collection.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cdn.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/cdn.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/collection.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/utils.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts": [
+        "https://deno.land/std@0.61.0/fmt/colors.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/permissions.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/utils.ts": [
+        "https://deno.land/std@0.61.0/encoding/base64.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/shardingManager.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/activity.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "file:///D:/Code/Ninie.io/deps.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/errors.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts"
+      ],
+      "https://deno.land/std@0.61.0/async/mod.ts": [
+        "https://deno.land/std@0.61.0/async/deferred.ts",
+        "https://deno.land/std@0.61.0/async/delay.ts",
+        "https://deno.land/std@0.61.0/async/mux_async_iterator.ts"
+      ],
+      "https://deno.land/std@0.61.0/http/_io.ts": [
+        "https://deno.land/std@0.61.0/http/server.ts",
+        "https://deno.land/std@0.61.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.61.0/http/server.ts": [
+        "https://deno.land/std@0.61.0/async/mod.ts",
+        "https://deno.land/std@0.61.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.61.0/io/ioutil.ts": [
+        "https://deno.land/std@0.61.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.61.0/textproto/mod.ts": [
+        "https://deno.land/std@0.61.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.61.0/ws/mod.ts": [
+        "https://deno.land/std@0.61.0/io/bufio.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/channels.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/guilds.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/guild.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/cdn.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/member.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/cdn.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/message.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/basicShard.ts": [
+        "https://deno.land/std@0.61.0/ws/mod.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/utils.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/options.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/shardingManager.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/collection.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/role.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/activity.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/presence.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/presence.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/role.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/options.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/presence.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/collection.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cdn.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/cdn.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/permissions.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts"
+      ],
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/utils.ts": [
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/activity.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "asset:///lib.deno.ns.d.ts",
+      "asset:///lib.deno.shared_globals.d.ts",
+      "asset:///lib.deno.window.d.ts",
+      "asset:///lib.es2015.collection.d.ts",
+      "asset:///lib.es2015.core.d.ts",
+      "asset:///lib.es2015.d.ts",
+      "asset:///lib.es2015.generator.d.ts",
+      "asset:///lib.es2015.iterable.d.ts",
+      "asset:///lib.es2015.promise.d.ts",
+      "asset:///lib.es2015.proxy.d.ts",
+      "asset:///lib.es2015.reflect.d.ts",
+      "asset:///lib.es2015.symbol.d.ts",
+      "asset:///lib.es2015.symbol.wellknown.d.ts",
+      "asset:///lib.es2016.array.include.d.ts",
+      "asset:///lib.es2016.d.ts",
+      "asset:///lib.es2017.d.ts",
+      "asset:///lib.es2017.intl.d.ts",
+      "asset:///lib.es2017.object.d.ts",
+      "asset:///lib.es2017.sharedmemory.d.ts",
+      "asset:///lib.es2017.string.d.ts",
+      "asset:///lib.es2017.typedarrays.d.ts",
+      "asset:///lib.es2018.asyncgenerator.d.ts",
+      "asset:///lib.es2018.asynciterable.d.ts",
+      "asset:///lib.es2018.d.ts",
+      "asset:///lib.es2018.intl.d.ts",
+      "asset:///lib.es2018.promise.d.ts",
+      "asset:///lib.es2018.regexp.d.ts",
+      "asset:///lib.es2019.array.d.ts",
+      "asset:///lib.es2019.d.ts",
+      "asset:///lib.es2019.object.d.ts",
+      "asset:///lib.es2019.string.d.ts",
+      "asset:///lib.es2019.symbol.d.ts",
+      "asset:///lib.es2020.bigint.d.ts",
+      "asset:///lib.es2020.d.ts",
+      "asset:///lib.es2020.promise.d.ts",
+      "asset:///lib.es2020.string.d.ts",
+      "asset:///lib.es2020.symbol.wellknown.d.ts",
+      "asset:///lib.es5.d.ts",
+      "asset:///lib.esnext.d.ts",
+      "asset:///lib.esnext.intl.d.ts",
+      "asset:///lib.esnext.promise.d.ts",
+      "asset:///lib.esnext.string.d.ts",
+      "file:///D:/Code/Ninie.io/deps.ts",
+      "https://deno.land/std@0.61.0/_util/assert.ts",
+      "https://deno.land/std@0.61.0/_util/has_own_property.ts",
+      "https://deno.land/std@0.61.0/async/deferred.ts",
+      "https://deno.land/std@0.61.0/async/delay.ts",
+      "https://deno.land/std@0.61.0/async/mod.ts",
+      "https://deno.land/std@0.61.0/async/mux_async_iterator.ts",
+      "https://deno.land/std@0.61.0/bytes/mod.ts",
+      "https://deno.land/std@0.61.0/encoding/base64.ts",
+      "https://deno.land/std@0.61.0/encoding/utf8.ts",
+      "https://deno.land/std@0.61.0/fmt/colors.ts",
+      "https://deno.land/std@0.61.0/hash/sha1.ts",
+      "https://deno.land/std@0.61.0/http/_io.ts",
+      "https://deno.land/std@0.61.0/http/http_status.ts",
+      "https://deno.land/std@0.61.0/http/server.ts",
+      "https://deno.land/std@0.61.0/io/bufio.ts",
+      "https://deno.land/std@0.61.0/io/ioutil.ts",
+      "https://deno.land/std@0.61.0/textproto/mod.ts",
+      "https://deno.land/std@0.61.0/ws/mod.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/constants/discord.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/channels.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/guilds.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/guild.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/member.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/message.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/basicShard.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/requestManager.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/shardingManager.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/role.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/activity.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/cdn.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/discord.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/errors.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/fetch.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/member.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/options.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/presence.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/role.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cdn.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/collection.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/permissions.ts",
+      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/utils.ts"
+    ]
+  },
+  "version": "3.9.2"
+}

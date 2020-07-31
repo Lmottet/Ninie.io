@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "strict-transport-security": "max-age=31536000",
+    "via": "1.1 varnish (Varnish/6.0),1.1 varnish",
+    "source-age": "0",
+    "date": "Fri, 31 Jul 2020 15:58:54 GMT",
+    "vary": "Authorization,Accept-Encoding",
+    "x-timer": "S1596211134.171322,VS0,VE224",
+    "accept-ranges": "bytes",
+    "connection": "keep-alive",
+    "x-frame-options": "deny",
+    "cache-control": "max-age=300",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "x-served-by": "cache-ams21077-AMS",
+    "etag": "W/\"3cbadddd92268fcce9efda7a986ad9217d7fe3f5a779d3dd24dd8d03c188cedc\"",
+    "access-control-allow-origin": "*",
+    "x-github-request-id": "8584:3AEE:22E32F:29BDA6:5F243FBE",
+    "x-cache-hits": "0, 0",
+    "x-content-type-options": "nosniff",
+    "x-cache": "MISS, MISS",
+    "x-fastly-request-id": "75dd7383ffd790a64308eff74dd63acbebc87e17",
+    "content-type": "text/plain; charset=utf-8",
+    "x-xss-protection": "1; mode=block",
+    "expires": "Fri, 31 Jul 2020 16:03:54 GMT"
+  },
+  "url": "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts"
+}
