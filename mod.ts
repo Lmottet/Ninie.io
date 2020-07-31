@@ -1,14 +1,5 @@
-import Client, {
-  updateEventHandlers,
-} from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts";
-import { config } from "./config.ts";
-import {
-  Intents,
-  EventHandlers,
-} from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/options.ts";
-import { Message } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts";
-import { Command, Argument } from "./src/types/commands.ts";
-import { Guild } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts";
+import { Client, EventHandlers, Guild, Intents, Message } from "./deps.ts";
+import { Argument, Command } from "./src/types/commands.ts";
 
 export const botCache = {
   commands: new Map<string, Command>(),
@@ -40,20 +31,22 @@ const importDirectory = async (path: string) => {
 
 // Forces deno to read all the files which will fill the commands/inhibitors cache etc.
 await Promise.all(
-  ["./src/commands", "./src/inhibitors", "./src/events", "./src/arguments"].map(
-    (path) => importDirectory(path)
-  ),
+  [
+    "./src/commands",
+    "./src/inhibitors",
+    "./src/events",
+    "./src/arguments",
+  ].map((path) => importDirectory(path))
 );
-
 
 const discord_client_id = Deno.env.get("DISCORD_CLIENT_ID");
 const discord_token_id = Deno.env.get("DISCORD_BOT_TOKEN");
 
 const intents = [
-  Intents.GUILD_PRESENCES, Intents.GUILD_MESSAGES, Intents.GUILDS
-]
-
-console.log("token id : " + discord_token_id);
+  Intents.GUILD_PRESENCES,
+  Intents.GUILD_MESSAGES,
+  Intents.GUILDS,
+];
 
 Client({
   token: discord_token_id ? discord_token_id : "",
