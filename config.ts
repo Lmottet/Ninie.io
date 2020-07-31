@@ -1,3 +1,3 @@
 export const config = {
-  prefix: "ninie.io ",
+  prefix: "^ninie.io ",
 };

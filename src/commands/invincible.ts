@@ -3,9 +3,9 @@ import { botCache } from "../../mod.ts";
 import { Embed } from "../utils/Embed.ts";
 import { createCommandAliases, sendResponse } from "../utils/helpers.ts";
 
-botCache.commands.set(`kick`, {
-  name: `kick`,
-  description: "Kick command.",
+botCache.commands.set(`invincible`, {
+  name: `invincible`,
+  description: "Call for murder.",
   // adds cooldowns to the command
   cooldown: {
     // usages in certain duration of seconds below
@@ -40,7 +40,7 @@ botCache.commands.set(`kick`, {
     if (!guild) return;
     // setting up the embed for report/log
     const embed = new Embed()
-      .setDescription(`Report: ${args.member.mention} Kick`)
+      .setDescription(`Suicide from : ${args.member.mention}`)
       .addField("Reason >", `${args.reason}`)
       .addField("Time", message.timestamp.toString());
 

@@ -1,6 +1,7 @@
 import { botID, sendMessage } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
-
+/*
+TODO : delete me
 botCache.commands.set(`invite`, {
   name: `invite`,
   execute: function (message) {
@@ -11,3 +12,4 @@ botCache.commands.set(`invite`, {
     );
   },
 });
+*/
