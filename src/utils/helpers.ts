@@ -1,16 +1,18 @@
-import { MessageContent } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts";
-import { sendMessage } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts";
-import { deleteMessage } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/message.ts";
-import { Message } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts";
+import {
+  Channel,
+  deleteMessage,
+  Message,
+  MessageContent,
+  sendMessage,
+} from "../../deps.ts";
 import { botCache } from "../../mod.ts";
-import { Channel } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts";
 import { Embed } from "./Embed.ts";
 /** This function should be used when you want to send a response that will @mention the user and delete it after a certain amount of seconds. By default, it will be deleted after 10 seconds. */
 export async function sendAlertResponse(
   message: Message,
   content: string | MessageContent,
   timeout = 10,
-  reason = "",
+  reason = ""
 ) {
   const response = await sendResponse(message, content);
   deleteMessage(response, reason, timeout * 1000);
@@ -19,12 +21,13 @@ export async function sendAlertResponse(
 /** This function should be used when you want to send a response that will @mention the user. */
 export function sendResponse(
   message: Message,
-  content: string | MessageContent,
+  content: string | MessageContent
 ) {
   const mention = `<@!${message.author.id}>`;
-  const contentWithMention = typeof content === "string"
-    ? `${mention}, ${content}`
-    : { ...content, content: `${mention}, ${content.content}` };
+  const contentWithMention =
+    typeof content === "string"
+      ? `${mention}, ${content}`
+      : { ...content, content: `${mention}, ${content.content}` };
 
   return sendMessage(message.channel, contentWithMention);
 }
@@ -50,7 +53,7 @@ export function humanizeMilliseconds(milliseconds: number) {
 /** This function should be used to create command aliases. */
 export function createCommandAliases(
   commandName: string,
-  aliases: string | string[],
+  aliases: string | string[]
 ) {
   if (typeof aliases === "string") aliases = [aliases];
 

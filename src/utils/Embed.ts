@@ -3,7 +3,7 @@ import {
   EmbedField,
   EmbedAuthor,
   EmbedImage,
-} from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts";
+} from "../../deps.ts";
 
 const embedLimits = {
   title: 256,
@@ -68,11 +68,12 @@ export class Embed {
   }
 
   setColor(color: string) {
-    this.color = color.toLowerCase() === `random`
-      ? // Random color
-        Math.floor(Math.random() * (0xffffff + 1))
-      : // Convert the hex to a acceptable color for discord
-        parseInt(color.replace("#", ""), 16);
+    this.color =
+      color.toLowerCase() === `random`
+        ? // Random color
+          Math.floor(Math.random() * (0xffffff + 1))
+        : // Convert the hex to a acceptable color for discord
+          parseInt(color.replace("#", ""), 16);
 
     return this;
   }

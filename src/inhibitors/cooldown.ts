@@ -19,25 +19,25 @@ botCache.inhibitors.set("cooldown", async function (message, command, guild) {
       if (cooldown.timestamp > now) {
         sendResponse(
           message,
-          `You must wait **${
-            humanizeMilliseconds(now - cooldown.timestamp)
-          }** before using this command again.`,
+          `You must wait **${humanizeMilliseconds(
+            now - cooldown.timestamp
+          )}** before using this command again.`
         );
         return true;
       }
     }
 
-    membersInCooldown.set(
-      key,
-      { used: cooldown.used + 1, timestamp: cooldown.timestamp },
-    );
+    membersInCooldown.set(key, {
+      used: cooldown.used + 1,
+      timestamp: cooldown.timestamp,
+    });
     return false;
   }
 
-  membersInCooldown.set(
-    key,
-    { used: 1, timestamp: Date.now() + (command.cooldown.seconds * 1000) },
-  );
+  membersInCooldown.set(key, {
+    used: 1,
+    timestamp: Date.now() + command.cooldown.seconds * 1000,
+  });
   return false;
 });
 

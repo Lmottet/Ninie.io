@@ -1,11 +1,8 @@
-import { Message } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts";
-import logger from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts";
-import { configs } from "../../configs.ts";
+import { Message, logger, Guild, cache } from "../../deps.ts";
+import { config } from "../../config.ts";
 import { botCache } from "../../mod.ts";
-import { cache } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts";
 import { handleError } from "../utils/errors.ts";
 import { Command } from "../types/commands.ts";
-import { Guild } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts";
 export const commandHandler = async (message: Message) => {
   // If the message was sent by a bot we can just ignore it
   if (message.author.bot) return;
@@ -15,10 +12,9 @@ export const commandHandler = async (message: Message) => {
   if (!message.content.startsWith(prefix)) return;
 
   // Get the first word of the message without the prefix so it is just command name. `!ping testing` becomes `ping`
-  const [commandName, ...parameters] = message.content.substring(prefix.length)
-    .split(
-      " ",
-    );
+  const [commandName, ...parameters] = message.content
+    .substring(prefix.length)
+    .split(" ");
 
   // Check if this is a valid command
   const command = parseCommand(commandName);
@@ -28,9 +24,11 @@ export const commandHandler = async (message: Message) => {
   logCommand(message, guild?.name || "DM", "Ran", commandName);
 
   // Parsed args and validated
-  const args = await parseArguments(message, command, parameters) as {
-    [key: string]: any;
-  } | false;
+  const args = (await parseArguments(message, command, parameters)) as
+    | {
+        [key: string]: any;
+      }
+    | false;
   // Some arg that was required was missing and handled already
   if (!args) return;
 
@@ -67,8 +65,8 @@ export const commandHandler = async (message: Message) => {
 };
 
 export const parsePrefix = (guildID: string | undefined) => {
-  const prefix = guildID ? botCache.guildPrefixes.get(guildID) : configs.prefix;
-  return prefix || configs.prefix;
+  const prefix = guildID ? botCache.guildPrefixes.get(guildID) : config.prefix;
+  return prefix || config.prefix;
 };
 
 export const parseCommand = (commandName: string) => {
@@ -86,10 +84,10 @@ export const logCommand = (
   message: Message,
   guildName: string,
   type: string,
-  commandName: string,
+  commandName: string
 ) => {
   logger.success(
-    `[COMMAND:${commandName} - ${type}] by ${message.author.username}#${message.author.discriminator} in ${guildName}`,
+    `[COMMAND:${commandName} - ${type}] by ${message.author.username}#${message.author.discriminator} in ${guildName}`
   );
 };
 
@@ -97,7 +95,7 @@ export const logCommand = (
 async function parseArguments(
   message: Message,
   command: Command,
-  parameters: string[],
+  parameters: string[]
 ) {
   const args: { [key: string]: unknown } = {};
   if (!command.arguments) return args;
@@ -109,13 +107,15 @@ async function parseArguments(
 
   // Loop over each argument and validate
   for (const argument of command.arguments) {
-    if (!argument.type || (argument.type === "string")) {
+    if (!argument.type || argument.type === "string") {
       const [text] = params;
 
       const valid =
         // If the argument required literals and some string was provided by user
         argument.literals?.length && text
-          ? argument.literals.includes(text.toLowerCase()) ? text : undefined
+          ? argument.literals.includes(text.toLowerCase())
+            ? text
+            : undefined
           : undefined;
 
       if (valid) {
@@ -180,12 +180,12 @@ function parseSubcommand(command: Command, name: string) {
 async function commandAllowed(
   message: Message,
   command: Command,
-  guild?: Guild,
+  guild?: Guild
 ) {
   const inhibitor_results = await Promise.all(
     [...botCache.inhibitors.values()].map((inhibitor) =>
       inhibitor(message, command, guild)
-    ),
+    )
   );
 
   if (inhibitor_results.includes(true)) {

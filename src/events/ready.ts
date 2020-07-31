@@ -1,5 +1,5 @@
 import { botCache } from "../../mod.ts";
-import { cache } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts";
+import { cache } from "../../deps.ts"
 
 botCache.eventHandlers.ready = function () {
   console.log(

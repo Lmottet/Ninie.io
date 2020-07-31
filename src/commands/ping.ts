@@ -1,14 +1,13 @@
 // This file is meant to show how you can create multiple commands in the same file if you wish.
 import { botCache } from "../../mod.ts";
-import { cache } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts";
-import { sendMessage } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts";
+import { cache, sendMessage } from "../../deps.ts";
 
 botCache.commands.set(`ping`, {
   name: `ping`,
   execute: function (message) {
     sendMessage(
       message.channel,
-      `Ping MS: ${Date.now() - message.timestamp}ms`,
+      `Ping MS: ${Date.now() - message.timestamp}ms`
     );
   },
 });
@@ -24,9 +23,9 @@ botCache.commands.set(`devping`, {
 
     sendMessage(
       message.channel,
-      `Ping MS: ${Date.now() -
-        message
-          .timestamp}ms | Guilds: ${cache.guilds.size} | Users: ${memberCount}`,
+      `Ping MS: ${Date.now() - message.timestamp}ms | Guilds: ${
+        cache.guilds.size
+      } | Users: ${memberCount}`
     );
   },
 });

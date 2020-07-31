@@ -1,6 +1,4 @@
-import { Message } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts";
-import { Guild } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts";
-import { Permission } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts";
+import { Message, Guild, Permission } from "../../deps.ts";
 
 export interface Command {
   name: string;
@@ -50,7 +48,7 @@ export interface Argument {
   execute: (
     arg: CommandArgument,
     parameter: string[],
-    message: Message,
+    message: Message
   ) => unknown;
 }
 

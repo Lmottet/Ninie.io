@@ -1,5 +1,5 @@
+import { getMember } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
-import { getMember } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/guild.ts";
 
 botCache.arguments.set("member", {
   name: "member",
@@ -17,8 +17,7 @@ botCache.arguments.set("member", {
     const cachedMember = guild.members.get(userID);
     if (cachedMember) return cachedMember;
 
-    const member = await getMember(guild.id, userID)
-      .catch(() => undefined);
+    const member = await getMember(guild.id, userID).catch(() => undefined);
     return member;
   },
 });

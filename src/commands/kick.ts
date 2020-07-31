@@ -1,11 +1,7 @@
-import { sendMessage } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts";
-import { Member } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts";
-import { kick } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/member.ts";
-import { deleteMessage } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/message.ts";
+import { deleteMessage, kick, Member, sendMessage } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
-import { createCommandAliases, sendResponse } from "../utils/helpers.ts";
 import { Embed } from "../utils/Embed.ts";
-import { Args } from "../types/commands.ts";
+import { createCommandAliases, sendResponse } from "../utils/helpers.ts";
 
 botCache.commands.set(`kick`, {
   name: `kick`,
@@ -48,8 +44,8 @@ botCache.commands.set(`kick`, {
       .addField("Reason >", `${args.reason}`)
       .addField("Time", message.timestamp.toString());
 
-    const reportchannel = guild.channels.find((channel) =>
-      channel.name === "report"
+    const reportchannel = guild.channels.find(
+      (channel) => channel.name === "report"
     );
     if (!reportchannel) {
       return sendResponse(message, "*`Report channel cannot be found!`*");
