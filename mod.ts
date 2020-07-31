@@ -50,7 +50,7 @@ const discord_client_id = Deno.env.get("DISCORD_CLIENT_ID");
 const discord_token_id = Deno.env.get("DISCORD_BOT_TOKEN");
 
 const intents = [
-  Intents.GUILD_PRESENCES,
+  Intents.GUILD_PRESENCES, Intents.GUILD_MESSAGES, Intents.GUILDS
 ]
 
 console.log("token id : " + discord_token_id);
@@ -58,7 +58,7 @@ console.log("token id : " + discord_token_id);
 Client({
   token: discord_token_id ? discord_token_id : "",
   // Pick the intents you wish to have for your bot.
-  intents: [Intents.GUILDS, Intents.GUILD_MESSAGES],
+  intents: intents,
   // These are all your event handler functions. Imported from the events folder
   eventHandlers: botCache.eventHandlers,
 });
