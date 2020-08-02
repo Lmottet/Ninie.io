@@ -14,9 +14,7 @@ export const getLove = (userId: string) => window.Repository.getLove(userId);
 
 export const getHarem = () => {
   let x = <Map<string, number>> window.Repository.getAll();
-  const arr = [...x]!;
-    console.log(arr);
-    x.forEach(e => console.log(""+e));
+  x.forEach((e) => console.log("" + JSON.stringify(e)));
 };
 
 const calculateLove = (userId: string, newLove: number) => {

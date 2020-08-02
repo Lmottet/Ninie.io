@@ -11,6 +11,7 @@ botCache.commands.set("harem", {
   description: "Show the loveliest",
   
   execute: (message) => {
+    console.log("test harem")
     getHarem();
       sendResponse(
         message,
