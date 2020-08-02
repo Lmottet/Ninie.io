@@ -3,7 +3,7 @@ import { botCache } from "../../mod.ts";
 import { addLove, getLove } from "../services/feelsService.ts";
 import { sendResponse } from "../utils/helpers.ts";
 import { CommandArgument } from "../types/commands.ts";
-import { isAdmin } from "../authorizations.ts";
+import { isAdmin, isUserAdmin } from "../authorizations.ts";
 import { anyInsult } from "../utils/insults.ts";
 
 botCache.commands.set("love", {
@@ -31,7 +31,7 @@ botCache.commands.set("love", {
   ],
   execute: (message, args: LoveArgs) => {
     console.log("author : " + JSON.stringify(message));
-    if (isAdmin(message.author.id)) {
+    if (isUserAdmin(message.author.username, message.author.discriminator)) {
       sendResponse(message, anyInsult());
     } else {
       console.log("args : " + JSON.stringify(args));

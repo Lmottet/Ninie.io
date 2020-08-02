@@ -2,7 +2,7 @@ import { Member } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
 import { removeLove, getLove } from "../services/feelsService.ts";
 import { sendResponse } from "../utils/helpers.ts";
-import { isAdmin } from "../authorizations.ts";
+import { isAdmin, isUserAdmin } from "../authorizations.ts";
 import { anyInsult } from "../utils/insults.ts";
 
 botCache.commands.set("hate", {
@@ -30,7 +30,7 @@ botCache.commands.set("hate", {
   ],
   execute: (message, args: HateArgs) => {
     removeLove(args.member.user.id, args.hateLevel);
-    if (isAdmin(message.author.id)) {
+    if (isUserAdmin(message.author.username, message.author.discriminator)) {
       sendResponse(message, anyInsult());
     } else {
       console.log("args : " + JSON.stringify(args));
