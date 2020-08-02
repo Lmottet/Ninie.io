@@ -28,10 +28,23 @@ botCache.commands.set("love", {
     },
   ],
   execute: (message, args: LoveArgs) => {
+    if (args.member.tag !== "Ninie#9498") {
+      sendResponse(message, anyInsult());
+    }
     console.log("args : " + JSON.stringify(args));
     addLove(args.member.user.id, args.loveLevel);
   },
 });
+
+const insults = [
+  "Du vent margoulin !",
+  "Hérétique, au bucher !",
+  "Ha ! Bien tenté, moule à gauffre",
+];
+
+const anyInsult = () => {
+  return insults[Math.floor(Math.random() * insults.length)];
+};
 
 interface LoveArgs {
   member: Member;
