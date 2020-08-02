@@ -34,10 +34,12 @@ botCache.commands.set("love", {
       sendResponse(message, anyInsult());
     } else {
       console.log("args : " + JSON.stringify(args));
+      let beforeLove = getLove(args.member.user.id);
       addLove(args.member.user.id, args.loveLevel);
       sendResponse(
         message,
-        "Love is now " + getLove(args.member.user.id),
+        "Love was " + beforeLove + " and is now " +
+          getLove(args.member.user.id),
       );
     }
   },

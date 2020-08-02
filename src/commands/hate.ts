@@ -34,10 +34,12 @@ botCache.commands.set("hate", {
       sendResponse(message, anyInsult());
     } else {
       console.log("args : " + JSON.stringify(args));
+      let beforeHate = getLove(args.member.user.id);
       removeLove(args.member.user.id, args.hateLevel);
       sendResponse(
         message,
-        "Aouch ! Love is now down to : " + getLove(args.member.user.id),
+        "Aouch ! Love was " + beforeHate + " and is now down to : " +
+          getLove(args.member.user.id),
       );
     }
   },

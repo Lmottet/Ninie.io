@@ -9,13 +9,13 @@ import { anyInsult } from "../utils/insults.ts";
 botCache.commands.set("harem", {
   name: `harem`,
   description: "Show the loveliest",
-  
+
   execute: (message) => {
-    console.log("test harem")
+    console.log("test harem");
     getHarem();
-      sendResponse(
-        message,
-        "Love is now ",
-      );
+    sendResponse(
+      message,
+      "Love is now ",
+    );
   },
 });
