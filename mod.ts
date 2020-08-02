@@ -1,5 +1,26 @@
 import { Client, EventHandlers, Guild, Intents, Message } from "./deps.ts";
 import { Argument, Command } from "./src/types/commands.ts";
+import { Repository } from "./src/repository.ts";
+
+declare global {
+  var First: FirstClass;
+  interface Window {
+    First: any;
+  }
+}
+
+window.First = new FirstClass();
+await First.commit();
+
+declare global {
+  var Repository: Repository;
+  interface Window {
+    Repository: any;
+  }
+}
+
+window.Repository = new Repository();
+await First.commit();
 
 export const botCache = {
   commands: new Map<string, Command>(),
