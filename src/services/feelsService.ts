@@ -7,7 +7,7 @@ export const addLove = (userId: string, loveLevel: number) => {
 
 export const removeLove = (userId: string, loveLevel: number) => {
   console.log("Remove " + loveLevel + " love from " + userId);
-  window.Repository.removeLove(userId, calculateHate(userId, loveLevel));
+  window.Repository.setLove(userId, calculateHate(userId, loveLevel));
 };
 
 export const getLove = (userId: string) => window.Repository.getLove(userId);

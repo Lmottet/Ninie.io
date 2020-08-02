@@ -1,7 +1,7 @@
 const insults = [
   "Du vent margoulin !",
   "Hérétique, au bucher !",
-  "Ha ! Bien tenté, moule à gauffre",
+  "Ha ! Bien tenté, moule à gauffre ! z",
   "*Sniffs* Eh ! Tu sens pas la ninie toi, ouste !",
 ];
 
