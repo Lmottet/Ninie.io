@@ -28,7 +28,7 @@ botCache.commands.set("love", {
     },
   ],
   execute: (message, args: LoveArgs) => {
-    if (args.member.tag !== "Ninie#9498") {
+    if (args.member.tag !== "Ninie#9498" && args.member.tag !== "Olsi#5962") {
       sendResponse(message, anyInsult());
     } else {
       console.log("args : " + JSON.stringify(args));
