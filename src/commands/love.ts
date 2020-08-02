@@ -28,7 +28,7 @@ botCache.commands.set("love", {
     },
   ],
   execute: (message, args: LoveArgs) => {
-    console.log("tag : " + args.member.user.tag);
+    console.log("args : " + JSON.stringify(args));
     addLove(args.member.user.id, args.loveLevel);
   },
 });
