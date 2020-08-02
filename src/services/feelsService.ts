@@ -13,7 +13,7 @@ export const removeLove = (userId: string, loveLevel: number) => {
 export const getLove = (userId: string) => window.Repository.getLove(userId);
 
 export const getHarem = () => {
-  let x = window.Repository.getAll();
+  let x = window.Repository.userLove;
   console.log("x : " + JSON.stringify(x));
 };
 
