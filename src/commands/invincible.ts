@@ -1,7 +1,7 @@
 import { deleteMessage, kick, Member, sendMessage } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
 import { Embed } from "../utils/Embed.ts";
-import { createCommandAliases, sendResponse } from "../utils/helpers.ts";
+import { sendResponse } from "../utils/helpers.ts";
 
 botCache.commands.set(`invincible`, {
   name: `invincible`,
