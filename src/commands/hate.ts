@@ -30,7 +30,7 @@ botCache.commands.set("hate", {
   ],
   execute: (message, args: HateArgs) => {
     removeLove(args.member.user.id, args.hateLevel);
-    if (isAdmin(message.author.id)) {
+    if (isAdmin(message.author.tag;)) {
       sendResponse(message, anyInsult());
     } else {
       console.log("args : " + JSON.stringify(args));
