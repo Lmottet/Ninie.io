@@ -3,16 +3,6 @@ import { Argument, Command } from "./src/types/commands.ts";
 import { Repository } from "./src/repository.ts";
 
 declare global {
-  var First: FirstClass;
-  interface Window {
-    First: any;
-  }
-}
-
-window.First = new FirstClass();
-await First.commit();
-
-declare global {
   var Repository: Repository;
   interface Window {
     Repository: any;
@@ -20,7 +10,6 @@ declare global {
 }
 
 window.Repository = new Repository();
-await First.commit();
 
 export const botCache = {
   commands: new Map<string, Command>(),
@@ -57,9 +46,8 @@ await Promise.all(
     "./src/inhibitors",
     "./src/events",
     "./src/arguments",
-  ].map((path) => importDirectory(path))
+  ].map((path) => importDirectory(path)),
 );
-
 
 const discord_client_id = Deno.env.get("DISCORD_CLIENT_ID");
 const discord_token_id = Deno.env.get("DISCORD_BOT_TOKEN");
