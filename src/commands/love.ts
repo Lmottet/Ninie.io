@@ -46,6 +46,7 @@ const insults = [
   "Du vent margoulin !",
   "Hérétique, au bucher !",
   "Ha ! Bien tenté, moule à gauffre",
+  "*Sniffs* Eh ! Tu sens pas la ninie toi, ouste !",
 ];
 
 const anyInsult = () => {
