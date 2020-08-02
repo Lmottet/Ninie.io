@@ -4,6 +4,7 @@ import { addLove, getLove } from "../services/feelsService.ts";
 import { sendResponse } from "../utils/helpers.ts";
 import { CommandArgument } from "../types/commands.ts";
 import { isAdmin } from "../authorizations.ts";
+import { anyInsult } from "../utils/insults.ts";
 
 botCache.commands.set("love", {
   name: `love`,
@@ -41,17 +42,6 @@ botCache.commands.set("love", {
     }
   },
 });
-
-const insults = [
-  "Du vent margoulin !",
-  "Hérétique, au bucher !",
-  "Ha ! Bien tenté, moule à gauffre",
-  "*Sniffs* Eh ! Tu sens pas la ninie toi, ouste !",
-];
-
-const anyInsult = () => {
-  return insults[Math.floor(Math.random() * insults.length)];
-};
 
 interface LoveArgs {
   member: Member;
