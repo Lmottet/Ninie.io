@@ -1,6 +1,6 @@
 import { Member, sendMessage } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
-import { addLove } from "../services/feelsService.ts";
+import { addLove, getLove } from "../services/feelsService.ts";
 import { sendResponse } from "../utils/helpers.ts";
 import { CommandArgument } from "../types/commands.ts";
 
@@ -30,9 +30,15 @@ botCache.commands.set("love", {
   execute: (message, args: LoveArgs) => {
     if (args.member.tag !== "Ninie#9498") {
       sendResponse(message, anyInsult());
+    } else {
+      console.log("args : " + JSON.stringify(args));
+      addLove(args.member.user.id, args.loveLevel);
+      sendResponse(
+        message,
+        "Current love for " + args.member.user.id + " : " +
+          getLove(args.member.user.id),
+      );
     }
-    console.log("args : " + JSON.stringify(args));
-    addLove(args.member.user.id, args.loveLevel);
   },
 });
 
