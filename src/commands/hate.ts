@@ -1,12 +1,11 @@
-import { Member, sendMessage } from "../../deps.ts";
+import { Member } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
-import { addLove } from "../services/feelsService.ts";
+import { removeLove } from "../services/feelsService.ts";
 import { sendResponse } from "../utils/helpers.ts";
-import { CommandArgument } from "../types/commands.ts";
 
-botCache.commands.set("love", {
-  name: `love`,
-  description: "Send all the love",
+botCache.commands.set("hate", {
+  name: `hate;`,
+  description: "Drop all the hate;",
   arguments: [
     {
       name: "member",
@@ -18,7 +17,7 @@ botCache.commands.set("love", {
       required: true,
     },
     {
-      name: "loveLevel",
+      name: "hateLevel",
       type: "number",
       missing: function (message) {
         sendResponse(message, `Should be a number`);
@@ -27,12 +26,12 @@ botCache.commands.set("love", {
       required: true,
     },
   ],
-  execute: (message, args: LoveArgs) => {
-    addLove(args.member.user.id, args.loveLevel);
+  execute: (message, args: HateArgs) => {
+    removeLove(args.member.user.id, args.hateLevel);
   },
 });
 
-interface LoveArgs {
+interface HateArgs {
   member: Member;
-  loveLevel: number;
+  hateLevel: number;
 }

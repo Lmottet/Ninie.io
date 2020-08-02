@@ -6,12 +6,14 @@ export class Repository {
   }
 
   addLove = (user: string, loveLevel: number) => {
+    console.log("Add " + loveLevel + " love to " + user);
     this.userLove.set(user, this.calculateFeels(user, loveLevel));
 
     console.log(JSON.stringify(this.userLove));
   };
 
   removeLove = (user: string, loveLevel: number) => {
+    console.log("Remove " + loveLevel + " love from " + user);
     this.userLove.set(user, this.calculateFeels(user, loveLevel));
 
     console.log(JSON.stringify(this.userLove));
@@ -19,6 +21,8 @@ export class Repository {
 
   calculateFeels = (user: string, newLove: number) => {
     let currentLove = this.userLove.get(user);
-    return currentLove ? currentLove + newLove : newLove;
+    let result = currentLove ? currentLove + newLove : newLove;
+    console.log("Calculated love : " + result);
+    return result;
   };
 }
