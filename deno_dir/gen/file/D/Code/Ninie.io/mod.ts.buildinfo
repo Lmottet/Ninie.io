@@ -480,6 +480,16 @@
         "version": "264edad4beae8cadd2d5710cfbbaac05952de337cc6229a33283bae3e45b6710",
         "signature": "41953449402",
         "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/types/commands.ts": {
+        "version": "f5d03a24dd5c081d48ff45ac4da6542e2e00134c459fe5c51b4f0bbf9d699a03",
+        "signature": "-33683492293",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/mod.ts": {
+        "version": "405d53c5cdbcf2929da887b7edb4d7fedfa9cedcb331f1e7626ff8773a426026",
+        "signature": "-2526868312",
+        "affectsGlobalScope": false
       }
     },
     "options": {
@@ -518,6 +528,13 @@
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts"
+      ],
+      "file:///D:/Code/Ninie.io/mod.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/src/types/commands.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/types/commands.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
       ],
       "https://deno.land/std@0.61.0/async/mod.ts": [
         "https://deno.land/std@0.61.0/async/deferred.ts",
@@ -802,6 +819,13 @@
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts"
       ],
+      "file:///D:/Code/Ninie.io/mod.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/src/types/commands.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/types/commands.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
+      ],
       "https://deno.land/std@0.61.0/async/mod.ts": [
         "https://deno.land/std@0.61.0/async/deferred.ts",
         "https://deno.land/std@0.61.0/async/delay.ts",
@@ -1013,6 +1037,8 @@
       "asset:///lib.esnext.promise.d.ts",
       "asset:///lib.esnext.string.d.ts",
       "file:///D:/Code/Ninie.io/deps.ts",
+      "file:///D:/Code/Ninie.io/mod.ts",
+      "file:///D:/Code/Ninie.io/src/types/commands.ts",
       "https://deno.land/std@0.61.0/_util/assert.ts",
       "https://deno.land/std@0.61.0/_util/has_own_property.ts",
       "https://deno.land/std@0.61.0/async/deferred.ts",
