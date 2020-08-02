@@ -1,9 +1,8 @@
-import { Member, sendMessage } from "../../deps.ts";
+import { Member } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
+import { isUserAdmin } from "../authorizations.ts";
 import { addLove, getLove } from "../services/feelsService.ts";
 import { sendResponse } from "../utils/helpers.ts";
-import { CommandArgument } from "../types/commands.ts";
-import { isAdmin, isUserAdmin } from "../authorizations.ts";
 import { anyInsult } from "../utils/insults.ts";
 
 botCache.commands.set("love", {

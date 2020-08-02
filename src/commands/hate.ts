@@ -1,13 +1,13 @@
 import { Member } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
-import { removeLove, getLove } from "../services/feelsService.ts";
+import { isUserAdmin } from "../authorizations.ts";
+import { getLove, removeLove } from "../services/feelsService.ts";
 import { sendResponse } from "../utils/helpers.ts";
-import { isAdmin, isUserAdmin } from "../authorizations.ts";
 import { anyInsult } from "../utils/insults.ts";
 
 botCache.commands.set("hate", {
-  name: `hate;`,
-  description: "Drop all the hate;",
+  name: `hate`,
+  description: "Drop all the hate",
   arguments: [
     {
       name: "member",
@@ -29,7 +29,7 @@ botCache.commands.set("hate", {
     },
   ],
   execute: (message, args: HateArgs) => {
-    removeLove(args.member.user.id, args.hateLevel);
+    console.log("author : " + JSON.stringify(message));
     if (isUserAdmin(message.author.username, message.author.discriminator)) {
       sendResponse(message, anyInsult());
     } else {
