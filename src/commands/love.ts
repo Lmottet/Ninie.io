@@ -29,10 +29,9 @@ botCache.commands.set("love", {
   ],
   execute: (message, args: LoveArgs) => {
     console.log(JSON.stringify(args.member));
-    handleFeels(args.member.User.id, args.loveLevel);
+    handleFeels(args.member.user.id, args.loveLevel);
   },
 });
-
 
 interface LoveArgs {
   member: Member;
