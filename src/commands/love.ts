@@ -3,6 +3,7 @@ import { botCache } from "../../mod.ts";
 import { addLove, getLove } from "../services/feelsService.ts";
 import { sendResponse } from "../utils/helpers.ts";
 import { CommandArgument } from "../types/commands.ts";
+import { isAdmin } from "../authorizations.ts";
 
 botCache.commands.set("love", {
   name: `love`,
@@ -28,15 +29,14 @@ botCache.commands.set("love", {
     },
   ],
   execute: (message, args: LoveArgs) => {
-    if (args.member.tag !== "Ninie#9498" && args.member.tag !== "Olsi#5962") {
+    if (isAdmin(args.member.tag)) {
       sendResponse(message, anyInsult());
     } else {
       console.log("args : " + JSON.stringify(args));
       addLove(args.member.user.id, args.loveLevel);
       sendResponse(
         message,
-        "Current love for " + args.member.user.id + " : " +
-          getLove(args.member.user.id),
+        "Love is now " + getLove(args.member.user.id),
       );
     }
   },
