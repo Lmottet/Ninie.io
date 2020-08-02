@@ -30,7 +30,7 @@ botCache.commands.set("love", {
     },
   ],
   execute: (message, args: LoveArgs) => {
-    if (isAdmin(args.member.tag)) {
+    if (isAdmin(message.author.id)) {
       sendResponse(message, anyInsult());
     } else {
       console.log("args : " + JSON.stringify(args));
