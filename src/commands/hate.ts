@@ -30,7 +30,7 @@ botCache.commands.set("hate", {
   ],
   execute: (message, args: HateArgs) => {
     console.log("author : " + JSON.stringify(message));
-    if (isUserAdmin(message.author.username, message.author.discriminator)) {
+    if (!isUserAdmin(message.author.username, message.author.discriminator)) {
       sendResponse(message, anyInsult());
     } else {
       console.log("args : " + JSON.stringify(args));

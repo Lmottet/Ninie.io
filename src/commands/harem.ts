@@ -13,9 +13,6 @@ botCache.commands.set("harem", {
   execute: (message) => {
     console.log("test harem");
     getHarem();
-    sendResponse(
-      message,
-      "Love is now ",
-    );
+  
   },
 });
