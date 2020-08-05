@@ -26,7 +26,7 @@ export function sendResponse(
   const mention = `<@!${message.author.id}>`;
   const contentWithMention =
     typeof content === "string"
-      ? `${mention}, ${content}`
+      ? `${mention} ${content}`
       : { ...content, content: `${mention}, ${content.content}` };
 
   return sendMessage(message.channel, contentWithMention);
