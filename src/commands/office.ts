@@ -3,7 +3,7 @@ import { Embed } from "../utils/Embed.ts";
 import { sendResponse } from "../utils/helpers.ts";
 
 botCache.commands.set(`office`, {
-  name: `office;`,
+  name: `office`,
   description: "Bend the knee.",
   // adds cooldowns to the command
   cooldown: {
@@ -15,6 +15,7 @@ botCache.commands.set(`office`, {
   // Prevents it from being used in dms
   guildOnly: true,
   execute: function (message) {
+    console.log("test office");
     // setting up the embed for report/log
     const embed = new Embed()
       .setDescription(
