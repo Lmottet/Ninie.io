@@ -54,7 +54,7 @@ botCache.commands.set(`invincible`, {
   },
 });
 
-const embed = (kickArgs: KickArgs, message: Message) =>
+const embed = (message: Message, kickArgs: KickArgs) =>
   new Embed()
     .setDescription(`Suicide from : ${kickArgs.member.mention}`)
     .addField("Reason >", `${kickArgs.reason}`)
