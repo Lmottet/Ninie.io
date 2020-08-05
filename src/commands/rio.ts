@@ -56,10 +56,10 @@ const embed = (rioData: RaiderIoData) => {
     .addField("Nom :", rioData.name)
     .addField(
       "Scores sur le serveur pour ta classe: ",
-      `Overall : ${scores.all || 0}
-      Heal : ${scores.healer || 0}
-        Tank : ${scores.tank || 0}
-        DPS : ${scores.dps || 0}`,
+      `Overall : ${scores.all || 0} r.io
+      Heal : ${scores.healer || 0} r.io
+      Tank : ${scores.tank || 0} r.io
+      DPS : ${scores.dps || 0} r.io`,
     )
     .addField(
       "Progression à Ny'alotha :",
@@ -67,10 +67,10 @@ const embed = (rioData: RaiderIoData) => {
     )
     .addField(
       "Rang sur le serveur toutes classes / spécialisations confondues :",
-      "" + rioData.mythic_plus_ranks.overall.realm,
+      "" + rioData.mythic_plus_ranks.overall.realm + " ème",
     ).addField(
       "Rang sur le serveur pour ta classe, toutes spécialisations confondues :",
-      "" + rioData.mythic_plus_ranks.class.realm,
+      "" + rioData.mythic_plus_ranks.class.realm + " ème",
     );
 };
 
