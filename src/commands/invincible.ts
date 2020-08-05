@@ -11,13 +11,6 @@ import { sendEmbed, sendResponse } from "../utils/helpers.ts";
 botCache.commands.set(`invincible`, {
   name: `invincible`,
   description: "Call for murder.",
-  // adds cooldowns to the command
-  cooldown: {
-    // usages in certain duration of seconds below
-    allowedUses: 1,
-    // the cooldown
-    seconds: 10,
-  },
   // Prevents it from being used in dms
   guildOnly: true,
   botServerPermissions: ["ADMINISTRATOR"],
