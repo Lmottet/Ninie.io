@@ -6,7 +6,7 @@ import { botCache } from "../../mod.ts";
 botCache.commands.set(`avatar`, {
   name: `avatar`,
   guildOnly: true,
-  execute: (message, _args, guild) => {
+  execute: (message, _args) => {
     const member = message.mentions.length
       ? message.mentions()[0]
       : message.member()!;
