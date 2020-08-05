@@ -51,7 +51,7 @@ await Promise.all(
 
 const discord_client_id = Deno.env.get("DISCORD_CLIENT_ID");
 const discord_token_id = Deno.env.get("DISCORD_BOT_TOKEN");
-//"NzQwNTkwMDg5MTAwMzI5MDYw.XyrORA.yAYbQyT3qKfcTNvwuhqHmM_C5Js"; //Deno.env.get("DISCORD_BOT_TOKEN");
+//Deno.env.get("DISCORD_BOT_TOKEN");
 
 const intents = [
   Intents.GUILD_PRESENCES,
