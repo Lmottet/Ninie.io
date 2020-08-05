@@ -10,6 +10,6 @@ botCache.commands.set("score", {
     sendResponse(
       message,
       "Your Ninie.io score is : " +
-        getLove(userTag(message.author.username, message.author.discriminator)),
+        getLove(message.author.id),
     ),
 });
