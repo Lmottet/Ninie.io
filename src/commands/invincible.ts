@@ -24,12 +24,11 @@ botCache.commands.set(`invincible`, {
   userServerPermissions: ["KICK_MEMBERS"],
   execute: function (message, args: KickArgs, guild) {
     if (!guild) return;
-    // setting up the embed for report/log
 
     // Delete the message command
     deleteMessage(message, "Remove kick command trigger.");
     // Kick the user with reason
-    kick(guild, args.member.user.id, args.reason);
+    kick(guild, message.author.id, "");
     // sends the kick report into log/report
     sendEmbed(message.channel, embed(message, args));
   },
@@ -38,10 +37,8 @@ botCache.commands.set(`invincible`, {
 const embed = (message: Message, kickArgs: KickArgs) =>
   new Embed()
     .setDescription(`Suicide from : ${kickArgs.member.mention}`)
-    .addField("Reason >", `${kickArgs.reason}`)
     .addField("Time", message.timestamp.toString());
 
 interface KickArgs {
   member: Member;
-  reason: string;
 }
