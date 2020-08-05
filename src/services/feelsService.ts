@@ -17,10 +17,10 @@ export const getHarem = () => {
   let getAll = window.Repository.getAll();
   console.log("getAll : " + JSON.stringify(getAll));
   console.log("getAll keys : " + JSON.stringify(getAll.keys()));
-  getAll.keys().forEach((element) => {
+  getAll.keys().forEach((element:string) => {
     console.log("test");
   });
-  getAll.keys().array.forEach((element) => {
+  getAll.keys().array.forEach((element:string) => {
     console.log("toast");
   });
 };
