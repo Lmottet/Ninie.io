@@ -19,16 +19,18 @@ botCache.commands.set(`office`, {
   guildOnly: true,
   execute: function (message) {
     addLove(message.author.id, config.officeLove);
-    sendEmbed(message.channel, embed(message));
+    sendEmbed(
+      message.channel,
+      embed(message),
+      `<@!${config.ninieTag}> vient de passer un bon moment !`,
+    );
   },
 });
 
-//Ninie#9498
 const embed = (message: Message) =>
   new Embed()
     .setDescription(
-      `<@!Olsi#5962> vient de passer un bon moment !
-      Gain de ${config.officeLove} points de Ninie.io pour un passage sale au bureau !`,
+      `Gain de ${config.officeLove} points de Ninie.io pour un passage sale au bureau !`,
     )
     .addField("Poulain :", `${message.author.username}`)
     .addField(
