@@ -5,9 +5,7 @@ export class Repository {
     this.userLove = new Map();
   }
 
-  getAll = () => {
-      this.userLove;
-  };
+  getAll = () => this.userLove;
 
   getLove = (user: string) => {
     let loveLevel = this.userLove.get(user);

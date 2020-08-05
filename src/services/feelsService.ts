@@ -17,6 +17,8 @@ export const getHarem = () => {
   console.log("x : " + JSON.stringify(x));
   console.log("rep : " + JSON.stringify(window.Repository));
   console.log("rep un strin : " + window.Repository);
+  let y = window.Repository.getAll().keys();
+  console.log("y : " + JSON.stringify(y));
 };
 
 const calculateLove = (userId: string, newLove: number) => {
