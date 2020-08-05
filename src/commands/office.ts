@@ -12,13 +12,14 @@ botCache.commands.set(`office`, {
     // usages in certain duration of seconds below
     allowedUses: 1,
     // the cooldown
-    seconds: 7200,
+    seconds: config.officeCooldown,
   },
   // Prevents it from being used in dms
   guildOnly: true,
   execute: function (message) {
+    console.log("about to add love")
     addLove(message.author.id, config.officeLove);
-    // setting up the embed for report/log
+    console.log("about to create response message");
     const embed = new Embed()
       .setDescription(
         `A reçu ${config.officeLove} points de Ninie.io pour un passage sale au bureau`,
@@ -26,6 +27,7 @@ botCache.commands.set(`office`, {
       .addField("Poulain ", `${message.author}`)
       .addField("Heure ", message.timestamp.toString());
 
+    console.log("about to send response message");
     sendResponse(message, embed);
   },
 });
