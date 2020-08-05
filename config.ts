@@ -1,5 +1,5 @@
 export const config = {
   prefix: "^ninie.io ",
   officeLove: 50,
-  officeCooldown: 6
+  officeCooldown: 50
 };

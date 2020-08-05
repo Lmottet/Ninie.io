@@ -1,7 +1,7 @@
 import { botCache } from "../../mod.ts";
 import { Embed } from "../utils/Embed.ts";
 import { sendEmbed } from "../utils/helpers.ts";
-import { addLove } from "../services/feelsService.ts";
+import { addLove, getLove } from "../services/feelsService.ts";
 import { config } from "../../config.ts";
 import { Message } from "../../deps.ts";
 
@@ -29,4 +29,5 @@ const embed = (message: Message) =>
       `Gain de ${config.officeLove} points de Ninie.io pour un passage sale au bureau`,
     )
     .addField("Poulain :", `${message.author.username}`)
-    .addField("Heure :", new Date(message.timestamp).toLocaleTimeString());
+    .addField("Heure :", new Date(message.timestamp).toLocaleTimeString())
+    .addField("Nouveau Ninie.io :", getLove(message.author.id));
