@@ -16,7 +16,6 @@ botCache.commands.set("rio", {
     },
   ],
   execute: (message, args: RioArgs) => {
-    console.log("args :" + JSON.stringify(args));
     let characterDetails = args.character.split("/");
     api(message, characterDetails[0], characterDetails[1]);
   },
@@ -31,6 +30,7 @@ async function api(message: Message, realm: string, character: string) {
     if (!response.ok) {
       throw new Error(response.statusText);
     }
+    
     response.json()
       .then((rioData) => {
         sendEmbed(
