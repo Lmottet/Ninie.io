@@ -36,7 +36,3 @@ const embed = (message: Message) =>
       }`,
     )
     .addField("Time", message.timestamp.toString());
-
-interface KickArgs {
-  member: Member;
-}
