@@ -1,12 +1,13 @@
 import { botCache } from "../../mod.ts";
 import { Embed } from "../utils/Embed.ts";
 import { sendEmbed, sendResponse } from "../utils/helpers.ts";
+import { Message } from "../../deps.ts";
 
 botCache.commands.set("rio", {
   name: `rio`,
   arguments: [
     {
-      name: "character;",
+      name: "character",
       type: "...string",
       missing: function (message) {
         sendResponse(message, `Character name is missing`);
@@ -17,45 +18,58 @@ botCache.commands.set("rio", {
   execute: (message, args: RioArgs) => {
     console.log("args :" + JSON.stringify(args));
     let characterDetails = args.character.split("/");
-    getRaiderIo(characterDetails[0], characterDetails[1]).then((rioData) => {
-      console.log("status " + rioData.status);
-      sendEmbed(
-        message.channel,
-        embed(rioData),
-        `<@!${message.author.id}>`,
-      );
-    });
+    api(message, characterDetails[0], characterDetails[1]);
   },
 });
+
+async function api(message: Message, realm: string, character: string) {
+  try {
+    const response = await fetch(
+      `https://raider.io/api/v1/characters/profile?region=eu&realm=${realm}&name=${character}&fields=%20mythic_plus_scores_by_season%3Acurrent%2Cmythic_plus_ranks%2Craid_progression`,
+    );
+
+    if (!response.ok) {
+      throw new Error(response.statusText);
+    }
+    response.json()
+      .then((rioData) => {
+        sendEmbed(
+          message.channel,
+          embed(rioData),
+          `<@!${message.author.id}>`,
+        );
+      });
+  } catch (err) {
+    sendResponse(
+      message,
+      "Retrieval from raider.io failed. Check the syntax of your command ?",
+    );
+  }
+}
 
 interface RioArgs {
   character: string;
 }
-
-async function getRaiderIo(realm: string, name: string) {
-  const url =
-    `https://raider.io/api/v1/characters/profile?region=eu&realm=${realm}&name=${name}&fields=%20mythic_plus_scores_by_season%3Acurrent%2Cmythic_plus_ranks`;
-  console.log(url);
-  const res = await fetch(url).then((response) => response.json())
-    .catch((error) => {
-      console.error("Error:", error);
-    });
-  return await res;
-}
-
 const embed = (rioData: RaiderIoData) => {
   let scores = rioData.mythic_plus_scores_by_season[0].scores;
   return new Embed()
     .addField("Nom :", rioData.name)
     .addField(
-      "Scores sur le serveur pour ta classe",
-      `Overall : ${scores.all} Heal : ${scores.heal} Tank : ${scores.tank} DPS : ${scores.dps}`,
+      "Scores sur le serveur pour ta classe: ",
+      `Overall : ${scores.all || 0}
+      Heal : ${scores.healer || 0}
+        Tank : ${scores.tank || 0}
+        DPS : ${scores.dps || 0}`,
     )
     .addField(
-      "Rang sur le serveur toutes classes / spécialisations confondues",
+      "Progression à Ny'alotha :",
+      "" + rioData.raid_progression["nyalotha-the-waking-city"]?.summary,
+    )
+    .addField(
+      "Rang sur le serveur toutes classes / spécialisations confondues :",
       "" + rioData.mythic_plus_ranks.overall.realm,
     ).addField(
-      "Rang sur le serveur pour ta classe, toutes spécialisations confondues",
+      "Rang sur le serveur pour ta classe, toutes spécialisations confondues :",
       "" + rioData.mythic_plus_ranks.class.realm,
     );
 };
@@ -64,7 +78,7 @@ interface Scores {
   all: number;
   dps: number;
   tank: number;
-  heal: number;
+  healer: number;
 }
 
 interface SeasonalScores {
@@ -97,8 +111,17 @@ interface Ranks {
   faction_class_dps: Rank;
 }
 
+interface Raid {
+  summary: string;
+}
+
+interface Progression {
+  "nyalotha-the-waking-city": Raid;
+}
+
 interface RaiderIoData {
   name: string;
   mythic_plus_ranks: Ranks;
   mythic_plus_scores_by_season: SeasonalScores[];
+  raid_progression: Progression;
 }
