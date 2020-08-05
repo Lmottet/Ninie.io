@@ -22,7 +22,7 @@ botCache.commands.set(`office`, {
     sendEmbed(
       message.channel,
       embed(message),
-      `<@!${config.ninieTag}> vient de passer un bon moment !`,
+      `<@!${config.olsiTag}> vient de passer un bon moment !`,
     );
   },
 });
