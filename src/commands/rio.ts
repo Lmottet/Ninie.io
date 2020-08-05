@@ -21,7 +21,7 @@ botCache.commands.set("rio", {
     },
   ],
   execute: (message, args: RioArgs) => {
-    console.log(args);
+    console.log("args :"+ args);
     getRaiderIo(args.realm, args.character).then((rioData) => {
       console.log(rioData);
       sendEmbed(
