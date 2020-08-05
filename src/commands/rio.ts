@@ -1,20 +1,41 @@
-import { Message } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
 import { Embed } from "../utils/Embed.ts";
-import { sendEmbed } from "../utils/helpers.ts";
+import { sendEmbed, sendResponse } from "../utils/helpers.ts";
 
-botCache.commands.set("skill", {
-  name: `skill`,
-  execute: (message) => {
-    getRaiderIo("Drek'Thar", "Olzimare").then((rioData) =>
+botCache.commands.set("rio", {
+  name: `rio`,
+  arguments: [
+    {
+      name: "realm",
+      type: "string",
+      missing: function (message) {
+        sendResponse(message, `User cannot be found.`);
+      },
+    },
+    {
+      name: "character",
+      type: "string",
+      missing: function (message) {
+        sendResponse(message, `Should be a number`);
+      },
+    },
+  ],
+  execute: (message, args: RioArgs) => {
+    getRaiderIo(args.realm, args.character).then((rioData) => {
+      console.log(rioData);
       sendEmbed(
         message.channel,
         embed(rioData),
         `<@!${message.author.id}>`,
-      )
-    );
+      );
+    });
   },
 });
+
+interface RioArgs {
+  realm: string;
+  character: string;
+}
 
 async function getRaiderIo(realm: string, name: string) {
   const res = await fetch(
