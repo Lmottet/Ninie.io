@@ -26,7 +26,8 @@ botCache.commands.set(`office`, {
 const embed = (message: Message) =>
   new Embed()
     .setDescription(
-      `Gain de ${config.officeLove} points de Ninie.io pour un passage sale au bureau`,
+      `<@!Ninie#9498> vient de passer un bon moment !
+      Gain de ${config.officeLove} points de Ninie.io pour un passage sale au bureau`,
     )
     .addField("Poulain :", `${message.author.username}`)
     .addField(
