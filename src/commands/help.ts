@@ -10,7 +10,7 @@ botCache.commands.set("help", {
     );
     sendMessage(
       message.channel,
-      ".io core-related commands : harem, hate (@user, number), love(@user, number), office, slurp, bureau, score",
+      ".io score-related commands : harem, hate (@user, number), love(@user, number), office, slurp, bureau, score",
     );
     sendMessage(
       message.channel,
