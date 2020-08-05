@@ -21,7 +21,7 @@ botCache.commands.set("rio", {
     },
   ],
   execute: (message, args: RioArgs) => {
-    console.log("args :"+ args);
+    console.log("args :" + JSON.stringify(args));
     getRaiderIo(args.realm, args.character).then((rioData) => {
       console.log(rioData);
       sendEmbed(
@@ -39,9 +39,10 @@ interface RioArgs {
 }
 
 async function getRaiderIo(realm: string, name: string) {
-  const res = await fetch(
-    `https://raider.io/api/v1/characters/profile?region=eu&realm=${realm}&name=${name}&fields=%20mythic_plus_scores_by_season%3Acurrent%2Cmythic_plus_ranks`,
-  ).then((response) => response.json())
+  const url =
+    `https://raider.io/api/v1/characters/profile?region=eu&realm=${realm}&name=${name}&fields=%20mythic_plus_scores_by_season%3Acurrent%2Cmythic_plus_ranks`;
+  console.log(url);
+  const res = await fetch(url).then((response) => response.json())
     .catch((error) => {
       console.error("Error:", error);
     });
