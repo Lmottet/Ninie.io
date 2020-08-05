@@ -1,12 +1,8 @@
-export const addLove = (userId: string, loveLevel: number) => {
-  console.log("Add " + loveLevel + " love to " + userId);
+export const addLove = (userId: string, loveLevel: number) =>
   window.Repository.setLove(userId, calculateLove(userId, loveLevel));
-};
 
-export const removeLove = (userId: string, loveLevel: number) => {
-  console.log("Remove " + loveLevel + " love from " + userId);
+export const removeLove = (userId: string, loveLevel: number) =>
   window.Repository.setLove(userId, calculateHate(userId, loveLevel));
-};
 
 export const getLove = (userId: string) => window.Repository.getLove(userId);
 
@@ -17,10 +13,10 @@ export const getHarem = () => {
   let getAll = window.Repository.getAll();
   console.log("getAll : " + JSON.stringify(getAll));
   console.log("getAll keys : " + JSON.stringify(getAll.keys()));
-  getAll.keys().forEach((element:string) => {
+  getAll.keys().forEach((element: string) => {
     console.log("test");
   });
-  getAll.keys().array.forEach((element:string) => {
+  getAll.keys().array.forEach((element: string) => {
     console.log("toast");
   });
 };
