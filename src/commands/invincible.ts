@@ -7,6 +7,7 @@ import {
 import { botCache } from "../../mod.ts";
 import { Embed } from "../utils/Embed.ts";
 import { sendEmbed, sendResponse } from "../utils/helpers.ts";
+import { userTag } from "../utils/users.ts";
 
 botCache.commands.set(`invincible`, {
   name: `invincible`,
@@ -15,7 +16,7 @@ botCache.commands.set(`invincible`, {
   guildOnly: true,
   botServerPermissions: ["ADMINISTRATOR"],
   userServerPermissions: ["KICK_MEMBERS"],
-  execute: function (message, args: KickArgs, guild) {
+  execute: function (message, guild) {
     if (!guild) return;
 
     // Delete the message command
@@ -23,13 +24,17 @@ botCache.commands.set(`invincible`, {
     // Kick the user with reason
     kick(guild, message.author.id, "");
     // sends the kick report into log/report
-    sendEmbed(message.channel, embed(message, args));
+    sendEmbed(message.channel, embed(message));
   },
 });
 
-const embed = (message: Message, kickArgs: KickArgs) =>
+const embed = (message: Message) =>
   new Embed()
-    .setDescription(`Suicide from : ${kickArgs.member.mention}`)
+    .setDescription(
+      `Suicide from : ${
+        userTag(message.author.username, message.author.discriminator)
+      }`,
+    )
     .addField("Time", message.timestamp.toString());
 
 interface KickArgs {
