@@ -1,7 +1,12 @@
-import { deleteMessage, kick, Member, sendMessage } from "../../deps.ts";
+import {
+  deleteMessage,
+  kick,
+  Member,
+  Message,
+} from "../../deps.ts";
 import { botCache } from "../../mod.ts";
 import { Embed } from "../utils/Embed.ts";
-import { sendResponse } from "../utils/helpers.ts";
+import { sendEmbed, sendResponse } from "../utils/helpers.ts";
 
 botCache.commands.set(`invincible`, {
   name: `invincible`,
@@ -39,26 +44,21 @@ botCache.commands.set(`invincible`, {
   execute: function (message, args: KickArgs, guild) {
     if (!guild) return;
     // setting up the embed for report/log
-    const embed = new Embed()
-      .setDescription(`Suicide from : ${args.member.mention}`)
-      .addField("Reason >", `${args.reason}`)
-      .addField("Time", message.timestamp.toString());
-
-    const reportchannel = guild.channels.find(
-      (channel) => channel.name === "report"
-    );
-    if (!reportchannel) {
-      return sendResponse(message, "*`Report channel cannot be found!`*");
-    }
 
     // Delete the message command
     deleteMessage(message, "Remove kick command trigger.");
     // Kick the user with reason
     kick(guild, args.member.user.id, args.reason);
     // sends the kick report into log/report
-    sendMessage(reportchannel, embed);
+    sendEmbed(message, embed(message, args));
   },
 });
+
+const embed = (kickArgs: KickArgs, message: Message) =>
+  new Embed()
+    .setDescription(`Suicide from : ${kickArgs.member.mention}`)
+    .addField("Reason >", `${kickArgs.reason}`)
+    .addField("Time", message.timestamp.toString());
 
 interface KickArgs {
   member: Member;
