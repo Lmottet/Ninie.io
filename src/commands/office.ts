@@ -29,5 +29,10 @@ const embed = (message: Message) =>
       `Gain de ${config.officeLove} points de Ninie.io pour un passage sale au bureau`,
     )
     .addField("Poulain :", `${message.author.username}`)
-    .addField("Heure :", new Date(message.timestamp).toLocaleTimeString())
+    .addField(
+      "Heure de la gâterie :",
+      `Le ${new Date(message.timestamp).toLocaleDateString()} à ${
+        new Date(message.timestamp).toLocaleTimeString("Europe/Bruxelles")
+      }`,
+    )
     .addField("Nouveau Ninie.io :", getLove(message.author.id));
