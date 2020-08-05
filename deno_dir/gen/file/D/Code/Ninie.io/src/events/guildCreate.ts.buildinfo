@@ -481,20 +481,10 @@
         "signature": "41953449402",
         "affectsGlobalScope": false
       },
-      "file:///D:/Code/Ninie.io/src/types/commands.ts": {
-        "version": "f5d03a24dd5c081d48ff45ac4da6542e2e00134c459fe5c51b4f0bbf9d699a03",
-        "signature": "-33683492293",
+      "file:///D:/Code/Ninie.io/src/events/guildCreate.ts": {
+        "version": "9dbdadb01d09b9d4d52fe00f96745e76920d917aaf7afe11a35b8ae443a49fc9",
+        "signature": "-16318472572",
         "affectsGlobalScope": false
-      },
-      "file:///D:/Code/Ninie.io/src/repository.ts": {
-        "version": "8a8b32c132caac563a87893d96d14784248d405743a7cc0e62eadccacea3e8ad",
-        "signature": "-14040683781",
-        "affectsGlobalScope": false
-      },
-      "file:///D:/Code/Ninie.io/mod.ts": {
-        "version": "43cd782fffe9f493c2f048c3a7ea4039a290a7a4ca4e16b964f91ef56ea30a06",
-        "signature": "-47002258702",
-        "affectsGlobalScope": true
       }
     },
     "options": {
@@ -534,12 +524,7 @@
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts"
       ],
-      "file:///D:/Code/Ninie.io/mod.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "file:///D:/Code/Ninie.io/src/repository.ts",
-        "file:///D:/Code/Ninie.io/src/types/commands.ts"
-      ],
-      "file:///D:/Code/Ninie.io/src/types/commands.ts": [
+      "file:///D:/Code/Ninie.io/src/events/guildCreate.ts": [
         "file:///D:/Code/Ninie.io/deps.ts"
       ],
       "https://deno.land/std@0.61.0/async/mod.ts": [
@@ -825,12 +810,7 @@
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts"
       ],
-      "file:///D:/Code/Ninie.io/mod.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "file:///D:/Code/Ninie.io/src/repository.ts",
-        "file:///D:/Code/Ninie.io/src/types/commands.ts"
-      ],
-      "file:///D:/Code/Ninie.io/src/types/commands.ts": [
+      "file:///D:/Code/Ninie.io/src/events/guildCreate.ts": [
         "file:///D:/Code/Ninie.io/deps.ts"
       ],
       "https://deno.land/std@0.61.0/async/mod.ts": [
@@ -1044,9 +1024,7 @@
       "asset:///lib.esnext.promise.d.ts",
       "asset:///lib.esnext.string.d.ts",
       "file:///D:/Code/Ninie.io/deps.ts",
-      "file:///D:/Code/Ninie.io/mod.ts",
-      "file:///D:/Code/Ninie.io/src/repository.ts",
-      "file:///D:/Code/Ninie.io/src/types/commands.ts",
+      "file:///D:/Code/Ninie.io/src/events/guildCreate.ts",
       "https://deno.land/std@0.61.0/_util/assert.ts",
       "https://deno.land/std@0.61.0/_util/has_own_property.ts",
       "https://deno.land/std@0.61.0/async/deferred.ts",

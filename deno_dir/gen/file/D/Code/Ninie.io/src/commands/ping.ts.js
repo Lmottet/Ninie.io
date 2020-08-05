@@ -1,0 +1,20 @@
+import { botCache } from "../../mod.ts";
+import { cache, sendMessage } from "../../deps.ts";
+botCache.commands.set(`ping`, {
+    name: `ping`,
+    execute: function (message) {
+        sendMessage(message.channel, `Ping MS: ${Date.now() - message.timestamp}ms`);
+    },
+});
+botCache.commands.set(`devping`, {
+    name: `devping`,
+    guildOnly: true,
+    execute: function (message) {
+        let memberCount = 0;
+        cache.guilds.forEach((guild) => {
+            memberCount += guild.members.size;
+        });
+        sendMessage(message.channel, `Ping MS: ${Date.now() - message.timestamp}ms | Guilds: ${cache.guilds.size} | Users: ${memberCount}`);
+    },
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGluZy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInBpbmcudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0EsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGNBQWMsQ0FBQztBQUN4QyxPQUFPLEVBQUUsS0FBSyxFQUFFLFdBQVcsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUVuRCxRQUFRLENBQUMsUUFBUSxDQUFDLEdBQUcsQ0FBQyxNQUFNLEVBQUU7SUFDNUIsSUFBSSxFQUFFLE1BQU07SUFDWixPQUFPLEVBQUUsVUFBVSxPQUFPO1FBQ3hCLFdBQVcsQ0FDVCxPQUFPLENBQUMsT0FBTyxFQUNmLFlBQVksSUFBSSxDQUFDLEdBQUcsRUFBRSxHQUFHLE9BQU8sQ0FBQyxTQUFTLElBQUksQ0FDL0MsQ0FBQztJQUNKLENBQUM7Q0FDRixDQUFDLENBQUM7QUFFSCxRQUFRLENBQUMsUUFBUSxDQUFDLEdBQUcsQ0FBQyxTQUFTLEVBQUU7SUFDL0IsSUFBSSxFQUFFLFNBQVM7SUFDZixTQUFTLEVBQUUsSUFBSTtJQUNmLE9BQU8sRUFBRSxVQUFVLE9BQU87UUFDeEIsSUFBSSxXQUFXLEdBQUcsQ0FBQyxDQUFDO1FBQ3BCLEtBQUssQ0FBQyxNQUFNLENBQUMsT0FBTyxDQUFDLENBQUMsS0FBSyxFQUFFLEVBQUU7WUFDN0IsV0FBVyxJQUFJLEtBQUssQ0FBQyxPQUFPLENBQUMsSUFBSSxDQUFDO1FBQ3BDLENBQUMsQ0FBQyxDQUFDO1FBRUgsV0FBVyxDQUNULE9BQU8sQ0FBQyxPQUFPLEVBQ2YsWUFBWSxJQUFJLENBQUMsR0FBRyxFQUFFLEdBQUcsT0FBTyxDQUFDLFNBQVMsZ0JBQ3hDLEtBQUssQ0FBQyxNQUFNLENBQUMsSUFDZixhQUFhLFdBQVcsRUFBRSxDQUMzQixDQUFDO0lBQ0osQ0FBQztDQUNGLENBQUMsQ0FBQyJ9

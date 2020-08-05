@@ -8,18 +8,18 @@ botCache.commands.set("rio", {
     {
       name: "realm",
       type: "string",
-      required:true,
       missing: function (message) {
-        sendResponse(message, `User cannot be found.`);
+        sendResponse(message, `Realm name is missing`);
       },
+      required: true,
     },
     {
       name: "character",
       type: "string",
-      required:true,
       missing: function (message) {
-        sendResponse(message, `Should be a number`);
+        sendResponse(message, `Character name is missing`);
       },
+      required: true,
     },
   ],
   execute: (message, args: RioArgs) => {

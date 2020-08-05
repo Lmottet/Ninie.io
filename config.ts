@@ -3,5 +3,5 @@ export const config = {
   officeLove: 50,
   officeCooldown: 21600,
   ninieTag: "Ninie#9498",
-  olsiTag:"Olsi#5962"
+  olsiTag: "Olsi#5962",
 };

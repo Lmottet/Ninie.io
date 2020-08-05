@@ -495,6 +495,11 @@
         "version": "43cd782fffe9f493c2f048c3a7ea4039a290a7a4ca4e16b964f91ef56ea30a06",
         "signature": "-47002258702",
         "affectsGlobalScope": true
+      },
+      "file:///D:/Code/Ninie.io/src/inhibitors/onlyIn.ts": {
+        "version": "fee34f93592407c90ff044211b47151aeb488360d6a0bf87d7f4a7ee811a4809",
+        "signature": "-3531856636",
+        "affectsGlobalScope": false
       }
     },
     "options": {
@@ -538,6 +543,9 @@
         "file:///D:/Code/Ninie.io/deps.ts",
         "file:///D:/Code/Ninie.io/src/repository.ts",
         "file:///D:/Code/Ninie.io/src/types/commands.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/inhibitors/onlyIn.ts": [
+        "file:///D:/Code/Ninie.io/mod.ts"
       ],
       "file:///D:/Code/Ninie.io/src/types/commands.ts": [
         "file:///D:/Code/Ninie.io/deps.ts"
@@ -1045,6 +1053,7 @@
       "asset:///lib.esnext.string.d.ts",
       "file:///D:/Code/Ninie.io/deps.ts",
       "file:///D:/Code/Ninie.io/mod.ts",
+      "file:///D:/Code/Ninie.io/src/inhibitors/onlyIn.ts",
       "file:///D:/Code/Ninie.io/src/repository.ts",
       "file:///D:/Code/Ninie.io/src/types/commands.ts",
       "https://deno.land/std@0.61.0/_util/assert.ts",

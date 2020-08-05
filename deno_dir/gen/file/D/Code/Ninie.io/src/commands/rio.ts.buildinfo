@@ -495,6 +495,21 @@
         "version": "43cd782fffe9f493c2f048c3a7ea4039a290a7a4ca4e16b964f91ef56ea30a06",
         "signature": "-47002258702",
         "affectsGlobalScope": true
+      },
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts": {
+        "version": "ee6ae56b9f8c10aaefdee31d552ac0753459841b3ed4308aee42ed65d42ae33b",
+        "signature": "11010371391",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts": {
+        "version": "ba204723b1ca2e81c0762e474a647bb379908324e51746756247517b4807f11d",
+        "signature": "-124868581063",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/commands/rio.ts": {
+        "version": "6b8b37dbca2f6b83437de6ebd7ae3cbc7b2852b6c3c6c5981bc280e099b055bd",
+        "signature": "-3531856636",
+        "affectsGlobalScope": false
       }
     },
     "options": {
@@ -539,8 +554,21 @@
         "file:///D:/Code/Ninie.io/src/repository.ts",
         "file:///D:/Code/Ninie.io/src/types/commands.ts"
       ],
+      "file:///D:/Code/Ninie.io/src/commands/rio.ts": [
+        "file:///D:/Code/Ninie.io/mod.ts",
+        "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
+        "file:///D:/Code/Ninie.io/src/utils/helpers.ts"
+      ],
       "file:///D:/Code/Ninie.io/src/types/commands.ts": [
         "file:///D:/Code/Ninie.io/deps.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/mod.ts",
+        "file:///D:/Code/Ninie.io/src/utils/Embed.ts"
       ],
       "https://deno.land/std@0.61.0/async/mod.ts": [
         "https://deno.land/std@0.61.0/async/deferred.ts",
@@ -833,6 +861,17 @@
       "file:///D:/Code/Ninie.io/src/types/commands.ts": [
         "file:///D:/Code/Ninie.io/deps.ts"
       ],
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/guild.ts",
+        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/message.ts"
+      ],
       "https://deno.land/std@0.61.0/async/mod.ts": [
         "https://deno.land/std@0.61.0/async/deferred.ts",
         "https://deno.land/std@0.61.0/async/delay.ts",
@@ -1045,8 +1084,11 @@
       "asset:///lib.esnext.string.d.ts",
       "file:///D:/Code/Ninie.io/deps.ts",
       "file:///D:/Code/Ninie.io/mod.ts",
+      "file:///D:/Code/Ninie.io/src/commands/rio.ts",
       "file:///D:/Code/Ninie.io/src/repository.ts",
       "file:///D:/Code/Ninie.io/src/types/commands.ts",
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts",
       "https://deno.land/std@0.61.0/_util/assert.ts",
       "https://deno.land/std@0.61.0/_util/has_own_property.ts",
       "https://deno.land/std@0.61.0/async/deferred.ts",

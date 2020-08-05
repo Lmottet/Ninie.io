@@ -495,6 +495,26 @@
         "version": "43cd782fffe9f493c2f048c3a7ea4039a290a7a4ca4e16b964f91ef56ea30a06",
         "signature": "-47002258702",
         "affectsGlobalScope": true
+      },
+      "file:///D:/Code/Ninie.io/src/utils/users.ts": {
+        "version": "d4f310a1eddd7cf0e88af086d446546075c5c534109b51a9dd54370ae8b39769",
+        "signature": "-8039332447",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/config.ts": {
+        "version": "7e65932d9c1e3e1d29ebab94fea1aa2c07b7bebc9cb7f9656171da85a474bd2b",
+        "signature": "-17097816310",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/authorizations.ts": {
+        "version": "f0470c606a0044db88262b01986453dc9013d73c74a054522bc0f25309e682ec",
+        "signature": "-13363971544",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/commands/meow.ts": {
+        "version": "c9b1974c5da3da2d239a34fa54df551385b59738bd0b18991ff0b9e95ec767d6",
+        "signature": "-3531856636",
+        "affectsGlobalScope": false
       }
     },
     "options": {
@@ -538,6 +558,15 @@
         "file:///D:/Code/Ninie.io/deps.ts",
         "file:///D:/Code/Ninie.io/src/repository.ts",
         "file:///D:/Code/Ninie.io/src/types/commands.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/authorizations.ts": [
+        "file:///D:/Code/Ninie.io/config.ts",
+        "file:///D:/Code/Ninie.io/src/utils/users.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/commands/meow.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/mod.ts",
+        "file:///D:/Code/Ninie.io/src/authorizations.ts"
       ],
       "file:///D:/Code/Ninie.io/src/types/commands.ts": [
         "file:///D:/Code/Ninie.io/deps.ts"
@@ -1043,10 +1072,14 @@
       "asset:///lib.esnext.intl.d.ts",
       "asset:///lib.esnext.promise.d.ts",
       "asset:///lib.esnext.string.d.ts",
+      "file:///D:/Code/Ninie.io/config.ts",
       "file:///D:/Code/Ninie.io/deps.ts",
       "file:///D:/Code/Ninie.io/mod.ts",
+      "file:///D:/Code/Ninie.io/src/authorizations.ts",
+      "file:///D:/Code/Ninie.io/src/commands/meow.ts",
       "file:///D:/Code/Ninie.io/src/repository.ts",
       "file:///D:/Code/Ninie.io/src/types/commands.ts",
+      "file:///D:/Code/Ninie.io/src/utils/users.ts",
       "https://deno.land/std@0.61.0/_util/assert.ts",
       "https://deno.land/std@0.61.0/_util/has_own_property.ts",
       "https://deno.land/std@0.61.0/async/deferred.ts",
