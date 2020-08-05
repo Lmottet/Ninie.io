@@ -54,10 +54,10 @@ const embed = (rioData: RaiderIoData) => {
     )
     .addField(
       "Rang sur le serveur toutes classes / spécialisations confondues",
-      rioData.mythic_plus_ranks.get("overall")?.get("realm") || "rank",
+      "" + rioData.mythic_plus_ranks.overall.realm,
     ).addField(
       "Rang sur le serveur pour ta classe, toutes spécialisations confondues",
-      rioData.mythic_plus_ranks.get("class")?.get("realm") || "rank",
+      "" + rioData.mythic_plus_ranks.class.realm,
     );
 };
 
@@ -73,8 +73,33 @@ interface SeasonalScores {
   scores: Scores;
 }
 
+interface Rank {
+  world: number;
+  region: number;
+  realm: number;
+}
+
+interface Ranks {
+  overall: Rank;
+  class: Rank;
+  faction_overall: Rank;
+  faction_class: Rank;
+  tank: Rank;
+  class_tank: Rank;
+  faction_tank: Rank;
+  faction_class_tank: Rank;
+  healer: Rank;
+  class_healer: Rank;
+  faction_healer: Rank;
+  faction_class_healer: Rank;
+  dps: Rank;
+  class_dps: Rank;
+  faction_dps: Rank;
+  faction_class_dps: Rank;
+}
+
 interface RaiderIoData {
   name: string;
-  mythic_plus_ranks: Map<string, Map<string, string>>;
+  mythic_plus_ranks: Ranks;
   mythic_plus_scores_by_season: SeasonalScores[];
 }
