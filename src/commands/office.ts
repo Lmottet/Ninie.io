@@ -1,9 +1,9 @@
-import { botCache } from "../../mod.ts";
-import { Embed } from "../utils/Embed.ts";
-import { sendEmbed } from "../utils/helpers.ts";
-import { addLove, getLove } from "../services/feelsService.ts";
 import { config } from "../../config.ts";
 import { Message } from "../../deps.ts";
+import { botCache } from "../../mod.ts";
+import { addLove, getLove } from "../services/feelsService.ts";
+import { Embed } from "../utils/Embed.ts";
+import { createCommandAliases, sendEmbed } from "../utils/helpers.ts";
 
 botCache.commands.set(`office`, {
   name: `office`,
@@ -22,10 +22,12 @@ botCache.commands.set(`office`, {
     sendEmbed(
       message.channel,
       embed(message),
-      `<@!${config.olsiTag}> vient de passer un bon moment !`,
+      `<@!${config.ninieTag}> vient de passer un bon moment !`,
     );
   },
 });
+
+createCommandAliases("office", ["bureau", "slurp"]);
 
 const embed = (message: Message) =>
   new Embed()
