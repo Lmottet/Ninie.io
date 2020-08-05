@@ -19,7 +19,7 @@ botCache.commands.set(`office`, {
   guildOnly: true,
   execute: function (message) {
     addLove(message.author.id, config.officeLove);
-    sendEmbed(message, embed(message));
+    sendEmbed(message.channel, embed(message));
   },
 });
 

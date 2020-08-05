@@ -50,7 +50,7 @@ botCache.commands.set(`invincible`, {
     // Kick the user with reason
     kick(guild, args.member.user.id, args.reason);
     // sends the kick report into log/report
-    sendEmbed(message, embed(message, args));
+    sendEmbed(message.channel, embed(message, args));
   },
 });
 
