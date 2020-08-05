@@ -38,8 +38,7 @@ botCache.commands.set("love", {
       addLove(args.member.user.id, args.loveLevel);
       sendResponse(
         message,
-        "Love was " + beforeLove + " and is now " +
-          getLove(args.member.user.id),
+        `Love was ${ beforeLove } and is now ${getLove(args.member.user.id)} for <@!${args.member.user.id}>`,
       );
     }
   },

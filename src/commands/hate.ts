@@ -38,8 +38,9 @@ botCache.commands.set("hate", {
       removeLove(args.member.user.id, args.hateLevel);
       sendResponse(
         message,
-        "Aouch ! Love was " + beforeHate + " and is now down to : " +
-          getLove(args.member.user.id),
+        `Aouch ! Love was ${beforeHate} and is now down to : ${
+          getLove(args.member.user.id)
+        } for <@!${args.member.user.id}>`,
       );
     }
   },

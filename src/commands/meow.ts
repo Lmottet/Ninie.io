@@ -6,9 +6,9 @@ botCache.commands.set("meow", {
   name: `meow`,
   execute: (message) => {
     if (isUserAdmin(message.author.username, message.author.discriminator)) {
-      sendMessage(message.channel, "MEOWWW!!! :heart:");
+      sendMessage(message.channel, "MEOOWWW!!! :heart:");
     } else {
-      sendMessage(message.channel, "MEOWWW!!!");
+      sendMessage(message.channel, "MEOOWWW!!!");
     }
   },
 });
