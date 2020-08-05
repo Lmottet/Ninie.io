@@ -6,16 +6,8 @@ botCache.commands.set("rio", {
   name: `rio`,
   arguments: [
     {
-      name: "realm",
+      name: "character;",
       type: "...string",
-      missing: function (message) {
-        sendResponse(message, `Realm name is missing`);
-      },
-      required: true,
-    },
-    {
-      name: "character",
-      type: "string",
       missing: function (message) {
         sendResponse(message, `Character name is missing`);
       },
@@ -24,7 +16,8 @@ botCache.commands.set("rio", {
   ],
   execute: (message, args: RioArgs) => {
     console.log("args :" + JSON.stringify(args));
-    getRaiderIo(args.realm, args.character).then((rioData) => {
+    let characterDetails = args.character.split("/");
+    getRaiderIo(characterDetails[0], characterDetails[1]).then((rioData) => {
       console.log("status " + rioData.status);
       sendEmbed(
         message.channel,
@@ -36,7 +29,6 @@ botCache.commands.set("rio", {
 });
 
 interface RioArgs {
-  realm: string;
   character: string;
 }
 
