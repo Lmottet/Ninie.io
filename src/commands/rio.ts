@@ -7,7 +7,7 @@ botCache.commands.set("rio", {
   arguments: [
     {
       name: "realm",
-      type: "string",
+      type: "...string",
       missing: function (message) {
         sendResponse(message, `Realm name is missing`);
       },
