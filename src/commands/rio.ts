@@ -8,6 +8,7 @@ botCache.commands.set("rio", {
     {
       name: "realm",
       type: "string",
+      required:true,
       missing: function (message) {
         sendResponse(message, `User cannot be found.`);
       },
@@ -15,6 +16,7 @@ botCache.commands.set("rio", {
     {
       name: "character",
       type: "string",
+      required:true,
       missing: function (message) {
         sendResponse(message, `Should be a number`);
       },
@@ -23,7 +25,7 @@ botCache.commands.set("rio", {
   execute: (message, args: RioArgs) => {
     console.log("args :" + JSON.stringify(args));
     getRaiderIo(args.realm, args.character).then((rioData) => {
-      console.log(rioData);
+      console.log("status " + rioData.status);
       sendEmbed(
         message.channel,
         embed(rioData),
