@@ -34,3 +34,4 @@ export {
 } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/permission.ts";
 export { cache } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/cache.ts";
 export { logger } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/utils/logger.ts";
+export * as axiod from "https://deno.land/x/axiod/mod.ts";

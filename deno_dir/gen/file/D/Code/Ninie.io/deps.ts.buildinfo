@@ -268,7 +268,7 @@
       },
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/message.ts": {
         "version": "f6b2fc5d2a49361beeb9371e4e287071565fe1baec71f698a9032a16fdbae051",
-        "signature": "40601902033",
+        "signature": "21776749393",
         "affectsGlobalScope": false
       },
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/member.ts": {
@@ -278,7 +278,7 @@
       },
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/guild.ts": {
         "version": "3730c6074644b970c39b12842ba2e96769c530857b1cc4f9fe73bac29a0c2609",
-        "signature": "128200763097",
+        "signature": "58371396889",
         "affectsGlobalScope": false
       },
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/options.ts": {
@@ -443,12 +443,12 @@
       },
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/structures/channel.ts": {
         "version": "8092d854a1a3d91e5f823b46227fbb72fe0e12e5f584d2681d134ebf8113f6bc",
-        "signature": "-121783283511",
+        "signature": "-103376976119",
         "affectsGlobalScope": false
       },
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts": {
         "version": "0a89590f11a7c1441636b647a38cb0178eac3d1487e163d11f13ad80d3443bed",
-        "signature": "43654515487",
+        "signature": "-16764868321",
         "affectsGlobalScope": false
       },
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/cdn.ts": {
@@ -463,22 +463,42 @@
       },
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/guild.ts": {
         "version": "38561c57f263a5d1c072f6711e046510bded4ea4e5511a5c7e0a415c05d501b3",
-        "signature": "99608285342",
+        "signature": "56865410782",
         "affectsGlobalScope": false
       },
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/member.ts": {
         "version": "b1d61a1d3f9ef997180c6b4db6061584c7324430d52e3776a1ccc0c151795cd6",
-        "signature": "-45411514876",
+        "signature": "-13754245756",
         "affectsGlobalScope": false
       },
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/message.ts": {
         "version": "157da1db5624570d082951e6e7ab4e1ed577caffe08bc8b7a7dfc275bb0ea64b",
-        "signature": "29702390450",
+        "signature": "-23343773134",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/url_join@1.0.0/mod.ts": {
+        "version": "1f433232a29f056f55eda9a646dbd46f2bc0d4b962b19bc0b2af2611fe9f7b86",
+        "signature": "-17633813516",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/axiod@0.20.0-0/interfaces.ts": {
+        "version": "ec8c643a3d0635f890caea53c429d4841c47cc494074697db8fac931df7a8f81",
+        "signature": "-39588992596",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/axiod@0.20.0-0/helpers.ts": {
+        "version": "52d8436b175acc671dd6263ff0f6a80239f2b233118d69adb4e0dccbc70cd60b",
+        "signature": "-6813647264",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/axiod@0.20.0-0/mod.ts": {
+        "version": "07daef05661a53bdc306730a8c8fdcc597d4fa2b2dccc7cdc4aaf0dab0b94387",
+        "signature": "-41744124054",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/deps.ts": {
-        "version": "264edad4beae8cadd2d5710cfbbaac05952de337cc6229a33283bae3e45b6710",
-        "signature": "41953449402",
+        "version": "18bbd5e95c554293597feb5219f5284e979b73a6936c1137488f547498be17d3",
+        "signature": "15363037945",
         "affectsGlobalScope": false
       }
     },
@@ -502,6 +522,7 @@
     },
     "referencedMap": {
       "file:///D:/Code/Ninie.io/deps.ts": [
+        "https://deno.land/x/axiod@0.20.0-0/mod.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/guild.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/member.ts",
@@ -566,6 +587,11 @@
         "https://deno.land/std@0.61.0/io/bufio.ts",
         "https://deno.land/std@0.61.0/io/ioutil.ts",
         "https://deno.land/std@0.61.0/textproto/mod.ts"
+      ],
+      "https://deno.land/x/axiod@0.20.0-0/mod.ts": [
+        "https://deno.land/x/axiod@0.20.0-0/helpers.ts",
+        "https://deno.land/x/axiod@0.20.0-0/interfaces.ts",
+        "https://deno.land/x/url_join@1.0.0/mod.ts"
       ],
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/channels.ts": [
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/module/client.ts",
@@ -785,6 +811,7 @@
     },
     "exportedModulesMap": {
       "file:///D:/Code/Ninie.io/deps.ts": [
+        "https://deno.land/x/axiod@0.20.0-0/mod.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/channel.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/guild.ts",
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/handlers/member.ts",
@@ -823,6 +850,9 @@
       ],
       "https://deno.land/std@0.61.0/ws/mod.ts": [
         "https://deno.land/std@0.61.0/io/bufio.ts"
+      ],
+      "https://deno.land/x/axiod@0.20.0-0/mod.ts": [
+        "https://deno.land/x/axiod@0.20.0-0/interfaces.ts"
       ],
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/channels.ts": [
         "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/types/channel.ts"
@@ -1031,6 +1061,10 @@
       "https://deno.land/std@0.61.0/io/ioutil.ts",
       "https://deno.land/std@0.61.0/textproto/mod.ts",
       "https://deno.land/std@0.61.0/ws/mod.ts",
+      "https://deno.land/x/axiod@0.20.0-0/helpers.ts",
+      "https://deno.land/x/axiod@0.20.0-0/interfaces.ts",
+      "https://deno.land/x/axiod@0.20.0-0/mod.ts",
+      "https://deno.land/x/url_join@1.0.0/mod.ts",
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/constants/discord.ts",
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/channels.ts",
       "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/master/events/guilds.ts",

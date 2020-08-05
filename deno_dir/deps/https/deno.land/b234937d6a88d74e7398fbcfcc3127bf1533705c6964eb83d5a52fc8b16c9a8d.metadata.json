@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "location": "/x/axiod@0.20.0-0/mod.ts",
+    "server": "cloudflare",
+    "x-deno-warning": "Implicitly using latest version (0.20.0-0) for https://deno.land/x/axiod/mod.ts",
+    "cf-ray": "5be0a55a5f690609-FRA",
+    "content-length": "0",
+    "date": "Wed, 05 Aug 2020 12:50:48 GMT",
+    "set-cookie": "__cfduid=d682e6521ac3ad0fecc544f440536aac71596631848; expires=Fri, 04-Sep-20 12:50:48 GMT; path=/; domain=.deno.land; HttpOnly; SameSite=Lax; Secure",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "cf-request-id": "046045ac7300000609ba15e200000001",
+    "vary": "Accept-Encoding"
+  },
+  "url": "https://deno.land/x/axiod/mod.ts"
+}
