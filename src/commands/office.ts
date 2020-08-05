@@ -18,7 +18,7 @@ botCache.commands.set(`office`, {
   // Prevents it from being used in dms
   guildOnly: true,
   execute: function (message) {
-    console.log(new Date(message.timestamp))
+    console.log(new Date(message.timestamp).toDateString());
     addLove(message.author.id, config.officeLove);
     sendEmbed(message.channel, embed(message));
   },
