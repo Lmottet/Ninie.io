@@ -23,11 +23,12 @@ botCache.commands.set(`office`, {
   },
 });
 
+//Ninie#9498
 const embed = (message: Message) =>
   new Embed()
     .setDescription(
-      `<@!Ninie#9498> vient de passer un bon moment !
-      Gain de ${config.officeLove} points de Ninie.io pour un passage sale au bureau`,
+      `<@!Olsi#5962> vient de passer un bon moment !
+      Gain de ${config.officeLove} points de Ninie.io pour un passage sale au bureau !`,
     )
     .addField("Poulain :", `${message.author.username}`)
     .addField(
