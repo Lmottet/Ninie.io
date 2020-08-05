@@ -1,8 +1,9 @@
 import { botCache } from "../../mod.ts";
 import { Embed } from "../utils/Embed.ts";
-import { sendResponse } from "../utils/helpers.ts";
+import { sendEmbed } from "../utils/helpers.ts";
 import { addLove } from "../services/feelsService.ts";
 import { config } from "../../config.ts";
+import { Message } from "../../deps.ts";
 
 botCache.commands.set(`office`, {
   name: `office`,
@@ -17,17 +18,15 @@ botCache.commands.set(`office`, {
   // Prevents it from being used in dms
   guildOnly: true,
   execute: function (message) {
-    console.log("about to add love")
     addLove(message.author.id, config.officeLove);
-    console.log("about to create response message");
-    const embed = new Embed()
-      .setDescription(
-        `A reçu ${config.officeLove} points de Ninie.io pour un passage sale au bureau`,
-      )
-      .addField("Poulain ", `${message.author}`)
-      .addField("Heure ", message.timestamp.toString());
-
-    console.log("about to send response message");
-    sendResponse(message, embed);
+    sendEmbed(message, embed(message));
   },
 });
+
+const embed = (message: Message) =>
+  new Embed()
+    .setDescription(
+      `A reçu ${config.officeLove} points de Ninie.io pour un passage sale au bureau`,
+    )
+    .addField("Poulain ", `${message.author}`)
+    .addField("Heure ", message.timestamp.toString());
