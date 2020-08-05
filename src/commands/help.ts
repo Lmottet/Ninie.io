@@ -1,11 +1,24 @@
-import { botCache } from "../../mod.ts";
 import { sendMessage } from "../../deps.ts";
-import { isUserAdmin } from "../authorizations.ts";
+import { botCache } from "../../mod.ts";
 
 botCache.commands.set("help", {
   name: `help`,
   execute: (message) => {
-    sendMessage(message.channel, "Commands : help, avatar, gm, harem, hate (@user, number), love(@user, number), meow, office, slurp, bureau, score, rio (realm/name), sing");
-    sendMessage(message.channel, "Et en bonus: la commande mystère !");
+    sendMessage(
+      message.channel,
+      "Random commands : avatar, gm, meow, sing",
+    );
+    sendMessage(
+      message.channel,
+      ".io core-related commands : harem, hate (@user, number), love(@user, number), office, slurp, bureau, score",
+    );
+    sendMessage(
+      message.channel,
+      "Commands : help, rio (realm/name),",
+    );
+    sendMessage(
+      message.channel,
+      "Et en bonus: la commande mystère ! Bonne recherche :)",
+    );
   },
 });
