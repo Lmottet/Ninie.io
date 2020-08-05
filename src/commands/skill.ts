@@ -9,7 +9,8 @@ botCache.commands.set("skill", {
     getRaiderIo("Drek'Thar", "Olzimare").then((rioData) =>
       sendEmbed(
         message.channel,
-        embed(message.author.username, rioData),
+        embed(rioData),
+        `<@!${message.author.id}>`,
       )
     );
   },
@@ -22,7 +23,7 @@ async function getRaiderIo(realm: string, name: string) {
   return await res.json();
 }
 
-const embed = (message: Message, rioData: RaiderIoData) => {
+const embed = (rioData: RaiderIoData) => {
   let scores = rioData.mythic_plus_scores_by_season[0].scores;
   return new Embed()
     .addField("Nom :", rioData.name)
