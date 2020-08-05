@@ -18,6 +18,7 @@ botCache.commands.set(`office`, {
   // Prevents it from being used in dms
   guildOnly: true,
   execute: function (message) {
+    console.log(new Date(message.timestamp))
     addLove(message.author.id, config.officeLove);
     sendEmbed(message.channel, embed(message));
   },
@@ -28,5 +29,5 @@ const embed = (message: Message) =>
     .setDescription(
       `A reçu ${config.officeLove} points de Ninie.io pour un passage sale au bureau`,
     )
-    .addField("Poulain ", `${message.author}`)
+    .addField("Poulain ", `@${message.author.id}`)
     .addField("Heure ", message.timestamp.toString());
