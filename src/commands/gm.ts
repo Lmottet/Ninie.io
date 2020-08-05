@@ -1,6 +1,5 @@
-import { botCache } from "../../mod.ts";
 import { sendMessage } from "../../deps.ts";
-import { isUserAdmin } from "../authorizations.ts";
+import { botCache } from "../../mod.ts";
 
 botCache.commands.set("gm", {
   name: `gm`,

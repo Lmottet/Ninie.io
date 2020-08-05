@@ -22,25 +22,6 @@ botCache.commands.set(`invincible`, {
   guildOnly: true,
   botServerPermissions: ["ADMINISTRATOR"],
   userServerPermissions: ["KICK_MEMBERS"],
-  arguments: [
-    {
-      name: "member",
-      type: "member",
-      missing: function (message) {
-        sendResponse(message, `User cannot be found.`);
-      },
-      // By default this is true but for the purpose of the guide so you can see this exists.
-      required: true,
-    },
-    {
-      name: "reason",
-      // The leftover string provided by the user that was not used by previous args.
-      type: "...string",
-      defaultValue: "No reason provided.",
-      // It is silly to lowercase this but for the purpose of the guide you can see that this is also available to you.
-      lowercase: true,
-    },
-  ],
   execute: function (message, args: KickArgs, guild) {
     if (!guild) return;
     // setting up the embed for report/log
