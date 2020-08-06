@@ -19,11 +19,11 @@ export { Message } from "https://raw.githubusercontent.com/Skillz4Killz/Discorde
 export { MessageContent } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts";
 export { Errors } from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/errors.ts";
 export {
-  Embed_Author,
-  Embed_Field,
-  Embed_Footer,
-  Embed_Image,
-} from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts";
+  EmbedAuthor,
+  EmbedField,
+  EmbedFooter,
+  EmbedImage,
+} from "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts";
 export {
   EventHandlers,
   Intents,

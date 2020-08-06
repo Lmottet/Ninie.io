@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "source-age": "0",
+    "access-control-allow-origin": "*",
+    "connection": "keep-alive",
+    "x-cache-hits": "0, 0",
+    "x-fastly-request-id": "8160dc75ca274a8d8d8ed04245cf72e6e6dc90ba",
+    "expires": "Thu, 06 Aug 2020 18:49:07 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "x-xss-protection": "1; mode=block",
+    "x-github-request-id": "B6F4:0775:235C86:293338:5F2C4F77",
+    "cache-control": "max-age=300",
+    "accept-ranges": "bytes",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "date": "Thu, 06 Aug 2020 18:44:07 GMT",
+    "x-timer": "S1596739448.718902,VS0,VE175",
+    "x-cache": "MISS, MISS",
+    "etag": "W/\"ad03a1a9675ff81a3c4c6a8f3255ab4deb3d51e2e19f49f3a004f593e86ef9de\"",
+    "via": "1.1 varnish (Varnish/6.0),1.1 varnish",
+    "x-served-by": "cache-ams21039-AMS",
+    "vary": "Authorization,Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "deny",
+    "strict-transport-security": "max-age=31536000"
+  },
+  "url": "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts"
+}

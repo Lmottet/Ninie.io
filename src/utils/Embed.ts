@@ -1,8 +1,8 @@
 import {
-  Embed_Footer,
-  Embed_Field,
-  Embed_Author,
-  Embed_Image,
+  EmbedFooter,
+  EmbedField,
+  EmbedAuthor,
+  EmbedImage,
 } from "../../deps.ts";
 
 const embedLimits = {
@@ -25,14 +25,14 @@ export class Embed {
   file?: EmbedFile;
 
   color = 0x41ebf4;
-  fields: Embed_Field[] = [];
-  author?: Embed_Author;
+  fields: EmbedField[] = [];
+  author?: EmbedAuthor;
   description?: string;
-  footer?: Embed_Footer;
-  image?: Embed_Image;
+  footer?: EmbedFooter;
+  image?: EmbedImage;
   timestamp?: string;
   title?: string;
-  thumbnail?: Embed_Image;
+  thumbnail?: EmbedImage;
   url?: string;
 
   constructor(enforceLimits = true) {
