@@ -1,8 +1,8 @@
 import {
-  EmbedFooter,
-  EmbedField,
-  EmbedAuthor,
-  EmbedImage,
+  Embed_Footer,
+  Embed_Field,
+  Embed_Author,
+  Embed_Image,
 } from "../../deps.ts";
 
 const embedLimits = {
@@ -25,14 +25,14 @@ export class Embed {
   file?: EmbedFile;
 
   color = 0x41ebf4;
-  fields: EmbedField[] = [];
-  author?: EmbedAuthor;
+  fields: Embed_Field[] = [];
+  author?: Embed_Author;
   description?: string;
-  footer?: EmbedFooter;
-  image?: EmbedImage;
+  footer?: Embed_Footer;
+  image?: Embed_Image;
   timestamp?: string;
   title?: string;
-  thumbnail?: EmbedImage;
+  thumbnail?: Embed_Image;
   url?: string;
 
   constructor(enforceLimits = true) {
@@ -68,12 +68,11 @@ export class Embed {
   }
 
   setColor(color: string) {
-    this.color =
-      color.toLowerCase() === `random`
-        ? // Random color
-          Math.floor(Math.random() * (0xffffff + 1))
-        : // Convert the hex to a acceptable color for discord
-          parseInt(color.replace("#", ""), 16);
+    this.color = color.toLowerCase() === `random`
+      ? // Random color
+        Math.floor(Math.random() * (0xffffff + 1))
+      : // Convert the hex to a acceptable color for discord
+        parseInt(color.replace("#", ""), 16);
 
     return this;
   }
