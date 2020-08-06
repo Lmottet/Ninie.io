@@ -1,7 +1,5 @@
-import { config } from "../../config.ts";
-import { Message, sendMessage } from "../../deps.ts";
+import { sendMessage } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
-import { getLove } from "../services/feelsService.ts";
 import { Embed } from "../utils/Embed.ts";
 import { sendEmbed } from "../utils/helpers.ts";
 
@@ -21,22 +19,22 @@ botCache.commands.set("help", {
 const randoms = () =>
   new Embed()
     .setDescription(`Des commandes au pif`)
-    .addField("avatar", "")
-    .addField("gm", ``)
-    .addField("meow", "")
-    .addField("sing", "");
+    .addField("avatar", "no args")
+    .addField("gm", `no args`)
+    .addField("meow", "no args")
+    .addField("sing", "no args");
 
 const io = () =>
   new Embed()
     .setDescription(`Des commandes lier au score de Ninie.io`)
-    .addField("harem", "")
-    .addField("hate (@user, number)", ``)
-    .addField("love(@user, number)", "")
+    .addField("harem", "no args")
+    .addField("hate", `args: @user number`)
+    .addField("love", "args: @user, number")
     .addField("office", "alias slurp, bureau")
-    .addField("score", "");
+    .addField("score", "no args");
 
 const useful = () =>
   new Embed()
     .setDescription(`Des commandes au pif`)
-    .addField("help", "")
-    .addField("rio(realm / name);", ``);
+    .addField("help", "no args")
+    .addField("rio", `args: realm/name`);
