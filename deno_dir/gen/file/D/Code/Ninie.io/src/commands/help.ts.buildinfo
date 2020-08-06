@@ -496,8 +496,8 @@
         "signature": "-47002258702",
         "affectsGlobalScope": true
       },
-      "file:///D:/Code/Ninie.io/src/events/ready.ts": {
-        "version": "dd8ab79befc81c9847fd8ed06cc1f9316e8a1ba60ce18bd633b4eb911a95df25",
+      "file:///D:/Code/Ninie.io/src/commands/help.ts": {
+        "version": "ef3a79e78c0937da0833e7a2c57c347fed04c6519e6c483d6c1b216df6654569",
         "signature": "-3531856636",
         "affectsGlobalScope": false
       }
@@ -544,7 +544,7 @@
         "file:///D:/Code/Ninie.io/src/repository.ts",
         "file:///D:/Code/Ninie.io/src/types/commands.ts"
       ],
-      "file:///D:/Code/Ninie.io/src/events/ready.ts": [
+      "file:///D:/Code/Ninie.io/src/commands/help.ts": [
         "file:///D:/Code/Ninie.io/deps.ts",
         "file:///D:/Code/Ninie.io/mod.ts"
       ],
@@ -1054,7 +1054,7 @@
       "asset:///lib.esnext.string.d.ts",
       "file:///D:/Code/Ninie.io/deps.ts",
       "file:///D:/Code/Ninie.io/mod.ts",
-      "file:///D:/Code/Ninie.io/src/events/ready.ts",
+      "file:///D:/Code/Ninie.io/src/commands/help.ts",
       "file:///D:/Code/Ninie.io/src/repository.ts",
       "file:///D:/Code/Ninie.io/src/types/commands.ts",
       "https://deno.land/std@0.61.0/_util/assert.ts",

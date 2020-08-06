@@ -492,7 +492,7 @@
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/mod.ts": {
-        "version": "47b355619524e9f6bd96450ec584707d5a944ffce2e59759c11322e9f2b23e80",
+        "version": "0f00ab3e44235bf5572178102ea9e4010e9bff71d132d83817079ea2346343d2",
         "signature": "-47002258702",
         "affectsGlobalScope": true
       },
@@ -507,7 +507,7 @@
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/src/commands/rio.ts": {
-        "version": "606519f6182ee824f06e82fc0ec597d114394db84144b7669efa5e52473bfc70",
+        "version": "e760cbdd4cdd7fb2c8b29ad40b44cd60038f3c344dcaec832e985fbce98ee6b5",
         "signature": "-3531856636",
         "affectsGlobalScope": false
       }
