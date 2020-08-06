@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "x-frame-options": "deny",
+    "content-type": "text/plain; charset=utf-8",
+    "x-github-request-id": "E9CC:7D38:7A5E1:92A93:5F2C38FB",
+    "via": "1.1 varnish (Varnish/6.0),1.1 varnish",
+    "accept-ranges": "bytes",
+    "x-content-type-options": "nosniff",
+    "date": "Thu, 06 Aug 2020 17:08:14 GMT",
+    "cache-control": "max-age=300",
+    "x-served-by": "cache-ams21039-AMS",
+    "access-control-allow-origin": "*",
+    "etag": "W/\"484482a4410997581fe86a2b006a2109cc2cd439762f50eaf360cf39a47c869e\"",
+    "strict-transport-security": "max-age=31536000",
+    "expires": "Thu, 06 Aug 2020 17:13:14 GMT",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "x-xss-protection": "1; mode=block",
+    "x-cache-hits": "0, 0",
+    "x-cache": "MISS, MISS",
+    "x-fastly-request-id": "751b8e85834a58c802e205077e572ef7ce6755be",
+    "x-timer": "S1596733695.696857,VS0,VE169",
+    "vary": "Authorization,Accept-Encoding",
+    "connection": "keep-alive",
+    "source-age": "0"
+  },
+  "url": "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts"
+}

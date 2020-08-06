@@ -1,0 +1,32 @@
+export var Message_Types;
+(function (Message_Types) {
+    Message_Types[Message_Types["DEFAULT"] = 0] = "DEFAULT";
+    Message_Types[Message_Types["RECIPIENT_ADD"] = 1] = "RECIPIENT_ADD";
+    Message_Types[Message_Types["RECIPIENT_REMOVE"] = 2] = "RECIPIENT_REMOVE";
+    Message_Types[Message_Types["CALL"] = 3] = "CALL";
+    Message_Types[Message_Types["CHANNEL_NAME_CHANGE"] = 4] = "CHANNEL_NAME_CHANGE";
+    Message_Types[Message_Types["CHANNEL_ICON_CHANGE"] = 5] = "CHANNEL_ICON_CHANGE";
+    Message_Types[Message_Types["CHANNEL_PINNED_MESSAGE"] = 6] = "CHANNEL_PINNED_MESSAGE";
+    Message_Types[Message_Types["GUILD_MEMBER_JOIN"] = 7] = "GUILD_MEMBER_JOIN";
+    Message_Types[Message_Types["USER_PREMIUM_GUILD_SUBSCRIPTION"] = 8] = "USER_PREMIUM_GUILD_SUBSCRIPTION";
+    Message_Types[Message_Types["USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_1"] = 9] = "USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_1";
+    Message_Types[Message_Types["USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_2"] = 10] = "USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_2";
+    Message_Types[Message_Types["USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_3"] = 11] = "USER_PREMIUM_GUILD_SUBSCRIPTION_TIER_3";
+    Message_Types[Message_Types["CHANNEL_FOLLOW_ADD"] = 12] = "CHANNEL_FOLLOW_ADD";
+})(Message_Types || (Message_Types = {}));
+export var Activity_Types;
+(function (Activity_Types) {
+    Activity_Types[Activity_Types["JOIN"] = 1] = "JOIN";
+    Activity_Types[Activity_Types["SPECTATE"] = 2] = "SPECTATE";
+    Activity_Types[Activity_Types["LISTEN"] = 3] = "LISTEN";
+    Activity_Types[Activity_Types["JOIN_REQUEST"] = 5] = "JOIN_REQUEST";
+})(Activity_Types || (Activity_Types = {}));
+export var Message_Flags;
+(function (Message_Flags) {
+    Message_Flags[Message_Flags["CROSSPOSTED"] = 1] = "CROSSPOSTED";
+    Message_Flags[Message_Flags["IS_CROSSPOST"] = 2] = "IS_CROSSPOST";
+    Message_Flags[Message_Flags["SUPPRESS_EMBEDS"] = 4] = "SUPPRESS_EMBEDS";
+    Message_Flags[Message_Flags["SOURCE_MESSAGE_DELETED"] = 8] = "SOURCE_MESSAGE_DELETED";
+    Message_Flags[Message_Flags["URGENT"] = 16] = "URGENT";
+})(Message_Flags || (Message_Flags = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWVzc2FnZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm1lc3NhZ2UudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNklBLE1BQU0sQ0FBTixJQUFZLGFBY1g7QUFkRCxXQUFZLGFBQWE7SUFDdkIsdURBQU8sQ0FBQTtJQUNQLG1FQUFhLENBQUE7SUFDYix5RUFBZ0IsQ0FBQTtJQUNoQixpREFBSSxDQUFBO0lBQ0osK0VBQW1CLENBQUE7SUFDbkIsK0VBQW1CLENBQUE7SUFDbkIscUZBQXNCLENBQUE7SUFDdEIsMkVBQWlCLENBQUE7SUFDakIsdUdBQStCLENBQUE7SUFDL0IscUhBQXNDLENBQUE7SUFDdEMsc0hBQXNDLENBQUE7SUFDdEMsc0hBQXNDLENBQUE7SUFDdEMsOEVBQWtCLENBQUE7QUFDcEIsQ0FBQyxFQWRXLGFBQWEsS0FBYixhQUFhLFFBY3hCO0FBRUQsTUFBTSxDQUFOLElBQVksY0FLWDtBQUxELFdBQVksY0FBYztJQUN4QixtREFBUSxDQUFBO0lBQ1IsMkRBQVEsQ0FBQTtJQUNSLHVEQUFNLENBQUE7SUFDTixtRUFBZ0IsQ0FBQTtBQUNsQixDQUFDLEVBTFcsY0FBYyxLQUFkLGNBQWMsUUFLekI7QUErQkQsTUFBTSxDQUFOLElBQVksYUFNWDtBQU5ELFdBQVksYUFBYTtJQUN2QiwrREFBb0IsQ0FBQTtJQUNwQixpRUFBcUIsQ0FBQTtJQUNyQix1RUFBd0IsQ0FBQTtJQUN4QixxRkFBK0IsQ0FBQTtJQUMvQixzREFBZSxDQUFBO0FBQ2pCLENBQUMsRUFOVyxhQUFhLEtBQWIsYUFBYSxRQU14QiJ9
