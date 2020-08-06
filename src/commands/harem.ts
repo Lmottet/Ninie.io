@@ -6,6 +6,7 @@ import { CommandArgument } from "../types/commands.ts";
 import { isAdmin } from "../authorizations.ts";
 import { anyInsult } from "../utils/insults.ts";
 
+// IN PROGRESS
 botCache.commands.set("harem", {
   name: `harem`,
   description: "Show the loveliest",
