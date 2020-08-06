@@ -19,22 +19,17 @@ botCache.commands.set("help", {
 const randoms = () =>
   new Embed()
     .setDescription(`Des commandes au pif`)
-    .addField("avatar", "no args")
-    .addField("gm", `no args`)
-    .addField("meow", "no args")
-    .addField("sing", "no args");
+    .addField("avatar, gm, meow, sing", "no args");
 
 const io = () =>
   new Embed()
     .setDescription(`Des commandes lier au score de Ninie.io`)
-    .addField("harem", "no args")
-    .addField("hate", `args: @user number`)
-    .addField("love", "args: @user, number")
-    .addField("office", "alias slurp, bureau")
-    .addField("score", "no args");
+    .addField("harem, score", "no args")
+    .addField("hate, love", `args: @user number`)
+    .addField("office", "alias slurp, bureau");
 
 const useful = () =>
   new Embed()
-    .setDescription(`Des commandes au pif`)
+    .setDescription(`Des commandes utiles`)
     .addField("help", "no args")
     .addField("rio", `args: realm/name`);
