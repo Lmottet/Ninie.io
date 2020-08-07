@@ -23,7 +23,7 @@ const randoms = () =>
 
 const io = () =>
   new Embed()
-    .setDescription(`Des commandes lier au score de Ninie.io`)
+    .setDescription(`Des commandes liées au score de Ninie.io`)
     .addField("harem, score", "no args")
     .addField("hate, love", `args: @user number`)
     .addField("office", "alias slurp, bureau");
