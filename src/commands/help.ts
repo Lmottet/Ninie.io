@@ -26,7 +26,7 @@ const io = () =>
     .setDescription(`Des commandes liées au score de Ninie.io`)
     .addField("harem, score", "no args")
     .addField("hate, love", `args: @user number`)
-    .addField("office", "alias slurp, bureau");
+    .addField("office", "alias: slurp, bureau");
 
 const useful = () =>
   new Embed()
