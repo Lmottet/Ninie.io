@@ -32,7 +32,11 @@ const classCommand = (
 classCommand("priest", "Lincce", "help me find 'em");
 createCommandAliases("priest", ["prêtre", "pretre"]);
 
-classCommand("monk", "Fupô", "Andybrew");
+classCommand(
+  "monk",
+  "Fupô",
+  "Tank - Andybrew : https://www.twitch.tv/andybrew3",
+);
 createCommandAliases("monk", ["moine"]);
 
 classCommand("warlock", "Occitia, Olsimar", "help me find 'em");
@@ -41,14 +45,28 @@ createCommandAliases("warlock", ["lock", "démo", "démoniste"]);
 classCommand("paladin", "Iraldin", "help me find 'em");
 createCommandAliases("paladin", ["palarpette", "carpette", "pala"]);
 
-classCommand("hunter", "Zeki (Ghorim), Kerby", "BM - Gingi : https://www.twitch.tv/gingitv");
+classCommand(
+  "hunter",
+  "Zeki (Ghorim), Kerby",
+  "BM - Gingi : https://www.twitch.tv/gingitv",
+);
+createCommandAliases("hunter", ["hunter", "hunt", "chasseur", "chassou"]);
+
+classCommand(
+  "war",
+  "Kerby (Willow)",
+  "Tank - Andybrew https://www.twitch.tv/andybrew3",
+);
 createCommandAliases("hunter", ["hunter", "hunt", "chasseur", "chassou"]);
 
 classCommand("shaman", "Ñil, Erienne (Olzimare)", "help me find 'em");
 createCommandAliases("shaman", ["sham", "chaman", "chamy"]);
 
 classCommand("dh", "tbd", "help me find 'em");
-createCommandAliases("dh", ["chasseur-de-démon", "demon-hunter","chasseur-de-demon"]);
+createCommandAliases(
+  "dh",
+  ["chasseur-de-démon", "demon-hunter", "chasseur-de-demon"],
+);
 
 classCommand("dk", "tbd", "help me find 'em");
 createCommandAliases("dk", ["chevalier-de-la-mort", "deathknight"]);
