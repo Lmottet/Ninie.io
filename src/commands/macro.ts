@@ -8,7 +8,7 @@ const druidResponse = () => {
     .addField(
       "Macro type en heal :",
       `#showtooltip 
-       / use[@mouseover, help, nodead][help, nodead][@player]Fleur de vie",
+       / use[@mouseover, help, nodead][help, nodead][@player]Fleur de vie,
     `,
     ).addField(
       "Macro type en dps :",
