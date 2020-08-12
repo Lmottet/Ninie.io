@@ -48,7 +48,7 @@ classCommand("shaman", "Ñil, Erienne (Olzimare)", "help me find 'em");
 createCommandAliases("shaman", ["sham", "chaman", "chamy"]);
 
 classCommand("dh", "tbd", "help me find 'em");
-createCommandAliases("dh", ["chasseur-de-démon", "demon-hunter"]);
+createCommandAliases("dh", ["chasseur-de-démon", "demon-hunter","chasseur-de-demon"]);
 
 classCommand("dk", "tbd", "help me find 'em");
 createCommandAliases("dk", ["chevalier-de-la-mort", "deathknight"]);

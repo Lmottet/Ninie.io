@@ -13,7 +13,7 @@ botCache.commands.set("love", {
       name: "member",
       type: "member",
       missing: function (message) {
-        sendResponse(message, `User cannot be found.`);
+        sendResponse(message, `Utilisateur non reconnu`);
       },
       // By default this is true but for the purpose of the guide so you can see this exists.
       required: true,
@@ -22,7 +22,7 @@ botCache.commands.set("love", {
       name: "loveLevel",
       type: "number",
       missing: function (message) {
-        sendResponse(message, `Should be a number`);
+        sendResponse(message, `Nombre non reconnu`);
       },
       // By default this is true but for the purpose of the guide so you can see this exists.
       required: true,

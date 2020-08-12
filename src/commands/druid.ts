@@ -9,6 +9,9 @@ const druidResponse = () => {
     .addField(
       "Streamers : ",
       "Sapin - Nyruus: https://www.twitch.tv/nyruusqt, Ours - Tomoboar : https://www.twitch.tv/dorkibear, Poulet - Krona: https://www.twitch.tv/kronawow",
+    ).addField(
+      "Weak-auras utiles ",
+      "https://docs.google.com/document/d/1YUSqXAeTA9TOFMJBcyO-exg1BGf0L0zT8HNO1sVZxcs/edit",
     );
 };
 

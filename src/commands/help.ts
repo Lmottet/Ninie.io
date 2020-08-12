@@ -31,5 +31,5 @@ const io = () =>
 const useful = () =>
   new Embed()
     .setDescription(`Des commandes utiles`)
-    .addField("help, druid, priest, monk, paladin, war, hunter, mage, warlock", "no args - alias en français & diminutifs courant (druide, démo etc.)")
+    .addField("help, druid, priest, monk, paladin, war, hunter, mage, warlock, rogue, dk, dh", "no args - alias en français & diminutifs courant (druide, démo etc.)")
     .addField("rio", `args: realm/name`);
