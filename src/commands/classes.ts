@@ -33,7 +33,7 @@ classCommand("priest", "Lincce", "");
 createCommandAliases("priest", ["prêtre", "pretre"]);
 
 classCommand("monk", "Fupô", "Andybrew");
-createCommandAliases("monk", ["moine", "slurp"]);
+createCommandAliases("monk", ["moine"]);
 
 classCommand("warlock", "Occitia, Olsimar", "");
 createCommandAliases("warlock", ["lock", "démo", "démoniste"]);
@@ -45,4 +45,4 @@ classCommand("hunter", "Zeki (Ghorim), Kerby", "");
 createCommandAliases("hunter", ["hunter", "hunt", "chasseur", "chassou"]);
 
 classCommand("shaman", "Ñil, Erienne (Olzimare)", "");
-createCommandAliases("hunter", ["hunter", "hunt", "chasseur", "chassou"]);
+createCommandAliases("shaman", ["sham", "chaman", "chamy"]);
