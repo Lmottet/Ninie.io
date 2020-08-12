@@ -16,4 +16,4 @@ botCache.commands.set("corruptions", {
   },
 });
 
-createCommandAliases("corruptions", ["corru"]);
+createCommandAliases("corruption", ["corru", "corruptions"]);

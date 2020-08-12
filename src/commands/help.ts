@@ -32,7 +32,7 @@ const useful = () =>
   new Embed()
     .setDescription(`Des commandes utiles`)
     .addField("rio", `args: realm/name`)
-    .addField("help, corruptions, macro", "no args")
+    .addField("help, corruption, macro", "no args")
     .addField(
       "druid, priest, monk, paladin, war, hunter, mage, warlock, rogue, dk, dh",
       "no args - alias en français & diminutifs courant (druide, démo etc.)",
