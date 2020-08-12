@@ -6,10 +6,10 @@ const druidResponse = () => {
   return new Embed()
     .setDescription("Class recommandations")
     .addField("Guild player(s) that might help : ", "Olzimare")
-    .addField("Popular streamers : ", "Naeniaqt, Tomoboar, Krona";);
+    .addField("Popular streamers : ", "Naeniaqt, Tomoboar, Krona");
 };
 
-botCache.commands.set('druid', {
+botCache.commands.set("druid", {
   name: "druid",
   execute: (message) => {
     sendEmbed(
