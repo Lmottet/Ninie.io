@@ -42,7 +42,7 @@ async function api(message: Message, realm: string, character: string) {
   } catch (err) {
     sendResponse(
       message,
-      "Retrieval from raider.io failed. Check the syntax of your command ?",
+      "Echec de la récupération des données sur raider.io. Vérifiez la syntax de votre commande ?",
     );
   }
 }

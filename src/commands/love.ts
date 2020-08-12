@@ -38,7 +38,9 @@ botCache.commands.set("love", {
       addLove(args.member.user.id, args.loveLevel);
       sendResponse(
         message,
-        `Love was ${ beforeLove } and is now ${getLove(args.member.user.id)} for <@!${args.member.user.id}>`,
+        `Le Ninie.io de <@!${args.member.user.id}> est passé de ${beforeLove} à ${
+          getLove(args.member.user.id)
+        }`,
       );
     }
   },

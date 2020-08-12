@@ -7,9 +7,9 @@ const classResponse = (
   streamers: string,
 ) => {
   return new Embed()
-    .setDescription("Class recommandations")
-    .addField("Guild player(s) that might help : ", guildPlayer)
-    .addField("Popular streamers : ", streamers);
+    .setDescription("Recommandations de classe")
+    .addField("Joueurs de la guilde à contacter: ", guildPlayer)
+    .addField("Streamers : ", streamers);
 };
 
 const classCommand = (
@@ -46,3 +46,12 @@ createCommandAliases("hunter", ["hunter", "hunt", "chasseur", "chassou"]);
 
 classCommand("shaman", "Ñil, Erienne (Olzimare)", "help me find 'em");
 createCommandAliases("shaman", ["sham", "chaman", "chamy"]);
+
+classCommand("dh", "tbd", "help me find 'em");
+createCommandAliases("dh", ["chasseur-de-démon", "demon-hunter"]);
+
+classCommand("dk", "tbd", "help me find 'em");
+createCommandAliases("dk", ["chevalier-de-la-mort", "deathknight"]);
+
+classCommand("rogue", "tbd", "help me find 'em");
+createCommandAliases("rogue", ["voleur", "fufu"]);

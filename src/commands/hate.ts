@@ -13,7 +13,7 @@ botCache.commands.set("hate", {
       name: "member",
       type: "member",
       missing: function (message) {
-        sendResponse(message, `User cannot be found.`);
+        sendResponse(message, `Utilisateur non reconnu`);
       },
       // By default this is true but for the purpose of the guide so you can see this exists.
       required: true,
@@ -22,7 +22,7 @@ botCache.commands.set("hate", {
       name: "hateLevel",
       type: "number",
       missing: function (message) {
-        sendResponse(message, `Should be a number`);
+        sendResponse(message, `Nombre non reconnu`);
       },
       // By default this is true but for the purpose of the guide so you can see this exists.
       required: true,
@@ -33,14 +33,13 @@ botCache.commands.set("hate", {
     if (!isUserAdmin(message.author.username, message.author.discriminator)) {
       sendResponse(message, anyInsult());
     } else {
-      console.log("args : " + JSON.stringify(args));
       let beforeHate = getLove(args.member.user.id);
       removeLove(args.member.user.id, args.hateLevel);
       sendResponse(
         message,
-        `Aouch ! Love was ${beforeHate} and is now down to : ${
+        `Aouch ! Le Ninie.io de <@!${args.member.user.id}> est passé de ${beforeHate} à : ${
           getLove(args.member.user.id)
-        } for <@!${args.member.user.id}>`,
+        }`,
       );
     }
   },

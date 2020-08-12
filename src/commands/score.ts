@@ -8,7 +8,7 @@ botCache.commands.set("score", {
   execute: (message) =>
     sendResponse(
       message,
-      "Your Ninie.io score is : " +
+      "Ninie.io score : " +
         getLove(message.author.id),
     ),
 });

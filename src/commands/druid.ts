@@ -4,9 +4,12 @@ import { createCommandAliases, sendEmbed } from "../utils/helpers.ts";
 
 const druidResponse = () => {
   return new Embed()
-    .setDescription("Class recommandations")
-    .addField("Guild player(s) that might help : ", "Olzimare")
-    .addField("Popular streamers : ", "Naeniaqt, Tomoboar, Krona");
+    .setDescription("Recommandations de classe")
+    .addField("Joueurs de la guilde à contacter: ", "Olzimare")
+    .addField(
+      "Streamers : ",
+      "Sapin - Nyruus: https://www.twitch.tv/nyruusqt, Ours - Tomoboar : https://www.twitch.tv/dorkibear, Poulet - Krona: https://www.twitch.tv/kronawow",
+    );
 };
 
 botCache.commands.set("druid", {
