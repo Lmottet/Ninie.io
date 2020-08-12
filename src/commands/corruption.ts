@@ -2,8 +2,8 @@ import { sendMessage } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
 import { createCommandAliases } from "../utils/helpers.ts";
 
-botCache.commands.set("corruptions", {
-  name: `corruptions`,
+botCache.commands.set("corruption", {
+  name: `corruption`,
   execute: (message) => {
     sendMessage(
       message.channel,
