@@ -1,5 +1,6 @@
 import { sendMessage } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
+import { createCommandAliases } from "../utils/helpers.ts";
 
 botCache.commands.set("corruptions", {
   name: `corruptions`,
@@ -15,4 +16,4 @@ botCache.commands.set("corruptions", {
   },
 });
 
-createCommandAliases("rogue", ["voleur", "fufu"]);
+createCommandAliases("corruptions", ["corru"]);
