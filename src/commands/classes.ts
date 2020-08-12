@@ -43,7 +43,7 @@ classCommand("warlock", "Occitia, Olsimar", "help me find 'em");
 createCommandAliases("warlock", ["lock", "démo", "démoniste"]);
 
 classCommand("paladin", "Iraldin", "help me find 'em");
-createCommandAliases("paladin", ["palarpette", "carpette", "pala"]);
+createCommandAliases("paladin", ["palarpette", "carpette", "pala", "palouf"]);
 
 classCommand(
   "hunter",
