@@ -12,7 +12,9 @@ const druidResponse = () => {
     )
     .addField(
       "Macro type :",
-      "HealerStatsWeight",
+      `#showtooltip 
+       / use[@mouseover, help, nodead][help, nodead][@player]Fleur de vie",
+    `,
     )
     .addField(
       "Addons utiles :",

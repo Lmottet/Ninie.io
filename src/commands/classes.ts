@@ -57,7 +57,7 @@ classCommand(
   "Kerby (Willow)",
   "Tank - Andybrew https://www.twitch.tv/andybrew3",
 );
-createCommandAliases("hunter", ["hunter", "hunt", "chasseur", "chassou"]);
+createCommandAliases("war", ["guerrier"]);
 
 classCommand("shaman", "Ñil, Erienne (Olzimare)", "help me find 'em");
 createCommandAliases("shaman", ["sham", "chaman", "chamy"]);
