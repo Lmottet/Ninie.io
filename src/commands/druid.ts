@@ -11,12 +11,6 @@ const druidResponse = () => {
       "Sapin - Nyruus: https://www.twitch.tv/nyruusqt, Ours - Tomoboar : https://www.twitch.tv/dorkibear, Poulet - Krona: https://www.twitch.tv/kronawow",
     )
     .addField(
-      "Macro type :",
-      `#showtooltip 
-       / use[@mouseover, help, nodead][help, nodead][@player]Fleur de vie",
-    `,
-    )
-    .addField(
       "Addons utiles :",
       "HealerStatsWeight",
     ).addField(
