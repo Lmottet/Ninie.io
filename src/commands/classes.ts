@@ -29,20 +29,20 @@ const classCommand = (
   });
 };
 
-classCommand("priest", "Lincce", "");
+classCommand("priest", "Lincce", "help me find 'em");
 createCommandAliases("priest", ["prêtre", "pretre"]);
 
 classCommand("monk", "Fupô", "Andybrew");
 createCommandAliases("monk", ["moine"]);
 
-classCommand("warlock", "Occitia, Olsimar", "");
+classCommand("warlock", "Occitia, Olsimar", "help me find 'em");
 createCommandAliases("warlock", ["lock", "démo", "démoniste"]);
 
-classCommand("paladin", "Iraldin", "");
+classCommand("paladin", "Iraldin", "help me find 'em");
 createCommandAliases("paladin", ["palarpette", "carpette", "pala"]);
 
-classCommand("hunter", "Zeki (Ghorim), Kerby", "");
+classCommand("hunter", "Zeki (Ghorim), Kerby", "help me find 'em");
 createCommandAliases("hunter", ["hunter", "hunt", "chasseur", "chassou"]);
 
-classCommand("shaman", "Ñil, Erienne (Olzimare)", "");
+classCommand("shaman", "Ñil, Erienne (Olzimare)", "help me find 'em");
 createCommandAliases("shaman", ["sham", "chaman", "chamy"]);
