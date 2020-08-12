@@ -41,7 +41,7 @@ createCommandAliases("warlock", ["lock", "démo", "démoniste"]);
 classCommand("paladin", "Iraldin", "help me find 'em");
 createCommandAliases("paladin", ["palarpette", "carpette", "pala"]);
 
-classCommand("hunter", "Zeki (Ghorim), Kerby", "help me find 'em");
+classCommand("hunter", "Zeki (Ghorim), Kerby", "BM - Gingi : https://www.twitch.tv/gingitv");
 createCommandAliases("hunter", ["hunter", "hunt", "chasseur", "chassou"]);
 
 classCommand("shaman", "Ñil, Erienne (Olzimare)", "help me find 'em");
