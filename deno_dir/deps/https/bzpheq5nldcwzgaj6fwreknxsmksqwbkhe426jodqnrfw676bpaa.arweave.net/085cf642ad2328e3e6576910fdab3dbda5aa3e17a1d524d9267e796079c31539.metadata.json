@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "access-control-allow-headers": "Content-Type",
+    "x-trace": "fQJooDwFfR",
+    "access-control-allow-methods": "GET",
+    "content-length": "1621",
+    "date": "Mon, 17 Aug 2020 08:53:06 GMT",
+    "etag": "Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A",
+    "content-type": "video/mp2t",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts"
+}
