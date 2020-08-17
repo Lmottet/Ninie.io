@@ -8,7 +8,9 @@ const druidResponse = () => {
     .addField("Joueurs de la guilde à contacter: ", "Olzimare")
     .addField(
       "Streamers : ",
-      "Sapin - Nyruus: https://www.twitch.tv/nyruusqt, Ours - Tomoboar : https://www.twitch.tv/dorkibear, Poulet - Krona: https://www.twitch.tv/kronawow",
+      `Sapin - Nyruus: https://www.twitch.tv/nyruusqt
+      Ours - Tomoboar : https://www.twitch.tv/dorkibear
+      Poulet - Krona: https://www.twitch.tv/kronawow`,
     )
     .addField(
       "Addons utiles :",
