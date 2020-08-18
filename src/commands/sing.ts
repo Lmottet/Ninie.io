@@ -24,6 +24,11 @@ const songs = [
     "Est allé se mettre sur un oranger :musical_note:",
     "Sur un o... A la volette Sur un oranger.  :musical_note:",
   ],
+  [
+    `Et ça fait bim-bam-boum, ça fait -pschhht!- et ça fait "vroum" :musical_note:`,
+    "Ça fait bim-bam-boum, dans ma tête y a tout qui tourne :musical_note:",
+    `Ça fait "chut!" et puis "blabla!", ça fait, comme ci-comme ça :musical_note:`,
+  ],
 ];
 
 const sing = (channel: Channel, song: number) => {
