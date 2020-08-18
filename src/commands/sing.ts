@@ -16,7 +16,7 @@ const songs = [
     "Belle qui tiens ma vie :musical_note:",
     "Captive dans tes yeux :musical_note:",
     "Qui m'as l'âme ravie :musical_note:",
-    "D'un souris gracieux :musical_note:",
+    "D'un sourire gracieux :musical_note:",
   ],
   [
     "Mon petit oiseau a pris sa volée :musical_note:",
