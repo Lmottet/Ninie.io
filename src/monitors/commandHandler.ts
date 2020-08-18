@@ -2,10 +2,16 @@ import { Message, logger, Guild, cache } from "../../deps.ts";
 import { config } from "../../config.ts";
 import { botCache } from "../../mod.ts";
 import { handleError } from "../utils/errors.ts";
+import { sendMessage } from "../../deps.ts";
 import { Command } from "../types/commands.ts";
 export const commandHandler = async (message: Message) => {
   // If the message was sent by a bot we can just ignore it
   if (message.author.bot) return;
+
+  let said = message.content.search("(dis)");
+  if (typeof said != "undefined" && said >= 0) {
+    sendMessage(message.channel, message.content.slice(said + 3).trim());
+  }
 
   const prefix = parsePrefix(message.guildID);
   // If the message is not using the valid prefix cancel the command
@@ -26,8 +32,8 @@ export const commandHandler = async (message: Message) => {
   // Parsed args and validated
   const args = (await parseArguments(message, command, parameters)) as
     | {
-        [key: string]: any;
-      }
+      [key: string]: any;
+    }
     | false;
   // Some arg that was required was missing and handled already
   if (!args) return;
@@ -84,10 +90,10 @@ export const logCommand = (
   message: Message,
   guildName: string,
   type: string,
-  commandName: string
+  commandName: string,
 ) => {
   logger.success(
-    `[COMMAND:${commandName} - ${type}] by ${message.author.username}#${message.author.discriminator} in ${guildName}`
+    `[COMMAND:${commandName} - ${type}] by ${message.author.username}#${message.author.discriminator} in ${guildName}`,
   );
 };
 
@@ -95,7 +101,7 @@ export const logCommand = (
 async function parseArguments(
   message: Message,
   command: Command,
-  parameters: string[]
+  parameters: string[],
 ) {
   const args: { [key: string]: unknown } = {};
   if (!command.arguments) return args;
@@ -113,9 +119,7 @@ async function parseArguments(
       const valid =
         // If the argument required literals and some string was provided by user
         argument.literals?.length && text
-          ? argument.literals.includes(text.toLowerCase())
-            ? text
-            : undefined
+          ? argument.literals.includes(text.toLowerCase()) ? text : undefined
           : undefined;
 
       if (valid) {
@@ -180,12 +184,12 @@ function parseSubcommand(command: Command, name: string) {
 async function commandAllowed(
   message: Message,
   command: Command,
-  guild?: Guild
+  guild?: Guild,
 ) {
   const inhibitor_results = await Promise.all(
     [...botCache.inhibitors.values()].map((inhibitor) =>
       inhibitor(message, command, guild)
-    )
+    ),
   );
 
   if (inhibitor_results.includes(true)) {

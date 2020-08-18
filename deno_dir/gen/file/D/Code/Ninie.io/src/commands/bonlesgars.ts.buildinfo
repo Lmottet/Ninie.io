@@ -211,8 +211,13 @@
         "signature": "1",
         "affectsGlobalScope": true
       },
+      "asset:///lib.deno.web.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
       "file:///D:/Code/Ninie.io/src/commands/bonlesgars.ts": {
-        "version": "1ec4fab0d8dd5eafef82e67f61a35c03ee994988a5293e17cf3d3e97c3511847",
+        "version": "59296d23d623ce0adf7675d22156e83b1248c8508135a65dd8a9e38c497e94a8",
         "signature": "5381",
         "affectsGlobalScope": false
       }
@@ -240,6 +245,7 @@
     "semanticDiagnosticsPerFile": [
       "asset:///lib.deno.ns.d.ts",
       "asset:///lib.deno.shared_globals.d.ts",
+      "asset:///lib.deno.web.d.ts",
       "asset:///lib.deno.window.d.ts",
       "asset:///lib.es2015.collection.d.ts",
       "asset:///lib.es2015.core.d.ts",
@@ -283,5 +289,5 @@
       "file:///D:/Code/Ninie.io/src/commands/bonlesgars.ts"
     ]
   },
-  "version": "3.9.2"
+  "version": "3.9.7"
 }

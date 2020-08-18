@@ -211,458 +211,323 @@
         "signature": "1",
         "affectsGlobalScope": true
       },
+      "asset:///lib.deno.web.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
       "file:///D:/Code/Ninie.io/config.ts": {
-        "version": "a1ee0dc6f6f2f32056c6d2772d969e9175a563f54aabdb04e27261216fe90955",
+        "version": "24bde13b3375585341fd0f4c87e4d64f7727c010ee0760cd700ed3741636a187",
         "signature": "-17097816310",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts": {
-        "version": "58c5af995ac2d7b25cad1ce942efebc3addf70e9c1cd0faf79cd93be5fb1b07b",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/constants/discord.ts": {
+        "version": "1055d508027ee923f6c8bb6cc0b67cbedb577e2d12d0d93a8abbd1a533a52530",
+        "signature": "-63773781727",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts": {
+        "version": "cbd9778729a8daa8c0e5706db20f62fa1173ad42cd2de55df64c542f35b97164",
         "signature": "18889817053",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts": {
-        "version": "7164d386ab4db1c9ca0dad774b012c5beea6113744a2135693992a4f091f50f3",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/role.ts": {
+        "version": "0727e9c3c4427f582c65a4bcdbfaf201ac026d4120234a4120973ec2f2d7aff6",
+        "signature": "28037264012",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts": {
+        "version": "824f4a9f8f3f1f2a754c85c8454dd579588e12c7ccf6632cf0e9d7e01a90f6b5",
         "signature": "-20445872180",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts": {
-        "version": "76ba1af7a82a09f216249d29c969bb8db868e6eea4460d14d01e52b543b23cb5",
-        "signature": "81063701492",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/presence.ts": {
+        "version": "df0db8c5024247f55c24047a591e2143cce3ce60411d7b02589e674c8c5c84af",
+        "signature": "-1922840035",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/presence.ts": {
-        "version": "8c29c1d674939da11337d4402dc0b58de97cd2c5dc03dbf4c26254c582959dd1",
-        "signature": "-17873789361",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts": {
+        "version": "c3baedffc45aa6a88739f0922235bccf3338c64b45ed93d01c2c303911815dc4",
+        "signature": "3987142324",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts": {
-        "version": "7eee31c92be8230a92b137a200db59eefb0b6499cd5afa3a8fd1eec1581c2f43",
-        "signature": "91261306260",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts": {
+        "version": "be3ad1eeebb66414653dea71ffdaf43aa02815d88d4993e97302f8efd100c4da",
+        "signature": "-130142523318",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/role.ts": {
-        "version": "5d5775c37859d1d9c79bf9103c59c403e2bc43a3f75d1b28e647366e4c11b438",
-        "signature": "17065950993",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts": {
-        "version": "7f58181ba67b2c75215a80c32cf705aaa199ee9c757455c9c0bef41b8f1554fb",
-        "signature": "126257031052",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts": {
-        "version": "d644685b0ef9b52e597449fe57a0db77d215e482996fdc4bf0412788e3a028e2",
-        "signature": "-50906385902",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/activity.ts": {
-        "version": "bf8bf56a045d17c380e41c470444a943c3d1356ce3d91834fd81173ad39362a5",
-        "signature": "-7621802536",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/constants/discord.ts": {
-        "version": "82299031515013c6d839e28ac917ac65792596c0249f6c123357b343afe61817",
-        "signature": "-69088014636",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts": {
-        "version": "1cfd6e8ecd1457581725a69efa323b2a597f951202d5235ff703eceb1ad14319",
-        "signature": "15846706265",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts": {
-        "version": "f6b2fc5d2a49361beeb9371e4e287071565fe1baec71f698a9032a16fdbae051",
-        "signature": "75838700559",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts": {
-        "version": "ccb8ee713d671d47c19422b0af0abab7c42ed6ae68df349a0395d9d849dc3af2",
-        "signature": "189196226",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts": {
-        "version": "3730c6074644b970c39b12842ba2e96769c530857b1cc4f9fe73bac29a0c2609",
-        "signature": "58371396889",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/options.ts": {
-        "version": "9cbcb4f679a3a69ca1f294ad8e298670beae3308be5b6be461f2be74e9b63fd2",
-        "signature": "-83680842496",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/fetch.ts": {
-        "version": "dab82c32491b17521f85261b47171c9c38f615e33964bfe43c2f15f623aa1554",
-        "signature": "-12333298833",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/activity.ts": {
+        "version": "7818d782150b51a8ee9372d6ce2e7b48287f94666fe2cd65860c7612d1e46444",
+        "signature": "20521099270",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/async/delay.ts": {
-        "version": "830e44841cd41cc21bf6280d667eef37524e851b86db2cccb7878d5ed6d510ac",
+        "version": "c07565c31b9f1c222f9dc9763a644cc9dbd0efacf1f33b831b64492a098dcede",
         "signature": "-16927350",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/errors.ts": {
-        "version": "6b89b8acf5e1ed17b79971dd797e151da86bf198b016b81b697d130fe5ff2ce4",
-        "signature": "-31067692037",
-        "affectsGlobalScope": false
-      },
-      "https://deno.land/std@0.61.0/fmt/colors.ts": {
-        "version": "481d42cf97f9eba070d90538c90827f29d2b976e3670be93327ec1b0f15c45f7",
-        "signature": "-35509310111",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/logger.ts": {
-        "version": "ec01bee6b3caea62b3e8fdc7772504e3b1e62a5010390cc4ef01042726a2ec6c",
-        "signature": "19059952713",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/requestManager.ts": {
-        "version": "f17509391529f7fabb1f83940722545fb6256db165d91b37e8a69d4ae16389fb",
-        "signature": "22670324414",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts": {
-        "version": "690b40bde8e340966ef75d9b5dbb418dce2ced2445031795d66c7ac9484a974e",
-        "signature": "-33330131682",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/events/channels.ts": {
-        "version": "7f77484cfc3e28d826130cc59813ad52ede55413316527151286f8d18f7aaced",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/channels.ts": {
+        "version": "0d014d701ace042bfb9776366cb47e1628ca9fba929b5c23d5dc0560be332745",
         "signature": "9574262172",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/events/guilds.ts": {
-        "version": "8f35d4c8b5b6200e202fc3873a7929f8d64f3d10dca07c75a0129f4959184c72",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts": {
+        "version": "4180375ad36d7759f41fce8118d90d594d30fb1a6909d63b6322a10130a4b676",
+        "signature": "6565401652",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts": {
+        "version": "866c7b67a6a8ff9e830aabf3168946632a6c6bf5e8ebb28c2182b39dc6327a89",
+        "signature": "189196226",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts": {
+        "version": "cdc39890b053b35fc129bd2da49d58414db6dbbee0be650f85373a37944063b8",
+        "signature": "-151312071675",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/guilds.ts": {
+        "version": "f4be077b9d4259a1f1dc3658fa7cb72c0001b00d2d67e3cea9d0d1b1aaa3f941",
         "signature": "10230540324",
         "affectsGlobalScope": false
       },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts": {
+        "version": "3fb9087ca93f7547a538438fe166d7b44978509644407767229f3f8c833fc5d8",
+        "signature": "29100957827",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/options.ts": {
+        "version": "3ad87e0fe78a887383bac741a5d7cf9ed479e0d3af0593305827a9b6a828a287",
+        "signature": "-86329371392",
+        "affectsGlobalScope": false
+      },
       "https://deno.land/std@0.61.0/encoding/utf8.ts": {
-        "version": "c2ce3ba6afcefcef93a5250b865b0c2efa1c6291ee0d78d1da66c8ac7bf20615",
+        "version": "898a6017ae610f75932a68916e1828a2019fd0207a163353e01e07084f516573",
         "signature": "-9536159269",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/_util/has_own_property.ts": {
-        "version": "2345881bed9ec1afa765925fe9c370e862ccfe3c73804b640b5182f25715436f",
+        "version": "09a50f621ae84fa9b4cc82891fd2e621d6aece2ffa0c8db97b37ac06dcc955e0",
         "signature": "-7116351741",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/bytes/mod.ts": {
-        "version": "4a74f42cfdc2134ce45b6622f36b145214498a8229289263312707e78c0cfcd8",
+        "version": "7bfae594d6fee9bf5783016138b448e9ca8fd0351b4365277a20234f2569053a",
         "signature": "-814175339",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/_util/assert.ts": {
-        "version": "bb55a631aa8ab085966168645084420478c7e3b2d17c4a86788e19f467ccbded",
+        "version": "31ca1e3c007d70cab74076ff8762b846087e99354f92651a2ec58760c390ae02",
         "signature": "-16409965166",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/io/bufio.ts": {
-        "version": "10100a4111f5255e897682b5d0d7c77398f6d55aef7d56eeadac5b9e771fc12b",
+        "version": "8789d5edaedfaf206534b94606463bf5b912aa47b4fc9d4c11982426b8cd3219",
         "signature": "7475322339",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/io/ioutil.ts": {
-        "version": "df839b870005d1492b7cdd225b50aab67b92699229fba240cb1c7db68b8b6857",
+        "version": "6c7d8d071934ee27a81250d551680f1f0f35ece58929d6889a2d01834cd1e35c",
         "signature": "-43148999918",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/hash/sha1.ts": {
-        "version": "ae605ea1d656102f70c4b9dd6bbe30b542db699abb2e3fa0b8c129c2d4b436b0",
+        "version": "4c5e96c33a2ea4842c1921311a4d592352207a28c8a44c0e691b986b7586d781",
         "signature": "-11435360377",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/textproto/mod.ts": {
-        "version": "d36ecfc67012937496a1437b5e537388785471d23f0670cfc401bb55ef2d0d77",
+        "version": "a3f7d59d903e959c1d659a421813698d6bf337c622fbe6478e911cc8784e0f6a",
         "signature": "68968002",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/async/deferred.ts": {
-        "version": "8623cda321717f951a82267831a6a19fe266d6be386b370d20b757f4e6890aad",
+        "version": "11581e6c8f3ea6b58b6a6994176a8434e955e42c0efc070d4af5a7386ad25ee2",
         "signature": "919087033",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/async/mux_async_iterator.ts": {
-        "version": "9fc3316f71a3ebbe63ce21f13d65093a3021652c455c49cca2d330a3817e07e5",
+        "version": "dcd1fe3ddb49b6d13bc796fdef6da19d6c08dfdbf7afa8d4983ba838f2330f70",
         "signature": "-19065168227",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/async/mod.ts": {
-        "version": "dc89e568111111c8a2d80d7552c44f6be800e81f74685b7087ff4cfadd4b80b5",
+        "version": "7c7a8f9565ca9188796f4d81c07751bcca4427a09ba55e9a1dd9c07bad709231",
         "signature": "-19049588026",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/http/server.ts": {
-        "version": "954d9f446b67baacb48ec6961e3dad2180e70b3b602e803eb503b679983c7648",
+        "version": "025a5d0ccba9b7452f285f7ba8d66e3c3943948a2399dbca13bd36d0ffc6e58e",
         "signature": "30542349274",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/http/http_status.ts": {
-        "version": "38d2270325420e697ce62c08a961ef3efcf39a2db65acf24aafc8c6b4a47fb66",
+        "version": "03b2a115b0071b102485823a32ec1f1717a3f418cf0ade3c59623e44fd961ec9",
         "signature": "-67096563847",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/http/_io.ts": {
-        "version": "454c77e38e314c3d7edc5935324b24b7bfc786a4b7f451874791f26fe1a5add0",
+        "version": "f53de6228e0d0a116d593d6e44262749f77bd88afa2a5bcf629eaae262fbc779",
         "signature": "34366521554",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/ws/mod.ts": {
-        "version": "3c52004f6d54d37bbec04893ababcc00febf40ed1c1ddaa7637b4f4b37522b24",
+        "version": "d9c42004f3f89fd551ecd7a027030601ab500b5a18d50b04d0b026c1b0236bb8",
         "signature": "-24063533335",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/basicShard.ts": {
-        "version": "af4e445841ae151b2006057960f8ee119661b73b7f31ec3b0edb02e566c4355d",
+      "https://deno.land/std@0.61.0/fmt/colors.ts": {
+        "version": "8432f0c4d7e36d2d946e0f8498dd53558faa111330d652ec48a68ac97f6d1ba7",
+        "signature": "-35509310111",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/logger.ts": {
+        "version": "e8c27197f994f2372dd23ea22a9b0a7b86a837403424f9c201cecb8a8befc5cc",
+        "signature": "19059952713",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/basicShard.ts": {
+        "version": "2362193c79cae72043ed98957e9f487c32f7f97203b409087222d51e684ea222",
         "signature": "-43662268675",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/shardingManager.ts": {
-        "version": "cb5c9758a4e1d42fbf5b465840792a687c9e50d5aa407025b8056438015b15cd",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/shardingManager.ts": {
+        "version": "1cf90d64f25c35a1d231c422300a3b99df741a4878b2b4577ff4864d6cf9abe3",
         "signature": "-17626460085",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.61.0/encoding/base64.ts": {
-        "version": "790e72aad414906b9b003135ef0231a91b279bbfbb449c785294c74011176b6b",
+        "version": "0713ad8b1bda27225bd59f45c936f2d7e8b4d1900ccad578e08342b556932426",
         "signature": "-6803819929",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/utils.ts": {
-        "version": "8939211f15b5f289088dc2b1c6b1b7cd194d0b42b3c687bc3e53082251eff649",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts": {
+        "version": "bc5243eba6ede9c0183d8a210dc591019349e642b84629d4b4bb1f15104b4c0a",
         "signature": "-20094901731",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/collection.ts": {
-        "version": "bf92a6609162efeeb0cafb001b5fe533398ff0851e78548815557f5feafd23ac",
-        "signature": "-5399323422",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/collection.ts": {
+        "version": "87eb53c1f95ec1500eaa64b5cc19aeb26f120f5fbf5b65cbd83472317f72c3dc",
+        "signature": "-40302157725",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts": {
-        "version": "230e88bab9db4879c08b4fd8daba3ac6daabea299f1506dc192cb9668428e701",
-        "signature": "3148796945",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/permissions.ts": {
-        "version": "cf726deaaa251995b508f6eb1feeb723387b68887a1dc1dc2ec8612e72844dd4",
-        "signature": "-22630675761",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts": {
-        "version": "8092d854a1a3d91e5f823b46227fbb72fe0e12e5f584d2681d134ebf8113f6bc",
-        "signature": "-103376976119",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/channel.ts": {
-        "version": "0a89590f11a7c1441636b647a38cb0178eac3d1487e163d11f13ad80d3443bed",
-        "signature": "-33945490409",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/cdn.ts": {
-        "version": "01ae7e75dfc1165d0627a4ae7fefca3287f8a896eed4b233c1989fd8e9d51ab4",
-        "signature": "-3657297151",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cdn.ts": {
-        "version": "f0f21851ed2280ea78fbb0514f419123fc47f8ecb866b8642c313c51ed4c95c0",
-        "signature": "-16987736712",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/guild.ts": {
-        "version": "38561c57f263a5d1c072f6711e046510bded4ea4e5511a5c7e0a415c05d501b3",
-        "signature": "56865410782",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/member.ts": {
-        "version": "b1d61a1d3f9ef997180c6b4db6061584c7324430d52e3776a1ccc0c151795cd6",
-        "signature": "-1351317534",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/message.ts": {
-        "version": "157da1db5624570d082951e6e7ab4e1ed577caffe08bc8b7a7dfc275bb0ea64b",
-        "signature": "25813219920",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/presence.ts": {
-        "version": "59d045bed14a186e07b59cc11690eaa7ff1e6d9ded6d761be274a67d24f610a0",
-        "signature": "-1922840035",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts": {
-        "version": "7164d386ab4db1c9ca0dad774b012c5beea6113744a2135693992a4f091f50f3",
-        "signature": "-20445872180",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts": {
-        "version": "2f3f0ebb4e554092f60457e51649b61fbac04e14fbbaf086cfbd4c1210b33408",
-        "signature": "7019145227",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/permission.ts": {
-        "version": "58c5af995ac2d7b25cad1ce942efebc3addf70e9c1cd0faf79cd93be5fb1b07b",
-        "signature": "18889817053",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/role.ts": {
-        "version": "6fc71f0e099229768782f68324eadc91430c1a64eaddb59a45e235af0b5b1ac6",
-        "signature": "28037264012",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts": {
-        "version": "54c5aa95c452eb7ba4faf51033c11e80eeb6720b675bc308466af59dff16e81d",
-        "signature": "3987142324",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts": {
-        "version": "93ad78f83d22e76eebb925ad690039809e87fe2a981431bbe7f03416370d1d97",
-        "signature": "167447014288",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/activity.ts": {
-        "version": "1a7a7ac12e264c10ba8b8e2d5eafc2b1962ccd101b71195117c96ca231f7baaa",
-        "signature": "20521099270",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/constants/discord.ts": {
-        "version": "82299031515013c6d839e28ac917ac65792596c0249f6c123357b343afe61817",
-        "signature": "-69088014636",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/role.ts": {
-        "version": "1cfd6e8ecd1457581725a69efa323b2a597f951202d5235ff703eceb1ad14319",
-        "signature": "6565401652",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/message.ts": {
-        "version": "f6b2fc5d2a49361beeb9371e4e287071565fe1baec71f698a9032a16fdbae051",
-        "signature": "69727176187",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/member.ts": {
-        "version": "ccb8ee713d671d47c19422b0af0abab7c42ed6ae68df349a0395d9d849dc3af2",
-        "signature": "189196226",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts": {
-        "version": "3730c6074644b970c39b12842ba2e96769c530857b1cc4f9fe73bac29a0c2609",
-        "signature": "18227344229",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/options.ts": {
-        "version": "567fbb1a57687b749a7c8b412df46b641a39c9811379912852c968c957a3e56e",
-        "signature": "-191231131668",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/fetch.ts": {
-        "version": "dab82c32491b17521f85261b47171c9c38f615e33964bfe43c2f15f623aa1554",
-        "signature": "-12333298833",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/errors.ts": {
-        "version": "19ad3881be975849d6f65ff5489e6c6f091ff96c21ae3ecf36f55d4a725bb8d2",
-        "signature": "7440346494",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/logger.ts": {
-        "version": "ec01bee6b3caea62b3e8fdc7772504e3b1e62a5010390cc4ef01042726a2ec6c",
-        "signature": "19059952713",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/requestManager.ts": {
-        "version": "f17509391529f7fabb1f83940722545fb6256db165d91b37e8a69d4ae16389fb",
-        "signature": "22670324414",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts": {
-        "version": "690b40bde8e340966ef75d9b5dbb418dce2ced2445031795d66c7ac9484a974e",
-        "signature": "-33330131682",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/events/channels.ts": {
-        "version": "7f77484cfc3e28d826130cc59813ad52ede55413316527151286f8d18f7aaced",
-        "signature": "9574262172",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/events/guilds.ts": {
-        "version": "8f35d4c8b5b6200e202fc3873a7929f8d64f3d10dca07c75a0129f4959184c72",
-        "signature": "10230540324",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/basicShard.ts": {
-        "version": "39335b5d8f44311722091bd59ce28a32b8efb3d135874b257e8716754f15bcfb",
-        "signature": "-43662268675",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/shardingManager.ts": {
-        "version": "2a7dc3d03455a97f1b687e83682a75294faa4324ffcb90eeaff56defa819f2cd",
-        "signature": "-17626460085",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/utils.ts": {
-        "version": "8939211f15b5f289088dc2b1c6b1b7cd194d0b42b3c687bc3e53082251eff649",
-        "signature": "-20094901731",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/collection.ts": {
-        "version": "bf92a6609162efeeb0cafb001b5fe533398ff0851e78548815557f5feafd23ac",
-        "signature": "-5399323422",
-        "affectsGlobalScope": false
-      },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts": {
-        "version": "7fa7b58a22da41a572adcf852f271d8b99c76acc09aee3722c1adac0ac11c4ad",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts": {
+        "version": "9a6ccdb50408a5d81b3bd916ff2114e7fa251a4a6b5906075e5539d4dbc71795",
         "signature": "32405379409",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/permissions.ts": {
-        "version": "6285c3421e8251514e18dcc625aaee9b478b48094ed5025c2c211bd22d1e58de",
-        "signature": "-48359914509",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts": {
+        "version": "30974114d2a1752514c26910ff989a0f6d9c1f20624a633092df55f8a8ec8088",
+        "signature": "-1291331859",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts": {
-        "version": "64c26502ee1679a1f8e8a0d065777de416a0b4d3666c99d1829b5e89b6e136a0",
-        "signature": "-100823526424",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts": {
+        "version": "cccb516b39a9a96926ad647113513230eee2f0ed8f638555679425af15de040c",
+        "signature": "-86598921960",
         "affectsGlobalScope": false
       },
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts": {
-        "version": "854898a31f24696d7f3c032d1cf95febd5049f12bd62b35673631b94bda8d412",
-        "signature": "-10400461502",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts": {
+        "version": "ea4d15b13cfeb964a716e73cc0f9f1d74fbcfab4c0e589c9b0c93741852f931a",
+        "signature": "-32388591147",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts": {
+        "version": "6fd307aac2407d06fb5e0d765d48b84ac4512dd4adcc5ca76610549c0c143b29",
+        "signature": "7019145227",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/fetch.ts": {
+        "version": "bd65d7b308b12e86484c1846450f9cd756500fd33111346a5be388e5259dca75",
+        "signature": "-12333298833",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/errors.ts": {
+        "version": "3cc728be8830b9f0b4bfe8d6821274cf71a00fffc5838074f1ece2f576965cd9",
+        "signature": "16240077974",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/requestManager.ts": {
+        "version": "7be6a12f3f922f074992d12f004b31233e4b69c84a314577b6b4913e363752e8",
+        "signature": "-13209202004",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts": {
+        "version": "484897b87e4b5e61aaafd4037ab6f23477ad4a08223da8fc7e2113209d01ed71",
+        "signature": "-33330131682",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/channel.ts": {
+        "version": "bff2fe1c99ff358c0d4565db827e351803ec759b8d102d7883dc932a8526c7f8",
+        "signature": "87323723751",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/cdn.ts": {
+        "version": "118b341456e31393a7f2707c115eea3ed13236f10360aad6b97dc59a6e0b91fb",
+        "signature": "-3657297151",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cdn.ts": {
+        "version": "7ba7c66b8bca4603512d2aff332b3da51d1c89715f01dd3fcf8e9afd4c48b82b",
+        "signature": "-16987736712",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/guild.ts": {
+        "version": "a1089996ac5a542602cf728d46a5879f5b0504fadcb93443cd66758b932751e9",
+        "signature": "55038485750",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/member.ts": {
+        "version": "f0b953f14169bfd6d0e9d1523b65deaf0f47e446d2937dc84b2f02f7f0c1529a",
+        "signature": "-40191555866",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/message.ts": {
+        "version": "d47da1fcd71ccb4ec78d5e1101d22a487764afa2a137807ce23011abad091a8e",
+        "signature": "8555832824",
+        "affectsGlobalScope": false
+      },
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts": {
+        "version": "53e0fd8e4741f7eb3b5f1691a21598eb52da6e43028e4f8c0ff528032ce9b093",
+        "signature": "-33514252964",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/deps.ts": {
-        "version": "37cbd484931e49d4d35bed8cb5743e50d52733cfcec7ae9cfe306fff4204784d",
-        "signature": "50197872082",
+        "version": "90e3667fe5b198edad8635c65b86ea76817c08bf0c4c165d65ec26a3ca22cb40",
+        "signature": "-50976323288",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/src/types/commands.ts": {
-        "version": "f5d03a24dd5c081d48ff45ac4da6542e2e00134c459fe5c51b4f0bbf9d699a03",
+        "version": "7620eb3446e20a8eb414668ad56da0bcd8d1c91883dff86dd8d884cb5f3acba3",
         "signature": "-33683492293",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/src/repository.ts": {
-        "version": "8a8b32c132caac563a87893d96d14784248d405743a7cc0e62eadccacea3e8ad",
+        "version": "efd4b05ae59b6553d0e53d64014f93fa8eab412121d372ec73589a43338f7007",
         "signature": "-14040683781",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/mod.ts": {
-        "version": "18a444f20c1b6008641a6511f5c7809636dde50c3febb9d034f2b331fbd45800",
+        "version": "4bb5aed4f765832657f970a9a59332e54606f5c6829f29e7ff1f5cda56c74ebe",
         "signature": "-47002258702",
         "affectsGlobalScope": true
       },
       "file:///D:/Code/Ninie.io/src/services/feelsService.ts": {
-        "version": "4fdc45d7a68d109a6f4ab15ae26cbb596d288f926535d880e1622b0b2cde4276",
+        "version": "1bfefe5b0c3965155948a2cbf54a10b0db082fbf3012ff8c40845a5648a100e8",
         "signature": "23241875670",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/src/utils/Embed.ts": {
-        "version": "33ddd2d4f0cb88d038383d94a5fa5f3f4fb31b86f918cfe695cad6f713c9c40d",
+        "version": "5087214cb3213653c4e143a8e11700c568a22ee909cb92bc23f83336dd9e34b2",
         "signature": "11010371391",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/src/utils/helpers.ts": {
-        "version": "ba204723b1ca2e81c0762e474a647bb379908324e51746756247517b4807f11d",
-        "signature": "82082927925",
+        "version": "8024c3fad4bd2f4b3d8a7b465b93b3fdb701c2a266dccae2b84840f05857b10f",
+        "signature": "58819002703",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/src/commands/office.ts": {
-        "version": "5c43b0f78ca325f9402cc1c9761cfaebbe3aa27a6fce336db7e45bd27591bd2e",
+        "version": "6326658326e4d1ab11f3c5ffd594a5af5e9109b42784538b34ffd4277cd9f322",
         "signature": "-3531856636",
         "affectsGlobalScope": false
       }
@@ -687,22 +552,7 @@
     },
     "referencedMap": {
       "file:///D:/Code/Ninie.io/deps.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/errors.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/options.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/logger.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts"
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts"
       ],
       "file:///D:/Code/Ninie.io/mod.ts": [
         "file:///D:/Code/Ninie.io/deps.ts",
@@ -727,6 +577,254 @@
         "file:///D:/Code/Ninie.io/deps.ts",
         "file:///D:/Code/Ninie.io/mod.ts",
         "file:///D:/Code/Ninie.io/src/utils/Embed.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/requestManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/shardingManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/activity.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/cdn.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/errors.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/fetch.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/options.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/presence.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cdn.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/collection.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/logger.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/channels.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/guilds.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/channel.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/constants/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/requestManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/errors.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/logger.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/guild.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/constants/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/requestManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/shardingManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/cdn.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/errors.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/options.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cdn.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/member.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/constants/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/requestManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/cdn.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/errors.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cdn.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/message.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/constants/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/requestManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/errors.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts",
+        "https://deno.land/std@0.61.0/async/delay.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/basicShard.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/shardingManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/logger.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts",
+        "https://deno.land/std@0.61.0/async/delay.ts",
+        "https://deno.land/std@0.61.0/ws/mod.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/constants/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/requestManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/shardingManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/options.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/requestManager.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/errors.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/fetch.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/logger.ts",
+        "https://deno.land/std@0.61.0/async/delay.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/shardingManager.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/channels.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/guilds.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/basicShard.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/options.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts",
+        "https://deno.land/std@0.61.0/async/delay.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/collection.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/role.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/activity.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/presence.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/presence.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/role.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/options.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/presence.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/collection.ts",
+        "https://deno.land/std@0.61.0/async/delay.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cdn.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/cdn.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/collection.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/logger.ts": [
+        "https://deno.land/std@0.61.0/fmt/colors.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/shardingManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/activity.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://deno.land/std@0.61.0/encoding/base64.ts"
       ],
       "https://deno.land/std@0.61.0/async/mod.ts": [
         "https://deno.land/std@0.61.0/async/deferred.ts",
@@ -775,388 +873,11 @@
         "https://deno.land/std@0.61.0/io/bufio.ts",
         "https://deno.land/std@0.61.0/io/ioutil.ts",
         "https://deno.land/std@0.61.0/textproto/mod.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/events/channels.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/events/guilds.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/channel.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/constants/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/requestManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/errors.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/logger.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/permissions.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/guild.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/constants/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/requestManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/shardingManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/cdn.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/errors.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/options.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cdn.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/permissions.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/utils.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/member.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/constants/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/requestManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/cdn.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/errors.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cdn.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/permissions.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/message.ts": [
-        "https://deno.land/std@0.61.0/async/delay.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/constants/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/requestManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/errors.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/permissions.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/basicShard.ts": [
-        "https://deno.land/std@0.61.0/async/delay.ts",
-        "https://deno.land/std@0.61.0/ws/mod.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/shardingManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/logger.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/utils.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/constants/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/requestManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/shardingManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/options.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/requestManager.ts": [
-        "https://deno.land/std@0.61.0/async/delay.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/errors.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/fetch.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/logger.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/shardingManager.ts": [
-        "https://deno.land/std@0.61.0/async/delay.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/events/channels.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/events/guilds.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/basicShard.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/options.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/utils.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/permissions.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/collection.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/role.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/activity.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/presence.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/presence.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/role.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/options.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/presence.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts": [
-        "https://deno.land/std@0.61.0/async/delay.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/collection.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cdn.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/cdn.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/collection.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/utils.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/logger.ts": [
-        "https://deno.land/std@0.61.0/fmt/colors.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/permissions.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/utils.ts": [
-        "https://deno.land/std@0.61.0/encoding/base64.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/shardingManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/activity.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/events/channels.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/events/guilds.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/basicShard.ts": [
-        "https://deno.land/std@0.61.0/async/delay.ts",
-        "https://deno.land/std@0.61.0/ws/mod.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/shardingManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/logger.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/utils.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/constants/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/requestManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/shardingManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/options.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/requestManager.ts": [
-        "https://deno.land/std@0.61.0/async/delay.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/errors.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/fetch.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/logger.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/shardingManager.ts": [
-        "https://deno.land/std@0.61.0/async/delay.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/events/channels.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/events/guilds.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/basicShard.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/options.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/utils.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/permissions.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/collection.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/member.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/message.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/role.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/role.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/activity.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/presence.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/presence.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/role.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/options.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/presence.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts": [
-        "https://deno.land/std@0.61.0/async/delay.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/collection.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/collection.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/utils.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/logger.ts": [
-        "https://deno.land/std@0.61.0/fmt/colors.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/permissions.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/utils.ts": [
-        "https://deno.land/std@0.61.0/encoding/base64.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/shardingManager.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/activity.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts"
       ]
     },
     "exportedModulesMap": {
       "file:///D:/Code/Ninie.io/deps.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/errors.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/options.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/logger.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts"
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts"
       ],
       "file:///D:/Code/Ninie.io/mod.ts": [
         "file:///D:/Code/Ninie.io/deps.ts",
@@ -1172,10 +893,187 @@
       "file:///D:/Code/Ninie.io/src/utils/helpers.ts": [
         "file:///D:/Code/Ninie.io/deps.ts",
         "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts"
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/requestManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/shardingManager.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/activity.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/cdn.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/errors.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/fetch.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/options.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/presence.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cdn.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/collection.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/logger.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/channels.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/guilds.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/channel.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/guild.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/cdn.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/member.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/cdn.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/message.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/basicShard.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts",
+        "https://deno.land/std@0.61.0/ws/mod.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/options.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/shardingManager.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/collection.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/role.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/activity.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/presence.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/presence.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/role.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/options.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/presence.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/collection.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cdn.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/cdn.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts"
+      ],
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts": [
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/activity.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts"
       ],
       "https://deno.land/std@0.61.0/async/mod.ts": [
         "https://deno.land/std@0.61.0/async/deferred.ts",
@@ -1198,269 +1096,12 @@
       ],
       "https://deno.land/std@0.61.0/ws/mod.ts": [
         "https://deno.land/std@0.61.0/io/bufio.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/events/channels.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/events/guilds.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/channel.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/guild.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/cdn.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/member.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/cdn.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/message.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/basicShard.ts": [
-        "https://deno.land/std@0.61.0/ws/mod.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/utils.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/options.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/shardingManager.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/collection.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/role.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/activity.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/presence.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/presence.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/role.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/options.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/presence.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/collection.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cdn.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/cdn.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/permissions.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/utils.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/activity.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/events/channels.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/events/guilds.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/basicShard.ts": [
-        "https://deno.land/std@0.61.0/ws/mod.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/utils.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/options.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/shardingManager.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/collection.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/member.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/message.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/role.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/role.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/activity.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/presence.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/permission.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/presence.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/role.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/options.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/member.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/presence.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/message.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/collection.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/permissions.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/role.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/permission.ts"
-      ],
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/utils.ts": [
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/activity.ts",
-        "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
       "asset:///lib.deno.ns.d.ts",
       "asset:///lib.deno.shared_globals.d.ts",
+      "asset:///lib.deno.web.d.ts",
       "asset:///lib.deno.window.d.ts",
       "asset:///lib.es2015.collection.d.ts",
       "asset:///lib.es2015.core.d.ts",
@@ -1510,6 +1151,42 @@
       "file:///D:/Code/Ninie.io/src/types/commands.ts",
       "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
       "file:///D:/Code/Ninie.io/src/utils/helpers.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/constants/discord.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/channels.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/guilds.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/channel.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/guild.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/member.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/message.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/basicShard.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/client.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/requestManager.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/module/shardingManager.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/channel.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/message.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/role.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/activity.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/cdn.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/channel.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/discord.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/errors.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/fetch.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/guild.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/member.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/message.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/options.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/permission.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/presence.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/types/role.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cache.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/cdn.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/collection.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/logger.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/permissions.ts",
+      "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/utils/utils.ts",
       "https://deno.land/std@0.61.0/_util/assert.ts",
       "https://deno.land/std@0.61.0/_util/has_own_property.ts",
       "https://deno.land/std@0.61.0/async/deferred.ts",
@@ -1527,72 +1204,8 @@
       "https://deno.land/std@0.61.0/io/bufio.ts",
       "https://deno.land/std@0.61.0/io/ioutil.ts",
       "https://deno.land/std@0.61.0/textproto/mod.ts",
-      "https://deno.land/std@0.61.0/ws/mod.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/constants/discord.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/events/channels.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/events/guilds.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/channel.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/guild.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/member.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/handlers/message.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/basicShard.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/client.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/requestManager.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/module/shardingManager.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/channel.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/guild.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/member.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/message.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/structures/role.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/activity.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/cdn.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/channel.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/discord.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/errors.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/fetch.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/guild.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/member.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/message.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/options.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/permission.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/presence.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/types/role.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cache.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/cdn.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/collection.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/logger.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/permissions.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v6/utils/utils.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/constants/discord.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/events/channels.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/events/guilds.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/basicShard.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/client.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/requestManager.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/module/shardingManager.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/channel.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/guild.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/member.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/message.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/structures/role.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/activity.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/channel.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/discord.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/errors.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/fetch.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/guild.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/member.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/message.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/options.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/permission.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/presence.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/types/role.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/cache.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/collection.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/logger.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/permissions.ts",
-      "https://raw.githubusercontent.com/Skillz4Killz/Discordeno/v7/src/utils/utils.ts"
+      "https://deno.land/std@0.61.0/ws/mod.ts"
     ]
   },
-  "version": "3.9.2"
+  "version": "3.9.7"
 }

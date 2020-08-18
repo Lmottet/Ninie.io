@@ -211,8 +211,13 @@
         "signature": "1",
         "affectsGlobalScope": true
       },
+      "asset:///lib.deno.web.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
       "file:///D:/Code/Ninie.io/src/commands/fesses.ts": {
-        "version": "8a8f5b2cb6ce5e1fa05c72b4d7d992bf829bf0e2eccbde4de45848577e9cd9ce",
+        "version": "5523b840a8730a7595a0a1a4c691732772fb7976f96af5017132711089e9c28d",
         "signature": "5381",
         "affectsGlobalScope": false
       }
@@ -240,6 +245,7 @@
     "semanticDiagnosticsPerFile": [
       "asset:///lib.deno.ns.d.ts",
       "asset:///lib.deno.shared_globals.d.ts",
+      "asset:///lib.deno.web.d.ts",
       "asset:///lib.deno.window.d.ts",
       "asset:///lib.es2015.collection.d.ts",
       "asset:///lib.es2015.core.d.ts",
@@ -283,5 +289,5 @@
       "file:///D:/Code/Ninie.io/src/commands/fesses.ts"
     ]
   },
-  "version": "3.9.2"
+  "version": "3.9.7"
 }

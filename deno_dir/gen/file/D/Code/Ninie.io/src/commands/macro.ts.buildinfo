@@ -506,8 +506,18 @@
         "signature": "-47002258702",
         "affectsGlobalScope": true
       },
-      "file:///D:/Code/Ninie.io/src/commands/ping.ts": {
-        "version": "8e12a42cd5afc78b161af7542fedc73435781b366bdee0aca8f4fc23ffddff3d",
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts": {
+        "version": "5087214cb3213653c4e143a8e11700c568a22ee909cb92bc23f83336dd9e34b2",
+        "signature": "11010371391",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts": {
+        "version": "8024c3fad4bd2f4b3d8a7b465b93b3fdb701c2a266dccae2b84840f05857b10f",
+        "signature": "58819002703",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/commands/macro.ts": {
+        "version": "01651d484350f4814ae5a4ff16a58d981193d5003f00791703eeb2e13a597506",
         "signature": "-3531856636",
         "affectsGlobalScope": false
       }
@@ -539,12 +549,21 @@
         "file:///D:/Code/Ninie.io/src/repository.ts",
         "file:///D:/Code/Ninie.io/src/types/commands.ts"
       ],
-      "file:///D:/Code/Ninie.io/src/commands/ping.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "file:///D:/Code/Ninie.io/mod.ts"
+      "file:///D:/Code/Ninie.io/src/commands/macro.ts": [
+        "file:///D:/Code/Ninie.io/mod.ts",
+        "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
+        "file:///D:/Code/Ninie.io/src/utils/helpers.ts"
       ],
       "file:///D:/Code/Ninie.io/src/types/commands.ts": [
         "file:///D:/Code/Ninie.io/deps.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/mod.ts",
+        "file:///D:/Code/Ninie.io/src/utils/Embed.ts"
       ],
       "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts": [
         "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/channel.ts",
@@ -855,6 +874,16 @@
       "file:///D:/Code/Ninie.io/src/types/commands.ts": [
         "file:///D:/Code/Ninie.io/deps.ts"
       ],
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/guild.ts",
+        "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/structures/member.ts"
+      ],
       "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts": [
         "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/channel.ts",
         "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/handlers/guild.ts",
@@ -1102,9 +1131,11 @@
       "asset:///lib.esnext.string.d.ts",
       "file:///D:/Code/Ninie.io/deps.ts",
       "file:///D:/Code/Ninie.io/mod.ts",
-      "file:///D:/Code/Ninie.io/src/commands/ping.ts",
+      "file:///D:/Code/Ninie.io/src/commands/macro.ts",
       "file:///D:/Code/Ninie.io/src/repository.ts",
       "file:///D:/Code/Ninie.io/src/types/commands.ts",
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts",
       "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/mod.ts",
       "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/constants/discord.ts",
       "https://bzpheq5nldcwzgaj6fwreknxsmksqwbkhe426jodqnrfw676bpaa.arweave.net/Dl5yQ61YxWyYCfFtEim3kxUoWCo5Oa8lw4NiW3v-C8A/src/events/channels.ts",

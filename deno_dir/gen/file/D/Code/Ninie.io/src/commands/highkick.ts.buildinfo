@@ -211,8 +211,13 @@
         "signature": "1",
         "affectsGlobalScope": true
       },
+      "asset:///lib.deno.web.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
       "file:///D:/Code/Ninie.io/src/commands/highkick.ts": {
-        "version": "e94ddb55145b359747cba1f9bcb5b06e1d2301298fbc656750c9be72986605b6",
+        "version": "eaa3275c99db9373d1e1be9267a98ee2bf9353551bbd3d0381fe6cc94b6c3cad",
         "signature": "5381",
         "affectsGlobalScope": false
       }
@@ -240,6 +245,7 @@
     "semanticDiagnosticsPerFile": [
       "asset:///lib.deno.ns.d.ts",
       "asset:///lib.deno.shared_globals.d.ts",
+      "asset:///lib.deno.web.d.ts",
       "asset:///lib.deno.window.d.ts",
       "asset:///lib.es2015.collection.d.ts",
       "asset:///lib.es2015.core.d.ts",
@@ -283,5 +289,5 @@
       "file:///D:/Code/Ninie.io/src/commands/highkick.ts"
     ]
   },
-  "version": "3.9.2"
+  "version": "3.9.7"
 }
