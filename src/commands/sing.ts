@@ -16,7 +16,7 @@ const songs = [
     "Belle qui tiens ma vie :musical_note:",
     "Captive dans tes yeux :musical_note:",
     "Qui m'as l'âme ravie :musical_note:",
-    "D'un sourire gracieux :musical_note:",
+    "D'un souris gracieux :musical_note:",
   ],
   [
     "Mon petit oiseau a pris sa volée :musical_note:",
@@ -28,6 +28,12 @@ const songs = [
     `Et ça fait bim-bam-boum, ça fait -pschhht!- et ça fait "vroum" :musical_note:`,
     "Ça fait bim-bam-boum, dans ma tête y a tout qui tourne :musical_note:",
     `Ça fait "chut!" et puis "blabla!", ça fait, comme ci-comme ça :musical_note:`,
+  ],
+  [
+    `Dites à mes amis que je m'en vais :musical_note:`,
+    "Je pars vers de nouveaux pays :musical_note:",
+    `Où le ciel est tout bleu, dites que je m'en vais :musical_note:`,
+    `Et c'est tout ce qui compte dans ma vie :musical_note:`,
   ],
 ];
 
