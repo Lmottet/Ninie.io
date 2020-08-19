@@ -8,7 +8,7 @@ export const commandHandler = async (message: Message) => {
   // If the message was sent by a bot we can just ignore it
   if (message.author.bot) return;
 
-  let said = message.content.lowercase().search("(dis)");
+  let said = message.content.toLowerCase().search("(dis)");
   if (typeof said != "undefined" && said >= 0) {
     sendMessage(message.channel, message.content.slice(said + 3).trim());
   }
