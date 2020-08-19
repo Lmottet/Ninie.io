@@ -29,11 +29,9 @@ botCache.commands.set("love", {
     },
   ],
   execute: (message, args: LoveArgs) => {
-    console.log("author : " + JSON.stringify(message));
     if (!isUserAdmin(message.author.username, message.author.discriminator)) {
       sendResponse(message, anyInsult());
     } else {
-      console.log("args : " + JSON.stringify(args));
       let beforeLove = getLove(args.member.user.id);
       addLove(args.member.user.id, args.loveLevel);
       sendResponse(
