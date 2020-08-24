@@ -22,7 +22,7 @@ const songs = [
     "Mon petit oiseau a pris sa volée :musical_note:",
     "A pris sa... A la volette A pris sa volée :musical_note:",
     "Est allé se mettre sur un oranger :musical_note:",
-    "Sur un o... A la volette Sur un oranger.  :musical_note:",
+    "Sur un o... A la volette Sur un oranger. :musical_note:",
   ],
   [
     `Et ça fait bim-bam-boum, ça fait -pschhht!- et ça fait "vroum" :musical_note:`,

@@ -9,7 +9,10 @@ export const commandHandler = async (message: Message) => {
   if (message.author.bot) return;
 
   let said = message.content.toLowerCase().search("(dis)");
-  if (typeof said != "undefined" && said >= 0) {
+  if (
+    typeof said != "undefined" && said >= 0 &&
+    message.content.length - said < 10
+  ) {
     sendMessage(message.channel, message.content.slice(said + 3).trim());
   }
 
