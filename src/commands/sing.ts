@@ -35,6 +35,12 @@ const songs = [
     `Où le ciel est tout bleu, dites que je m'en vais :musical_note:`,
     `Et c'est tout ce qui compte dans ma vie :musical_note:`,
   ],
+  [
+    `Est-ce que tu m'entends, hey ho :musical_note:`,
+    `Est-ce que tu me sens, hey ho :musical_note:`,
+    `Touche-moi je suis là, hey ho ho ho ho :musical_note:`,
+    `S'il te plait réponds-moi, hey ho :musical_note:`,
+  ],
 ];
 
 const sing = (channel: Channel, song: number) => {
