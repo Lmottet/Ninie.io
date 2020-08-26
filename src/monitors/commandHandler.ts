@@ -202,6 +202,8 @@ async function commandAllowed(
 
 const parseSays = (message: Message) => {
   if (!parseSay(message, "(dis)", 3)) {
+  } else if (!parseSay(message, "(dit)", 3)) {
+  } else {
     parseSay(message, "(di)", 2);
   }
 };
@@ -219,9 +221,14 @@ const parseSay = (message: Message, regex: string, offset: number) => {
 };
 
 const nextWord = (said: string, saidAt: number, offset: number) => {
-  return said.slice(saidAt + offset).trim().split(
-    " ",
-  )[0].trim();
+  return said.slice(saidAt + offset)
+    .trim()
+    .replace(",", "")
+    .replace(".", "")
+    .replace("?", "")
+    .replace("!", "")
+    .split(" ")[0]
+    .trim();
 };
 
 const say = (message: Message, saidAt: number, offset: number) => {
