@@ -198,7 +198,7 @@ async function commandAllowed(
   return true;
 }
 
-const parseSays = (message: MessageEvent) => {
+const parseSays = (message: Message) => {
   if (!parseSay(message, "(dis)", 3)) {
     parseSay(message, "(di)", 2);
   }
