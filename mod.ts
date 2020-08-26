@@ -56,6 +56,7 @@ await Promise.all(
   ].map((path) => importDirectory(path)),
 );
 
+/*
 const wakeUpDyno = (url: string, interval = 25) => {
   const milliseconds = interval * 60000;
   setTimeout(() => {
@@ -70,7 +71,7 @@ const wakeUpDyno = (url: string, interval = 25) => {
       }
     }, 1);
   }, milliseconds);
-};
+};*/
 
 const readPort = () => {
   let port = Deno.env.get("PORT");
@@ -95,7 +96,7 @@ Client({
   eventHandlers: botCache.eventHandlers,
 });
 
-wakeUpDyno("https://ninie-io.herokuapp.com/");
+//wakeUpDyno("https://ninie-io.herokuapp.com/");
 
 const body = new TextEncoder().encode("Hello World\n");
 const s = serve({ port: port });
