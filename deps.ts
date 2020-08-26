@@ -23,4 +23,4 @@ export {
   Permission,
   Permissions,
   sendMessage,
-} from "https://x.nest.land/Discordeno@7.4.1/mod.ts";
+} from "https://x.nest.land/Discordeno@8.0.0/mod.ts";

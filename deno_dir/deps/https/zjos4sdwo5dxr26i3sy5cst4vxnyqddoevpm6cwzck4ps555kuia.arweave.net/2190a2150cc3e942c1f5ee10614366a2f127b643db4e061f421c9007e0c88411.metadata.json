@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "access-control-allow-headers": "Content-Type",
+    "x-trace": "6gh63cLfBS",
+    "content-type": "video/mp2t",
+    "access-control-allow-methods": "GET",
+    "date": "Wed, 26 Aug 2020 08:17:08 GMT",
+    "content-length": "1939",
+    "etag": "yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/events/channels.ts"
+}
