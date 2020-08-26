@@ -76,8 +76,12 @@ const wakeUpDyno = (url: string, interval = 25) => {
   }, milliseconds);
 };
 
-const port = Deno.env.get("PORT");
-const discord_client_id = Deno.env.get("DISCORD_CLIENT_ID");
+const readPort = () => {
+  let port = Deno.env.get("PORT");
+  return port ? Number.parseInt(port) : 8000;
+};
+
+const port = readPort();
 const discord_token_id = Deno.env.get("DISCORD_BOT_TOKEN");
 //Deno.env.get("DISCORD_BOT_TOKEN");
 
@@ -98,5 +102,5 @@ Client({
 wakeUpDyno("https://ninie-io.herokuapp.com/");
 
 const body = new TextEncoder().encode("Hello World\n");
-const s = serve({ port: port ? port : 8000 });
+const s = serve({ port: port });
 for await (const req of s) req.respond({ body });
