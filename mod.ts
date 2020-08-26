@@ -1,4 +1,11 @@
-import { Client, EventHandlers, Guild, Intents, Message } from "./deps.ts";
+import {
+  Client,
+  EventHandlers,
+  Guild,
+  Intents,
+  Message,
+  serve,
+} from "./deps.ts";
 import { Argument, Command } from "./src/types/commands.ts";
 import { Repository } from "./src/repository.ts";
 
@@ -49,6 +56,27 @@ await Promise.all(
   ].map((path) => importDirectory(path)),
 );
 
+const wakeUpDyno = (url: string, interval = 25) => {
+  const milliseconds = interval * 60000;
+  setTimeout(() => {
+    try {
+      // HTTP GET request to the dyno's url
+      fetch(url).then(() => console.log(`Fetching ${url}.`));
+    } catch (err) { // catch fetch errors
+      console.log(`Error fetching ${url}: ${err.message} 
+            Will try again in ${interval} minutes...`);
+    } finally {
+      try {
+        return wakeUpDyno(url, interval);
+      } catch (err) { // catch fetch errors
+        console.log(`Error fetching ${url}: ${err.message} 
+            Will try again in ${interval} minutes...`);
+      } // catch fetch errors
+    }
+  }, milliseconds);
+};
+
+const port = Deno.env.get("PORT");
 const discord_client_id = Deno.env.get("DISCORD_CLIENT_ID");
 const discord_token_id = Deno.env.get("DISCORD_BOT_TOKEN");
 //Deno.env.get("DISCORD_BOT_TOKEN");
@@ -66,3 +94,9 @@ Client({
   // These are all your event handler functions. Imported from the events folder
   eventHandlers: botCache.eventHandlers,
 });
+
+wakeUpDyno("https://ninie-io.herokuapp.com/");
+
+const body = new TextEncoder().encode("Hello World\n");
+const s = serve({ port: port });
+for await (const req of s) req.respond({ body });
