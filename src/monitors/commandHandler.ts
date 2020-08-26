@@ -9,7 +9,9 @@ export const commandHandler = async (message: Message) => {
   // If the message was sent by a bot we can just ignore it
   if (message.author.bot) return;
 
-  parseSays(message);
+  if (message.content.length < 30) {
+    parseSays(message);
+  }
 
   const prefix = parsePrefix(message.guildID);
   // If the message is not using the valid prefix cancel the command
