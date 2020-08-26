@@ -25,4 +25,4 @@ export {
   sendMessage,
 } from "https://x.nest.land/Discordeno@8.0.0/mod.ts";
 
-export { serve } from "https://deno.land/std@v0.24.0/http/server.ts";
+export { serve } from "https://deno.land/std@0.66.0/http/server.ts";

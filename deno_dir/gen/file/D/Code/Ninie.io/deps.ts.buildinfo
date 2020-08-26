@@ -278,7 +278,7 @@
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/structures/guild.ts": {
         "version": "df21d70459b51260775b515040ac2ec6ba2af413f058441b35253ad60ca4d0c2",
-        "signature": "-79088630179",
+        "signature": "-49137496035",
         "affectsGlobalScope": false
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/events/guilds.ts": {
@@ -288,7 +288,7 @@
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/structures/message.ts": {
         "version": "cd7d3f4afdb63c35a3138248006304f70877c1365d11e84239310e24ab00c45f",
-        "signature": "52366486915",
+        "signature": "31536651331",
         "affectsGlobalScope": false
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/types/options.ts": {
@@ -418,7 +418,7 @@
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/structures/channel.ts": {
         "version": "1e64e769ab2f27452a15b034584eb1075cafab35062b67369e4bfdb3b09e564d",
-        "signature": "-55955415208",
+        "signature": "-86598921960",
         "affectsGlobalScope": false
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/types/message.ts": {
@@ -453,7 +453,7 @@
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/handlers/channel.ts": {
         "version": "f9b89d0899a370d55f0fad174549213710f03f30d3074602492dc919ace06c80",
-        "signature": "87605476327",
+        "signature": "-112825059609",
         "affectsGlobalScope": false
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/types/cdn.ts": {
@@ -468,17 +468,17 @@
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/handlers/guild.ts": {
         "version": "f9c6536be1167701bee838346353c53283e337a98237526a9d6f742b280de697",
-        "signature": "-114887165130",
+        "signature": "55038485750",
         "affectsGlobalScope": false
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/handlers/member.ts": {
         "version": "f9b8ee404c57d546fb13c667fcf987fd5e7f2bab65b84c02f2b0591f39b6e54c",
-        "signature": "-19473968154",
+        "signature": "-33780178266",
         "affectsGlobalScope": false
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/handlers/message.ts": {
         "version": "0520361887862a43d600a77f9cc96e612f6f1c9228cdc86eb0011fa9bccbbaf6",
-        "signature": "37162603256",
+        "signature": "-196167729640",
         "affectsGlobalScope": false
       },
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/mod.ts": {
@@ -486,9 +486,74 @@
         "signature": "-33514252964",
         "affectsGlobalScope": false
       },
+      "https://deno.land/std@0.66.0/encoding/utf8.ts": {
+        "version": "90da654aaab4436cde2c92d80789714909cdace3b4c5273dca59426baa04cfe4",
+        "signature": "-9536159269",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/bytes/mod.ts": {
+        "version": "1e6b0c179c0cfac1bf0833cb4187ffb24f8f4ddf64963fc1c0188dac35bc8c7a",
+        "signature": "-814175339",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/_util/assert.ts": {
+        "version": "529369a9c3c2f910e6e44e5d3c4446a03a2ee6b754086580f1474d9932f60dce",
+        "signature": "-16409965166",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/io/bufio.ts": {
+        "version": "10ab0b6c1624cbf540983e05360ad9ad95d5ebfc41d2b52887fd46b4b70158bc",
+        "signature": "7475322339",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/async/deferred.ts": {
+        "version": "0672b146f0bf83e61d64d7fcdd95946e3adcb0a39a7c8266d29dd9dba9d5b006",
+        "signature": "919087033",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/async/delay.ts": {
+        "version": "45e610d449d6600543169f134c9cf9f47a1252c35204108a27268aa3265d43ca",
+        "signature": "-16927350",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/async/mux_async_iterator.ts": {
+        "version": "21b80ec44abb6e99529630bcb6311359898bf89d99105425118afb88ae02afff",
+        "signature": "-19065168227",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/async/pool.ts": {
+        "version": "e466bb06dc206b35d5b3ed7d9d13d11a27b07c9ea68c3a935c578341364d6263",
+        "signature": "-20791672128",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/async/mod.ts": {
+        "version": "7874179bbe819999c6a6e99b838a2f68e1511d270c1f7e21dd44cfd6a3acafb0",
+        "signature": "-10073129669",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/textproto/mod.ts": {
+        "version": "f7607077387d1e26fdd077b4c2c1e8c9bbcf47ed832ea9ae8c1f4594ed88166b",
+        "signature": "68968002",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/http/http_status.ts": {
+        "version": "80551550d268d48ee8194850bbb808c78c694f12a089ecf7194f22786abb2799",
+        "signature": "-67096563847",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/http/_io.ts": {
+        "version": "2c30e3deb97370798f2b4da36acf2fe43f956831b3727d153567b3ec18ca5ade",
+        "signature": "34366521554",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.66.0/http/server.ts": {
+        "version": "2d1b2e18242c6ce6713811eea76c3108702091c713ac8b65b0e26fdf0f49aecf",
+        "signature": "30542349274",
+        "affectsGlobalScope": false
+      },
       "file:///D:/Code/Ninie.io/deps.ts": {
-        "version": "3b023eaa6659ab8b73f3528be1502d463cd3c317946225bcff335a4c66324732",
-        "signature": "-47210980444",
+        "version": "899aa7b97e397858cd984b94ab88401ced063b7971967c2c34e8e509ab461bcd",
+        "signature": "-44081562550",
         "affectsGlobalScope": false
       }
     },
@@ -512,6 +577,7 @@
     },
     "referencedMap": {
       "file:///D:/Code/Ninie.io/deps.ts": [
+        "https://deno.land/std@0.66.0/http/server.ts",
         "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/mod.ts"
       ],
       "https://deno.land/std@0.61.0/async/mod.ts": [
@@ -561,6 +627,39 @@
         "https://deno.land/std@0.61.0/io/bufio.ts",
         "https://deno.land/std@0.61.0/io/ioutil.ts",
         "https://deno.land/std@0.61.0/textproto/mod.ts"
+      ],
+      "https://deno.land/std@0.66.0/async/mod.ts": [
+        "https://deno.land/std@0.66.0/async/deferred.ts",
+        "https://deno.land/std@0.66.0/async/delay.ts",
+        "https://deno.land/std@0.66.0/async/mux_async_iterator.ts",
+        "https://deno.land/std@0.66.0/async/pool.ts"
+      ],
+      "https://deno.land/std@0.66.0/async/mux_async_iterator.ts": [
+        "https://deno.land/std@0.66.0/async/deferred.ts"
+      ],
+      "https://deno.land/std@0.66.0/http/_io.ts": [
+        "https://deno.land/std@0.66.0/_util/assert.ts",
+        "https://deno.land/std@0.66.0/encoding/utf8.ts",
+        "https://deno.land/std@0.66.0/http/http_status.ts",
+        "https://deno.land/std@0.66.0/http/server.ts",
+        "https://deno.land/std@0.66.0/io/bufio.ts",
+        "https://deno.land/std@0.66.0/textproto/mod.ts"
+      ],
+      "https://deno.land/std@0.66.0/http/server.ts": [
+        "https://deno.land/std@0.66.0/_util/assert.ts",
+        "https://deno.land/std@0.66.0/async/mod.ts",
+        "https://deno.land/std@0.66.0/encoding/utf8.ts",
+        "https://deno.land/std@0.66.0/http/_io.ts",
+        "https://deno.land/std@0.66.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.66.0/io/bufio.ts": [
+        "https://deno.land/std@0.66.0/_util/assert.ts",
+        "https://deno.land/std@0.66.0/bytes/mod.ts"
+      ],
+      "https://deno.land/std@0.66.0/textproto/mod.ts": [
+        "https://deno.land/std@0.66.0/bytes/mod.ts",
+        "https://deno.land/std@0.66.0/encoding/utf8.ts",
+        "https://deno.land/std@0.66.0/io/bufio.ts"
       ],
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/mod.ts": [
         "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/handlers/channel.ts",
@@ -814,6 +913,7 @@
     },
     "exportedModulesMap": {
       "file:///D:/Code/Ninie.io/deps.ts": [
+        "https://deno.land/std@0.66.0/http/server.ts",
         "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/mod.ts"
       ],
       "https://deno.land/std@0.61.0/async/mod.ts": [
@@ -837,6 +937,23 @@
       ],
       "https://deno.land/std@0.61.0/ws/mod.ts": [
         "https://deno.land/std@0.61.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.66.0/async/mod.ts": [
+        "https://deno.land/std@0.66.0/async/deferred.ts",
+        "https://deno.land/std@0.66.0/async/delay.ts",
+        "https://deno.land/std@0.66.0/async/mux_async_iterator.ts",
+        "https://deno.land/std@0.66.0/async/pool.ts"
+      ],
+      "https://deno.land/std@0.66.0/http/_io.ts": [
+        "https://deno.land/std@0.66.0/http/server.ts",
+        "https://deno.land/std@0.66.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.66.0/http/server.ts": [
+        "https://deno.land/std@0.66.0/async/mod.ts",
+        "https://deno.land/std@0.66.0/io/bufio.ts"
+      ],
+      "https://deno.land/std@0.66.0/textproto/mod.ts": [
+        "https://deno.land/std@0.66.0/io/bufio.ts"
       ],
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/mod.ts": [
         "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/handlers/channel.ts",
@@ -1080,6 +1197,19 @@
       "https://deno.land/std@0.61.0/io/ioutil.ts",
       "https://deno.land/std@0.61.0/textproto/mod.ts",
       "https://deno.land/std@0.61.0/ws/mod.ts",
+      "https://deno.land/std@0.66.0/_util/assert.ts",
+      "https://deno.land/std@0.66.0/async/deferred.ts",
+      "https://deno.land/std@0.66.0/async/delay.ts",
+      "https://deno.land/std@0.66.0/async/mod.ts",
+      "https://deno.land/std@0.66.0/async/mux_async_iterator.ts",
+      "https://deno.land/std@0.66.0/async/pool.ts",
+      "https://deno.land/std@0.66.0/bytes/mod.ts",
+      "https://deno.land/std@0.66.0/encoding/utf8.ts",
+      "https://deno.land/std@0.66.0/http/_io.ts",
+      "https://deno.land/std@0.66.0/http/http_status.ts",
+      "https://deno.land/std@0.66.0/http/server.ts",
+      "https://deno.land/std@0.66.0/io/bufio.ts",
+      "https://deno.land/std@0.66.0/textproto/mod.ts",
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/mod.ts",
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/constants/discord.ts",
       "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/events/channels.ts",

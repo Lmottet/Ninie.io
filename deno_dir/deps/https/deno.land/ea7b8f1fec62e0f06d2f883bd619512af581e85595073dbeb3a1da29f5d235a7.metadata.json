@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "set-cookie": "__cfduid=dc99ccf9d5969385885f411d29e9ba2ef1598478180; expires=Fri, 25-Sep-20 21:43:00 GMT; path=/; domain=.deno.land; HttpOnly; SameSite=Lax; Secure",
+    "location": "/std@0.24.0/http/server.ts",
+    "alt-svc": "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+    "vary": "Accept-Encoding",
+    "cf-ray": "5c90b9d4ab851ed2-AMS",
+    "content-length": "0",
+    "date": "Wed, 26 Aug 2020 21:43:00 GMT",
+    "server": "cloudflare",
+    "cf-request-id": "04ce5278e800001ed270160200000001",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "x-deno-warning": "std versions prefixed with 'v' will be deprecated on October 1st 2020. Please change your import to https://deno.land/std@0.24.0/http/server.ts (at https://deno.land/std@v0.24.0/http/server.ts)"
+  },
+  "url": "https://deno.land/std@v0.24.0/http/server.ts"
+}
