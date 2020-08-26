@@ -98,5 +98,5 @@ Client({
 wakeUpDyno("https://ninie-io.herokuapp.com/");
 
 const body = new TextEncoder().encode("Hello World\n");
-const s = serve({ port: port ? port : "8000" });
+const s = serve({ port: port ? port : 8000 });
 for await (const req of s) req.respond({ body });
