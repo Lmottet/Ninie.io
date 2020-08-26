@@ -4,17 +4,12 @@ import { botCache } from "../../mod.ts";
 import { handleError } from "../utils/errors.ts";
 import { sendMessage } from "../../deps.ts";
 import { Command } from "../types/commands.ts";
+
 export const commandHandler = async (message: Message) => {
   // If the message was sent by a bot we can just ignore it
   if (message.author.bot) return;
 
-  let said = message.content.toLowerCase().search("(dis)");
-  if (
-    typeof said != "undefined" && said >= 0 &&
-    message.content.length - said < 10
-  ) {
-    sendMessage(message.channel, message.content.slice(said + 3).trim());
-  }
+  parseSays(message);
 
   const prefix = parsePrefix(message.guildID);
   // If the message is not using the valid prefix cancel the command
@@ -202,3 +197,34 @@ async function commandAllowed(
 
   return true;
 }
+
+const parseSays = (message: MessageEvent) => {
+  if (!parseSay(message, "(dis)", 3)) {
+    parseSay(message, "(di)", 2);
+  }
+};
+
+const parseSay = (message: Message, regex: string, offset: number) => {
+  let saidAt = message.content.toLowerCase().search(regex);
+  if (
+    typeof saidAt != "undefined" && saidAt >= 0
+  ) {
+    say(message, saidAt, offset);
+    return true;
+  }
+
+  return false;
+};
+
+const nextWord = (said: string, saidAt: number, offset: number) => {
+  return said.slice(saidAt + offset).trim().split(
+    " ",
+  )[0].trim();
+};
+
+const say = (message: Message, saidAt: number, offset: number) => {
+  let saythis = nextWord(message.content, saidAt, offset);
+  if (saythis.length < 12) {
+    sendMessage(message.channel, saythis);
+  }
+};
