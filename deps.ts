@@ -13,16 +13,16 @@ export {
   EventHandlers,
   getMember,
   Guild,
-  hasChannelPermission,
+  hasChannelPermissions,
   Intents,
   kick,
-  logger,
+  //logger,
   Member,
   Message,
   MessageContent,
   Permission,
   Permissions,
   sendMessage,
-} from "https://x.nest.land/Discordeno@8.0.0/mod.ts";
+} from "https://x.nest.land/Discordeno@9.0.1/mod.ts";
 
-export { serve } from "https://deno.land/std@0.66.0/http/server.ts";
+export { serve } from "https://deno.land/std@0.70.0/http/server.ts";

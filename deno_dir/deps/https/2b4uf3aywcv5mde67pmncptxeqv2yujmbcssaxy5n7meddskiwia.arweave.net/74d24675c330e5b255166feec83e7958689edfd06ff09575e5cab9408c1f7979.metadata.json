@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "Content-Type",
+    "x-trace": "cH-30u5zdf",
+    "content-type": "video/mp2t",
+    "etag": "0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA",
+    "date": "Sun, 27 Sep 2020 13:11:30 GMT",
+    "content-length": "6995",
+    "access-control-allow-methods": "GET"
+  },
+  "url": "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
+}
