@@ -1,5 +1,0 @@
-import { userTag } from "./utils/users.ts";
-import { config } from "../config.ts";
-export const isAdmin = (userTag) => userTag === config.ninieTag || userTag === config.olsiTag;
-export const isUserAdmin = (userName, discriminator) => isAdmin(userTag(userName, discriminator));
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXV0aG9yaXphdGlvbnMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJhdXRob3JpemF0aW9ucy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsT0FBTyxFQUFFLE1BQU0sa0JBQWtCLENBQUM7QUFDM0MsT0FBTyxFQUFFLE1BQU0sRUFBRSxNQUFNLGNBQWMsQ0FBQztBQUV0QyxNQUFNLENBQUMsTUFBTSxPQUFPLEdBQUcsQ0FBQyxPQUFlLEVBQUUsRUFBRSxDQUN6QyxPQUFPLEtBQUssTUFBTSxDQUFDLFFBQVEsSUFBSSxPQUFPLEtBQUssTUFBTSxDQUFDLE9BQU8sQ0FBQztBQUU1RCxNQUFNLENBQUMsTUFBTSxXQUFXLEdBQUcsQ0FBQyxRQUFnQixFQUFFLGFBQXFCLEVBQUUsRUFBRSxDQUNyRSxPQUFPLENBQUMsT0FBTyxDQUFDLFFBQVEsRUFBRSxhQUFhLENBQUMsQ0FBQyxDQUFDIn0=

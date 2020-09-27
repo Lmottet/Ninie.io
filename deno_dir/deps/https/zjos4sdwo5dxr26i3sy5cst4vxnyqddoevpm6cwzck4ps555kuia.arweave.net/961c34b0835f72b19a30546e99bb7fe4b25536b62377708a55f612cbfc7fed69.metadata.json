@@ -1,13 +1,13 @@
 {
   "headers": {
-    "x-trace": "h4tZyBFQcY",
-    "etag": "yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA",
-    "access-control-allow-headers": "Content-Type",
-    "access-control-allow-methods": "GET",
-    "date": "Wed, 26 Aug 2020 08:17:07 GMT",
     "content-length": "1837",
+    "access-control-allow-origin": "*",
     "content-type": "video/mp2t",
-    "access-control-allow-origin": "*"
+    "date": "Sun, 27 Sep 2020 13:07:34 GMT",
+    "x-trace": "eBG7ZYAla",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-headers": "Content-Type",
+    "etag": "yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA"
   },
   "url": "https://zjos4sdwo5dxr26i3sy5cst4vxnyqddoevpm6cwzck4ps555kuia.arweave.net/yl0uSHZ3R3jryNyx0Up8rduIDG4lXs8K2RK4-Xe9VRA/src/structures/channel.ts"
 }
