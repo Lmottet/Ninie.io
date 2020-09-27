@@ -21,7 +21,7 @@ const classCommand = (
     name: command,
     execute: (message) => {
       sendEmbed(
-        message.channel,
+        message.channelID,
         classResponse(guildPlayer, streamers),
         `<@!${message.author.id}>`,
       );

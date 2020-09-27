@@ -6,7 +6,7 @@ botCache.commands.set(`ping`, {
   name: `ping`,
   execute: function (message) {
     sendMessage(
-      message.channel,
+      message.channelID,
       `Ping MS: ${Date.now() - message.timestamp}ms`
     );
   },
@@ -22,7 +22,7 @@ botCache.commands.set(`devping`, {
     });
 
     sendMessage(
-      message.channel,
+      message.channelID,
       `Ping MS: ${Date.now() - message.timestamp}ms | Guilds: ${
         cache.guilds.size
       } | Users: ${memberCount}`

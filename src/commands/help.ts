@@ -6,11 +6,11 @@ import { sendEmbed } from "../utils/helpers.ts";
 botCache.commands.set("help", {
   name: `help`,
   execute: (message) => {
-    sendEmbed(message.channel, useful());
-    sendEmbed(message.channel, randoms());
-    sendEmbed(message.channel, io());
+    sendEmbed(message.channelID, useful());
+    sendEmbed(message.channelID, randoms());
+    sendEmbed(message.channelID, io());
     sendMessage(
-      message.channel,
+      message.channelID,
       "Et en bonus: la commande mystère ! Bonne recherche :)",
     );
   },

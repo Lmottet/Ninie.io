@@ -29,7 +29,7 @@ export function sendResponse(
       ? `${mention} ${content}`
       : { ...content, content: `${mention}, ${content.content}` };
 
-  return sendMessage(message.channel, contentWithMention);
+  return sendMessage(message.channelID, contentWithMention);
 }
 
 /** This function should be used when you want to convert milliseconds to a human readable format like 1d5h. */
@@ -66,6 +66,6 @@ export function createCommandAliases(
 }
 
 /** Use this function to send an embed with ease. */
-export function sendEmbed(channel: Channel, embed: Embed, content?: string) {
-  return sendMessage(channel, { content, embed });
+export function sendEmbed(channelID: string, embed: Embed, content?: string) {
+  return sendMessage(channelID, { content, embed });
 }

@@ -1,4 +1,4 @@
-import { Message, logger, Guild, cache } from "../../deps.ts";
+import { Message, Guild, cache } from "../../deps.ts";
 import { config } from "../../config.ts";
 import { botCache } from "../../mod.ts";
 import { handleError } from "../utils/errors.ts";
@@ -27,7 +27,6 @@ export const commandHandler = async (message: Message) => {
   if (!command) return;
 
   const guild = message.guildID ? cache.guilds.get(message.guildID) : undefined;
-  logCommand(message, guild?.name || "DM", "Ran", commandName);
 
   // Parsed args and validated
   const args = (await parseArguments(message, command, parameters)) as
@@ -45,7 +44,6 @@ export const commandHandler = async (message: Message) => {
       // Check subcommand permissions and options
       if (!(await commandAllowed(message, command, guild))) return;
       await command.execute(message, args);
-      return logCommand(message, guild?.name || "DM", "Success", commandName);
     }
 
     // A subcommand was asked for in this command
@@ -53,19 +51,14 @@ export const commandHandler = async (message: Message) => {
     if (!subcommand) {
       await command.execute(message, args);
 
-      // Log that the command ran successfully.
-      return logCommand(message, guild?.name || "DM", "Success", commandName);
+      return;
     }
 
     // Check subcommand permissions and options
     if (!(await commandAllowed(message, subcommand, guild))) return;
     // Parse the args and then execute the subcommand
     await subcommand.execute(message, args);
-    // Log that the command ran successfully.
-    logCommand(message, guild?.name || "DM", "Success", commandName);
   } catch (error) {
-    logCommand(message, guild?.name || "DM", "Failed", commandName);
-    logger.error(error);
     handleError(message, error);
   }
 };
@@ -84,17 +77,6 @@ export const parseCommand = (commandName: string) => {
   if (!alias) return;
 
   return botCache.commands.get(alias);
-};
-
-export const logCommand = (
-  message: Message,
-  guildName: string,
-  type: string,
-  commandName: string,
-) => {
-  logger.success(
-    `[COMMAND:${commandName} - ${type}] by ${message.author.username}#${message.author.discriminator} in ${guildName}`,
-  );
 };
 
 /** Parses all the arguments for the command based on the message sent by the user. */
@@ -193,7 +175,6 @@ async function commandAllowed(
   );
 
   if (inhibitor_results.includes(true)) {
-    logCommand(message, guild?.name || "DM", "Inhibibted", command.name);
     return false;
   }
 
@@ -234,6 +215,6 @@ const nextWord = (said: string, saidAt: number, offset: number) => {
 const say = (message: Message, saidAt: number, offset: number) => {
   let saythis = nextWord(message.content, saidAt, offset);
   if (saythis.length < 12) {
-    sendMessage(message.channel, saythis);
+    sendMessage(message.channelID, saythis);
   }
 };

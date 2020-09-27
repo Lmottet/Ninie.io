@@ -20,7 +20,7 @@ botCache.commands.set(`office`, {
   execute: function (message) {
     addLove(message.author.id, config.officeLove);
     sendEmbed(
-      message.channel,
+      message.channelID,
       embed(message),
       `<@!353512918379397130> vient de passer un bon moment !`,
     );

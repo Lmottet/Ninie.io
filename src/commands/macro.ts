@@ -22,7 +22,7 @@ botCache.commands.set("macro", {
   name: "macro",
   execute: (message) => {
     sendEmbed(
-      message.channel,
+      message.channelID,
       druidResponse(),
       `<@!${message.author.id}>`,
     );

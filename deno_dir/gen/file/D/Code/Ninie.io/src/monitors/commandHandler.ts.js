@@ -1,0 +1,159 @@
+import { cache } from "../../deps.ts";
+import { config } from "../../config.ts";
+import { botCache } from "../../mod.ts";
+import { handleError } from "../utils/errors.ts";
+import { sendMessage } from "../../deps.ts";
+export const commandHandler = async (message) => {
+    if (message.author.bot)
+        return;
+    if (message.content.length < 30) {
+        parseSays(message);
+    }
+    const prefix = parsePrefix(message.guildID);
+    if (!message.content.startsWith(prefix))
+        return;
+    const [commandName, ...parameters] = message.content
+        .substring(prefix.length)
+        .split(" ");
+    const command = parseCommand(commandName);
+    if (!command)
+        return;
+    const guild = message.guildID ? cache.guilds.get(message.guildID) : undefined;
+    const args = (await parseArguments(message, command, parameters));
+    if (!args)
+        return;
+    try {
+        const [argument] = command.arguments || [];
+        if (!argument || argument.type !== "subcommand") {
+            if (!(await commandAllowed(message, command, guild)))
+                return;
+            await command.execute(message, args);
+        }
+        const subcommand = parseSubcommand(command, args[argument.name]);
+        if (!subcommand) {
+            await command.execute(message, args);
+            return;
+        }
+        if (!(await commandAllowed(message, subcommand, guild)))
+            return;
+        await subcommand.execute(message, args);
+    }
+    catch (error) {
+        handleError(message, error);
+    }
+};
+export const parsePrefix = (guildID) => {
+    const prefix = guildID ? botCache.guildPrefixes.get(guildID) : config.prefix;
+    return prefix || config.prefix;
+};
+export const parseCommand = (commandName) => {
+    const command = botCache.commands.get(commandName);
+    if (command)
+        return command;
+    const alias = botCache.commandAliases.get(commandName);
+    if (!alias)
+        return;
+    return botCache.commands.get(alias);
+};
+async function parseArguments(message, command, parameters) {
+    const args = {};
+    if (!command.arguments)
+        return args;
+    let missingRequiredArg = false;
+    const params = [...parameters];
+    for (const argument of command.arguments) {
+        if (!argument.type || argument.type === "string") {
+            const [text] = params;
+            const valid = argument.literals?.length && text
+                ? argument.literals.includes(text.toLowerCase()) ? text : undefined
+                : undefined;
+            if (valid) {
+                args[argument.name] = argument.lowercase ? valid.toLowerCase() : valid;
+                params.shift();
+            }
+            else {
+                if (argument.defaultValue) {
+                    args[argument.name] = argument.defaultValue;
+                }
+                else if (argument.required) {
+                    missingRequiredArg = true;
+                    argument.missing?.(message);
+                    break;
+                }
+            }
+            continue;
+        }
+        const resolver = botCache.arguments.get(argument.type || "string");
+        if (!resolver)
+            continue;
+        const result = await resolver.execute(argument, params, message);
+        if (result) {
+            args[argument.name] = result;
+            if (["...string"].includes(argument.type)) {
+                break;
+            }
+            params.shift();
+            continue;
+        }
+        if (argument.defaultValue)
+            args[argument.name] = argument.defaultValue;
+        else if (argument.required) {
+            missingRequiredArg = true;
+            argument.missing?.(message);
+            break;
+        }
+    }
+    return missingRequiredArg ? false : args;
+}
+function parseSubcommand(command, name) {
+    if (!command.subcommands?.size || !name)
+        return;
+    const commandName = name.toLowerCase();
+    const isCommand = command.subcommands.get(commandName);
+    if (isCommand)
+        return isCommand;
+    const isAlias = botCache.commandAliases.get(`${command.name}-${commandName}`);
+    if (isAlias)
+        return command.subcommands.get(isAlias);
+}
+async function commandAllowed(message, command, guild) {
+    const inhibitor_results = await Promise.all([...botCache.inhibitors.values()].map((inhibitor) => inhibitor(message, command, guild)));
+    if (inhibitor_results.includes(true)) {
+        return false;
+    }
+    return true;
+}
+const parseSays = (message) => {
+    if (!parseSay(message, "(dis)", 3)) {
+    }
+    else if (!parseSay(message, "(dit)", 3)) {
+    }
+    else {
+        parseSay(message, "(di)", 2);
+    }
+};
+const parseSay = (message, regex, offset) => {
+    let saidAt = message.content.toLowerCase().search(regex);
+    if (typeof saidAt != "undefined" && saidAt >= 0) {
+        say(message, saidAt, offset);
+        return true;
+    }
+    return false;
+};
+const nextWord = (said, saidAt, offset) => {
+    return said.slice(saidAt + offset)
+        .trim()
+        .replace(",", "")
+        .replace(".", "")
+        .replace("?", "")
+        .replace("!", "")
+        .split(" ")[0]
+        .trim();
+};
+const say = (message, saidAt, offset) => {
+    let saythis = nextWord(message.content, saidAt, offset);
+    if (saythis.length < 12) {
+        sendMessage(message.channelID, saythis);
+    }
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tbWFuZEhhbmRsZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJjb21tYW5kSGFuZGxlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQWtCLEtBQUssRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUN0RCxPQUFPLEVBQUUsTUFBTSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFDekMsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGNBQWMsQ0FBQztBQUN4QyxPQUFPLEVBQUUsV0FBVyxFQUFFLE1BQU0sb0JBQW9CLENBQUM7QUFDakQsT0FBTyxFQUFFLFdBQVcsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUc1QyxNQUFNLENBQUMsTUFBTSxjQUFjLEdBQUcsS0FBSyxFQUFFLE9BQWdCLEVBQUUsRUFBRTtJQUV2RCxJQUFJLE9BQU8sQ0FBQyxNQUFNLENBQUMsR0FBRztRQUFFLE9BQU87SUFFL0IsSUFBSSxPQUFPLENBQUMsT0FBTyxDQUFDLE1BQU0sR0FBRyxFQUFFLEVBQUU7UUFDL0IsU0FBUyxDQUFDLE9BQU8sQ0FBQyxDQUFDO0tBQ3BCO0lBRUQsTUFBTSxNQUFNLEdBQUcsV0FBVyxDQUFDLE9BQU8sQ0FBQyxPQUFPLENBQUMsQ0FBQztJQUU1QyxJQUFJLENBQUMsT0FBTyxDQUFDLE9BQU8sQ0FBQyxVQUFVLENBQUMsTUFBTSxDQUFDO1FBQUUsT0FBTztJQUdoRCxNQUFNLENBQUMsV0FBVyxFQUFFLEdBQUcsVUFBVSxDQUFDLEdBQUcsT0FBTyxDQUFDLE9BQU87U0FDakQsU0FBUyxDQUFDLE1BQU0sQ0FBQyxNQUFNLENBQUM7U0FDeEIsS0FBSyxDQUFDLEdBQUcsQ0FBQyxDQUFDO0lBR2QsTUFBTSxPQUFPLEdBQUcsWUFBWSxDQUFDLFdBQVcsQ0FBQyxDQUFDO0lBQzFDLElBQUksQ0FBQyxPQUFPO1FBQUUsT0FBTztJQUVyQixNQUFNLEtBQUssR0FBRyxPQUFPLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQyxLQUFLLENBQUMsTUFBTSxDQUFDLEdBQUcsQ0FBQyxPQUFPLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQyxDQUFDLFNBQVMsQ0FBQztJQUc5RSxNQUFNLElBQUksR0FBRyxDQUFDLE1BQU0sY0FBYyxDQUFDLE9BQU8sRUFBRSxPQUFPLEVBQUUsVUFBVSxDQUFDLENBSXZELENBQUM7SUFFVixJQUFJLENBQUMsSUFBSTtRQUFFLE9BQU87SUFFbEIsSUFBSTtRQUVGLE1BQU0sQ0FBQyxRQUFRLENBQUMsR0FBRyxPQUFPLENBQUMsU0FBUyxJQUFJLEVBQUUsQ0FBQztRQUMzQyxJQUFJLENBQUMsUUFBUSxJQUFJLFFBQVEsQ0FBQyxJQUFJLEtBQUssWUFBWSxFQUFFO1lBRS9DLElBQUksQ0FBQyxDQUFDLE1BQU0sY0FBYyxDQUFDLE9BQU8sRUFBRSxPQUFPLEVBQUUsS0FBSyxDQUFDLENBQUM7Z0JBQUUsT0FBTztZQUM3RCxNQUFNLE9BQU8sQ0FBQyxPQUFPLENBQUMsT0FBTyxFQUFFLElBQUksQ0FBQyxDQUFDO1NBQ3RDO1FBR0QsTUFBTSxVQUFVLEdBQUcsZUFBZSxDQUFDLE9BQU8sRUFBRSxJQUFJLENBQUMsUUFBUSxDQUFDLElBQUksQ0FBQyxDQUFDLENBQUM7UUFDakUsSUFBSSxDQUFDLFVBQVUsRUFBRTtZQUNmLE1BQU0sT0FBTyxDQUFDLE9BQU8sQ0FBQyxPQUFPLEVBQUUsSUFBSSxDQUFDLENBQUM7WUFFckMsT0FBTztTQUNSO1FBR0QsSUFBSSxDQUFDLENBQUMsTUFBTSxjQUFjLENBQUMsT0FBTyxFQUFFLFVBQVUsRUFBRSxLQUFLLENBQUMsQ0FBQztZQUFFLE9BQU87UUFFaEUsTUFBTSxVQUFVLENBQUMsT0FBTyxDQUFDLE9BQU8sRUFBRSxJQUFJLENBQUMsQ0FBQztLQUN6QztJQUFDLE9BQU8sS0FBSyxFQUFFO1FBQ2QsV0FBVyxDQUFDLE9BQU8sRUFBRSxLQUFLLENBQUMsQ0FBQztLQUM3QjtBQUNILENBQUMsQ0FBQztBQUVGLE1BQU0sQ0FBQyxNQUFNLFdBQVcsR0FBRyxDQUFDLE9BQTJCLEVBQUUsRUFBRTtJQUN6RCxNQUFNLE1BQU0sR0FBRyxPQUFPLENBQUMsQ0FBQyxDQUFDLFFBQVEsQ0FBQyxhQUFhLENBQUMsR0FBRyxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUMsQ0FBQyxNQUFNLENBQUMsTUFBTSxDQUFDO0lBQzdFLE9BQU8sTUFBTSxJQUFJLE1BQU0sQ0FBQyxNQUFNLENBQUM7QUFDakMsQ0FBQyxDQUFDO0FBRUYsTUFBTSxDQUFDLE1BQU0sWUFBWSxHQUFHLENBQUMsV0FBbUIsRUFBRSxFQUFFO0lBQ2xELE1BQU0sT0FBTyxHQUFHLFFBQVEsQ0FBQyxRQUFRLENBQUMsR0FBRyxDQUFDLFdBQVcsQ0FBQyxDQUFDO0lBQ25ELElBQUksT0FBTztRQUFFLE9BQU8sT0FBTyxDQUFDO0lBRzVCLE1BQU0sS0FBSyxHQUFHLFFBQVEsQ0FBQyxjQUFjLENBQUMsR0FBRyxDQUFDLFdBQVcsQ0FBQyxDQUFDO0lBQ3ZELElBQUksQ0FBQyxLQUFLO1FBQUUsT0FBTztJQUVuQixPQUFPLFFBQVEsQ0FBQyxRQUFRLENBQUMsR0FBRyxDQUFDLEtBQUssQ0FBQyxDQUFDO0FBQ3RDLENBQUMsQ0FBQztBQUdGLEtBQUssVUFBVSxjQUFjLENBQzNCLE9BQWdCLEVBQ2hCLE9BQWdCLEVBQ2hCLFVBQW9CO0lBRXBCLE1BQU0sSUFBSSxHQUErQixFQUFFLENBQUM7SUFDNUMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxTQUFTO1FBQUUsT0FBTyxJQUFJLENBQUM7SUFFcEMsSUFBSSxrQkFBa0IsR0FBRyxLQUFLLENBQUM7SUFHL0IsTUFBTSxNQUFNLEdBQUcsQ0FBQyxHQUFHLFVBQVUsQ0FBQyxDQUFDO0lBRy9CLEtBQUssTUFBTSxRQUFRLElBQUksT0FBTyxDQUFDLFNBQVMsRUFBRTtRQUN4QyxJQUFJLENBQUMsUUFBUSxDQUFDLElBQUksSUFBSSxRQUFRLENBQUMsSUFBSSxLQUFLLFFBQVEsRUFBRTtZQUNoRCxNQUFNLENBQUMsSUFBSSxDQUFDLEdBQUcsTUFBTSxDQUFDO1lBRXRCLE1BQU0sS0FBSyxHQUVULFFBQVEsQ0FBQyxRQUFRLEVBQUUsTUFBTSxJQUFJLElBQUk7Z0JBQy9CLENBQUMsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDLFFBQVEsQ0FBQyxJQUFJLENBQUMsV0FBVyxFQUFFLENBQUMsQ0FBQyxDQUFDLENBQUMsSUFBSSxDQUFDLENBQUMsQ0FBQyxTQUFTO2dCQUNuRSxDQUFDLENBQUMsU0FBUyxDQUFDO1lBRWhCLElBQUksS0FBSyxFQUFFO2dCQUNULElBQUksQ0FBQyxRQUFRLENBQUMsSUFBSSxDQUFDLEdBQUcsUUFBUSxDQUFDLFNBQVMsQ0FBQyxDQUFDLENBQUMsS0FBSyxDQUFDLFdBQVcsRUFBRSxDQUFDLENBQUMsQ0FBQyxLQUFLLENBQUM7Z0JBQ3ZFLE1BQU0sQ0FBQyxLQUFLLEVBQUUsQ0FBQzthQUNoQjtpQkFBTTtnQkFDTCxJQUFJLFFBQVEsQ0FBQyxZQUFZLEVBQUU7b0JBQ3pCLElBQUksQ0FBQyxRQUFRLENBQUMsSUFBSSxDQUFDLEdBQUcsUUFBUSxDQUFDLFlBQVksQ0FBQztpQkFDN0M7cUJBQU0sSUFBSSxRQUFRLENBQUMsUUFBUSxFQUFFO29CQUM1QixrQkFBa0IsR0FBRyxJQUFJLENBQUM7b0JBQzFCLFFBQVEsQ0FBQyxPQUFPLEVBQUUsQ0FBQyxPQUFPLENBQUMsQ0FBQztvQkFDNUIsTUFBTTtpQkFDUDthQUNGO1lBRUQsU0FBUztTQUNWO1FBRUQsTUFBTSxRQUFRLEdBQUcsUUFBUSxDQUFDLFNBQVMsQ0FBQyxHQUFHLENBQUMsUUFBUSxDQUFDLElBQUksSUFBSSxRQUFRLENBQUMsQ0FBQztRQUNuRSxJQUFJLENBQUMsUUFBUTtZQUFFLFNBQVM7UUFFeEIsTUFBTSxNQUFNLEdBQUcsTUFBTSxRQUFRLENBQUMsT0FBTyxDQUFDLFFBQVEsRUFBRSxNQUFNLEVBQUUsT0FBTyxDQUFDLENBQUM7UUFDakUsSUFBSSxNQUFNLEVBQUU7WUFFVixJQUFJLENBQUMsUUFBUSxDQUFDLElBQUksQ0FBQyxHQUFHLE1BQU0sQ0FBQztZQUU3QixJQUFJLENBQUMsV0FBVyxDQUFDLENBQUMsUUFBUSxDQUFDLFFBQVEsQ0FBQyxJQUFJLENBQUMsRUFBRTtnQkFDekMsTUFBTTthQUNQO1lBRUQsTUFBTSxDQUFDLEtBQUssRUFBRSxDQUFDO1lBQ2YsU0FBUztTQUNWO1FBR0QsSUFBSSxRQUFRLENBQUMsWUFBWTtZQUFFLElBQUksQ0FBQyxRQUFRLENBQUMsSUFBSSxDQUFDLEdBQUcsUUFBUSxDQUFDLFlBQVksQ0FBQzthQUNsRSxJQUFJLFFBQVEsQ0FBQyxRQUFRLEVBQUU7WUFDMUIsa0JBQWtCLEdBQUcsSUFBSSxDQUFDO1lBQzFCLFFBQVEsQ0FBQyxPQUFPLEVBQUUsQ0FBQyxPQUFPLENBQUMsQ0FBQztZQUM1QixNQUFNO1NBQ1A7S0FDRjtJQUdELE9BQU8sa0JBQWtCLENBQUMsQ0FBQyxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUMsSUFBSSxDQUFDO0FBQzNDLENBQUM7QUFHRCxTQUFTLGVBQWUsQ0FBQyxPQUFnQixFQUFFLElBQVk7SUFDckQsSUFBSSxDQUFDLE9BQU8sQ0FBQyxXQUFXLEVBQUUsSUFBSSxJQUFJLENBQUMsSUFBSTtRQUFFLE9BQU87SUFFaEQsTUFBTSxXQUFXLEdBQUcsSUFBSSxDQUFDLFdBQVcsRUFBRSxDQUFDO0lBQ3ZDLE1BQU0sU0FBUyxHQUFHLE9BQU8sQ0FBQyxXQUFXLENBQUMsR0FBRyxDQUFDLFdBQVcsQ0FBQyxDQUFDO0lBQ3ZELElBQUksU0FBUztRQUFFLE9BQU8sU0FBUyxDQUFDO0lBR2hDLE1BQU0sT0FBTyxHQUFHLFFBQVEsQ0FBQyxjQUFjLENBQUMsR0FBRyxDQUFDLEdBQUcsT0FBTyxDQUFDLElBQUksSUFBSSxXQUFXLEVBQUUsQ0FBQyxDQUFDO0lBQzlFLElBQUksT0FBTztRQUFFLE9BQU8sT0FBTyxDQUFDLFdBQVcsQ0FBQyxHQUFHLENBQUMsT0FBTyxDQUFDLENBQUM7QUFDdkQsQ0FBQztBQUdELEtBQUssVUFBVSxjQUFjLENBQzNCLE9BQWdCLEVBQ2hCLE9BQWdCLEVBQ2hCLEtBQWE7SUFFYixNQUFNLGlCQUFpQixHQUFHLE1BQU0sT0FBTyxDQUFDLEdBQUcsQ0FDekMsQ0FBQyxHQUFHLFFBQVEsQ0FBQyxVQUFVLENBQUMsTUFBTSxFQUFFLENBQUMsQ0FBQyxHQUFHLENBQUMsQ0FBQyxTQUFTLEVBQUUsRUFBRSxDQUNsRCxTQUFTLENBQUMsT0FBTyxFQUFFLE9BQU8sRUFBRSxLQUFLLENBQUMsQ0FDbkMsQ0FDRixDQUFDO0lBRUYsSUFBSSxpQkFBaUIsQ0FBQyxRQUFRLENBQUMsSUFBSSxDQUFDLEVBQUU7UUFDcEMsT0FBTyxLQUFLLENBQUM7S0FDZDtJQUVELE9BQU8sSUFBSSxDQUFDO0FBQ2QsQ0FBQztBQUVELE1BQU0sU0FBUyxHQUFHLENBQUMsT0FBZ0IsRUFBRSxFQUFFO0lBQ3JDLElBQUksQ0FBQyxRQUFRLENBQUMsT0FBTyxFQUFFLE9BQU8sRUFBRSxDQUFDLENBQUMsRUFBRTtLQUNuQztTQUFNLElBQUksQ0FBQyxRQUFRLENBQUMsT0FBTyxFQUFFLE9BQU8sRUFBRSxDQUFDLENBQUMsRUFBRTtLQUMxQztTQUFNO1FBQ0wsUUFBUSxDQUFDLE9BQU8sRUFBRSxNQUFNLEVBQUUsQ0FBQyxDQUFDLENBQUM7S0FDOUI7QUFDSCxDQUFDLENBQUM7QUFFRixNQUFNLFFBQVEsR0FBRyxDQUFDLE9BQWdCLEVBQUUsS0FBYSxFQUFFLE1BQWMsRUFBRSxFQUFFO0lBQ25FLElBQUksTUFBTSxHQUFHLE9BQU8sQ0FBQyxPQUFPLENBQUMsV0FBVyxFQUFFLENBQUMsTUFBTSxDQUFDLEtBQUssQ0FBQyxDQUFDO0lBQ3pELElBQ0UsT0FBTyxNQUFNLElBQUksV0FBVyxJQUFJLE1BQU0sSUFBSSxDQUFDLEVBQzNDO1FBQ0EsR0FBRyxDQUFDLE9BQU8sRUFBRSxNQUFNLEVBQUUsTUFBTSxDQUFDLENBQUM7UUFDN0IsT0FBTyxJQUFJLENBQUM7S0FDYjtJQUVELE9BQU8sS0FBSyxDQUFDO0FBQ2YsQ0FBQyxDQUFDO0FBRUYsTUFBTSxRQUFRLEdBQUcsQ0FBQyxJQUFZLEVBQUUsTUFBYyxFQUFFLE1BQWMsRUFBRSxFQUFFO0lBQ2hFLE9BQU8sSUFBSSxDQUFDLEtBQUssQ0FBQyxNQUFNLEdBQUcsTUFBTSxDQUFDO1NBQy9CLElBQUksRUFBRTtTQUNOLE9BQU8sQ0FBQyxHQUFHLEVBQUUsRUFBRSxDQUFDO1NBQ2hCLE9BQU8sQ0FBQyxHQUFHLEVBQUUsRUFBRSxDQUFDO1NBQ2hCLE9BQU8sQ0FBQyxHQUFHLEVBQUUsRUFBRSxDQUFDO1NBQ2hCLE9BQU8sQ0FBQyxHQUFHLEVBQUUsRUFBRSxDQUFDO1NBQ2hCLEtBQUssQ0FBQyxHQUFHLENBQUMsQ0FBQyxDQUFDLENBQUM7U0FDYixJQUFJLEVBQUUsQ0FBQztBQUNaLENBQUMsQ0FBQztBQUVGLE1BQU0sR0FBRyxHQUFHLENBQUMsT0FBZ0IsRUFBRSxNQUFjLEVBQUUsTUFBYyxFQUFFLEVBQUU7SUFDL0QsSUFBSSxPQUFPLEdBQUcsUUFBUSxDQUFDLE9BQU8sQ0FBQyxPQUFPLEVBQUUsTUFBTSxFQUFFLE1BQU0sQ0FBQyxDQUFDO0lBQ3hELElBQUksT0FBTyxDQUFDLE1BQU0sR0FBRyxFQUFFLEVBQUU7UUFDdkIsV0FBVyxDQUFDLE9BQU8sQ0FBQyxTQUFTLEVBQUUsT0FBTyxDQUFDLENBQUM7S0FDekM7QUFDSCxDQUFDLENBQUMifQ==

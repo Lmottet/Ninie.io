@@ -34,7 +34,7 @@ async function api(message: Message, realm: string, character: string) {
     response.json()
       .then((rioData) => {
         sendEmbed(
-          message.channel,
+          message.channelID,
           embed(rioData),
           `<@!${message.author.id}>`,
         );

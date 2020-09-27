@@ -4,6 +4,6 @@ import { botCache } from "../../mod.ts";
 botCache.commands.set("gm", {
   name: `gm`,
   execute: (message) => {
-    sendMessage(message.channel, "Make Vilaines Crêpes great again !");
+    sendMessage(message.channelID, "Make Vilaines Crêpes great again !");
   },
 });

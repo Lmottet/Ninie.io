@@ -25,7 +25,7 @@ botCache.commands.set("druid", {
   name: "druid",
   execute: (message) => {
     sendEmbed(
-      message.channel,
+      message.channelID,
       druidResponse(),
       `<@!${message.author.id}>`,
     );

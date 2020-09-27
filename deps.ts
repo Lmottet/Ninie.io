@@ -16,7 +16,6 @@ export {
   hasChannelPermissions,
   Intents,
   kick,
-  //logger,
   Member,
   Message,
   MessageContent,

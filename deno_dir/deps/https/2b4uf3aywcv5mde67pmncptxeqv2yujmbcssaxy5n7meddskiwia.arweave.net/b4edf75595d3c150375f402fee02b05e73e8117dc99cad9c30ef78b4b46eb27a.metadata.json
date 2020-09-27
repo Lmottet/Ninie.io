@@ -1,13 +1,13 @@
 {
   "headers": {
+    "x-trace": "Kfn8iKLbn",
     "access-control-allow-origin": "*",
-    "x-trace": "h517y0G1KP",
     "access-control-allow-headers": "Content-Type",
-    "content-length": "433",
     "access-control-allow-methods": "GET",
-    "date": "Sun, 27 Sep 2020 13:11:30 GMT",
+    "date": "Sun, 27 Sep 2020 13:28:50 GMT",
+    "etag": "0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA",
     "content-type": "video/mp2t",
-    "etag": "0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA"
+    "content-length": "433"
   },
   "url": "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts"
 }
