@@ -1,6 +1,6 @@
 import {
   botID,
-  hasChannelPermissions,
+  channelOverwriteHasPermission,
   Message,
   Permission,
   Permissions,
@@ -59,7 +59,7 @@ botCache.inhibitors.set("permissions", async function (
   if (command.userChannelPermissions?.length) {
     const missingPermissions = command.userChannelPermissions.filter(
       (perm) =>
-        !hasChannelPermissions(message.channelID, message.author.id, [
+        !channelOverwriteHasPermission(message.channelID, message.author.id, [
           Permissions[perm],
         ])
     );
@@ -78,7 +78,7 @@ botCache.inhibitors.set("permissions", async function (
   if (command.userServerPermissions?.length) {
     const missingPermissions = command.userServerPermissions.filter(
       (perm) =>
-        !hasChannelPermissions(message.channelID, message.author.id, [
+        !channelOverwriteHasPermission(message.channelID, message.author.id, [
           Permissions[perm],
         ])
     );
@@ -97,7 +97,7 @@ botCache.inhibitors.set("permissions", async function (
   if (command.botChannelPermissions?.length) {
     const missingPermissions = command.botChannelPermissions.filter(
       (perm) =>
-        !hasChannelPermissions(message.channelID, message.author.id, [
+        !channelOverwriteHasPermission(message.channelID, message.author.id, [
           Permissions[perm],
         ])
     );
@@ -116,7 +116,7 @@ botCache.inhibitors.set("permissions", async function (
   if (command.botServerPermissions?.length) {
     const missingPermissions = command.botServerPermissions.filter(
       (perm) =>
-        !hasChannelPermissions(message.channelID, message.author.id, [
+        !channelOverwriteHasPermission(message.channelID, message.author.id, [
           Permissions[perm],
         ])
     );
