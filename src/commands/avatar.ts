@@ -2,7 +2,7 @@
 // This is the ideal way because it will give you automated typings.
 import { avatarURL, sendMessage } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
-
+/*
 botCache.commands.set(`avatar`, {
   name: `avatar`,
   guildOnly: true,
@@ -11,7 +11,7 @@ botCache.commands.set(`avatar`, {
       ? message.mentions()[0]
       : message.member()!;
 
-    return sendMessage(message.channel, {
+    return sendMessage(message.channelID, {
       embed: {
         author: {
           name: member.tag,
@@ -23,4 +23,4 @@ botCache.commands.set(`avatar`, {
       },
     });
   },
-});
+});*/
