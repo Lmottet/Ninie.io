@@ -2,10 +2,11 @@ import { sendMessage } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
 import { Embed } from "../utils/Embed.ts";
 import { sendEmbed } from "../utils/helpers.ts";
+import { Message } from "../../deps.ts";
 
 botCache.commands.set("help", {
   name: `help`,
-  execute: (message) => {
+  execute: (message: Message) => {
     sendEmbed(message.channelID, useful());
     sendEmbed(message.channelID, randoms());
     sendEmbed(message.channelID, io());

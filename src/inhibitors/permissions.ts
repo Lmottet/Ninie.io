@@ -34,9 +34,9 @@ function missingCommandPermission(
 }
 
 botCache.inhibitors.set("permissions", async function (
-  message,
-  command,
-  guild
+  message:Message,
+  command:Command,
+  guild:Guild
 ) {
   // No permissions are required
   if (

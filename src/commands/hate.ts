@@ -4,6 +4,7 @@ import { isUserAdmin } from "../authorizations.ts";
 import { getLove, removeLove } from "../services/feelsService.ts";
 import { sendResponse } from "../utils/helpers.ts";
 import { anyInsult } from "../utils/insults.ts";
+import { Message } from "../../deps.ts";
 
 botCache.commands.set("hate", {
   name: `hate`,
@@ -12,7 +13,7 @@ botCache.commands.set("hate", {
     {
       name: "member",
       type: "member",
-      missing: function (message) {
+      missing: function (message: Message) {
         sendResponse(message, `Utilisateur non reconnu`);
       },
       // By default this is true but for the purpose of the guide so you can see this exists.
@@ -21,14 +22,14 @@ botCache.commands.set("hate", {
     {
       name: "hateLevel",
       type: "number",
-      missing: function (message) {
+      missing: function (message: Message) {
         sendResponse(message, `Nombre non reconnu`);
       },
       // By default this is true but for the purpose of the guide so you can see this exists.
       required: true,
     },
   ],
-  execute: (message, args: HateArgs) => {
+  execute: (message: Message, args: HateArgs) => {
     console.log("author : " + JSON.stringify(message));
     if (!isUserAdmin(message.author.username, message.author.discriminator)) {
       sendResponse(message, anyInsult());

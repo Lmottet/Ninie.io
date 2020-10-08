@@ -1,5 +1,6 @@
 import { botCache } from "../../mod.ts";
 import { sendMessage } from "../../deps.ts";
+import { Message } from "../../deps.ts";
 
 const songs = [
   [
@@ -54,6 +55,6 @@ const sing = (channelID: string, song: number) => {
 
 botCache.commands.set("sing", {
   name: `sing`,
-  execute: (message) =>
+  execute: (message: Message) =>
     sing(message.channelID, Math.floor(Math.random() * songs.length)),
 });

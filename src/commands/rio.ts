@@ -9,13 +9,13 @@ botCache.commands.set("rio", {
     {
       name: "character",
       type: "...string",
-      missing: function (message) {
+      missing: function (message: Message) {
         sendResponse(message, `Character name is missing`);
       },
       required: true,
     },
   ],
-  execute: (message, args: RioArgs) => {
+  execute: (message: Message, args: RioArgs) => {
     let characterDetails = args.character.split("/");
     api(message, characterDetails[0], characterDetails[1]);
   },

@@ -1,5 +1,7 @@
 import { botCache } from "../../mod.ts";
 import { sendResponse, humanizeMilliseconds } from "../utils/helpers.ts";
+import { Message, Guild } from "../../deps.ts";
+import { Command } from "../types/commands.ts"
 
 const membersInCooldown = new Map<string, Cooldown>();
 
@@ -8,7 +10,7 @@ export interface Cooldown {
   timestamp: number;
 }
 
-botCache.inhibitors.set("cooldown", async function (message, command, guild) {
+botCache.inhibitors.set("cooldown", async function (message: Message, command: Command, guild: Guild) {
   if (!command.cooldown) return false;
 
   const key = `${message.author.id}-${command.name}`;

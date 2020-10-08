@@ -1,7 +1,7 @@
 import {
   deleteMessage,
   kick,
-  Member,
+  Guild,
   Message,
 } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
@@ -16,7 +16,7 @@ botCache.commands.set(`invincible`, {
   guildOnly: true,
   botServerPermissions: ["ADMINISTRATOR"],
   userServerPermissions: ["KICK_MEMBERS"],
-  execute: function (message, guild) {
+  execute: function (message: Message, guild: Guild) {
     if (!guild) return;
 
     // Delete the message command

@@ -1,6 +1,7 @@
 import { botCache } from "../../mod.ts";
 import { Embed } from "../utils/Embed.ts";
 import { sendEmbed } from "../utils/helpers.ts";
+import { Message } from "../../deps.ts";
 
 const druidResponse = () => {
   return new Embed()
@@ -20,7 +21,7 @@ const druidResponse = () => {
 
 botCache.commands.set("macro", {
   name: "macro",
-  execute: (message) => {
+  execute: (message: Message) => {
     sendEmbed(
       message.channelID,
       druidResponse(),
