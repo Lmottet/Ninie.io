@@ -268,7 +268,7 @@
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts": {
         "version": "e5fb954fef2d53ca47b559abf5cd93455838ac297e4caa035ae331fc4cc8e218",
-        "signature": "039c1d18589783d25ff4d914e87952dbe6e6854b9c883f18e680e00fa83cc3d1",
+        "signature": "1097896ca26093ff83d8daa3aa05e60948b1b24db03bee03473bd4d3b6773e1c",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts": {
@@ -563,7 +563,7 @@
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/channel.ts": {
         "version": "cd0355c9bfae8bbd2ac848c0c335d3303abbae73e08272db4f188e8248e3114c",
-        "signature": "195a4255ab2d32c3f7b98de10252006f2c03a2271fddeda3e9a8b7891b60bdc8",
+        "signature": "04e3c6553af67d2ccd5aa39c0753490f628ddd81f2e54b0102af4f0258cc3593",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts": {
@@ -583,12 +583,12 @@
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/member.ts": {
         "version": "87e7417a5eb6627e2654b0a002c99260b7e7371699df92e0a13768ed87087bd7",
-        "signature": "62ceebdc6662308a31a4b05975acf6c5454736710d9dc3aefe258756f5b7fd0f",
+        "signature": "20354d4752156d28a7354e96c41723160412fdec0f093d8853cfad7737b512b1",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/message.ts": {
         "version": "a40c8fc04ed45be730300492d0422bbde1cfbd8479bff08853beb37b2ad11089",
-        "signature": "87028a4100c4fac26e5466701b3c016640b2431611ded82338385436db04a231",
+        "signature": "87e0baf090a173dcfab7673ac72c1b5c4052383df9ea8a465206a067c8b84e65",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/webhook.ts": {
@@ -598,7 +598,7 @@
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/webhook.ts": {
         "version": "970495541b897730b965454b951893b9087714a9fcf9f40b12d4eed0e92d0ee3",
-        "signature": "bbacf141a41b5869ec95e6679f5e2c41eaec8f87e7e58213e5205fdc01cad18e",
+        "signature": "de56140b8181b95c1f211125f1aa740d155065dc8157897fe769701413d0f17f",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts": {
@@ -606,74 +606,74 @@
         "signature": "c5276061b462296d8141f96deb0a43cff7112f1af2c5222af034c2d8b9397811",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/encoding/utf8.ts": {
-        "version": "7896920ee0c5689a9219b5b4f0cfc0ba590e97c5df2148a5fdc6d69d4f5f9331",
+      "https://deno.land/std@0.74.0/encoding/utf8.ts": {
+        "version": "9c4b867473e708ad5790be7a13a971c05abd5e14a53dbaa0d7ed65dc9d964469",
         "signature": "a57aa88ff7746afdca174a2668682e8a1ab964462111cb303f5d323fded4949f",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/bytes/mod.ts": {
+      "https://deno.land/std@0.74.0/bytes/mod.ts": {
         "version": "f564eb7c3108eb40cba050d079ea2d894bb9c2007e20040b895ec5a2533db35f",
         "signature": "d77b1ddf00c7ba72d35d66892a6ed8f49282a699e23fc502a9d7fa38454b4c33",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/_util/assert.ts": {
+      "https://deno.land/std@0.74.0/_util/assert.ts": {
         "version": "32d0069bb9e8bb50600a3fd2a36dabdc26c2f8151880dac04dee61e9a6505670",
         "signature": "80fd2097b210f3d8589e0fe2d749e69f9bc1024daec5a3d38b97d0332fb1b18c",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/io/bufio.ts": {
-        "version": "c23bfefd03027a7b2f23eed70b03a15931136839495ade970f58845c5678ce16",
+      "https://deno.land/std@0.74.0/io/bufio.ts": {
+        "version": "6bd5c46d739b1c25f528ac7982d962004a2c36ee2715a4afc74944585febc321",
         "signature": "31e36808a997f5a959022298ffc6cd6ebfafce45d0ac2add02154ef072579529",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/async/deferred.ts": {
+      "https://deno.land/std@0.74.0/async/deferred.ts": {
         "version": "7e1b1e4c013574415d1ece4085eba82b656dc0347fb44b50df34d1686359cdf0",
         "signature": "566324ce7cc39bbe30f94544463a256b9eb890012e77d49a0dd40bb2ef843bc4",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/async/delay.ts": {
+      "https://deno.land/std@0.74.0/async/delay.ts": {
         "version": "588ddd9743a2e805e7f0789034181d4c7aa508847d205a238da9f056f393db20",
         "signature": "95f8beace3ed894e3e5e3ebaae46c855dfc133e2c63d37663a760c801750f7d4",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/async/mux_async_iterator.ts": {
+      "https://deno.land/std@0.74.0/async/mux_async_iterator.ts": {
         "version": "d6212b3c6b730302151ad97a595e0745b4a357ac9552c5ed6ee94dab4d8c35cb",
         "signature": "63404f86210b2143b6bd9f5d9b9be3b7627801df3380a7327297d0e47280b254",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/async/pool.ts": {
+      "https://deno.land/std@0.74.0/async/pool.ts": {
         "version": "e6884ea2e2037779755caa92fcef26f02cc4d57540f66bdf7eff9018a5adad75",
         "signature": "441aa0667c0ed5f5b0d189abc4db904c9c42f0e5ae00dda7e9e743395871903b",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/async/mod.ts": {
+      "https://deno.land/std@0.74.0/async/mod.ts": {
         "version": "eb7ff1a4a9595399b011c69db3ad31bc90332d219773fff4cebb22e048a6a5bc",
         "signature": "2dd6b462298b9a0643c496738bdf871adfe054e7f548980d103d4d13bdba498d",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/textproto/mod.ts": {
-        "version": "2fe691e5ac507139d8cff79c2bb3d2e9dbcc13766240f14cd99481a191176760",
+      "https://deno.land/std@0.74.0/textproto/mod.ts": {
+        "version": "817097743529561818f4faa44298afbf4bd0a74119be4472717720b56c68f24a",
         "signature": "c604bc9e9b4fec724eace52bfe246b73cb0bb96e4c02db0995651a301fa5d693",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/http/http_status.ts": {
+      "https://deno.land/std@0.74.0/http/http_status.ts": {
         "version": "152c3d77141bb1a13d7415b7a486f757d173775741e5f550a2b81b77d3bdfe17",
         "signature": "3bb93633f93806845edc9705d07d187f0099d500ee81e789ae2e10a5ea321cd6",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/http/_io.ts": {
-        "version": "f0b92c2e38c36c1152be082c5954e70edc39266501a113c8723d7a2112318bd7",
-        "signature": "4e5366d93cc9415f9a281e068ebbb19660fb68876aab874c12c51b5b6ec3081e",
+      "https://deno.land/std@0.74.0/http/_io.ts": {
+        "version": "a5c016535381b964643ea8764d3fbf382f0586cc874aeab5ca90f62786b1d9ff",
+        "signature": "1e9e922d109f47039c99d44ac486519761acb5931c4207f7c0c3c7d4c5e100ca",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.70.0/http/server.ts": {
-        "version": "4eddb96023d3784a7b0e3bea5fd0e4c668bfdd731946458319a2faa99b698a2d",
+      "https://deno.land/std@0.74.0/http/server.ts": {
+        "version": "f2c6fc5cfb9514b7b1eca6f32f6fe667bfe21e8dfde551e470ed384e69109d3d",
         "signature": "9a7d1ea01dad466167b513e2ac84aafa173e1454cc045ae534a6c4a45f8bb18d",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/deps.ts": {
-        "version": "807c3c4f0d82e096bf5c505ff4e5d737ac654d4975cb85cb029efc465d837b8f",
-        "signature": "56e53bf3f7729ef502aa702f1c2161cbda4338760d662cbc6a7ca19d03cde94d",
+        "version": "a5e4ce7c582d5bf56fb2a43ae44e89b038fb0a807b6788efbd93dd57b3b51fdc",
+        "signature": "d81c2f5065ec04ff00b3dd64835ac12904e77e4e4c711ec2f244d8da556addfe",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/src/types/commands.ts": {
@@ -698,7 +698,7 @@
       },
       "file:///D:/Code/Ninie.io/src/utils/helpers.ts": {
         "version": "f615bedbf42e064c5ec6a32ae75b265838ae4d8c21191e5d585c53f7e1570ec1",
-        "signature": "82cf64e55251887fe8a31c41742f05486a2535992653c5dd24a76202a7b94a44",
+        "signature": "d5342b1f48960c2fd9b4557e2719bd9645145db71bea59fa594fe87116b5bcca",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/src/commands/classes.ts": {
@@ -732,7 +732,7 @@
     "referencedMap": {
       "file:///D:/Code/Ninie.io/deps.ts": [
         "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
-        "https://deno.land/std@0.70.0/http/server.ts"
+        "https://deno.land/std@0.74.0/http/server.ts"
       ],
       "file:///D:/Code/Ninie.io/mod.ts": [
         "file:///D:/Code/Ninie.io/deps.ts",
@@ -1148,38 +1148,38 @@
         "https://deno.land/std@0.67.0/io/ioutil.ts",
         "https://deno.land/std@0.67.0/textproto/mod.ts"
       ],
-      "https://deno.land/std@0.70.0/async/mod.ts": [
-        "https://deno.land/std@0.70.0/async/deferred.ts",
-        "https://deno.land/std@0.70.0/async/delay.ts",
-        "https://deno.land/std@0.70.0/async/mux_async_iterator.ts",
-        "https://deno.land/std@0.70.0/async/pool.ts"
+      "https://deno.land/std@0.74.0/async/mod.ts": [
+        "https://deno.land/std@0.74.0/async/deferred.ts",
+        "https://deno.land/std@0.74.0/async/delay.ts",
+        "https://deno.land/std@0.74.0/async/mux_async_iterator.ts",
+        "https://deno.land/std@0.74.0/async/pool.ts"
       ],
-      "https://deno.land/std@0.70.0/async/mux_async_iterator.ts": [
-        "https://deno.land/std@0.70.0/async/deferred.ts"
+      "https://deno.land/std@0.74.0/async/mux_async_iterator.ts": [
+        "https://deno.land/std@0.74.0/async/deferred.ts"
       ],
-      "https://deno.land/std@0.70.0/http/_io.ts": [
-        "https://deno.land/std@0.70.0/_util/assert.ts",
-        "https://deno.land/std@0.70.0/encoding/utf8.ts",
-        "https://deno.land/std@0.70.0/http/http_status.ts",
-        "https://deno.land/std@0.70.0/http/server.ts",
-        "https://deno.land/std@0.70.0/io/bufio.ts",
-        "https://deno.land/std@0.70.0/textproto/mod.ts"
+      "https://deno.land/std@0.74.0/http/_io.ts": [
+        "https://deno.land/std@0.74.0/_util/assert.ts",
+        "https://deno.land/std@0.74.0/encoding/utf8.ts",
+        "https://deno.land/std@0.74.0/http/http_status.ts",
+        "https://deno.land/std@0.74.0/http/server.ts",
+        "https://deno.land/std@0.74.0/io/bufio.ts",
+        "https://deno.land/std@0.74.0/textproto/mod.ts"
       ],
-      "https://deno.land/std@0.70.0/http/server.ts": [
-        "https://deno.land/std@0.70.0/_util/assert.ts",
-        "https://deno.land/std@0.70.0/async/mod.ts",
-        "https://deno.land/std@0.70.0/encoding/utf8.ts",
-        "https://deno.land/std@0.70.0/http/_io.ts",
-        "https://deno.land/std@0.70.0/io/bufio.ts"
+      "https://deno.land/std@0.74.0/http/server.ts": [
+        "https://deno.land/std@0.74.0/_util/assert.ts",
+        "https://deno.land/std@0.74.0/async/mod.ts",
+        "https://deno.land/std@0.74.0/encoding/utf8.ts",
+        "https://deno.land/std@0.74.0/http/_io.ts",
+        "https://deno.land/std@0.74.0/io/bufio.ts"
       ],
-      "https://deno.land/std@0.70.0/io/bufio.ts": [
-        "https://deno.land/std@0.70.0/_util/assert.ts",
-        "https://deno.land/std@0.70.0/bytes/mod.ts"
+      "https://deno.land/std@0.74.0/io/bufio.ts": [
+        "https://deno.land/std@0.74.0/_util/assert.ts",
+        "https://deno.land/std@0.74.0/bytes/mod.ts"
       ],
-      "https://deno.land/std@0.70.0/textproto/mod.ts": [
-        "https://deno.land/std@0.70.0/bytes/mod.ts",
-        "https://deno.land/std@0.70.0/encoding/utf8.ts",
-        "https://deno.land/std@0.70.0/io/bufio.ts"
+      "https://deno.land/std@0.74.0/textproto/mod.ts": [
+        "https://deno.land/std@0.74.0/bytes/mod.ts",
+        "https://deno.land/std@0.74.0/encoding/utf8.ts",
+        "https://deno.land/std@0.74.0/io/bufio.ts"
       ],
       "https://deno.land/x/zlib.es@v1.0.0/deflate.ts": [
         "https://deno.land/x/zlib.es@v1.0.0/_BitWriteStream.ts",
@@ -1207,7 +1207,7 @@
     "exportedModulesMap": {
       "file:///D:/Code/Ninie.io/deps.ts": [
         "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
-        "https://deno.land/std@0.70.0/http/server.ts"
+        "https://deno.land/std@0.74.0/http/server.ts"
       ],
       "file:///D:/Code/Ninie.io/mod.ts": [
         "file:///D:/Code/Ninie.io/deps.ts",
@@ -1498,22 +1498,22 @@
       "https://deno.land/std@0.67.0/ws/mod.ts": [
         "https://deno.land/std@0.67.0/io/bufio.ts"
       ],
-      "https://deno.land/std@0.70.0/async/mod.ts": [
-        "https://deno.land/std@0.70.0/async/deferred.ts",
-        "https://deno.land/std@0.70.0/async/delay.ts",
-        "https://deno.land/std@0.70.0/async/mux_async_iterator.ts",
-        "https://deno.land/std@0.70.0/async/pool.ts"
+      "https://deno.land/std@0.74.0/async/mod.ts": [
+        "https://deno.land/std@0.74.0/async/deferred.ts",
+        "https://deno.land/std@0.74.0/async/delay.ts",
+        "https://deno.land/std@0.74.0/async/mux_async_iterator.ts",
+        "https://deno.land/std@0.74.0/async/pool.ts"
       ],
-      "https://deno.land/std@0.70.0/http/_io.ts": [
-        "https://deno.land/std@0.70.0/http/server.ts",
-        "https://deno.land/std@0.70.0/io/bufio.ts"
+      "https://deno.land/std@0.74.0/http/_io.ts": [
+        "https://deno.land/std@0.74.0/http/server.ts",
+        "https://deno.land/std@0.74.0/io/bufio.ts"
       ],
-      "https://deno.land/std@0.70.0/http/server.ts": [
-        "https://deno.land/std@0.70.0/async/mod.ts",
-        "https://deno.land/std@0.70.0/io/bufio.ts"
+      "https://deno.land/std@0.74.0/http/server.ts": [
+        "https://deno.land/std@0.74.0/async/mod.ts",
+        "https://deno.land/std@0.74.0/io/bufio.ts"
       ],
-      "https://deno.land/std@0.70.0/textproto/mod.ts": [
-        "https://deno.land/std@0.70.0/io/bufio.ts"
+      "https://deno.land/std@0.74.0/textproto/mod.ts": [
+        "https://deno.land/std@0.74.0/io/bufio.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -1635,19 +1635,19 @@
       "https://deno.land/std@0.67.0/io/ioutil.ts",
       "https://deno.land/std@0.67.0/textproto/mod.ts",
       "https://deno.land/std@0.67.0/ws/mod.ts",
-      "https://deno.land/std@0.70.0/_util/assert.ts",
-      "https://deno.land/std@0.70.0/async/deferred.ts",
-      "https://deno.land/std@0.70.0/async/delay.ts",
-      "https://deno.land/std@0.70.0/async/mod.ts",
-      "https://deno.land/std@0.70.0/async/mux_async_iterator.ts",
-      "https://deno.land/std@0.70.0/async/pool.ts",
-      "https://deno.land/std@0.70.0/bytes/mod.ts",
-      "https://deno.land/std@0.70.0/encoding/utf8.ts",
-      "https://deno.land/std@0.70.0/http/_io.ts",
-      "https://deno.land/std@0.70.0/http/http_status.ts",
-      "https://deno.land/std@0.70.0/http/server.ts",
-      "https://deno.land/std@0.70.0/io/bufio.ts",
-      "https://deno.land/std@0.70.0/textproto/mod.ts",
+      "https://deno.land/std@0.74.0/_util/assert.ts",
+      "https://deno.land/std@0.74.0/async/deferred.ts",
+      "https://deno.land/std@0.74.0/async/delay.ts",
+      "https://deno.land/std@0.74.0/async/mod.ts",
+      "https://deno.land/std@0.74.0/async/mux_async_iterator.ts",
+      "https://deno.land/std@0.74.0/async/pool.ts",
+      "https://deno.land/std@0.74.0/bytes/mod.ts",
+      "https://deno.land/std@0.74.0/encoding/utf8.ts",
+      "https://deno.land/std@0.74.0/http/_io.ts",
+      "https://deno.land/std@0.74.0/http/http_status.ts",
+      "https://deno.land/std@0.74.0/http/server.ts",
+      "https://deno.land/std@0.74.0/io/bufio.ts",
+      "https://deno.land/std@0.74.0/textproto/mod.ts",
       "https://deno.land/x/zlib.es@v1.0.0/_BitReadStream.ts",
       "https://deno.land/x/zlib.es@v1.0.0/_BitWriteStream.ts",
       "https://deno.land/x/zlib.es@v1.0.0/_Uint8WriteStream.ts",
