@@ -10,7 +10,7 @@ export interface Cooldown {
   timestamp: number;
 }
 
-botCache.inhibitors.set("cooldown", async function (message: Message, command: Command, guild: Guild) {
+botCache.inhibitors.set("cooldown", async function (message: Message, command: Command, guild: Guild | undefined) {
   if (!command.cooldown) return false;
 
   const key = `${message.author.id}-${command.name}`;

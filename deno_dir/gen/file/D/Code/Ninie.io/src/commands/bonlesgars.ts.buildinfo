@@ -227,8 +227,8 @@
         "affectsGlobalScope": true
       },
       "file:///D:/Code/Ninie.io/src/commands/bonlesgars.ts": {
-        "version": "8ec5a17af8275faf8adc4a9ef9a201cd68d26fe6216e78450e871070a46bbd50",
-        "signature": "5381",
+        "version": "6c2906ba8ee98ee2fe96712bd552abc490c7d847b686180f7d054bab534e4685",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "affectsGlobalScope": false
       }
     },
@@ -239,7 +239,6 @@
       "incremental": true,
       "inlineSourceMap": true,
       "isolatedModules": false,
-      "importsNotUsedAsValues": 0,
       "jsx": 2,
       "lib": [
         "lib.deno.window.d.ts"
