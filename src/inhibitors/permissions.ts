@@ -4,6 +4,7 @@ import {
   Message,
   Permission,
   Permissions,
+  Guild
 } from "../../deps.ts";
 import { botCache } from "../../mod.ts";
 import { Command } from "../types/commands.ts";
