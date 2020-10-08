@@ -268,7 +268,7 @@
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts": {
         "version": "e5fb954fef2d53ca47b559abf5cd93455838ac297e4caa035ae331fc4cc8e218",
-        "signature": "a699ae9686bd13a336626ea161fd51237631bbc9b4c4f84db1beee5d0f77aac0",
+        "signature": "3c22dce657c767656f99f5147bdd553f997fa9b3a254bbd00a29bfe9053eb556",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts": {
@@ -563,7 +563,7 @@
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/channel.ts": {
         "version": "cd0355c9bfae8bbd2ac848c0c335d3303abbae73e08272db4f188e8248e3114c",
-        "signature": "a2f0d31e27a534582e5fe603cc2077165d531dc5796d57711c626dd272820574",
+        "signature": "a33f83b0c8d368567bf2e4f6a0529fa546f3b14fa4619e4cd324a8d01e441d6c",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts": {
@@ -583,12 +583,12 @@
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/member.ts": {
         "version": "87e7417a5eb6627e2654b0a002c99260b7e7371699df92e0a13768ed87087bd7",
-        "signature": "01baf1afe1ad51c5af7ac6dfbcff379c9ed998a8ae040c553c86c67f9d020bb1",
+        "signature": "cedb4f24e7a9a50cd42c369b371a26f5a3a5018dfcf98dc94db0938b8cdb1b9d",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/message.ts": {
         "version": "a40c8fc04ed45be730300492d0422bbde1cfbd8479bff08853beb37b2ad11089",
-        "signature": "01606fc441e64deb77586daa4143127efcebe673db8765b72c520c79a64c6e95",
+        "signature": "164c2ba0e28d684298f03f9524daf1c5d3b3b06d32dc44a8ca96d3547575ad19",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/webhook.ts": {
@@ -598,7 +598,7 @@
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/webhook.ts": {
         "version": "970495541b897730b965454b951893b9087714a9fcf9f40b12d4eed0e92d0ee3",
-        "signature": "2dfef4172acf4829bf768f6d2caa250a53a44de491361e7142132815f57e3a6c",
+        "signature": "84befc4a7f6746a1d72e1d45ffc1668a8c87a01e15e61c9a49e8432d2c4a0eb5",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts": {

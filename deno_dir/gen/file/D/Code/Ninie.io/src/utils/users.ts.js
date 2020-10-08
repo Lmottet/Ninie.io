@@ -1,4 +1,0 @@
-export const userTag = (userName, discriminator) => {
-    return userName + "#" + discriminator;
-};
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXNlcnMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJ1c2Vycy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxNQUFNLENBQUMsTUFBTSxPQUFPLEdBQUcsQ0FBQyxRQUFnQixFQUFFLGFBQXFCLEVBQUUsRUFBRTtJQUNqRSxPQUFPLFFBQVEsR0FBRyxHQUFHLEdBQUcsYUFBYSxDQUFDO0FBQ3hDLENBQUMsQ0FBQyJ9
