@@ -1,6 +1,6 @@
 import { config } from "../../config.ts";
 import { Message } from "../../deps.ts";
-import { botCache } from "../../mod.ts";
+import { botCache } from "../../main.ts";
 import { addLove, getLove } from "../services/feelsService.ts";
 import { Embed } from "../utils/Embed.ts";
 import { createCommandAliases, sendEmbed } from "../utils/helpers.ts";
