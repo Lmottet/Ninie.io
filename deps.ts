@@ -13,7 +13,7 @@ export {
   EventHandlers,
   getMember,
   Guild,
-  channelOverwriteHasPermission,
+  hasChannelPermissions,
   Intents,
   kick,
   Member,

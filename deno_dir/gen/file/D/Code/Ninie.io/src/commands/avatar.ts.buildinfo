@@ -227,472 +227,472 @@
         "affectsGlobalScope": true
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts": {
-        "version": "f412f7a77fe972ca7a3a251903f6f65e2c9e37673299b95f38415f37cbda6d16",
+        "version": "a411490d96d2ec1d1fc8f5f0025e23d754430e51346bfd80bd3d4ab0ff7861c9",
         "signature": "913d9e3975b53bdaf550d18a45facb7be53a8eb3e6510451419c0056ef2e2738",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/role.ts": {
-        "version": "b7f8ef528ae62548111a1bdb9a42dde978ed7e82dbcfccdda0875e577f17c946",
+        "version": "4380cec7e6c4c74a3d0e60dadb535a794d54dba6c0cd2a7c2b5c15a532e4cabe",
         "signature": "972b9b58c79905491d3e4c8840c8e9773c83749d88b717be33997f77052ae5b3",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts": {
-        "version": "f53249ee0655cd1af433aaa431dcced0544cd19e9ef9e20b6531bb8efb411850",
+        "version": "6d110403acfb68a24a4ef784d13ca503a99f03dd6a5a0daab7ee7a575ae2e05b",
         "signature": "6c42786a20d3b02d8e9b62e42426f743992d0ad275f293c26001b98ace2c7442",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts": {
-        "version": "231e3001147602937d7562d19d2ba68ed7a6a816d1c028bbe2dec408b140ae9b",
+        "version": "13053316b959015cf7b1578edb01eb4d441d1b5d1f9b29f44333de371eabcb27",
         "signature": "caba2fd95cb89b643beb5657e3e6e7500cc88973afa150789aff39d6e02036bf",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts": {
-        "version": "fc76bdd4ebbd56ba423af8a3b8f570781e7f20ed6f9ea5f4c9c42f21003b1adc",
+        "version": "00d4f6abd4467689d0efb05066e8a35c7878691c1ec6763b5ec29d8f2279a9b0",
         "signature": "db42dd62e798382a5499bb055b5f33e287c7dd696f9be48bcea39304d0c8b0fb",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts": {
-        "version": "ce82d10fa4cb759873692a5ad5a92ed25b2b152664d279e9bc12dd973bb692b3",
+        "version": "8287c67a9f671b0195971de0b57a5f33622da9e2758d9f9b80cfc891753a83ba",
         "signature": "6d768305e9881cee827505b36a454e5c01785b6878ad3dfb16975a3086151384",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts": {
-        "version": "2b38b33cc938295b4fc0edfd58f192e22d2206021d31ca5776792c4bf55a8b6c",
+        "version": "4bacfb9523036c3558ab529a04e3b8102e098fa0abbf0301f420e962369c6c63",
         "signature": "8d840f3b9533e37c2eafbd565ab87f632144f143f42f7010c4a03482b870e4bd",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts": {
-        "version": "f009dd6088ebbaec28edf8a1e55479a7e7393363fe2450a488cbefeb163c17c1",
+        "version": "9c3eee13faf022e3c581b3a7a1e5e101c35e48144e378f83e45bc0481c107236",
         "signature": "93bd06c1adbdd6ed91c02590e1d8f78869a11a750e6d7b75235dd7be9343e043",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts": {
-        "version": "e5fb954fef2d53ca47b559abf5cd93455838ac297e4caa035ae331fc4cc8e218",
-        "signature": "3c22dce657c767656f99f5147bdd553f997fa9b3a254bbd00a29bfe9053eb556",
+        "version": "e43c5462afb5478a909db1cec43e1659f9e275a11f3e95da40292cd5f96ca406",
+        "signature": "cc81454995a00978f96d8b9cfe87a7dcde3021942d6c4dba7be81cda3ea90d0d",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts": {
-        "version": "ea6524b49755a59f01cea04eb582116bb1118e0decc5689519bd35f19ddad3c3",
+        "version": "fd999630eddf42837422e8012303a1bd4b5bfe8ba1c724964a3270b922a71125",
         "signature": "38321d2dc7678204a8682297ae090a886e072971b5ed1251f78df038aadcce5c",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts": {
-        "version": "f573bedaedc6e4e9ad8b7f5a54df3950397e6c6020eea457d0965dc164a221c7",
+        "version": "d2e5fea0b23f5b5c37d532b0f74ca0f1cff3b38ab09565a0107650ca27379008",
         "signature": "68daf81e87c84c243002679f2755bc628b5ed9fdf58a769ac2d3a28b657c3177",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/activity.ts": {
-        "version": "7d4fffe029929d35de7d69c3b06059076572d92995efad384efa474479e18ef8",
+        "version": "88aa7bd1accc1ae7d8248dc14822f8bafa62368a1a28f9b215f860745e8c0910",
         "signature": "ebcf44bc318736f5f03d1109c6a9ce889e260dff46c1e30b5a5f9e6a13c0e0bf",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/bans.ts": {
-        "version": "1f8638fe19cc683c0d31993ae356e2ca0ba5273df2d6c538c946a61af4adf649",
+        "version": "02eaadd872a4c4fdac2e8506a24d081d8c2d9c1da7cab7673060ed5c753a9783",
         "signature": "abb50d9bae4717afc42b1cd4bac6751d3ec910662b14bf4f6e8b538ae3230ad0",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/channels.ts": {
-        "version": "cbef830f1f051de2f4b777425f0aef7eb866a9124463bcdde5751435bbfc5d31",
+        "version": "bd3db9c1f46d0da91c64ffa166c027e1335316bf6ff7863b0b981c183e94a4b8",
         "signature": "b50fa46f8e0e02241b3a67f9b8cc79821b5f7e39f7f642b43a4fa9f19067b3e1",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts": {
-        "version": "3d1d7f31a16ebf92f7aa232e1b088a622cd1b7cad5f065c59cd4832de80dd559",
+        "version": "44c113205799aefe3d4ad6e2da2114328f93bbfe7e48689ec3039c3b565150a0",
         "signature": "e0ed519d68f40e3332adc9a5b6750357cc8dd01341fb2a71472cf141940c3f46",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/guilds.ts": {
-        "version": "d3dd6e30c0658d357e8e1c86ed474d94bd040a520442d4516401839d0f9e9c06",
+        "version": "9d1b65239c9c5a2f464d4afee57c62646f13e692958e02ff6c6d2d748f4fcb4c",
         "signature": "71e966e052e50e2bf4be8af3d4e37399df3f263baeec74c8520d7f94afdd112f",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/members.ts": {
-        "version": "c132359ece5d326c008d622ca5c8708eed998e6cae26f39389fce228e9ccf2ce",
+        "version": "61cf2057970c9d89265f042847bd8267d369a93e9682e05790581b7be75158b2",
         "signature": "a5d71eb9dd60eaff9dee062b3d4dd2d80c91bd6d688aa2b1a1533cd37b65064a",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/messages.ts": {
-        "version": "6e10a9f8e34946721eb9216af019bd55fea4e8c11509b80fa0a6002576268068",
+        "version": "536ae0fcb719885dd717b269428b09443a55e12df1270542b5bf0c9d7e809e0c",
         "signature": "1d79e62400251cb006e9129ae746d494355409fe1095becf4d99bd3bcbd23e27",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/encoding/utf8.ts": {
-        "version": "7896920ee0c5689a9219b5b4f0cfc0ba590e97c5df2148a5fdc6d69d4f5f9331",
+        "version": "977dc54aeb1060148e01342efebcfdacca3cbe688969dc853c5a83eedb739b7a",
         "signature": "a57aa88ff7746afdca174a2668682e8a1ab964462111cb303f5d323fded4949f",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/_util/has_own_property.ts": {
-        "version": "46f5a28b6f4615cd89a6b36238d3218705b634ceace8d4f6a17cee7fc780d015",
+        "version": "daa857283c6996e8536dd42b4962d9d8a8c7dc4445a6ca4a33a82177e4acafd9",
         "signature": "78a6ea35c0add8eaa6c7e36433dbadd62ce3ed705b65e400f344e259b049c21a",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/bytes/mod.ts": {
-        "version": "f564eb7c3108eb40cba050d079ea2d894bb9c2007e20040b895ec5a2533db35f",
+        "version": "a732e6806839e9b8b94c41ef7aed47592908cd783e7e4867902a4325986e11c9",
         "signature": "d77b1ddf00c7ba72d35d66892a6ed8f49282a699e23fc502a9d7fa38454b4c33",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/_util/assert.ts": {
-        "version": "32d0069bb9e8bb50600a3fd2a36dabdc26c2f8151880dac04dee61e9a6505670",
+        "version": "35cc6b36129e38fc6d6ef4998760c6c0a40454a1ccb087a5eb54c53a1274b806",
         "signature": "80fd2097b210f3d8589e0fe2d749e69f9bc1024daec5a3d38b97d0332fb1b18c",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/io/bufio.ts": {
-        "version": "c23bfefd03027a7b2f23eed70b03a15931136839495ade970f58845c5678ce16",
+        "version": "3d052bdef4b53d59c0ac10eaaaaf249618b3675528c03f49ed5819c3e24b09b8",
         "signature": "31e36808a997f5a959022298ffc6cd6ebfafce45d0ac2add02154ef072579529",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/io/ioutil.ts": {
-        "version": "6a5e867dd701286f4f3f6fef780c01f4abad598f37e5c3f554ddc5ea3c8b35fd",
+        "version": "727829293eaa4a4a8a739ea286a3841fdf17424188511aae51dcafa20a70dfd1",
         "signature": "2105581f9c7518d040aed9551078d5d27cae5abee06fbd9989dfbd6282594348",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/hash/sha1.ts": {
-        "version": "f053896c4a07d3e3642e0b9d3e0e06d8bdaae9d540af14fdce033126113e8a68",
+        "version": "67087ac26924f095672632be894bcf71e514729ea239552cdf228abb8b16239e",
         "signature": "2ca05b49b9ec691a9f0be5bdcb5f4a46270e991e5136945072f58592551aa276",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/textproto/mod.ts": {
-        "version": "2fe691e5ac507139d8cff79c2bb3d2e9dbcc13766240f14cd99481a191176760",
+        "version": "d6d4e2ba903307d4b09f449723788a9ce15cd497b11bdc8e30f96c7c6b7a6e3f",
         "signature": "c604bc9e9b4fec724eace52bfe246b73cb0bb96e4c02db0995651a301fa5d693",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/async/deferred.ts": {
-        "version": "7e1b1e4c013574415d1ece4085eba82b656dc0347fb44b50df34d1686359cdf0",
+        "version": "8fd09bb29a51b9b3820574c5475778537ed3c9fa5f8c86a232b7ba2daf6f6f1c",
         "signature": "566324ce7cc39bbe30f94544463a256b9eb890012e77d49a0dd40bb2ef843bc4",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/async/delay.ts": {
-        "version": "588ddd9743a2e805e7f0789034181d4c7aa508847d205a238da9f056f393db20",
+        "version": "a9179073a1d2672792b65faf7fa36d6b77d08b93ef0ae509123d8e6f6cf70885",
         "signature": "95f8beace3ed894e3e5e3ebaae46c855dfc133e2c63d37663a760c801750f7d4",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/async/mux_async_iterator.ts": {
-        "version": "d6212b3c6b730302151ad97a595e0745b4a357ac9552c5ed6ee94dab4d8c35cb",
+        "version": "c7c770f3a65a3149197e8a9d54a3d052841a2f034c6f9d3923ffc487456c2506",
         "signature": "63404f86210b2143b6bd9f5d9b9be3b7627801df3380a7327297d0e47280b254",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/async/pool.ts": {
-        "version": "e6884ea2e2037779755caa92fcef26f02cc4d57540f66bdf7eff9018a5adad75",
+        "version": "c4a327966ce118c76ae75916d673c5a9eee94a26bef9536c6c057e43f8d3a9ae",
         "signature": "441aa0667c0ed5f5b0d189abc4db904c9c42f0e5ae00dda7e9e743395871903b",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/async/mod.ts": {
-        "version": "eb7ff1a4a9595399b011c69db3ad31bc90332d219773fff4cebb22e048a6a5bc",
+        "version": "add34f7b6c25d81c0fb9c2662c4b427de6d9f1611679d55f0428ed7696ce7c21",
         "signature": "2dd6b462298b9a0643c496738bdf871adfe054e7f548980d103d4d13bdba498d",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/http/server.ts": {
-        "version": "4eddb96023d3784a7b0e3bea5fd0e4c668bfdd731946458319a2faa99b698a2d",
+        "version": "bcd1f8ec17ea25013ba175c6d2ea829040480a1dafad38ebf4bf98174b4c1510",
         "signature": "9a7d1ea01dad466167b513e2ac84aafa173e1454cc045ae534a6c4a45f8bb18d",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/http/http_status.ts": {
-        "version": "152c3d77141bb1a13d7415b7a486f757d173775741e5f550a2b81b77d3bdfe17",
+        "version": "8309c837dbe23376cec6c726a4c185ba8d53dd2d0af7a0563cd327094d847b4e",
         "signature": "3bb93633f93806845edc9705d07d187f0099d500ee81e789ae2e10a5ea321cd6",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/http/_io.ts": {
-        "version": "f0b92c2e38c36c1152be082c5954e70edc39266501a113c8723d7a2112318bd7",
+        "version": "cf99454735818f45e22ec121860ce4c0deb5fdfe3c6a17999afcce2d12b57648",
         "signature": "4e5366d93cc9415f9a281e068ebbb19660fb68876aab874c12c51b5b6ec3081e",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/ws/mod.ts": {
-        "version": "da8712077951376ce10d478a19c4a605ecf8b56b370f6ddaf01c026fe264b370",
+        "version": "71ba94ad39c310976ed42f96e8c1213e12406134b2da084c9bcff46fccec047d",
         "signature": "a28551f637ec0673b6c044b75023910957eb933e4c9437700b23de6444a8257c",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/encoding/base64.ts": {
-        "version": "47e181c5fb1211bf55105e02fb4ecb823f41efc0a73bc08b9d1be6559b0d8671",
+        "version": "dc061dd5c720ecd059c38688b46a50f657e191ad6764484f6642ca30c5607d2d",
         "signature": "156b803a5d15641f0389d0f268ca2b8c4449e44fb5121ece534ea135f72429c3",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/zlib.es@v1.0.0/adler32.ts": {
-        "version": "a64ea3c671ed764a7d496971605aa7ab52170338b542348efc48681172f4d1c8",
+        "version": "53a832238c1669c093e571fb8b1b24688b8fa5f3e750b94fa841620991c0a4b0",
         "signature": "8984d141d8c78f676c1a4cd0cb6e0bd71500e8485c430194c90c97f3a439aefa",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/zlib.es@v1.0.0/const.ts": {
-        "version": "04aa034ea6a65cca25b74b1b2305c182a5df98ef906608ec190418d444bb253d",
+        "version": "559650c5084ffbc20c66994810dee0fd1c884a07179c8455ced14db59323a15f",
         "signature": "aba7da9654e471ccf1952fc78643b7f579d00ca7b01e97827fd0597c0bad19a1",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/zlib.es@v1.0.0/huffman.ts": {
-        "version": "88a49fe730797ffb3b7b593d3a1d697de612e37e01520274ac6651aa1a969c48",
+        "version": "634831075244b1df19da3bcee4b88de87a9b61ffc49901229e4f7db76236328d",
         "signature": "fac0a55e5f17907924f2b41d753413e865ff2a9acb6d6a22fbec749ff0f174ed",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/zlib.es@v1.0.0/lz77.ts": {
-        "version": "6c44f26ba0aee126c43c4f54b11c36862ca68471e79d1cb95bc52b46d701d5be",
+        "version": "61bb96a6f39dca2e6fc7d5acd0ab619dc889c9f6edc23eddb20aafd6cee96ec6",
         "signature": "08593fb286148c7da7a8e46e80173267f01c39fc82e5793ca4eac1c07e8542f4",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/zlib.es@v1.0.0/_BitWriteStream.ts": {
-        "version": "ac4b9944dc861c692be53cee951e17e379f2363b497e91a42f4444ffdf481ee2",
+        "version": "25ddafae385137b650b4f684c8e8ef9b9ca259d3b38cdecad2ddaf17993b84b2",
         "signature": "1a2e399ad99543e1f4d4bfa9fac3e6114c710171365772f296444bc16ce19cab",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/zlib.es@v1.0.0/deflate.ts": {
-        "version": "eb7230fbd3bbd9c07d32d83dc3401fd89eea1f278ff207e094fb7f319ac55c81",
+        "version": "fbe893a8fad6d0b295e024530ad5d48b90bdbf9a78996a0da513aa64c368541c",
         "signature": "838e65238cc87053b9436a0e588430b3deb0ab72170289bac6ab59a3feda0e44",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/zlib.es@v1.0.0/_BitReadStream.ts": {
-        "version": "dc2691dc71f513f7b3ea28c53b5435776b1b1bd757675e894a05d6587bac4bb2",
+        "version": "7841b51745ca99272b981c7c74ff07ec35e8d113babff8eb965b677c6351c279",
         "signature": "e241888e4c24913edbb9d509b22c70b0887d2b1ac9d68ed6861172c4fa278bde",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/zlib.es@v1.0.0/_Uint8WriteStream.ts": {
-        "version": "7c2283aa5aa7ae59c9963ed27e07bd141509f1c6d24fab7e14b2a615c2009774",
+        "version": "a4c01ec996d6d0666734e3d9a72cdd72624be976dac69b8e849aee5f1ee2e2d3",
         "signature": "60ad5db2139d76845f761c42dfa0cb273a9df761584df0f993c5453d4b7af5de",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/zlib.es@v1.0.0/inflate.ts": {
-        "version": "864f533ee6fa9bbb9674734ebff13b179dce940d14c7f2faa866697673e24620",
+        "version": "55ffbaa613fcad51cbdc80470572ade9101af984a1b2aebe52f09cc36ec5308c",
         "signature": "5c05fd7ccba0217f17ed94ef7d00a5d60ec2d69be18d3d7c4c3756792709408b",
         "affectsGlobalScope": false
       },
       "https://deno.land/x/zlib.es@v1.0.0/mod.ts": {
-        "version": "9f5bc81642ae8a3dbf05a1f36d2190478681ee08ab598f78b01f62018edcf81b",
+        "version": "7d133b166a0f194a11d52cd92450129912d61ac1cff34635979665ed2c3b6b47",
         "signature": "88cbcc602298e2df6d1e719313c865e951edfc5ba364378a148c86e58137fac0",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts": {
-        "version": "664b121ecada455430c15ea64f0a7aff025fe517e62828eac0feb3e28e77c52a",
+        "version": "fec884ef718231b42c6550a3b55844acb5d4599f66fdeb7d52c5de763743b1e5",
         "signature": "e49deb82ccf89d581ce217ce2803f27a1257a1f619cddc3ab80c014e8ec91780",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/misc.ts": {
-        "version": "0d275365a05a6c6dbce2df056491c4d43af955531a0d22eb1e867def6820c46b",
+        "version": "383f6bdde00924a0f8d9250ce846d9085d2b09804ff70e5d2773d70e1c2e387d",
         "signature": "b1c87128ae2d193325322c85c3ded06340d88ebafa9cf6249d0a6c247b9275cc",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/reactions.ts": {
-        "version": "ccb0b6dce583dec333f318a7f170f86b627cd810e0e16057aa7143f6c0dc07a4",
+        "version": "c415e42f9d1cf4756eda44ec354b551b06e384ad385641acc2f9c06ae19f239f",
         "signature": "b0eff830092f012abc58fd147b50c1219e25e71838830de0801ebeba1517bf7b",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/roles.ts": {
-        "version": "eec1440db5ec1f32a5df052ad3c6e7b39313c2310786020b0b88d1c49bda344b",
+        "version": "30130b15f5c86adf45e5113302d3a16af4c975101a16238f3c84296ad6993eae",
         "signature": "970c0da54c097be03583a290c5693c6483f33dc9805329edd4577974a6fa90fb",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/mod.ts": {
-        "version": "4ce4f4b8909579579280a70a6ee4d3150841fcf1771cf11f22816b2de48c878f",
+        "version": "6de33860301e6774eff7d62285affae2420535a98eac831251df230d38d0f89a",
         "signature": "aae964ba431c3a46d5975353fb0d9e059a96388ad4ffd6a605db2f4a620dd35a",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/basicShard.ts": {
-        "version": "f0bad8a90572c11eeba4fc7a8076d309012ceee241218e699eb5d2f1e52b9315",
+        "version": "1c515af834f165841c547cd72d38023dd072087060ee8bf6840b9d2a54b708af",
         "signature": "5adb1e760a208d5a6929011657826b5d35077658337789644b263870b5cee3a1",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts": {
-        "version": "e25be499d5a4dc45278be52508c61a4293e313f0472b8ed2199956ca56a8f6d5",
+        "version": "2249525480dec482834ad12f656506fc2e2dde147f10496a391039b713c24d9b",
         "signature": "6c864babe789960526654c5adea6b36b412c8417c8ed8bf1804547be72cbe6e4",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts": {
-        "version": "ebd9852264a059d92e3995e531d53e42bffaf8ef6f0dca09bc5473f3f5873037",
+        "version": "01c21c3622f820b7a077dea812d85f8bb8cc79102505a53deab971c6b4f8e060",
         "signature": "6105fdf367ebd4acf0f670e7cd310746575b42fad102d732ebb43d8d2da815e2",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts": {
-        "version": "9331df8810572b668debf7cace6a1fd15831f3d06c29f036e7edee950f0ff425",
+        "version": "d928af27437634b9f5f1aa8135586b8e5b016008927276d9500da72316f75714",
         "signature": "27525ac485d603e8ffb490d6de0171e7a6bd2b33afe572ca2d89bf948982e18f",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts": {
-        "version": "0b903a7b7fee1201e81e2c9cd1635152e42f82d56e451d9688d84975ffec54a1",
+        "version": "446c3636fc6ed4e7356f031343cbf0b85d9862810ba70d044f041b71da42932a",
         "signature": "3a5561f99a1ea490f90a0bf9e3e7d5dc1e120fa7caf897155443bd004451f9a0",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts": {
-        "version": "d3dcf011ea3509dcf32a1e7bbad7b7c2ee40118192ead4f78efd1295d12d40df",
+        "version": "fffde4c0e740a62483cb386ed31fe5754a761916f55e64c8a98ff245087b2f59",
         "signature": "00d6c6e4f73052d8fe97885aacb39de876e8216f3bf78caea15f0ead123fc53a",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts": {
-        "version": "1ab77ed357e064970a576b05fee526f55109298c53199f503666edea9320a6fd",
+        "version": "139881f7cbb148533fc3dc5213980d16856cddfd88ba9b044d43300eaf3420be",
         "signature": "f56282a77bed4241fe5fb7dbd0d90e4d3df10b5f5676da6fff952ad024461d75",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts": {
-        "version": "c03b39b91b1f31fa3ac99bdbe24ee1ff703c909e27662f7416b7a62d1cbced85",
+        "version": "b7bdca41f717d2fee76a16d616efed35bad76c2627397e7dc0c4e8abc2a023b2",
         "signature": "3b7cbdc8107b8075dc779408532dfa26f4127ee9b40efa9222219996e57ddd7d",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts": {
-        "version": "f1d3996f41ed3b878d0ca878192707d1ffaa140d31c8f21700952364e2915e04",
+        "version": "80535771167538eba84aa6fabf46141d84cc2371a12aab9234913a984c039b8e",
         "signature": "a886a00c45c09423c1714734ddc0d9e5a69ea4019377fdcfaf77a35305b09b25",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts": {
-        "version": "1e1b6917fe2621623615467ed624104bb65a1da3035e25e64347b853005dd1a9",
+        "version": "5c51b88598ddf66a95061e5e9b19487a82abae31cc7e5859ba070c57db284a1c",
         "signature": "9a476ccff189b17b653fc28e549eee21f4145a83cfc1649495c325bfc2f97800",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts": {
-        "version": "c244e885e0070a6a4dcb51bcda1c65446bb5da8e7780d00013b914550ebeb7c9",
+        "version": "53dc167362d5770c5314b7902f30f2ea1c03d77e2f68d9694ebb71f87b4956ab",
         "signature": "1cb659c7dc851537d8e8e9d3b00eba6605ceb6cffb11496c6f04ed253fdacf86",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts": {
-        "version": "7b1861f45a49b2c64ceb21b46f5b8dc1fee712d8310db87b7429b2d6433ac481",
+        "version": "fb5c391441771cecdb36a78eb82dbed514d3c2987ab3e143d0a938174bd3b11f",
         "signature": "72dcab7ff4958e8542efea687d15bb80599c43053ee46e5c358e2d1b4baf3b36",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/fetch.ts": {
-        "version": "72141c84e89fda3d03dc4732a32a8ec04b030a5e88cffc70d13935f0b798634b",
+        "version": "d76df8f66eced5b1dc31dbc006f47203149d4dff051ed749d9368c3b1c5b2229",
         "signature": "36d1e4c05e8da8cad86b345f15ed6c8bc9fa12b88a35e6a834810882e7544c9f",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts": {
-        "version": "12a1e1502bfd7bf24606fd5a531410d17d75c40a89067d1295323f30f1ade1c1",
+        "version": "d6a48863e8160403b8a15a5729f1ba1297622d04fc0d5b7f309185a277980911",
         "signature": "aed1d390f55d7a25cfc34a43e9c2a1dd540f09fcc621709eb8b192afc963a4df",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts": {
-        "version": "b280e5affcdf316ebac32d74025367aa0d9d5a6cda18129beeef66b9b1706902",
+        "version": "78e3c76fc235ad76f0771a4ed14a3312cc2050a4a5026035651fa5dca0a6d7a7",
         "signature": "0f650af9c48b197d0e84a7608514089cbd1d876960f936d720b9ba9f72706634",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts": {
-        "version": "423ec29764dcdc76fa2105b3e809d13226073219d3cee25efc76086351700251",
+        "version": "b3fface56aac9a7a494ce08423f96e9be4c71015e537da3b89b47188d2a8bf8d",
         "signature": "62a492ba84c345b8ac107fec00f9ca9473132be3a0e94747b3b0700a9d388bb4",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/channel.ts": {
-        "version": "cd0355c9bfae8bbd2ac848c0c335d3303abbae73e08272db4f188e8248e3114c",
-        "signature": "a33f83b0c8d368567bf2e4f6a0529fa546f3b14fa4619e4cd324a8d01e441d6c",
+        "version": "2965bc3770cafbbdd044dc3d2a5403c92954ec99b37f95fe0a6c1f6bc5a64d10",
+        "signature": "5e6d5a8c44c5a344223081a050a9b7bc9c13d30ecc49f039f0bd0b35b71863ac",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts": {
-        "version": "afba68e99063ced9628063a16df6f236483a98ca22f863a8d1fb23d1ace93a48",
+        "version": "afe89db38d2d8c67f79c3fa729146bd7224224813fca30d1199353368cbee8c1",
         "signature": "8273a6fb1c17b1083a0b89eeea2e8c415ce2ec8dd0a1819b12164fa9b4a89c0d",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cdn.ts": {
-        "version": "4fcbb987a56d34f470d3c80062fe2d3ea543bec83223b08aecbbb79069358e37",
+        "version": "e6cfb83031177493938e0b7fd65f5d4458c96a902cfc783fbf5a66de03f53567",
         "signature": "bcc9385fa47900cb6b36f79b778e5c96be6618f15b039c88329f954ff0d034ea",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/guild.ts": {
-        "version": "2cf0e66c6b476b40976195295cc46719af38b3c5fe61d285d6fcb40d852119cf",
+        "version": "59a16ce93772191bffb829db3c2648a4356495070a1c3e8e44f43dd4c88bb456",
         "signature": "c2a35c0a514f9423b0eb1e5e9dfc207d60abf0808365b0e6357b70637aa7628c",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/member.ts": {
-        "version": "87e7417a5eb6627e2654b0a002c99260b7e7371699df92e0a13768ed87087bd7",
-        "signature": "cedb4f24e7a9a50cd42c369b371a26f5a3a5018dfcf98dc94db0938b8cdb1b9d",
+        "version": "979d356319db48a81dbbc02ffde92caabdfeda0dc6f6c928111ac66744ab6cf0",
+        "signature": "82173e239e204ee8f5aff83cea42cb7586fc3ec08c2e13910d5fcee580955ef7",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/message.ts": {
-        "version": "a40c8fc04ed45be730300492d0422bbde1cfbd8479bff08853beb37b2ad11089",
-        "signature": "164c2ba0e28d684298f03f9524daf1c5d3b3b06d32dc44a8ca96d3547575ad19",
+        "version": "305be2d2b793ecf7e942aa58d7bf9f7989835cfb0a130387d54cb272c76a2171",
+        "signature": "c7d59d1ec8aa11b8ccaf419efaa26b6a9196c89bc452bc783903324077ce4e49",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/webhook.ts": {
-        "version": "a3d542e17833803b3bdb5120e5715a89d75c5bda45f765513fe78ed1f92f3dfa",
+        "version": "4bc922461cd85e0ce6317bc024f9af4ec8b8e26f31b04afcc0bb3e8c8303c398",
         "signature": "7761221c05481a48972e8aec90e82ecbaa6cf7abfbf46b3206d4f942c26a461c",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/webhook.ts": {
-        "version": "970495541b897730b965454b951893b9087714a9fcf9f40b12d4eed0e92d0ee3",
-        "signature": "84befc4a7f6746a1d72e1d45ffc1668a8c87a01e15e61c9a49e8432d2c4a0eb5",
+        "version": "419b459b37f7f181da7ddda49885cf5109af524c18e7d886a90531f89aad8bd6",
+        "signature": "19765dee1c62541aed22c246bca3682d8f4e0c47c82fb4b42a93d5d7852313fb",
         "affectsGlobalScope": false
       },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts": {
-        "version": "9d42c08378e83abf45f4629d1ff072fb60e5c9040c1ec41b22171e07aeda6014",
+        "version": "d6a97777c18c7b8323d9e5ff923c03e4e81892320db178d1322226f9994a0b15",
         "signature": "c5276061b462296d8141f96deb0a43cff7112f1af2c5222af034c2d8b9397811",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/encoding/utf8.ts": {
-        "version": "9c4b867473e708ad5790be7a13a971c05abd5e14a53dbaa0d7ed65dc9d964469",
+        "version": "7fe1600689c3cc5bd6a489fdb5ab12f002189c83a1ed8ecebf284f090417ef48",
         "signature": "a57aa88ff7746afdca174a2668682e8a1ab964462111cb303f5d323fded4949f",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/bytes/mod.ts": {
-        "version": "f564eb7c3108eb40cba050d079ea2d894bb9c2007e20040b895ec5a2533db35f",
+        "version": "a732e6806839e9b8b94c41ef7aed47592908cd783e7e4867902a4325986e11c9",
         "signature": "d77b1ddf00c7ba72d35d66892a6ed8f49282a699e23fc502a9d7fa38454b4c33",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/_util/assert.ts": {
-        "version": "32d0069bb9e8bb50600a3fd2a36dabdc26c2f8151880dac04dee61e9a6505670",
+        "version": "35cc6b36129e38fc6d6ef4998760c6c0a40454a1ccb087a5eb54c53a1274b806",
         "signature": "80fd2097b210f3d8589e0fe2d749e69f9bc1024daec5a3d38b97d0332fb1b18c",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/io/bufio.ts": {
-        "version": "6bd5c46d739b1c25f528ac7982d962004a2c36ee2715a4afc74944585febc321",
+        "version": "be14e1f50aa7cd21cb739395f892f4cb9f887c931b3b488816a652f2217a9fda",
         "signature": "31e36808a997f5a959022298ffc6cd6ebfafce45d0ac2add02154ef072579529",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/async/deferred.ts": {
-        "version": "7e1b1e4c013574415d1ece4085eba82b656dc0347fb44b50df34d1686359cdf0",
+        "version": "8fd09bb29a51b9b3820574c5475778537ed3c9fa5f8c86a232b7ba2daf6f6f1c",
         "signature": "566324ce7cc39bbe30f94544463a256b9eb890012e77d49a0dd40bb2ef843bc4",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/async/delay.ts": {
-        "version": "588ddd9743a2e805e7f0789034181d4c7aa508847d205a238da9f056f393db20",
+        "version": "a9179073a1d2672792b65faf7fa36d6b77d08b93ef0ae509123d8e6f6cf70885",
         "signature": "95f8beace3ed894e3e5e3ebaae46c855dfc133e2c63d37663a760c801750f7d4",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/async/mux_async_iterator.ts": {
-        "version": "d6212b3c6b730302151ad97a595e0745b4a357ac9552c5ed6ee94dab4d8c35cb",
+        "version": "c7c770f3a65a3149197e8a9d54a3d052841a2f034c6f9d3923ffc487456c2506",
         "signature": "63404f86210b2143b6bd9f5d9b9be3b7627801df3380a7327297d0e47280b254",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/async/pool.ts": {
-        "version": "e6884ea2e2037779755caa92fcef26f02cc4d57540f66bdf7eff9018a5adad75",
+        "version": "c4a327966ce118c76ae75916d673c5a9eee94a26bef9536c6c057e43f8d3a9ae",
         "signature": "441aa0667c0ed5f5b0d189abc4db904c9c42f0e5ae00dda7e9e743395871903b",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/async/mod.ts": {
-        "version": "eb7ff1a4a9595399b011c69db3ad31bc90332d219773fff4cebb22e048a6a5bc",
+        "version": "add34f7b6c25d81c0fb9c2662c4b427de6d9f1611679d55f0428ed7696ce7c21",
         "signature": "2dd6b462298b9a0643c496738bdf871adfe054e7f548980d103d4d13bdba498d",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/textproto/mod.ts": {
-        "version": "817097743529561818f4faa44298afbf4bd0a74119be4472717720b56c68f24a",
+        "version": "fbcc342eb7cca54f664e1086238cced586d4f17ad21fd34dca335ec93aef5ee3",
         "signature": "c604bc9e9b4fec724eace52bfe246b73cb0bb96e4c02db0995651a301fa5d693",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/http/http_status.ts": {
-        "version": "152c3d77141bb1a13d7415b7a486f757d173775741e5f550a2b81b77d3bdfe17",
+        "version": "8309c837dbe23376cec6c726a4c185ba8d53dd2d0af7a0563cd327094d847b4e",
         "signature": "3bb93633f93806845edc9705d07d187f0099d500ee81e789ae2e10a5ea321cd6",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/http/_io.ts": {
-        "version": "a5c016535381b964643ea8764d3fbf382f0586cc874aeab5ca90f62786b1d9ff",
+        "version": "bc4d265600f939ddf6a18ff0c556eb97de23fd1a1e8f921c445730200ca9a3c4",
         "signature": "1e9e922d109f47039c99d44ac486519761acb5931c4207f7c0c3c7d4c5e100ca",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.74.0/http/server.ts": {
-        "version": "f2c6fc5cfb9514b7b1eca6f32f6fe667bfe21e8dfde551e470ed384e69109d3d",
+        "version": "63785c9b1b91336d1546481be2bf23f44563efe3e0eb41faa9ddec051f2adbce",
         "signature": "9a7d1ea01dad466167b513e2ac84aafa173e1454cc045ae534a6c4a45f8bb18d",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/deps.ts": {
-        "version": "a5e4ce7c582d5bf56fb2a43ae44e89b038fb0a807b6788efbd93dd57b3b51fdc",
-        "signature": "d81c2f5065ec04ff00b3dd64835ac12904e77e4e4c711ec2f244d8da556addfe",
+        "version": "f57227f1ef0b0d7a5d70a6698b2cebaa2198b827d1d1e87b3448bc9b86ef4677",
+        "signature": "7b6f7a7783724f39a4848558dc05aa21d05e94680302501f2a817dfb26e50e27",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/src/types/commands.ts": {
-        "version": "df6233afccf37a31cf79b0538aaea39f1f2b0b750e01f21fb72496f532e69cc7",
+        "version": "a2e0b3c572656e2b556a07852ccdc1ce9ef4681cdec4a33849ed14170eeca445",
         "signature": "bb36405840ba6a441d4928277ee4a8107b113d85a03724368a4555a7084c10f6",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/src/repository.ts": {
-        "version": "249df951364bc7d84d81165a0f1de87745ed6a2028eb14293e1200172b4716f1",
+        "version": "00989e792e3f5be0fec3a21321be11df33e5042ed50b6ccaa9f37b47c0442ffc",
         "signature": "eb011f0453bad8c33790b51c612f480723e80387677352b1eb82636c6fe227fb",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/mod.ts": {
-        "version": "a4f097e09830519959b5c920ae6bff1a85b10f3c68e6b0dd8ea6df14b2b72904",
+        "version": "44decfeb6dcc4b62b658d4e9aa281eef504511ffc342e7af266f2a8b6b950335",
         "signature": "3f39c9570e32cbed6a0b7fcdf0513775e7adc91922f5676037834baac77c211c",
         "affectsGlobalScope": true
       },
       "file:///D:/Code/Ninie.io/src/commands/avatar.ts": {
-        "version": "e9c484e9921b78065a4d6d02192a770466f0056c96a8de7745d33a2064e8f469",
+        "version": "31da61f179cba4187a8c5df2309992d0b2cc57307ffc197a2e3acc012434505e",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       }

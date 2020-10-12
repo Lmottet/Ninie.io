@@ -16,7 +16,7 @@ botCache.commands.set(`invincible`, {
   guildOnly: true,
   botServerPermissions: ["ADMINISTRATOR"],
   userServerPermissions: ["KICK_MEMBERS"],
-  execute: function (message: Message, guild: Guild) {
+  execute: function (message: Message, guild: Guild | undefined) {
     if (!guild) return;
 
     // Delete the message command
