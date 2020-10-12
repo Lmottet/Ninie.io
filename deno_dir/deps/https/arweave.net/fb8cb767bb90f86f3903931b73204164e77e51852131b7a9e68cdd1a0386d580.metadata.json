@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "content-length": "145",
+    "access-control-allow-methods": "GET",
+    "content-type": "text/plain; charset=utf-8",
+    "x-trace": "vOCWG8aSW7",
+    "access-control-allow-origin": "*",
+    "vary": "Accept",
+    "location": "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
+    "date": "Mon, 12 Oct 2020 17:44:52 GMT",
+    "access-control-allow-headers": "Content-Type"
+  },
+  "url": "https://arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts"
+}

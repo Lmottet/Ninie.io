@@ -1,0 +1,90 @@
+import { cache } from "../utils/cache.ts";
+import { structures } from "../structures/mod.ts";
+import { eventHandlers } from "../module/client.ts";
+import { cacheHandlers } from "./cache.ts";
+export async function handleInternalGuildCreate(data, shardID) {
+    if (data.t !== "GUILD_CREATE")
+        return;
+    const payload = data.d;
+    if (await cacheHandlers.has("guilds", payload.id))
+        return;
+    const guild = await structures.createGuild(data.d, shardID);
+    cacheHandlers.set("guilds", guild.id, guild);
+    if (cacheHandlers.has("unavailableGuilds", payload.id)) {
+        cacheHandlers.delete("unavailableGuilds", payload.id);
+    }
+    if (!cache.isReady)
+        return eventHandlers.guildLoaded?.(guild);
+    return eventHandlers.guildCreate?.(guild);
+}
+export async function handleInternalGuildDelete(data) {
+    if (data.t !== "GUILD_CREATE")
+        return;
+    const payload = data.d;
+    cacheHandlers.forEach("messages", (message) => {
+        if (message.guildID === payload.id) {
+            cacheHandlers.delete("messages", message.id);
+        }
+    });
+    cacheHandlers.forEach("channels", (channel) => {
+        if (channel.guildID === payload.id) {
+            cacheHandlers.delete("channels", channel.id);
+        }
+    });
+    cacheHandlers.delete("guilds", payload.id);
+    if (payload.unavailable) {
+        return cacheHandlers.set("unavailableGuilds", payload.id, Date.now());
+    }
+    const guild = await cacheHandlers.get("guilds", payload.id);
+    if (!guild)
+        return;
+    return eventHandlers.guildDelete?.(guild);
+}
+export async function handleInternalGuildUpdate(data) {
+    if (data.t !== "GUILD_CREATE")
+        return;
+    const payload = data.d;
+    const cachedGuild = await cacheHandlers.get("guilds", payload.id);
+    if (!cachedGuild)
+        return;
+    const keysToSkip = [
+        "roles",
+        "guild_hashes",
+        "guild_id",
+        "max_members",
+        "emojis",
+    ];
+    const changes = Object.entries(payload)
+        .map(([key, value]) => {
+        if (keysToSkip.includes(key))
+            return;
+        const cachedValue = cachedGuild[key];
+        if (cachedValue !== value) {
+            if (!cachedValue && !value)
+                return;
+            if (Array.isArray(cachedValue) && Array.isArray(value)) {
+                const different = (cachedValue.length !== value.length) ||
+                    cachedValue.find((val) => !value.includes(val)) ||
+                    value.find((val) => !cachedValue.includes(val));
+                if (!different)
+                    return;
+            }
+            cachedGuild[key] = value;
+            return { key, oldValue: cachedValue, value };
+        }
+        return;
+    }).filter((change) => change);
+    return eventHandlers.guildUpdate?.(cachedGuild, changes);
+}
+export async function handleInternalGuildEmojisUpdate(data) {
+    if (data.t !== "GUILD_EMOJIS_UPDATE")
+        return;
+    const payload = data.d;
+    const guild = await cacheHandlers.get("guilds", payload.guild_id);
+    if (!guild)
+        return;
+    const cachedEmojis = guild.emojis;
+    guild.emojis = payload.emojis;
+    return eventHandlers.guildEmojisUpdate?.(guild, payload.emojis, cachedEmojis);
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ3VpbGRzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiZ3VpbGRzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVNBLE9BQU8sRUFBRSxLQUFLLEVBQUUsTUFBTSxtQkFBbUIsQ0FBQztBQUMxQyxPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0sc0JBQXNCLENBQUM7QUFDbEQsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLHFCQUFxQixDQUFDO0FBQ3BELE9BQU8sRUFBRSxhQUFhLEVBQUUsTUFBTSxZQUFZLENBQUM7QUFFM0MsTUFBTSxDQUFDLEtBQUssVUFBVSx5QkFBeUIsQ0FDN0MsSUFBb0IsRUFDcEIsT0FBZTtJQUVmLElBQUksSUFBSSxDQUFDLENBQUMsS0FBSyxjQUFjO1FBQUUsT0FBTztJQUV0QyxNQUFNLE9BQU8sR0FBRyxJQUFJLENBQUMsQ0FBdUIsQ0FBQztJQUU3QyxJQUFJLE1BQU0sYUFBYSxDQUFDLEdBQUcsQ0FBQyxRQUFRLEVBQUUsT0FBTyxDQUFDLEVBQUUsQ0FBQztRQUFFLE9BQU87SUFFMUQsTUFBTSxLQUFLLEdBQUcsTUFBTSxVQUFVLENBQUMsV0FBVyxDQUN4QyxJQUFJLENBQUMsQ0FBdUIsRUFDNUIsT0FBTyxDQUNSLENBQUM7SUFFRixhQUFhLENBQUMsR0FBRyxDQUFDLFFBQVEsRUFBRSxLQUFLLENBQUMsRUFBRSxFQUFFLEtBQUssQ0FBQyxDQUFDO0lBRTdDLElBQUksYUFBYSxDQUFDLEdBQUcsQ0FBQyxtQkFBbUIsRUFBRSxPQUFPLENBQUMsRUFBRSxDQUFDLEVBQUU7UUFDdEQsYUFBYSxDQUFDLE1BQU0sQ0FBQyxtQkFBbUIsRUFBRSxPQUFPLENBQUMsRUFBRSxDQUFDLENBQUM7S0FDdkQ7SUFFRCxJQUFJLENBQUMsS0FBSyxDQUFDLE9BQU87UUFBRSxPQUFPLGFBQWEsQ0FBQyxXQUFXLEVBQUUsQ0FBQyxLQUFLLENBQUMsQ0FBQztJQUM5RCxPQUFPLGFBQWEsQ0FBQyxXQUFXLEVBQUUsQ0FBQyxLQUFLLENBQUMs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

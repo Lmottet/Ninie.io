@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "access-control-allow-origin": "*",
+    "content-length": "92",
+    "access-control-allow-methods": "GET,POST",
+    "server": "nginx/1.14.0 (Ubuntu)",
+    "location": "https://arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
+    "date": "Mon, 12 Oct 2020 17:44:52 GMT",
+    "access-control-allow-headers": "*",
+    "connection": "keep-alive",
+    "content-type": "text/plain; charset=utf-8",
+    "vary": "Accept"
+  },
+  "url": "https://x.nest.land/Discordeno@9.0.1/mod.ts"
+}

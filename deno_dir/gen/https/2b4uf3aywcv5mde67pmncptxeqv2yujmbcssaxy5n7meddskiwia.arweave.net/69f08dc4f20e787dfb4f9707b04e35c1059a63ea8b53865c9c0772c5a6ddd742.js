@@ -1,0 +1,47 @@
+import { handleInternalGuildBanAdd, handleInternalGuildBanRemove, } from "./bans.ts";
+import { handleInternalChannelCreate, handleInternalChannelDelete, handleInternalChannelUpdate, } from "./channels.ts";
+import { handleInternalGuildCreate, handleInternalGuildDelete, handleInternalGuildEmojisUpdate, handleInternalGuildUpdate, } from "./guilds.ts";
+import { handleInternalGuildMemberAdd, handleInternalGuildMemberRemove, handleInternalGuildMembersChunk, handleInternalGuildMemberUpdate, } from "./members.ts";
+import { handleInternalMessageCreate, handleInternalMessageDelete, handleInternalMessageDeleteBulk, handleInternalMessageUpdate, } from "./messages.ts";
+import { handleInternalPresenceUpdate, handleInternalReady, handleInternalTypingStart, handleInternalUserUpdate, handleInternalVoiceStateUpdate, handleInternalWebhooksUpdate, } from "./misc.ts";
+import { handleInternalMessageReactionAdd, handleInternalMessageReactionRemove, handleInternalMessageReactionRemoveAll, handleInternalMessageReactionRemoveEmoji, } from "./reactions.ts";
+import { handleInternalGuildRoleCreate, handleInternalGuildRoleDelete, handleInternalGuildRoleUpdate, } from "./roles.ts";
+export let controllers = {
+    READY: handleInternalReady,
+    CHANNEL_CREATE: handleInternalChannelCreate,
+    CHANNEL_DELETE: handleInternalChannelDelete,
+    CHANNEL_UPDATE: handleInternalChannelUpdate,
+    GUILD_CREATE: handleInternalGuildCreate,
+    GUILD_DELETE: handleInternalGuildDelete,
+    GUILD_UPDATE: handleInternalGuildUpdate,
+    GUILD_BAN_ADD: handleInternalGuildBanAdd,
+    GUILD_BAN_REMOVE: handleInternalGuildBanRemove,
+    GUILD_EMOJIS_UPDATE: handleInternalGuildEmojisUpdate,
+    GUILD_MEMBER_ADD: handleInternalGuildMemberAdd,
+    GUILD_MEMBER_REMOVE: handleInternalGuildMemberRemove,
+    GUILD_MEMBER_UPDATE: handleInternalGuildMemberUpdate,
+    GUILD_MEMBERS_CHUNK: handleInternalGuildMembersChunk,
+    GUILD_ROLE_CREATE: handleInternalGuildRoleCreate,
+    GUILD_ROLE_DELETE: handleInternalGuildRoleDelete,
+    GUILD_ROLE_UPDATE: handleInternalGuildRoleUpdate,
+    MESSAGE_CREATE: handleInternalMessageCreate,
+    MESSAGE_DELETE: handleInternalMessageDelete,
+    MESSAGE_DELETE_BULK: handleInternalMessageDeleteBulk,
+    MESSAGE_UPDATE: handleInternalMessageUpdate,
+    MESSAGE_REACTION_ADD: handleInternalMessageReactionAdd,
+    MESSAGE_REACTION_REMOVE: handleInternalMessageReactionRemove,
+    MESSAGE_REACTION_REMOVE_ALL: handleInternalMessageReactionRemoveAll,
+    MESSAGE_REACTION_REMOVE_EMOJI: handleInternalMessageReactionRemoveEmoji,
+    PRESENCE_UPDATE: handleInternalPresenceUpdate,
+    TYPING_START: handleInternalTypingStart,
+    USER_UPDATE: handleInternalUserUpdate,
+    VOICE_STATE_UPDATE: handleInternalVoiceStateUpdate,
+    WEBHOOKS_UPDATE: handleInternalWebhooksUpdate,
+};
+export function updateControllers(newControllers) {
+    controllers = {
+        ...controllers,
+        ...newControllers,
+    };
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibW9kLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibW9kLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFDTCx5QkFBeUIsRUFDekIsNEJBQTRCLEdBQzdCLE1BQU0sV0FBVyxDQUFDO0FBQ25CLE9BQU8sRUFDTCwyQkFBMkIsRUFDM0IsMkJBQTJCLEVBQzNCLDJCQUEyQixHQUM1QixNQUFNLGVBQWUsQ0FBQztBQUN2QixPQUFPLEVBQ0wseUJBQXlCLEVBQ3pCLHlCQUF5QixFQUN6QiwrQkFBK0IsRUFDL0IseUJBQXlCLEdBQzFCLE1BQU0sYUFBYSxDQUFDO0FBQ3JCLE9BQU8sRUFDTCw0QkFBNEIsRUFDNUIsK0JBQStCLEVBQy9CLCtCQUErQixFQUMvQiwrQkFBK0IsR0FDaEMsTUFBTSxjQUFjLENBQUM7QUFDdEIsT0FBTyxFQUNMLDJCQUEyQixFQUMzQiwyQkFBMkIsRUFDM0IsK0JBQStCLEVBQy9CLDJCQUEyQixHQUM1QixNQUFNLGVBQWUsQ0FBQztBQUN2QixPQUFPLEVBQ0wsNEJBQTRCLEVBQzVCLG1CQUFtQixFQUNuQix5QkFBeUIsRUFDekIsd0JBQXdCLEVBQ3hCLDhCQUE4QixFQUM5Qiw0QkFBNEIsR0FDN0IsTUFBTSxXQUFXLENBQUM7QUFDbkIsT0FBTyxFQUNMLGdDQUFnQyxFQUNoQyxtQ0FBbUMsRUFDbkMsc0NBQXNDLEVBQ3RDLHdDQUF3QyxHQUN6QyxNQUFNLGdCQUFnQixDQUFDO0FBQ3hCLE9BQU8sRUFDTCw2QkFBNkIsRUFDN0IsNkJBQTZCLEVBQzdCLDZCQUE2QixHQUM5QixNQUFNLFlBQVksQ0FBQztBQUVwQixNQUFNLENBQUMsSUFBSSxXQUFXLEdBQUc7SUFDdkIsS0FBSyxFQUFFLG1CQUFtQjtJQUMxQixjQUFjLEVBQUUsMkJBQTJCO0lBQzNDLGNBQWMsRUFBRSwyQkFBMkI7SUFDM0MsY0FBYyxFQUFFLDJCQUEyQjtJQUMzQyxZQUFZLEVBQUUseUJBQXlCO0lBQ3ZDLFlBQVksRUFBRSx5QkFBeUI7SUFDdkMsWUFBWSxFQUFFLHlCQUF5QjtJQUN2QyxhQUFhLEVBQUUseUJBQXlCO0lBQ3hDLGdCQUFnQixFQUFFLDRCQUE0QjtJQUM5QyxtQkFBbUIsRUFBRSwrQkFBK0I7SUFDcEQsZ0JBQWdCLEVBQUUsNEJBQTRCO0lBQzlDLG1CQUFtQixFQUFFLCtCQUErQjtJQUNwRCxtQkFBbUIsRUFBRSwrQkFBK0I7SUFDcEQsbUJBQW1CLEVBQUUsK0JBQStCO0lBQ3BELGlCQUFpQixFQUFFLDZCQUE2QjtJQUNoRCxpQkFBaUIsRUFBRSw2QkFBNkI7SUFDaEQsaUJBQWlCLEVBQUUsNkJBQTZCO0lBQ2hELGNBQWMsRUFBRSwyQkFBMkI7SUFDM0MsY0FBYyxFQUFFLDJCQUEyQjtJQUMzQyxtQkFBbUIsRUFBRSwrQkFBK0I7SUFDcEQsY0FBYyxFQUFFLDJCQUEyQjtJQUMzQyxvQkFBb0IsRUFBRSxnQ0FBZ0M7SUFDdEQsdUJBQXVCLEVBQUUsbUNBQW1DO0lBQzVELDJCQUEyQixFQUFFLHNDQUFzQztJQUNuRSw2QkFBNkIsRUFBRSx3Q0FBd0M7SUFDdkUsZUFBZSxFQUFFLDRCQUE0QjtJQUM3QyxZQUFZLEVBQUUseUJBQXlCO0lBQ3ZDLFdBQVcsRUFBRSx3QkFBd0I7SUFDckMsa0JBQWtCLEVBQUUsOEJBQThCO0lBQ2xELGVBQWUsRUFBRSw0QkFBNEI7Q0FDOUMsQ0FBQztBQUlGLE1BQU0sVUFBVSxpQkFBaUIsQ0FBQyxjQUEyQjtJQUMzRCxXQUFXLEdBQUc7UUFDWixHQUFHLFdBQVc7UUFDZCxHQUFHLGNBQWM7S0FDbEIsQ0FBQztBQUNKLENBQUMifQ==

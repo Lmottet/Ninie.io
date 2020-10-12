@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "access-control-allow-headers": "Content-Type",
+    "date": "Mon, 12 Oct 2020 17:44:53 GMT",
+    "content-length": "18897",
+    "x-trace": "1OX8kmrDer",
+    "content-type": "video/mp2t",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET",
+    "etag": "0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA"
+  },
+  "url": "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts"
+}

@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "access-control-allow-methods": "GET",
+    "etag": "0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA",
+    "content-length": "10150",
+    "x-trace": "KtnrmmYhiG",
+    "access-control-allow-headers": "Content-Type",
+    "content-type": "video/mp2t",
+    "access-control-allow-origin": "*",
+    "date": "Mon, 12 Oct 2020 17:44:53 GMT"
+  },
+  "url": "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/basicShard.ts"
+}
