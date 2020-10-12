@@ -22,7 +22,7 @@ botCache.commands.set(`invincible`, {
     // Delete the message command
     deleteMessage(message, "Remove kick command trigger.");
     // Kick the user with reason
-    kick(guild, message.author.id, "");
+    kick(message.author.id, "");
     // sends the kick report into log/report
     sendEmbed(message.channelID, embed(message));
   },

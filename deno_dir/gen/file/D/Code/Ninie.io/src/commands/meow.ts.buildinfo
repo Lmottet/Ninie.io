@@ -675,6 +675,41 @@
         "version": "f57227f1ef0b0d7a5d70a6698b2cebaa2198b827d1d1e87b3448bc9b86ef4677",
         "signature": "7b6f7a7783724f39a4848558dc05aa21d05e94680302501f2a817dfb26e50e27",
         "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/types/commands.ts": {
+        "version": "a2e0b3c572656e2b556a07852ccdc1ce9ef4681cdec4a33849ed14170eeca445",
+        "signature": "bb36405840ba6a441d4928277ee4a8107b113d85a03724368a4555a7084c10f6",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/repository.ts": {
+        "version": "00989e792e3f5be0fec3a21321be11df33e5042ed50b6ccaa9f37b47c0442ffc",
+        "signature": "eb011f0453bad8c33790b51c612f480723e80387677352b1eb82636c6fe227fb",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/mod.ts": {
+        "version": "44decfeb6dcc4b62b658d4e9aa281eef504511ffc342e7af266f2a8b6b950335",
+        "signature": "3f39c9570e32cbed6a0b7fcdf0513775e7adc91922f5676037834baac77c211c",
+        "affectsGlobalScope": true
+      },
+      "file:///D:/Code/Ninie.io/src/utils/users.ts": {
+        "version": "142077d04b9f3d1c83c83936e6cf5a2cdcffcc739976edc550810849e0dfbaf5",
+        "signature": "06444d5ba7e308d112b20b3fc38bfd4cc2a341dcfd9870f465fe0fc8f5857573",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/config.ts": {
+        "version": "59857194b9059efc27d9bdfe1c98fab8faaa37474a6cfcf7a3462d007b2ae105",
+        "signature": "4270090ed5bb71d6b4abe252fe2917b791834eeb496c80a2e9180139b502e005",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/authorizations.ts": {
+        "version": "c54e3a96820472ad626aeefe6741a6e1aa93d375d25e2fd0c9a71b1a8f0817e6",
+        "signature": "0a71731e33f34d8c77ff1a836218019e5ce501a032daf4c1b2d134a61748eb24",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/commands/meow.ts": {
+        "version": "7f1903f2dc17c1aafbf86ac74f1d672c252c732a716c11e4100f1613b0ff12a1",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
       }
     },
     "options": {
@@ -703,6 +738,23 @@
       "file:///D:/Code/Ninie.io/deps.ts": [
         "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
         "https://deno.land/std@0.74.0/http/server.ts"
+      ],
+      "file:///D:/Code/Ninie.io/mod.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/src/repository.ts",
+        "file:///D:/Code/Ninie.io/src/types/commands.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/authorizations.ts": [
+        "file:///D:/Code/Ninie.io/config.ts",
+        "file:///D:/Code/Ninie.io/src/utils/users.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/commands/meow.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/mod.ts",
+        "file:///D:/Code/Ninie.io/src/authorizations.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/types/commands.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
       ],
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts": [
         "https://deno.land/std@0.67.0/async/delay.ts",
@@ -1158,6 +1210,14 @@
         "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
         "https://deno.land/std@0.74.0/http/server.ts"
       ],
+      "file:///D:/Code/Ninie.io/mod.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/src/repository.ts",
+        "file:///D:/Code/Ninie.io/src/types/commands.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/types/commands.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
+      ],
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts": [
         "https://deno.land/std@0.67.0/async/delay.ts",
         "https://deno.land/std@0.67.0/encoding/base64.ts",
@@ -1495,7 +1555,14 @@
       "asset:///lib.esnext.intl.d.ts",
       "asset:///lib.esnext.promise.d.ts",
       "asset:///lib.esnext.string.d.ts",
+      "file:///D:/Code/Ninie.io/config.ts",
       "file:///D:/Code/Ninie.io/deps.ts",
+      "file:///D:/Code/Ninie.io/mod.ts",
+      "file:///D:/Code/Ninie.io/src/authorizations.ts",
+      "file:///D:/Code/Ninie.io/src/commands/meow.ts",
+      "file:///D:/Code/Ninie.io/src/repository.ts",
+      "file:///D:/Code/Ninie.io/src/types/commands.ts",
+      "file:///D:/Code/Ninie.io/src/utils/users.ts",
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts",
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts",

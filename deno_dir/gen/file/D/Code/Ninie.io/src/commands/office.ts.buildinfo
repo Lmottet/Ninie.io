@@ -226,6 +226,11 @@
         "signature": "1",
         "affectsGlobalScope": true
       },
+      "file:///D:/Code/Ninie.io/config.ts": {
+        "version": "59857194b9059efc27d9bdfe1c98fab8faaa37474a6cfcf7a3462d007b2ae105",
+        "signature": "4270090ed5bb71d6b4abe252fe2917b791834eeb496c80a2e9180139b502e005",
+        "affectsGlobalScope": false
+      },
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts": {
         "version": "a411490d96d2ec1d1fc8f5f0025e23d754430e51346bfd80bd3d4ab0ff7861c9",
         "signature": "913d9e3975b53bdaf550d18a45facb7be53a8eb3e6510451419c0056ef2e2738",
@@ -675,6 +680,41 @@
         "version": "f57227f1ef0b0d7a5d70a6698b2cebaa2198b827d1d1e87b3448bc9b86ef4677",
         "signature": "7b6f7a7783724f39a4848558dc05aa21d05e94680302501f2a817dfb26e50e27",
         "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/types/commands.ts": {
+        "version": "a2e0b3c572656e2b556a07852ccdc1ce9ef4681cdec4a33849ed14170eeca445",
+        "signature": "bb36405840ba6a441d4928277ee4a8107b113d85a03724368a4555a7084c10f6",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/repository.ts": {
+        "version": "00989e792e3f5be0fec3a21321be11df33e5042ed50b6ccaa9f37b47c0442ffc",
+        "signature": "eb011f0453bad8c33790b51c612f480723e80387677352b1eb82636c6fe227fb",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/mod.ts": {
+        "version": "44decfeb6dcc4b62b658d4e9aa281eef504511ffc342e7af266f2a8b6b950335",
+        "signature": "3f39c9570e32cbed6a0b7fcdf0513775e7adc91922f5676037834baac77c211c",
+        "affectsGlobalScope": true
+      },
+      "file:///D:/Code/Ninie.io/src/services/feelsService.ts": {
+        "version": "e7ae8dc3cceaa148fe71bd0283444096e68f1be5d1c71deab4a459e9473ff7c8",
+        "signature": "aad07429450fc7397e1ed9cbfb61b97e78e8f1e49fbe9fa7a4b47147f568dfa0",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts": {
+        "version": "35b6d1c8a230cb27521be269692613648eecf0f1aaf95cda9ff13d8d1ec31b36",
+        "signature": "d0b0b7444b439a05b2a934078917e5606bd447bea787835fbadc27227af13065",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts": {
+        "version": "5ed869ad37cd9e971e59ab43012d43e2e149e7745a835f24b181ecb1fda10624",
+        "signature": "fab663bf209e6e2d0a216933f085ea24094d79b143062274ce7a3ffb5c1caab1",
+        "affectsGlobalScope": false
+      },
+      "file:///D:/Code/Ninie.io/src/commands/office.ts": {
+        "version": "5714e8e3425d4117d698b02e57caa42e07421b8d7be81e936b9233c02f3d7937",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
       }
     },
     "options": {
@@ -703,6 +743,30 @@
       "file:///D:/Code/Ninie.io/deps.ts": [
         "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
         "https://deno.land/std@0.74.0/http/server.ts"
+      ],
+      "file:///D:/Code/Ninie.io/mod.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/src/repository.ts",
+        "file:///D:/Code/Ninie.io/src/types/commands.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/commands/office.ts": [
+        "file:///D:/Code/Ninie.io/config.ts",
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/mod.ts",
+        "file:///D:/Code/Ninie.io/src/services/feelsService.ts",
+        "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
+        "file:///D:/Code/Ninie.io/src/utils/helpers.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/types/commands.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/mod.ts",
+        "file:///D:/Code/Ninie.io/src/utils/Embed.ts"
       ],
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts": [
         "https://deno.land/std@0.67.0/async/delay.ts",
@@ -1158,6 +1222,22 @@
         "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
         "https://deno.land/std@0.74.0/http/server.ts"
       ],
+      "file:///D:/Code/Ninie.io/mod.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/src/repository.ts",
+        "file:///D:/Code/Ninie.io/src/types/commands.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/types/commands.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts"
+      ],
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts": [
+        "file:///D:/Code/Ninie.io/deps.ts",
+        "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
+        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts"
+      ],
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts": [
         "https://deno.land/std@0.67.0/async/delay.ts",
         "https://deno.land/std@0.67.0/encoding/base64.ts",
@@ -1495,7 +1575,15 @@
       "asset:///lib.esnext.intl.d.ts",
       "asset:///lib.esnext.promise.d.ts",
       "asset:///lib.esnext.string.d.ts",
+      "file:///D:/Code/Ninie.io/config.ts",
       "file:///D:/Code/Ninie.io/deps.ts",
+      "file:///D:/Code/Ninie.io/mod.ts",
+      "file:///D:/Code/Ninie.io/src/commands/office.ts",
+      "file:///D:/Code/Ninie.io/src/repository.ts",
+      "file:///D:/Code/Ninie.io/src/services/feelsService.ts",
+      "file:///D:/Code/Ninie.io/src/types/commands.ts",
+      "file:///D:/Code/Ninie.io/src/utils/Embed.ts",
+      "file:///D:/Code/Ninie.io/src/utils/helpers.ts",
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts",
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
       "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts",
