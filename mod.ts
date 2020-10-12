@@ -79,7 +79,7 @@ const readPort = () => {
 };
 
 const port = readPort();
-const discord_token_id = Deno.env.get("DISCORD_BOT_TOKEN");
+const discord_token_id ="NzQwNTkwMDg5MTAwMzI5MDYw.XyrORA.SguJDWp0XwKrXQrXXLcSVRlHvFc";
 //Deno.env.get("DISCORD_BOT_TOKEN");
 
 const intents = [
