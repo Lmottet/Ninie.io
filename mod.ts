@@ -5,6 +5,7 @@ import {
   Intents,
   Message,
   serve,
+  voiceChannelSwitch
 } from "./deps.ts";
 import { Argument, Command } from "./src/types/commands.ts";
 import { Repository } from "./src/repository.ts";
@@ -26,7 +27,7 @@ export const botCache = {
     string,
     (message: Message, command: Command, guild?: Guild) => Promise<boolean>
   >(),
-  eventHandlers: {} as EventHandlers,
+  eventHandlers: {  } as EventHandlers,
   arguments: new Map<string, Argument>(),
 };
 

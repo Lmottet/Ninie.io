@@ -5,3 +5,4 @@ import { Message } from "../../deps.ts";
 botCache.eventHandlers.messageCreate = function (message: Message) {
   commandHandler(message);
 };
+
