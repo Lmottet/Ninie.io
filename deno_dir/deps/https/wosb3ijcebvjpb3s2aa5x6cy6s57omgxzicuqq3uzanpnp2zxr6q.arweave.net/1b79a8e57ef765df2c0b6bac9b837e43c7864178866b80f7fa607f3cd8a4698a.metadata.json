@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "access-control-allow-methods": "GET",
+    "date": "Mon, 16 Nov 2020 10:44:54 GMT",
+    "content-type": "video/mp2t",
+    "access-control-allow-headers": "Content-Type",
+    "access-control-allow-origin": "*",
+    "etag": "s6QdoSIgapeHctAB2_hY9Lv3MNfKBUhDdMga9r9ZvH0",
+    "content-length": "3159",
+    "x-trace": "7qn-2-MfAe"
+  },
+  "url": "https://wosb3ijcebvjpb3s2aa5x6cy6s57omgxzicuqq3uzanpnp2zxr6q.arweave.net/s6QdoSIgapeHctAB2_hY9Lv3MNfKBUhDdMga9r9ZvH0/src/handlers/webhook.ts"
+}

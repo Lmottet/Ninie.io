@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "x-trace": "9DP1sniHb",
+    "date": "Mon, 16 Nov 2020 10:46:40 GMT",
+    "content-length": "960",
+    "access-control-allow-origin": "*",
+    "etag": "Tjn07DA13Kl13kv-7KrGsiUAHUOL0a_oo3sz6ZrQtbQ",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-headers": "Content-Type",
+    "content-type": "video/mp2t"
+  },
+  "url": "https://jy47j3bqgxoks5o6jp7ozkwgwisqahkdrpi272fdpmz6tgwqww2a.arweave.net/Tjn07DA13Kl13kv-7KrGsiUAHUOL0a_oo3sz6ZrQtbQ/src/controllers/bans.ts"
+}

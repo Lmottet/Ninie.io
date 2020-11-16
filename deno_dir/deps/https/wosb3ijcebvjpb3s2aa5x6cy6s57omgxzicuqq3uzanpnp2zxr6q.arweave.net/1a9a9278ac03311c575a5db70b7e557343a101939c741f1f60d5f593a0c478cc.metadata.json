@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "access-control-allow-headers": "Content-Type",
+    "etag": "s6QdoSIgapeHctAB2_hY9Lv3MNfKBUhDdMga9r9ZvH0",
+    "x-trace": "S1RtTkhpAx",
+    "content-type": "video/mp2t",
+    "access-control-allow-origin": "*",
+    "date": "Mon, 16 Nov 2020 10:44:54 GMT",
+    "access-control-allow-methods": "GET",
+    "content-length": "4794"
+  },
+  "url": "https://wosb3ijcebvjpb3s2aa5x6cy6s57omgxzicuqq3uzanpnp2zxr6q.arweave.net/s6QdoSIgapeHctAB2_hY9Lv3MNfKBUhDdMga9r9ZvH0/src/constants/discord.ts"
+}

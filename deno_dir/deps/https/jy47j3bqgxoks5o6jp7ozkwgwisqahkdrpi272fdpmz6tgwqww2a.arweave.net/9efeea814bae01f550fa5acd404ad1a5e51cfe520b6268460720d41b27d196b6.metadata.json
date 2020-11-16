@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "access-control-allow-headers": "Content-Type",
+    "access-control-allow-origin": "*",
+    "x-trace": "cvoow2ra-_",
+    "date": "Mon, 16 Nov 2020 10:46:40 GMT",
+    "access-control-allow-methods": "GET",
+    "content-type": "video/mp2t",
+    "etag": "Tjn07DA13Kl13kv-7KrGsiUAHUOL0a_oo3sz6ZrQtbQ",
+    "content-length": "1851"
+  },
+  "url": "https://jy47j3bqgxoks5o6jp7ozkwgwisqahkdrpi272fdpmz6tgwqww2a.arweave.net/Tjn07DA13Kl13kv-7KrGsiUAHUOL0a_oo3sz6ZrQtbQ/mod.ts"
+}

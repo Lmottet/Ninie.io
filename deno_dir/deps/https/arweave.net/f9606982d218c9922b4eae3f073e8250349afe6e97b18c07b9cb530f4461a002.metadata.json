@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "date": "Mon, 16 Nov 2020 10:44:53 GMT",
+    "location": "https://wosb3ijcebvjpb3s2aa5x6cy6s57omgxzicuqq3uzanpnp2zxr6q.arweave.net/s6QdoSIgapeHctAB2_hY9Lv3MNfKBUhDdMga9r9ZvH0/mod.ts",
+    "access-control-allow-headers": "Content-Type",
+    "x-trace": "BWXGEVB2X",
+    "content-length": "145",
+    "vary": "Accept",
+    "content-type": "text/plain; charset=utf-8",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET"
+  },
+  "url": "https://arweave.net/s6QdoSIgapeHctAB2_hY9Lv3MNfKBUhDdMga9r9ZvH0/mod.ts"
+}

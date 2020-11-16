@@ -1,3 +1,5 @@
-export { avatarURL, botID, cache, createClient as Client, deleteMessage, Errors, getMember, hasChannelPermissions, Intents, kick, Permissions, sendMessage, } from "https://x.nest.land/Discordeno@9.0.1/mod.ts";
-export { serve } from "https://deno.land/std@0.74.0/http/server.ts";
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGVwcy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImRlcHMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUNMLFNBQVMsRUFDVCxLQUFLLEVBQ0wsS0FBSyxFQUVMLFlBQVksSUFBSSxNQUFNLEVBQ3RCLGFBQWEsRUFLYixNQUFNLEVBRU4sU0FBUyxFQUVULHFCQUFxQixFQUNyQixPQUFPLEVBQ1AsSUFBSSxFQUtKLFdBQVcsRUFDWCxXQUFXLEdBQ1osTUFBTSw2Q0FBNkMsQ0FBQztBQUVyRCxPQUFPLEVBQUUsS0FBSyxFQUFFLE1BQU0sNkNBQTZDLENBQUMifQ==
+export * from "https://deno.land/x/discordeno@9.0.16/mod.ts";
+export { serve } from "https://deno.land/std@0.77.0/http/server.ts";
+import Client from "https://deno.land/x/discordeno@9.0.16/src/module/client.ts";
+export default Client;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGVwcy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImRlcHMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsY0FBYyw4Q0FBOEMsQ0FBQztBQUM3RCxPQUFPLEVBQUUsS0FBSyxFQUFFLE1BQU0sNkNBQTZDLENBQUM7QUFFcEUsT0FBTyxNQUFNLE1BQU0sNERBQTRELENBQUM7QUFDaEYsZUFBZSxNQUFNLENBQUMifQ==

@@ -201,11 +201,6 @@
         "signature": "1",
         "affectsGlobalScope": true
       },
-      "asset:///lib.deno.ns.d.ts": {
-        "version": "1",
-        "signature": "1",
-        "affectsGlobalScope": true
-      },
       "asset:///lib.deno.window.d.ts": {
         "version": "1",
         "signature": "1",
@@ -216,7 +211,12 @@
         "signature": "1",
         "affectsGlobalScope": true
       },
-      "asset:///lib.deno.web.d.ts": {
+      "asset:///lib.deno.ns.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
+      },
+      "asset:///lib.esnext.weakref.d.ts": {
         "version": "1",
         "signature": "1",
         "affectsGlobalScope": true
@@ -226,827 +226,462 @@
         "signature": "1",
         "affectsGlobalScope": true
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts": {
-        "version": "a411490d96d2ec1d1fc8f5f0025e23d754430e51346bfd80bd3d4ab0ff7861c9",
-        "signature": "913d9e3975b53bdaf550d18a45facb7be53a8eb3e6510451419c0056ef2e2738",
-        "affectsGlobalScope": false
+      "asset:///lib.deno.web.d.ts": {
+        "version": "1",
+        "signature": "1",
+        "affectsGlobalScope": true
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/role.ts": {
-        "version": "4380cec7e6c4c74a3d0e60dadb535a794d54dba6c0cd2a7c2b5c15a532e4cabe",
-        "signature": "972b9b58c79905491d3e4c8840c8e9773c83749d88b717be33997f77052ae5b3",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts": {
-        "version": "6d110403acfb68a24a4ef784d13ca503a99f03dd6a5a0daab7ee7a575ae2e05b",
-        "signature": "6c42786a20d3b02d8e9b62e42426f743992d0ad275f293c26001b98ace2c7442",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts": {
-        "version": "13053316b959015cf7b1578edb01eb4d441d1b5d1f9b29f44333de371eabcb27",
-        "signature": "caba2fd95cb89b643beb5657e3e6e7500cc88973afa150789aff39d6e02036bf",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts": {
-        "version": "00d4f6abd4467689d0efb05066e8a35c7878691c1ec6763b5ec29d8f2279a9b0",
-        "signature": "db42dd62e798382a5499bb055b5f33e287c7dd696f9be48bcea39304d0c8b0fb",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts": {
-        "version": "8287c67a9f671b0195971de0b57a5f33622da9e2758d9f9b80cfc891753a83ba",
-        "signature": "6d768305e9881cee827505b36a454e5c01785b6878ad3dfb16975a3086151384",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts": {
-        "version": "4bacfb9523036c3558ab529a04e3b8102e098fa0abbf0301f420e962369c6c63",
-        "signature": "8d840f3b9533e37c2eafbd565ab87f632144f143f42f7010c4a03482b870e4bd",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts": {
-        "version": "9c3eee13faf022e3c581b3a7a1e5e101c35e48144e378f83e45bc0481c107236",
-        "signature": "93bd06c1adbdd6ed91c02590e1d8f78869a11a750e6d7b75235dd7be9343e043",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts": {
-        "version": "e43c5462afb5478a909db1cec43e1659f9e275a11f3e95da40292cd5f96ca406",
-        "signature": "3c22dce657c767656f99f5147bdd553f997fa9b3a254bbd00a29bfe9053eb556",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts": {
-        "version": "fd999630eddf42837422e8012303a1bd4b5bfe8ba1c724964a3270b922a71125",
-        "signature": "38321d2dc7678204a8682297ae090a886e072971b5ed1251f78df038aadcce5c",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts": {
-        "version": "d2e5fea0b23f5b5c37d532b0f74ca0f1cff3b38ab09565a0107650ca27379008",
-        "signature": "68daf81e87c84c243002679f2755bc628b5ed9fdf58a769ac2d3a28b657c3177",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/activity.ts": {
-        "version": "88aa7bd1accc1ae7d8248dc14822f8bafa62368a1a28f9b215f860745e8c0910",
-        "signature": "ebcf44bc318736f5f03d1109c6a9ce889e260dff46c1e30b5a5f9e6a13c0e0bf",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/bans.ts": {
-        "version": "02eaadd872a4c4fdac2e8506a24d081d8c2d9c1da7cab7673060ed5c753a9783",
-        "signature": "abb50d9bae4717afc42b1cd4bac6751d3ec910662b14bf4f6e8b538ae3230ad0",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/channels.ts": {
-        "version": "bd3db9c1f46d0da91c64ffa166c027e1335316bf6ff7863b0b981c183e94a4b8",
-        "signature": "b50fa46f8e0e02241b3a67f9b8cc79821b5f7e39f7f642b43a4fa9f19067b3e1",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts": {
-        "version": "44c113205799aefe3d4ad6e2da2114328f93bbfe7e48689ec3039c3b565150a0",
-        "signature": "e0ed519d68f40e3332adc9a5b6750357cc8dd01341fb2a71472cf141940c3f46",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/guilds.ts": {
-        "version": "9d1b65239c9c5a2f464d4afee57c62646f13e692958e02ff6c6d2d748f4fcb4c",
-        "signature": "71e966e052e50e2bf4be8af3d4e37399df3f263baeec74c8520d7f94afdd112f",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/members.ts": {
-        "version": "61cf2057970c9d89265f042847bd8267d369a93e9682e05790581b7be75158b2",
-        "signature": "a5d71eb9dd60eaff9dee062b3d4dd2d80c91bd6d688aa2b1a1533cd37b65064a",
-        "affectsGlobalScope": false
-      },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/messages.ts": {
-        "version": "536ae0fcb719885dd717b269428b09443a55e12df1270542b5bf0c9d7e809e0c",
-        "signature": "1d79e62400251cb006e9129ae746d494355409fe1095becf4d99bd3bcbd23e27",
+      "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts": {
+        "version": "6c2ea79d250f0e6541f9d86394c5cc9980b5316418bfc080425208ba3f059be8",
+        "signature": "b55c67686b8f936f9c4776aae1be0cb31fc2d2fe301e5602f67152f23283314d",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/encoding/utf8.ts": {
-        "version": "977dc54aeb1060148e01342efebcfdacca3cbe688969dc853c5a83eedb739b7a",
-        "signature": "a57aa88ff7746afdca174a2668682e8a1ab964462111cb303f5d323fded4949f",
+        "version": "54f6eeb2e80ec61d8f1d89bb47c2fa60dd9bc7134aec1c049400ab928687fdcf",
+        "signature": "58ee92ab021b35a2d9df9c66490d5e323dd7f1852bf95e3054d41e1dcc604a86",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/_util/has_own_property.ts": {
-        "version": "daa857283c6996e8536dd42b4962d9d8a8c7dc4445a6ca4a33a82177e4acafd9",
-        "signature": "78a6ea35c0add8eaa6c7e36433dbadd62ce3ed705b65e400f344e259b049c21a",
+        "version": "d1da1b55f81c23cd1df41e37a07e52d39465330843fb43e73be8877db5b8c363",
+        "signature": "c1a20a0a46306b9c641dceaa94ecb80f0639973c3f0682bc5767995f177127c6",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/bytes/mod.ts": {
-        "version": "a732e6806839e9b8b94c41ef7aed47592908cd783e7e4867902a4325986e11c9",
-        "signature": "d77b1ddf00c7ba72d35d66892a6ed8f49282a699e23fc502a9d7fa38454b4c33",
+        "version": "63840df79497933b9f1c4bc194b1ce66e6b1d3a87da09731f4aa13101a28a2c1",
+        "signature": "64f4a6872cd0d1f3e4b73d82f5c48e61580b09d7266895eba0a78959916db1dc",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/_util/assert.ts": {
-        "version": "35cc6b36129e38fc6d6ef4998760c6c0a40454a1ccb087a5eb54c53a1274b806",
-        "signature": "80fd2097b210f3d8589e0fe2d749e69f9bc1024daec5a3d38b97d0332fb1b18c",
+        "version": "c9dae2b9a45fcdf43f6a180d14dca745fbedcde819ae28214e7b6d998e6aa3a8",
+        "signature": "b519f0686f87e3e290267658f1ee4691c6eb143cb7f70fdd8e51c65b41b610fc",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/io/bufio.ts": {
-        "version": "3d052bdef4b53d59c0ac10eaaaaf249618b3675528c03f49ed5819c3e24b09b8",
-        "signature": "31e36808a997f5a959022298ffc6cd6ebfafce45d0ac2add02154ef072579529",
+        "version": "4ba57d6edd4225683d9d6c5f88150a8b5f3de3fa476fbbda3c0f83909be12145",
+        "signature": "096e7b91b3c213af1dff517af1e1447a5cf555a79f4476b31ee610508cb16d4f",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/io/ioutil.ts": {
-        "version": "727829293eaa4a4a8a739ea286a3841fdf17424188511aae51dcafa20a70dfd1",
-        "signature": "2105581f9c7518d040aed9551078d5d27cae5abee06fbd9989dfbd6282594348",
+        "version": "57f2d9fcc8b57c424d8f99053c310f0905425f362a6d3eb88fa8fe9fe80a11bf",
+        "signature": "9376be0dd2a55cbf8c8487b7c71cb8339d6fe87e460d42693c53be9c608dbe3a",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/hash/sha1.ts": {
-        "version": "67087ac26924f095672632be894bcf71e514729ea239552cdf228abb8b16239e",
-        "signature": "2ca05b49b9ec691a9f0be5bdcb5f4a46270e991e5136945072f58592551aa276",
+        "version": "023bd7786c72bd69d2ffbc6b1800c1bf06c0212fac6c93b4a2bcbb2fbe0ec3e2",
+        "signature": "3cbcd2fe5042719fa57de446bc78c4dcb996e81873ac802a84b734b229d91c88",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/textproto/mod.ts": {
-        "version": "d6d4e2ba903307d4b09f449723788a9ce15cd497b11bdc8e30f96c7c6b7a6e3f",
-        "signature": "c604bc9e9b4fec724eace52bfe246b73cb0bb96e4c02db0995651a301fa5d693",
+        "version": "140e3b4fb216ed28922cf076a39c7d9264087ee3de5841510d49f0af61f22695",
+        "signature": "82715ce7076ce4adfd986a6f29b7a63401db76cb113706c014c1071242a5dd9d",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/async/deferred.ts": {
-        "version": "8fd09bb29a51b9b3820574c5475778537ed3c9fa5f8c86a232b7ba2daf6f6f1c",
-        "signature": "566324ce7cc39bbe30f94544463a256b9eb890012e77d49a0dd40bb2ef843bc4",
+        "version": "7765b0566d555ee3c565e34d90fdce86a200894945d649fa88d940587b7fd1f5",
+        "signature": "7c462c9ce91a7083f22d72fffc81eab3480387a4e7fa30f5487afae3240a14f5",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/async/delay.ts": {
-        "version": "a9179073a1d2672792b65faf7fa36d6b77d08b93ef0ae509123d8e6f6cf70885",
-        "signature": "95f8beace3ed894e3e5e3ebaae46c855dfc133e2c63d37663a760c801750f7d4",
+        "version": "72e8fb798bf13b22cda101bfe5fad02c6e470431566bd6acdd06c9d85ab7ad17",
+        "signature": "3f00237ee0b3c6ea2c640e26fa24366d0e63a43caa7f4ed749e19332c75067aa",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/async/mux_async_iterator.ts": {
-        "version": "c7c770f3a65a3149197e8a9d54a3d052841a2f034c6f9d3923ffc487456c2506",
-        "signature": "63404f86210b2143b6bd9f5d9b9be3b7627801df3380a7327297d0e47280b254",
+        "version": "84480d82c195d8027920c450cee6098bd8598b302705c94946460a33cb3f7bd3",
+        "signature": "3583bc94cd9a4efdec73adb4f785e9edccd521c55f83a7cd322d5342ff0c66b4",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/async/pool.ts": {
-        "version": "c4a327966ce118c76ae75916d673c5a9eee94a26bef9536c6c057e43f8d3a9ae",
-        "signature": "441aa0667c0ed5f5b0d189abc4db904c9c42f0e5ae00dda7e9e743395871903b",
+        "version": "4eb2e3fa644504a234dd45ad55b51f3e509686f6dae38455cfee29f3b3403572",
+        "signature": "20b43bc1bed0636a7d004974d8f90510c6ab4ac3f52d12a0ac7d01476723a7af",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/async/mod.ts": {
-        "version": "add34f7b6c25d81c0fb9c2662c4b427de6d9f1611679d55f0428ed7696ce7c21",
-        "signature": "2dd6b462298b9a0643c496738bdf871adfe054e7f548980d103d4d13bdba498d",
+        "version": "a0acf1f27a1c95dc7a68bd47518c26d4387f380b710c3e131b14ce937dbd0eae",
+        "signature": "93e969212d713eb07b97d02bba3d415cf5acb63513e5812b38722780d8b97e0a",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/http/server.ts": {
-        "version": "bcd1f8ec17ea25013ba175c6d2ea829040480a1dafad38ebf4bf98174b4c1510",
-        "signature": "9a7d1ea01dad466167b513e2ac84aafa173e1454cc045ae534a6c4a45f8bb18d",
+        "version": "bfa9a7483e621333f36535c566d404439a8de4125832cbca45f4a13aac6383aa",
+        "signature": "e7109d71e77f1bd4e8fc50c7e306f8e6a9255aa0c16be9b517a173633a7c36bf",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/http/http_status.ts": {
-        "version": "8309c837dbe23376cec6c726a4c185ba8d53dd2d0af7a0563cd327094d847b4e",
-        "signature": "3bb93633f93806845edc9705d07d187f0099d500ee81e789ae2e10a5ea321cd6",
+        "version": "e957c6e6d55c8fbd52dced9698d96be69a07a41fc13ccb67f6bc923febdc5628",
+        "signature": "185b19533afc5eae9d57d80381d5aca3e0ba5a89ce382b3e0b6c03757b127c61",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/http/_io.ts": {
-        "version": "cf99454735818f45e22ec121860ce4c0deb5fdfe3c6a17999afcce2d12b57648",
-        "signature": "4e5366d93cc9415f9a281e068ebbb19660fb68876aab874c12c51b5b6ec3081e",
+        "version": "64f5a0fce55565577c3ca3a1856d2e6ee4d65bd0e43671a9d6f32a49bbacb414",
+        "signature": "6c9bc6ffb479d13c5ae521ade8ecb979c3e06ffc6ed8348ed870382958afecbc",
         "affectsGlobalScope": false
       },
       "https://deno.land/std@0.67.0/ws/mod.ts": {
-        "version": "71ba94ad39c310976ed42f96e8c1213e12406134b2da084c9bcff46fccec047d",
-        "signature": "a28551f637ec0673b6c044b75023910957eb933e4c9437700b23de6444a8257c",
+        "version": "158067b76e0ceedd6cfd619db068c834a09eb6fe7e16b1d170f197f2207180de",
+        "signature": "9b45b55615ad5dc7783d2db000ae0ee95600b3d606236231461c12584a4afd87",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.67.0/encoding/base64.ts": {
-        "version": "dc061dd5c720ecd059c38688b46a50f657e191ad6764484f6642ca30c5607d2d",
-        "signature": "156b803a5d15641f0389d0f268ca2b8c4449e44fb5121ece534ea135f72429c3",
+      "https://deno.land/std@0.75.0/async/delay.ts": {
+        "version": "72e8fb798bf13b22cda101bfe5fad02c6e470431566bd6acdd06c9d85ab7ad17",
+        "signature": "1184fb1f9907ecda3da21817d7326ca983a0807010b76106c8b349c07bfeb5a4",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/zlib.es@v1.0.0/adler32.ts": {
-        "version": "53a832238c1669c093e571fb8b1b24688b8fa5f3e750b94fa841620991c0a4b0",
-        "signature": "8984d141d8c78f676c1a4cd0cb6e0bd71500e8485c430194c90c97f3a439aefa",
+      "https://deno.land/std@0.75.0/encoding/base64.ts": {
+        "version": "7f3ce8b360cbfc52b3ca074818de85b11b2779d58f74be87ab5f294b2ad19dd6",
+        "signature": "88dce5314f196732b310370e36330e5e32d109d1a2fba71547896ccc618fc11f",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/zlib.es@v1.0.0/const.ts": {
-        "version": "559650c5084ffbc20c66994810dee0fd1c884a07179c8455ced14db59323a15f",
-        "signature": "aba7da9654e471ccf1952fc78643b7f579d00ca7b01e97827fd0597c0bad19a1",
+      "https://deno.land/std@0.75.0/fmt/colors.ts": {
+        "version": "8b71174ab003c9bfd7c30acad5837568c267ad742eebab9b8dc874fd09cfc47c",
+        "signature": "595b49c8c92c07306a43c7b869f213466a740b6496a671a9fec23a1ab3c55cb9",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/zlib.es@v1.0.0/huffman.ts": {
-        "version": "634831075244b1df19da3bcee4b88de87a9b61ffc49901229e4f7db76236328d",
-        "signature": "fac0a55e5f17907924f2b41d753413e865ff2a9acb6d6a22fbec749ff0f174ed",
+      "https://deno.land/std@0.75.0/testing/_diff.ts": {
+        "version": "b2e8c61b04f69d87d3134a9efc12926a59f0cba56e70d41a3b5d96c13c96ee16",
+        "signature": "ee722690ad24b675cd9872092d066b3d6a6f1eb4b6ffd379bad8fd8b749a22a0",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/zlib.es@v1.0.0/lz77.ts": {
-        "version": "61bb96a6f39dca2e6fc7d5acd0ab619dc889c9f6edc23eddb20aafd6cee96ec6",
-        "signature": "08593fb286148c7da7a8e46e80173267f01c39fc82e5793ca4eac1c07e8542f4",
+      "https://deno.land/std@0.75.0/testing/asserts.ts": {
+        "version": "581115fa67089eee6fe676a88e133b67efcccbea7586b1efe64664d059f32c0d",
+        "signature": "8ff67170775323152c01e2b685fcbb193ecfabab541c5c5c57246fd8b125784c",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/zlib.es@v1.0.0/_BitWriteStream.ts": {
-        "version": "25ddafae385137b650b4f684c8e8ef9b9ca259d3b38cdecad2ddaf17993b84b2",
-        "signature": "1a2e399ad99543e1f4d4bfa9fac3e6114c710171365772f296444bc16ce19cab",
+      "https://unpkg.com/@evan/wasm@0.0.12/target/zlib/deno.js": {
+        "version": "2a4fd5bada352f9cc3ebeb5697c56b4f5203f8dd368f5133c59cd90d65eb5fbf",
+        "signature": "3389eba5aba636a8e5cc04820210bb282ba015a6b0921af9749ad0730d39bda0",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/zlib.es@v1.0.0/deflate.ts": {
-        "version": "fbe893a8fad6d0b295e024530ad5d48b90bdbf9a78996a0da513aa64c368541c",
-        "signature": "838e65238cc87053b9436a0e588430b3deb0ab72170289bac6ab59a3feda0e44",
+      "https://deno.land/x/discordeno@9.0.16/deps.ts": {
+        "version": "5a64229114271944722162f98a9a1f2bd23b1c1131390f264a08cfb114192a88",
+        "signature": "8c885140bb32abba09ae96af4164bffcd1e78bb368e7b6b74aacdd0b4ab34a4c",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/zlib.es@v1.0.0/_BitReadStream.ts": {
-        "version": "7841b51745ca99272b981c7c74ff07ec35e8d113babff8eb965b677c6351c279",
-        "signature": "e241888e4c24913edbb9d509b22c70b0887d2b1ac9d68ed6861172c4fa278bde",
+      "https://deno.land/x/discordeno@9.0.16/src/constants/discord.ts": {
+        "version": "34f2123b8ccb66fc78726f047fb4e1957882103f33f1b41facf246d4e0e70832",
+        "signature": "a4fc6933ba1496f656bbb74aaf8b0faf6ee9163be72a567973177e29ae2e0b95",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/zlib.es@v1.0.0/_Uint8WriteStream.ts": {
-        "version": "a4c01ec996d6d0666734e3d9a72cdd72624be976dac69b8e849aee5f1ee2e2d3",
-        "signature": "60ad5db2139d76845f761c42dfa0cb273a9df761584df0f993c5453d4b7af5de",
+      "https://deno.land/x/discordeno@9.0.16/src/types/member.ts": {
+        "version": "733338e923013b138e3bd72e53936df066454e9b761807c21a4a66f86d9df5f5",
+        "signature": "2b0a482a2af085fdfc596093e5e08f15fa079aabc091c81ffe542590cf8d81cc",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/zlib.es@v1.0.0/inflate.ts": {
-        "version": "55ffbaa613fcad51cbdc80470572ade9101af984a1b2aebe52f09cc36ec5308c",
-        "signature": "5c05fd7ccba0217f17ed94ef7d00a5d60ec2d69be18d3d7c4c3756792709408b",
+      "https://deno.land/x/discordeno@9.0.16/src/types/presence.ts": {
+        "version": "98dd15b4d291a8bc036c642b1d59289e652de0c0a4ca66068f95e85ab4acba97",
+        "signature": "463c072b93416adb146c6c20f926ba51c07c905fb5a28da9dc22fb8360d4a0e4",
         "affectsGlobalScope": false
       },
-      "https://deno.land/x/zlib.es@v1.0.0/mod.ts": {
-        "version": "7d133b166a0f194a11d52cd92450129912d61ac1cff34635979665ed2c3b6b47",
-        "signature": "88cbcc602298e2df6d1e719313c865e951edfc5ba364378a148c86e58137fac0",
+      "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts": {
+        "version": "edaa40ff1f7e0d28430a53fefbeb3371b863a36cd6e58200b6981aa5d5cef938",
+        "signature": "a19495911a56ef1ff93db588d36a9ae46639ba76d875c38fda083833c80d56bf",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts": {
-        "version": "fec884ef718231b42c6550a3b55844acb5d4599f66fdeb7d52c5de763743b1e5",
-        "signature": "e49deb82ccf89d581ce217ce2803f27a1257a1f619cddc3ab80c014e8ec91780",
+      "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts": {
+        "version": "cb4e6b40de55e8b964fa1187345cc012cc56505d92f66ced03d5ba286349cd1d",
+        "signature": "555e510b204ab3b067fe4c52b121ff20f374de910aa1e1181b6f4907873a2ed4",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/misc.ts": {
-        "version": "383f6bdde00924a0f8d9250ce846d9085d2b09804ff70e5d2773d70e1c2e387d",
-        "signature": "b1c87128ae2d193325322c85c3ded06340d88ebafa9cf6249d0a6c247b9275cc",
+      "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts": {
+        "version": "3ffb43a8a3a41bf4dffe05b9270685068f5d572a3c4078ff4ce58e83a2afeb61",
+        "signature": "d6386fb12086dfca5f7d222930427a85d0e7fc21e84ceae536d0fc0d1b747495",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/reactions.ts": {
-        "version": "c415e42f9d1cf4756eda44ec354b551b06e384ad385641acc2f9c06ae19f239f",
-        "signature": "b0eff830092f012abc58fd147b50c1219e25e71838830de0801ebeba1517bf7b",
+      "https://deno.land/x/discordeno@9.0.16/src/types/role.ts": {
+        "version": "fcf25e9b3cab489854d2be4aef8c73c813eae4bc2fa1788cf24ccb93fcca8267",
+        "signature": "c85c90f1c097e400507e933ba460601a55c1ebbaae609f7b74fa8497ce06ed38",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/roles.ts": {
-        "version": "30130b15f5c86adf45e5113302d3a16af4c975101a16238f3c84296ad6993eae",
-        "signature": "970c0da54c097be03583a290c5693c6483f33dc9805329edd4577974a6fa90fb",
+      "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts": {
+        "version": "9c44973a9d5e805536dcb31206a95e6d468f6f11773b564ba70e1c37c3c5c089",
+        "signature": "48b32d9388431bf87601a874594f4c9d7008862b784c63ab531c097911037936",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/mod.ts": {
-        "version": "6de33860301e6774eff7d62285affae2420535a98eac831251df230d38d0f89a",
-        "signature": "aae964ba431c3a46d5975353fb0d9e059a96388ad4ffd6a605db2f4a620dd35a",
+      "https://deno.land/x/discordeno@9.0.16/src/types/options.ts": {
+        "version": "bb7e139b9a77b900e6d40346f1d4b2e74e24adf1f69bcb6d112720bc6f9c28b7",
+        "signature": "eab4b20bced3548597f6fe0fdf8139b99343bf573890b21b2e9063c908423e67",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/basicShard.ts": {
-        "version": "1c515af834f165841c547cd72d38023dd072087060ee8bf6840b9d2a54b708af",
-        "signature": "5adb1e760a208d5a6929011657826b5d35077658337789644b263870b5cee3a1",
+      "https://deno.land/x/discordeno@9.0.16/src/types/errors.ts": {
+        "version": "c80e5823ca7a5837b7385241bebc5dc8450df007507399d459a67e69692677a4",
+        "signature": "3603cebfeff883e7a063d76b345cd27ae816951b37c8a099a618213ba7ec4693",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts": {
-        "version": "2249525480dec482834ad12f656506fc2e2dde147f10496a391039b713c24d9b",
-        "signature": "6c864babe789960526654c5adea6b36b412c8417c8ed8bf1804547be72cbe6e4",
+      "https://deno.land/x/discordeno@9.0.16/src/types/fetch.ts": {
+        "version": "5daf906c8c413697802a91abc215444aa02d04947c65d8a17c01ff5174c78394",
+        "signature": "7565e3c62a6c420e0e2b196c7931a050d30f85a1f01354322f63780634b60d07",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts": {
-        "version": "01c21c3622f820b7a077dea812d85f8bb8cc79102505a53deab971c6b4f8e060",
-        "signature": "6105fdf367ebd4acf0f670e7cd310746575b42fad102d732ebb43d8d2da815e2",
+      "https://deno.land/x/discordeno@9.0.16/src/module/requestManager.ts": {
+        "version": "418bb78a8ade947f0fc851676e09bae2e154e55e6c85b7ff938a684844f15120",
+        "signature": "26eb526c321953caa84e1e5fe46b4155fe20086b8fd7edccf3fc503256897970",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts": {
-        "version": "d928af27437634b9f5f1aa8135586b8e5b016008927276d9500da72316f75714",
-        "signature": "27525ac485d603e8ffb490d6de0171e7a6bd2b33afe572ca2d89bf948982e18f",
+      "https://deno.land/x/discordeno@9.0.16/src/module/client.ts": {
+        "version": "e4a1070f66bf9eb440862c4f7d3c004153157e3575ad8a53608905c9f8ba9115",
+        "signature": "23e5ed39b06e01baebb49e8bdbd05c54ca80873e37ac53cfdb785a813f2af762",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts": {
-        "version": "446c3636fc6ed4e7356f031343cbf0b85d9862810ba70d044f041b71da42932a",
-        "signature": "3a5561f99a1ea490f90a0bf9e3e7d5dc1e120fa7caf897155443bd004451f9a0",
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/bans.ts": {
+        "version": "9b57634b75206b7e2353e1a7b5da9bb63d16e3134e0e4c6857462df4c804b0a3",
+        "signature": "7c5b355833d251da11bcccfc874606cb1fd4fc9e84d21074819f8001ed4982a1",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts": {
-        "version": "fffde4c0e740a62483cb386ed31fe5754a761916f55e64c8a98ff245087b2f59",
-        "signature": "00d6c6e4f73052d8fe97885aacb39de876e8216f3bf78caea15f0ead123fc53a",
+      "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts": {
+        "version": "4b2fe75bfa135d77be9b773d9f560e011671fbc4766b5f9b78965937f3fb0f8f",
+        "signature": "0b27064827f58cdd0c6d323688c8066046477eabb0c10ec2525637e3da7d02e1",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts": {
-        "version": "139881f7cbb148533fc3dc5213980d16856cddfd88ba9b044d43300eaf3420be",
-        "signature": "f56282a77bed4241fe5fb7dbd0d90e4d3df10b5f5676da6fff952ad024461d75",
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/channels.ts": {
+        "version": "71bf0d2eaf738ee823603c50d70a02ca8cf322148f6567a2be3dd911d0b01f3f",
+        "signature": "ca58e5f08a0a7d1ec924ab63d5af2346bf0cf11b068c40f1b85b2ddcf5b8a2d6",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts": {
-        "version": "b7bdca41f717d2fee76a16d616efed35bad76c2627397e7dc0c4e8abc2a023b2",
-        "signature": "3b7cbdc8107b8075dc779408532dfa26f4127ee9b40efa9222219996e57ddd7d",
+      "https://deno.land/x/discordeno@9.0.16/src/utils/cache.ts": {
+        "version": "1036ec073929d6dd87c81d30c5b7b8b93de4823e2fffdfc04e506fe29524998e",
+        "signature": "bb4fe779e0f2fbef000038e1be75c1c1a0f908de92f0ffdcd78a7cdd0de81d21",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts": {
-        "version": "80535771167538eba84aa6fabf46141d84cc2371a12aab9234913a984c039b8e",
-        "signature": "a886a00c45c09423c1714734ddc0d9e5a69ea4019377fdcfaf77a35305b09b25",
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/guilds.ts": {
+        "version": "b16a6fcc86b15b300c80965c95edb16a943f4bbf0a3c7abdb5d0bb98d44ce0e9",
+        "signature": "5167244401f4f22fe9ddf7968bcb3c07cea9080cb48ba3aff9b4723d8ca8e808",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts": {
-        "version": "5c51b88598ddf66a95061e5e9b19487a82abae31cc7e5859ba070c57db284a1c",
-        "signature": "9a476ccff189b17b653fc28e549eee21f4145a83cfc1649495c325bfc2f97800",
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/members.ts": {
+        "version": "ef730712096d33bb29f1a74b14a29b90f4b1477fed562d57648ddb88efab0623",
+        "signature": "df22bd5c5f85781c233fd909a3713afb7df0d94e42d96e691bab0fce7ebf82df",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts": {
-        "version": "53dc167362d5770c5314b7902f30f2ea1c03d77e2f68d9694ebb71f87b4956ab",
-        "signature": "1cb659c7dc851537d8e8e9d3b00eba6605ceb6cffb11496c6f04ed253fdacf86",
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/messages.ts": {
+        "version": "c6c630a4695f15423a2faaa736ff68d6247e1e4f84d1d66141a409b1a5fad95c",
+        "signature": "0a2b03456fcb5ad48d4e6954b5c9061594ae8322277d96b818b81bb0cb4b6e71",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts": {
-        "version": "fb5c391441771cecdb36a78eb82dbed514d3c2987ab3e143d0a938174bd3b11f",
-        "signature": "72dcab7ff4958e8542efea687d15bb80599c43053ee46e5c358e2d1b4baf3b36",
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/misc.ts": {
+        "version": "18378b15900cde390fed1204a5b79b20d8ca8165cca10edae2487aeb9c3b81d6",
+        "signature": "982ecbc73cf93d66c74c9c4991468e256c26b0851a2b732d202abfaf93d21f95",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/fetch.ts": {
-        "version": "d76df8f66eced5b1dc31dbc006f47203149d4dff051ed749d9368c3b1c5b2229",
-        "signature": "36d1e4c05e8da8cad86b345f15ed6c8bc9fa12b88a35e6a834810882e7544c9f",
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/reactions.ts": {
+        "version": "14d62adb355f4956b77861c38731a0df5cadb4bccc040dba19cb6e357f94780b",
+        "signature": "5150b7d9222ab6f72d58c0d2e153d07f0d0e4f108422a0792725a4c8e8631d60",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts": {
-        "version": "d6a48863e8160403b8a15a5729f1ba1297622d04fc0d5b7f309185a277980911",
-        "signature": "aed1d390f55d7a25cfc34a43e9c2a1dd540f09fcc621709eb8b192afc963a4df",
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/roles.ts": {
+        "version": "889d6e36ff699b28b2a1e235c13e14bd01020dd476525cf8513a6bde1876acf6",
+        "signature": "dfdb90b82dc47fb195219df0b98ee5c7dba2889cdd4f85bbb1657a95e4b0dbab",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts": {
-        "version": "78e3c76fc235ad76f0771a4ed14a3312cc2050a4a5026035651fa5dca0a6d7a7",
-        "signature": "0f650af9c48b197d0e84a7608514089cbd1d876960f936d720b9ba9f72706634",
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/mod.ts": {
+        "version": "bbb8a23a73dc84368b09077d33bc54f0f05cc593f875cb09889b0e75a11c182d",
+        "signature": "0e0e5b5f170e76c9742b003be10b6bbd26828ec96d8dc8dd0345cd05b27b76ce",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts": {
-        "version": "b3fface56aac9a7a494ce08423f96e9be4c71015e537da3b89b47188d2a8bf8d",
-        "signature": "62a492ba84c345b8ac107fec00f9ca9473132be3a0e94747b3b0700a9d388bb4",
+      "https://deno.land/x/discordeno@9.0.16/src/module/basicShard.ts": {
+        "version": "0b30cebe2fea36ae689eccf877c21130051bb3065d4361251a8cc80ded803fba",
+        "signature": "0ded827d2dd40d56f65866153b9a0d25d4f31c0b6226e7bb01719050ea53b674",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/channel.ts": {
-        "version": "2965bc3770cafbbdd044dc3d2a5403c92954ec99b37f95fe0a6c1f6bc5a64d10",
-        "signature": "a33f83b0c8d368567bf2e4f6a0529fa546f3b14fa4619e4cd324a8d01e441d6c",
+      "https://deno.land/x/discordeno@9.0.16/src/module/shardingManager.ts": {
+        "version": "f6afc09438ffb7912c8383f12e29f9e529efbb2cdd1a941d1dfb27eec8b18e7b",
+        "signature": "6f4aa7f0e28c6823c7695e40f8d4244442508ca76492a2a389ae2f7d00e9f7b8",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts": {
-        "version": "afe89db38d2d8c67f79c3fa729146bd7224224813fca30d1199353368cbee8c1",
-        "signature": "8273a6fb1c17b1083a0b89eeea2e8c415ce2ec8dd0a1819b12164fa9b4a89c0d",
+      "https://deno.land/x/discordeno@9.0.16/src/types/activity.ts": {
+        "version": "7c5720aac6b6c7a028a37f83f19ae6b68f214b8539f6d5cae8aa3e536b560eac",
+        "signature": "a9fcebc7cc4f7f6a9f7303094b346520a57a26b420664aa4acb24b0881d5dcb1",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cdn.ts": {
-        "version": "e6cfb83031177493938e0b7fd65f5d4458c96a902cfc783fbf5a66de03f53567",
-        "signature": "bcc9385fa47900cb6b36f79b778e5c96be6618f15b039c88329f954ff0d034ea",
+      "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts": {
+        "version": "9ae877cc3c1f8c60b8745a3f3109f956548b0f2171e550d7d7763ab32089724c",
+        "signature": "acd8055992f0d124b40b8e59fe7536d52efc93f0777311dd217e843e5ec7e265",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/guild.ts": {
-        "version": "59a16ce93772191bffb829db3c2648a4356495070a1c3e8e44f43dd4c88bb456",
-        "signature": "c2a35c0a514f9423b0eb1e5e9dfc207d60abf0808365b0e6357b70637aa7628c",
+      "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts": {
+        "version": "0f64475fbf8173e1ea51cfe431ac4688b67dea0e28404daaeab28acd6f62c8cb",
+        "signature": "c00fd65f48feff047f16c572914f67f99d1d216a977de3c16d4e3268c2926ec9",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/member.ts": {
-        "version": "979d356319db48a81dbbc02ffde92caabdfeda0dc6f6c928111ac66744ab6cf0",
-        "signature": "cedb4f24e7a9a50cd42c369b371a26f5a3a5018dfcf98dc94db0938b8cdb1b9d",
+      "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts": {
+        "version": "302ed967f82c48214d15b86922d6a8c1b1ebbba2f412251386864fee57be6fd4",
+        "signature": "d9e44d7b5c3ff0099875962646e18279148a7e39217e25e6c3aad025f36a8ca0",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/message.ts": {
-        "version": "305be2d2b793ecf7e942aa58d7bf9f7989835cfb0a130387d54cb272c76a2171",
-        "signature": "164c2ba0e28d684298f03f9524daf1c5d3b3b06d32dc44a8ca96d3547575ad19",
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts": {
+        "version": "774d2fccb81eb7fa113359904f6316402e47bda4abe441ac141e9bd3e009e333",
+        "signature": "9877dd45c05b5de71bf05e02a2227174874546ad0758603f14dcc4cc74c70c51",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/webhook.ts": {
-        "version": "4bc922461cd85e0ce6317bc024f9af4ec8b8e26f31b04afcc0bb3e8c8303c398",
-        "signature": "7761221c05481a48972e8aec90e82ecbaa6cf7abfbf46b3206d4f942c26a461c",
+      "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts": {
+        "version": "fe3c87a9130c82f3e0df4dc276de808653df8368780f3b0cf3cabd840d530a4d",
+        "signature": "2ffb29ff4585f25447a6348d9a59521c5d3fe91fb5590e33a9adeb06a7263f8e",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/webhook.ts": {
-        "version": "419b459b37f7f181da7ddda49885cf5109af524c18e7d886a90531f89aad8bd6",
-        "signature": "84befc4a7f6746a1d72e1d45ffc1668a8c87a01e15e61c9a49e8432d2c4a0eb5",
+      "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts": {
+        "version": "cd3532d03938e54a2bb831e5848182b963d958fa2e4ca9f75a36db8e913f74bd",
+        "signature": "c00efa2a3516d0d3c54a4e222c72f4ca287b232421edd8b25938601cbf03981a",
         "affectsGlobalScope": false
       },
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts": {
-        "version": "d6a97777c18c7b8323d9e5ff923c03e4e81892320db178d1322226f9994a0b15",
-        "signature": "c5276061b462296d8141f96deb0a43cff7112f1af2c5222af034c2d8b9397811",
+      "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts": {
+        "version": "52c031bbfd85e55aa72efab983b8b9196d80428a3d86789c49a70a9030c842c7",
+        "signature": "27fc718363cc563a756426ae2dfab506f845e809069aada703e1a2aae1be0928",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/encoding/utf8.ts": {
-        "version": "7fe1600689c3cc5bd6a489fdb5ab12f002189c83a1ed8ecebf284f090417ef48",
-        "signature": "a57aa88ff7746afdca174a2668682e8a1ab964462111cb303f5d323fded4949f",
+      "https://deno.land/x/discordeno@9.0.16/src/types/message.ts": {
+        "version": "d31de4c5c95f7cd81a4412b3667a68673196135b3ee2fce03ed224069a078d8c",
+        "signature": "493034654a38b074d4db4bbd997f650ec591bbea50cdba79571114d5b2462d19",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/bytes/mod.ts": {
-        "version": "a732e6806839e9b8b94c41ef7aed47592908cd783e7e4867902a4325986e11c9",
-        "signature": "d77b1ddf00c7ba72d35d66892a6ed8f49282a699e23fc502a9d7fa38454b4c33",
+      "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts": {
+        "version": "84dc0b6935bb80d77e65308789fdf61fc52cb0773093fe8daaf26d464ca5e7f3",
+        "signature": "546cb0c5c6fce83b40fce16016cdb7ac0cb03e4834449512143a5fa1f8458b9d",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/_util/assert.ts": {
-        "version": "35cc6b36129e38fc6d6ef4998760c6c0a40454a1ccb087a5eb54c53a1274b806",
-        "signature": "80fd2097b210f3d8589e0fe2d749e69f9bc1024daec5a3d38b97d0332fb1b18c",
+      "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts": {
+        "version": "ae182f09865a41c863f4086ec1d30e9f3a4520e7456ab7f3bded8a45fb920e3a",
+        "signature": "a9994378a2754dd7fa3455903f58711853972c8d0004db46aedc063b40d6ea3b",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/io/bufio.ts": {
-        "version": "be14e1f50aa7cd21cb739395f892f4cb9f887c931b3b488816a652f2217a9fda",
-        "signature": "31e36808a997f5a959022298ffc6cd6ebfafce45d0ac2add02154ef072579529",
+      "https://deno.land/std@0.77.0/async/deferred.ts": {
+        "version": "2477419020c55c75ee9acc4c9fc586d408a60afd1f83f06843454684d18bfdbf",
+        "signature": "97c5ae4036c37f7cdb4e753501e6a740edc3ddc3b3a71cf7d975229af4fde5ae",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/async/deferred.ts": {
-        "version": "8fd09bb29a51b9b3820574c5475778537ed3c9fa5f8c86a232b7ba2daf6f6f1c",
-        "signature": "566324ce7cc39bbe30f94544463a256b9eb890012e77d49a0dd40bb2ef843bc4",
+      "https://deno.land/std@0.77.0/async/delay.ts": {
+        "version": "72e8fb798bf13b22cda101bfe5fad02c6e470431566bd6acdd06c9d85ab7ad17",
+        "signature": "be103d4096d9d1bb96585dcf58502cf0a2d6dc1a5b6be2ab0e50229f96440835",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/async/delay.ts": {
-        "version": "a9179073a1d2672792b65faf7fa36d6b77d08b93ef0ae509123d8e6f6cf70885",
-        "signature": "95f8beace3ed894e3e5e3ebaae46c855dfc133e2c63d37663a760c801750f7d4",
+      "https://deno.land/std@0.77.0/async/mux_async_iterator.ts": {
+        "version": "e7652f3aaf59817d6127a4f1eb05cc815a5a4f4f4650a2e950318409df51c034",
+        "signature": "8cf4dfb63bbbc82cc257170db033348067ded1bc408399f19b76853acc5fe09a",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/async/mux_async_iterator.ts": {
-        "version": "c7c770f3a65a3149197e8a9d54a3d052841a2f034c6f9d3923ffc487456c2506",
-        "signature": "63404f86210b2143b6bd9f5d9b9be3b7627801df3380a7327297d0e47280b254",
+      "https://deno.land/std@0.77.0/async/pool.ts": {
+        "version": "4eb2e3fa644504a234dd45ad55b51f3e509686f6dae38455cfee29f3b3403572",
+        "signature": "ab6afca80d6823879423473e291ac8f95ad2649235639461e933bff19937c750",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/async/pool.ts": {
-        "version": "c4a327966ce118c76ae75916d673c5a9eee94a26bef9536c6c057e43f8d3a9ae",
-        "signature": "441aa0667c0ed5f5b0d189abc4db904c9c42f0e5ae00dda7e9e743395871903b",
+      "https://deno.land/std@0.77.0/async/mod.ts": {
+        "version": "a0acf1f27a1c95dc7a68bd47518c26d4387f380b710c3e131b14ce937dbd0eae",
+        "signature": "05359c420fdb569360df652924327d19a9194ae170d4dde37ec4502c22e3c331",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/async/mod.ts": {
-        "version": "add34f7b6c25d81c0fb9c2662c4b427de6d9f1611679d55f0428ed7696ce7c21",
-        "signature": "2dd6b462298b9a0643c496738bdf871adfe054e7f548980d103d4d13bdba498d",
+      "https://deno.land/std@0.77.0/bytes/mod.ts": {
+        "version": "63840df79497933b9f1c4bc194b1ce66e6b1d3a87da09731f4aa13101a28a2c1",
+        "signature": "bd26cc10570025c7ea731ba942f3231697e5f69f9d185828d1cc77d8646d5214",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/textproto/mod.ts": {
-        "version": "fbcc342eb7cca54f664e1086238cced586d4f17ad21fd34dca335ec93aef5ee3",
-        "signature": "c604bc9e9b4fec724eace52bfe246b73cb0bb96e4c02db0995651a301fa5d693",
+      "https://deno.land/std@0.77.0/_util/assert.ts": {
+        "version": "c9dae2b9a45fcdf43f6a180d14dca745fbedcde819ae28214e7b6d998e6aa3a8",
+        "signature": "6ac45bcf6ce7eefe994b85b7cd655b1886f09cd70628c10fab0a0aebee347d3c",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/http/http_status.ts": {
-        "version": "8309c837dbe23376cec6c726a4c185ba8d53dd2d0af7a0563cd327094d847b4e",
-        "signature": "3bb93633f93806845edc9705d07d187f0099d500ee81e789ae2e10a5ea321cd6",
+      "https://deno.land/std@0.77.0/io/bufio.ts": {
+        "version": "9a516b45b5fdf73bf3e39c41112c899b1941d2eb24e80e824cde59d0debd482b",
+        "signature": "6139ab484392c85adc32563102aa312f348dd71b71ca80f9c596350a4c806b9f",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/http/_io.ts": {
-        "version": "bc4d265600f939ddf6a18ff0c556eb97de23fd1a1e8f921c445730200ca9a3c4",
-        "signature": "1e9e922d109f47039c99d44ac486519761acb5931c4207f7c0c3c7d4c5e100ca",
+      "https://deno.land/std@0.77.0/encoding/utf8.ts": {
+        "version": "bf3d7a7106e2e680fd7918eec36e2957557c372d1bf7202aec65031d219b498c",
+        "signature": "19d2192fa1260db89b5df49839106e27b8666e38bb3e6745ebc9095103325bc4",
         "affectsGlobalScope": false
       },
-      "https://deno.land/std@0.74.0/http/server.ts": {
-        "version": "63785c9b1b91336d1546481be2bf23f44563efe3e0eb41faa9ddec051f2adbce",
-        "signature": "9a7d1ea01dad466167b513e2ac84aafa173e1454cc045ae534a6c4a45f8bb18d",
+      "https://deno.land/std@0.77.0/textproto/mod.ts": {
+        "version": "3e0f157dc54225de05ffb8083b133c152ddc7c5c91dc5ddec6beb8bcf8f7d071",
+        "signature": "96f41b42c845f4e72ef2b1f0b48385e40039e7f16bef26b5c3c3070969aff644",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.77.0/http/server.ts": {
+        "version": "37e0fd85736ff103ecf77ea0130961d276eddb6ba80285fd89f36481260e4199",
+        "signature": "d8b52be25fdb1290309ce126a0f64a00f82a9e642c6532e8b4682734ccc73eb5",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.77.0/http/http_status.ts": {
+        "version": "e957c6e6d55c8fbd52dced9698d96be69a07a41fc13ccb67f6bc923febdc5628",
+        "signature": "1a5015d8308abd34e3ae3cfec590801c15bc6d15cf2d8e868278881313752f0e",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/std@0.77.0/http/_io.ts": {
+        "version": "b75b293c1635976f82a566e102a66c222a5ae9e1b324f616792e8139de4b9a23",
+        "signature": "d6d95d9f0d1b11d6f499f092f81b5d7380aa40c14372718a0325ee95b94163ce",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/discordeno@9.0.16/src/types/cdn.ts": {
+        "version": "91f4f972bf8776d22bba479038e07baf2ee959db3d4931e3a106863d92d8f662",
+        "signature": "9aaf12ca2dcfa6b8fd4c266a4fd306a53dde7439fb285098800668fb2c10c4b5",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/discordeno@9.0.16/src/utils/cdn.ts": {
+        "version": "efa7267b834d39b782efd655893f04ec7554e5b9d302d6ab683c3db286162e62",
+        "signature": "b1e5889588d0bd4eabd250efae2b0289893bb987d54f40422f3ef2e539c673d0",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/channel.ts": {
+        "version": "98c133b1c666752851bd52a11e982f4d5e6f9f209fe1d4770cfed927c54f29cf",
+        "signature": "467c383c2aae6a3c8532d09097166e737090d9b0c59d8bb4a301527768fe2b0e",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/member.ts": {
+        "version": "34187aae51673535593b1b33b2c183a94bd3a9485dbeffcf382a7830bbdb666a",
+        "signature": "3aac3d498d69a19e15d0d11c7f64ffad87a174829036fb5aa91790e294e1cf91",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/guild.ts": {
+        "version": "a612345ea2866429845c2e167f2776dc4c85b71a1fb0d41b8f7b26b06f4d19e8",
+        "signature": "5f4923d8b24b0c32653d06842982492ec1a09a7e88af488b7a94dc6aa5d3decf",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/message.ts": {
+        "version": "e0071f43f2af9943d88b4b25a4acab98a02fbff2da0cdb4a50f496c1f0f6704f",
+        "signature": "da0333747e7d06f7aa84b71f7eb5b1aef24c237a9c8e8945b153100e54d16e7a",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/discordeno@9.0.16/src/types/webhook.ts": {
+        "version": "20b09f4b5e0e5711d240054dde4de29ee515859d591b1023ae4a2cea0507266a",
+        "signature": "0385f497909017ba4b277dacfb3a679a57e540f051ff0b8121a06c110aaf0855",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/webhook.ts": {
+        "version": "7fed4f210cae901453d64a58247d174f7369be176146c028b69c4bcdbc2b1115",
+        "signature": "ae5bd8a38b067daf49b4f32c8b3a0a289ab96cc387abbdfd0d57eb715ea83148",
+        "affectsGlobalScope": false
+      },
+      "https://deno.land/x/discordeno@9.0.16/mod.ts": {
+        "version": "c42bc00e88a7fa411609408967eb2cb306f0737922d74b4b0028842e52a42407",
+        "signature": "1faa05faeef615fee50b5320771a59212faff5bbb65b9805a0f2baa672c5def0",
         "affectsGlobalScope": false
       },
       "file:///D:/Code/Ninie.io/deps.ts": {
-        "version": "f57227f1ef0b0d7a5d70a6698b2cebaa2198b827d1d1e87b3448bc9b86ef4677",
-        "signature": "7b6f7a7783724f39a4848558dc05aa21d05e94680302501f2a817dfb26e50e27",
+        "version": "8fa4353f1964529a99a03d2d857b99f342ce4e77d00986037d1627661c8aacdb",
+        "signature": "c00982cbbb23e7c5a9294ebd1ff9819768b7202b8c90e8c1b526255b44bce437",
         "affectsGlobalScope": false
       }
     },
     "options": {
-      "allowJs": false,
-      "checkJs": false,
+      "allowJs": true,
       "esModuleInterop": true,
+      "experimentalDecorators": true,
       "incremental": true,
-      "inlineSourceMap": true,
-      "isolatedModules": false,
-      "jsx": 2,
+      "isolatedModules": true,
       "lib": [
         "lib.deno.window.d.ts"
       ],
       "module": 99,
-      "outDir": "deno://",
-      "resolveJsonModule": true,
-      "sourceMap": false,
       "strict": true,
-      "removeComments": true,
       "target": 99,
-      "tsBuildInfoFile": "./tsbuildinfo.json",
-      "configFilePath": "./tsconfig.json",
-      "allowNonTsExtensions": true
+      "tsBuildInfoFile": "./.tsbuildinfo",
+      "emitDecoratorMetadata": false,
+      "jsx": 2,
+      "inlineSourceMap": true,
+      "outDir": "deno://",
+      "removeComments": true,
+      "configFilePath": "cache:///tsconfig.json"
     },
     "referencedMap": {
       "file:///D:/Code/Ninie.io/deps.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
-        "https://deno.land/std@0.74.0/http/server.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts": [
-        "https://deno.land/std@0.67.0/async/delay.ts",
-        "https://deno.land/std@0.67.0/encoding/base64.ts",
-        "https://deno.land/std@0.67.0/ws/mod.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/mod.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/bans.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/channels.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/guilds.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/members.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/messages.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/misc.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/reactions.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/roles.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/webhook.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/activity.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/fetch.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/role.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cdn.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/bans.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/channels.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/guilds.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/members.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/messages.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/misc.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/mod.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/bans.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/channels.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/guilds.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/members.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/messages.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/misc.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/reactions.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/roles.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/reactions.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/roles.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/channel.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/guild.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/role.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cdn.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/member.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cdn.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/message.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/webhook.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/webhook.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/basicShard.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/fetch.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/basicShard.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/role.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/activity.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/role.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/webhook.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cdn.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/activity.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
+        "https://deno.land/std@0.77.0/http/server.ts",
+        "https://deno.land/x/discordeno@9.0.16/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts"
       ],
       "https://deno.land/std@0.67.0/async/mod.ts": [
         "https://deno.land/std@0.67.0/async/deferred.ts",
@@ -1097,316 +732,393 @@
         "https://deno.land/std@0.67.0/io/ioutil.ts",
         "https://deno.land/std@0.67.0/textproto/mod.ts"
       ],
-      "https://deno.land/std@0.74.0/async/mod.ts": [
-        "https://deno.land/std@0.74.0/async/deferred.ts",
-        "https://deno.land/std@0.74.0/async/delay.ts",
-        "https://deno.land/std@0.74.0/async/mux_async_iterator.ts",
-        "https://deno.land/std@0.74.0/async/pool.ts"
+      "https://deno.land/std@0.75.0/testing/asserts.ts": [
+        "https://deno.land/std@0.75.0/fmt/colors.ts",
+        "https://deno.land/std@0.75.0/testing/_diff.ts"
       ],
-      "https://deno.land/std@0.74.0/async/mux_async_iterator.ts": [
-        "https://deno.land/std@0.74.0/async/deferred.ts"
+      "https://deno.land/std@0.77.0/async/mod.ts": [
+        "https://deno.land/std@0.77.0/async/deferred.ts",
+        "https://deno.land/std@0.77.0/async/delay.ts",
+        "https://deno.land/std@0.77.0/async/mux_async_iterator.ts",
+        "https://deno.land/std@0.77.0/async/pool.ts"
       ],
-      "https://deno.land/std@0.74.0/http/_io.ts": [
-        "https://deno.land/std@0.74.0/_util/assert.ts",
-        "https://deno.land/std@0.74.0/encoding/utf8.ts",
-        "https://deno.land/std@0.74.0/http/http_status.ts",
-        "https://deno.land/std@0.74.0/http/server.ts",
-        "https://deno.land/std@0.74.0/io/bufio.ts",
-        "https://deno.land/std@0.74.0/textproto/mod.ts"
+      "https://deno.land/std@0.77.0/async/mux_async_iterator.ts": [
+        "https://deno.land/std@0.77.0/async/deferred.ts"
       ],
-      "https://deno.land/std@0.74.0/http/server.ts": [
-        "https://deno.land/std@0.74.0/_util/assert.ts",
-        "https://deno.land/std@0.74.0/async/mod.ts",
-        "https://deno.land/std@0.74.0/encoding/utf8.ts",
-        "https://deno.land/std@0.74.0/http/_io.ts",
-        "https://deno.land/std@0.74.0/io/bufio.ts"
+      "https://deno.land/std@0.77.0/http/_io.ts": [
+        "https://deno.land/std@0.77.0/_util/assert.ts",
+        "https://deno.land/std@0.77.0/encoding/utf8.ts",
+        "https://deno.land/std@0.77.0/http/http_status.ts",
+        "https://deno.land/std@0.77.0/http/server.ts",
+        "https://deno.land/std@0.77.0/io/bufio.ts",
+        "https://deno.land/std@0.77.0/textproto/mod.ts"
       ],
-      "https://deno.land/std@0.74.0/io/bufio.ts": [
-        "https://deno.land/std@0.74.0/_util/assert.ts",
-        "https://deno.land/std@0.74.0/bytes/mod.ts"
+      "https://deno.land/std@0.77.0/http/server.ts": [
+        "https://deno.land/std@0.77.0/_util/assert.ts",
+        "https://deno.land/std@0.77.0/async/mod.ts",
+        "https://deno.land/std@0.77.0/encoding/utf8.ts",
+        "https://deno.land/std@0.77.0/http/_io.ts",
+        "https://deno.land/std@0.77.0/io/bufio.ts"
       ],
-      "https://deno.land/std@0.74.0/textproto/mod.ts": [
-        "https://deno.land/std@0.74.0/bytes/mod.ts",
-        "https://deno.land/std@0.74.0/encoding/utf8.ts",
-        "https://deno.land/std@0.74.0/io/bufio.ts"
+      "https://deno.land/std@0.77.0/io/bufio.ts": [
+        "https://deno.land/std@0.77.0/_util/assert.ts",
+        "https://deno.land/std@0.77.0/bytes/mod.ts"
       ],
-      "https://deno.land/x/zlib.es@v1.0.0/deflate.ts": [
-        "https://deno.land/x/zlib.es@v1.0.0/_BitWriteStream.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/const.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/huffman.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/lz77.ts"
+      "https://deno.land/std@0.77.0/textproto/mod.ts": [
+        "https://deno.land/std@0.77.0/bytes/mod.ts",
+        "https://deno.land/std@0.77.0/encoding/utf8.ts",
+        "https://deno.land/std@0.77.0/io/bufio.ts"
       ],
-      "https://deno.land/x/zlib.es@v1.0.0/inflate.ts": [
-        "https://deno.land/x/zlib.es@v1.0.0/_BitReadStream.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/_Uint8WriteStream.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/const.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/huffman.ts"
+      "https://deno.land/x/discordeno@9.0.16/deps.ts": [
+        "https://deno.land/std@0.67.0/ws/mod.ts",
+        "https://deno.land/std@0.75.0/async/delay.ts",
+        "https://deno.land/std@0.75.0/encoding/base64.ts",
+        "https://deno.land/std@0.75.0/testing/asserts.ts",
+        "https://unpkg.com/@evan/wasm@0.0.12/target/zlib/deno.js"
       ],
-      "https://deno.land/x/zlib.es@v1.0.0/lz77.ts": [
-        "https://deno.land/x/zlib.es@v1.0.0/const.ts"
+      "https://deno.land/x/discordeno@9.0.16/mod.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/bans.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/channels.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/guilds.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/members.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/messages.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/misc.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/reactions.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/roles.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/webhook.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/requestManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/shardingManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/activity.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/cdn.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/errors.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/fetch.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/options.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/presence.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/role.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cdn.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts"
       ],
-      "https://deno.land/x/zlib.es@v1.0.0/mod.ts": [
-        "https://deno.land/x/zlib.es@v1.0.0/_BitReadStream.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/_BitWriteStream.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/adler32.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/deflate.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/inflate.ts"
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/bans.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/channels.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/guilds.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/options.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cache.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/members.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cache.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/messages.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/misc.ts": [
+        "https://deno.land/x/discordeno@9.0.16/deps.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/shardingManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cache.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/mod.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/bans.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/channels.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/guilds.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/members.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/messages.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/misc.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/reactions.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/roles.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/reactions.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/roles.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/channel.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/constants/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/requestManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/errors.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/guild.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/constants/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/requestManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/shardingManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/cdn.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/errors.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/options.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/role.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cdn.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/member.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/constants/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/requestManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/cdn.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/errors.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cdn.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/message.ts": [
+        "https://deno.land/x/discordeno@9.0.16/deps.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/constants/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/requestManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/errors.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/webhook.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/constants/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/requestManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/errors.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/webhook.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/module/basicShard.ts": [
+        "https://deno.land/x/discordeno@9.0.16/deps.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/shardingManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/module/client.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/constants/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/requestManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/shardingManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/options.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/module/requestManager.ts": [
+        "https://deno.land/x/discordeno@9.0.16/deps.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/constants/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/errors.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/fetch.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/module/shardingManager.ts": [
+        "https://deno.land/x/discordeno@9.0.16/deps.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/basicShard.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/role.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/presence.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/presence.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/role.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/member.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/message.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/options.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/presence.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/webhook.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/utils/cache.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/utils/cdn.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/cdn.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts": [
+        "https://deno.land/x/discordeno@9.0.16/deps.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/shardingManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/activity.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
       ]
     },
     "exportedModulesMap": {
       "file:///D:/Code/Ninie.io/deps.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
-        "https://deno.land/std@0.74.0/http/server.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts": [
-        "https://deno.land/std@0.67.0/async/delay.ts",
-        "https://deno.land/std@0.67.0/encoding/base64.ts",
-        "https://deno.land/std@0.67.0/ws/mod.ts",
-        "https://deno.land/x/zlib.es@v1.0.0/mod.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/bans.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/channels.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/guilds.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/members.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/messages.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/misc.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/reactions.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/roles.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/webhook.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/activity.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/fetch.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/role.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cdn.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/bans.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/channels.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/guilds.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/members.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/messages.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/misc.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/mod.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/bans.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/channels.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/guilds.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/members.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/messages.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/misc.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/reactions.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/roles.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/reactions.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/roles.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/channel.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/guild.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/member.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/message.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/webhook.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/webhook.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/basicShard.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts": [
-        "file:///D:/Code/Ninie.io/deps.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/role.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/activity.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/role.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/webhook.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cdn.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts"
-      ],
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts": [
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/activity.ts",
-        "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts"
+        "https://deno.land/std@0.77.0/http/server.ts",
+        "https://deno.land/x/discordeno@9.0.16/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts"
       ],
       "https://deno.land/std@0.67.0/async/mod.ts": [
         "https://deno.land/std@0.67.0/async/deferred.ts",
@@ -1431,161 +1143,265 @@
       "https://deno.land/std@0.67.0/ws/mod.ts": [
         "https://deno.land/std@0.67.0/io/bufio.ts"
       ],
-      "https://deno.land/std@0.74.0/async/mod.ts": [
-        "https://deno.land/std@0.74.0/async/deferred.ts",
-        "https://deno.land/std@0.74.0/async/delay.ts",
-        "https://deno.land/std@0.74.0/async/mux_async_iterator.ts",
-        "https://deno.land/std@0.74.0/async/pool.ts"
+      "https://deno.land/std@0.77.0/async/mod.ts": [
+        "https://deno.land/std@0.77.0/async/deferred.ts",
+        "https://deno.land/std@0.77.0/async/delay.ts",
+        "https://deno.land/std@0.77.0/async/mux_async_iterator.ts",
+        "https://deno.land/std@0.77.0/async/pool.ts"
       ],
-      "https://deno.land/std@0.74.0/http/_io.ts": [
-        "https://deno.land/std@0.74.0/http/server.ts",
-        "https://deno.land/std@0.74.0/io/bufio.ts"
+      "https://deno.land/std@0.77.0/http/_io.ts": [
+        "https://deno.land/std@0.77.0/http/server.ts",
+        "https://deno.land/std@0.77.0/io/bufio.ts"
       ],
-      "https://deno.land/std@0.74.0/http/server.ts": [
-        "https://deno.land/std@0.74.0/async/mod.ts",
-        "https://deno.land/std@0.74.0/io/bufio.ts"
+      "https://deno.land/std@0.77.0/http/server.ts": [
+        "https://deno.land/std@0.77.0/async/mod.ts",
+        "https://deno.land/std@0.77.0/io/bufio.ts"
       ],
-      "https://deno.land/std@0.74.0/textproto/mod.ts": [
-        "https://deno.land/std@0.74.0/io/bufio.ts"
+      "https://deno.land/std@0.77.0/textproto/mod.ts": [
+        "https://deno.land/std@0.77.0/io/bufio.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/deps.ts": [
+        "https://deno.land/std@0.67.0/ws/mod.ts",
+        "https://deno.land/std@0.75.0/async/delay.ts",
+        "https://deno.land/std@0.75.0/encoding/base64.ts",
+        "https://deno.land/std@0.75.0/testing/asserts.ts",
+        "https://unpkg.com/@evan/wasm@0.0.12/target/zlib/deno.js"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/mod.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/bans.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/channels.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/guilds.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/members.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/messages.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/misc.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/reactions.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/roles.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/handlers/webhook.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/requestManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/shardingManager.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/activity.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/cdn.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/errors.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/fetch.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/options.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/presence.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/role.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cache.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/cdn.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/bans.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/cache.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/channels.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/guilds.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/members.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/messages.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/misc.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/mod.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/bans.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/channels.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/guilds.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/members.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/messages.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/misc.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/reactions.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/controllers/roles.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/reactions.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/controllers/roles.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/channel.ts": [
+        "https://deno.land/x/discordeno@9.0.16/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/guild.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/cdn.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/member.ts": [
+        "https://deno.land/x/discordeno@9.0.16/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/cdn.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/message.ts": [
+        "https://deno.land/x/discordeno@9.0.16/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/handlers/webhook.ts": [
+        "https://deno.land/x/discordeno@9.0.16/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/webhook.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/module/basicShard.ts": [
+        "https://deno.land/x/discordeno@9.0.16/deps.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/module/client.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/options.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/module/shardingManager.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/module/client.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts": [
+        "https://deno.land/x/discordeno@9.0.16/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts": [
+        "https://deno.land/x/discordeno@9.0.16/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts": [
+        "https://deno.land/x/discordeno@9.0.16/mod.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/mod.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/misc.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/role.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/presence.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/presence.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/role.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/member.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/message.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/member.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/options.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/member.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/presence.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/types/webhook.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/message.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/utils/cache.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/channel.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/message.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/utils/collection.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/utils/cdn.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/cdn.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/utils/permissions.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/structures/guild.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/structures/role.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/permission.ts"
+      ],
+      "https://deno.land/x/discordeno@9.0.16/src/utils/utils.ts": [
+        "https://deno.land/x/discordeno@9.0.16/src/types/activity.ts",
+        "https://deno.land/x/discordeno@9.0.16/src/types/discord.ts"
       ]
     },
-    "semanticDiagnosticsPerFile": [
-      "asset:///lib.deno.fetch.d.ts",
-      "asset:///lib.deno.ns.d.ts",
-      "asset:///lib.deno.shared_globals.d.ts",
-      "asset:///lib.deno.web.d.ts",
-      "asset:///lib.deno.window.d.ts",
-      "asset:///lib.es2015.collection.d.ts",
-      "asset:///lib.es2015.core.d.ts",
-      "asset:///lib.es2015.d.ts",
-      "asset:///lib.es2015.generator.d.ts",
-      "asset:///lib.es2015.iterable.d.ts",
-      "asset:///lib.es2015.promise.d.ts",
-      "asset:///lib.es2015.proxy.d.ts",
-      "asset:///lib.es2015.reflect.d.ts",
-      "asset:///lib.es2015.symbol.d.ts",
-      "asset:///lib.es2015.symbol.wellknown.d.ts",
-      "asset:///lib.es2016.array.include.d.ts",
-      "asset:///lib.es2016.d.ts",
-      "asset:///lib.es2017.d.ts",
-      "asset:///lib.es2017.intl.d.ts",
-      "asset:///lib.es2017.object.d.ts",
-      "asset:///lib.es2017.sharedmemory.d.ts",
-      "asset:///lib.es2017.string.d.ts",
-      "asset:///lib.es2017.typedarrays.d.ts",
-      "asset:///lib.es2018.asyncgenerator.d.ts",
-      "asset:///lib.es2018.asynciterable.d.ts",
-      "asset:///lib.es2018.d.ts",
-      "asset:///lib.es2018.intl.d.ts",
-      "asset:///lib.es2018.promise.d.ts",
-      "asset:///lib.es2018.regexp.d.ts",
-      "asset:///lib.es2019.array.d.ts",
-      "asset:///lib.es2019.d.ts",
-      "asset:///lib.es2019.object.d.ts",
-      "asset:///lib.es2019.string.d.ts",
-      "asset:///lib.es2019.symbol.d.ts",
-      "asset:///lib.es2020.bigint.d.ts",
-      "asset:///lib.es2020.d.ts",
-      "asset:///lib.es2020.intl.d.ts",
-      "asset:///lib.es2020.promise.d.ts",
-      "asset:///lib.es2020.string.d.ts",
-      "asset:///lib.es2020.symbol.wellknown.d.ts",
-      "asset:///lib.es5.d.ts",
-      "asset:///lib.esnext.d.ts",
-      "asset:///lib.esnext.intl.d.ts",
-      "asset:///lib.esnext.promise.d.ts",
-      "asset:///lib.esnext.string.d.ts",
-      "file:///D:/Code/Ninie.io/deps.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/deps.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/mod.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/constants/discord.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/bans.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/cache.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/channels.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/guilds.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/members.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/messages.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/misc.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/mod.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/reactions.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/controllers/roles.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/channel.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/guild.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/member.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/message.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/handlers/webhook.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/basicShard.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/client.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/requestManager.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/module/shardingManager.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/channel.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/guild.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/member.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/message.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/mod.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/structures/role.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/activity.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/cdn.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/channel.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/discord.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/errors.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/fetch.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/guild.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/member.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/message.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/misc.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/options.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/permission.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/presence.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/role.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/types/webhook.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cache.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/cdn.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/collection.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/permissions.ts",
-      "https://2b4uf3aywcv5mde67pmncptxeqv2yujmbcssaxy5n7meddskiwia.arweave.net/0HlC7Biwq9YMnvvY0T53JCusUSwIpSBfHW_YQY5KRZA/src/utils/utils.ts",
-      "https://deno.land/std@0.67.0/_util/assert.ts",
-      "https://deno.land/std@0.67.0/_util/has_own_property.ts",
-      "https://deno.land/std@0.67.0/async/deferred.ts",
-      "https://deno.land/std@0.67.0/async/delay.ts",
-      "https://deno.land/std@0.67.0/async/mod.ts",
-      "https://deno.land/std@0.67.0/async/mux_async_iterator.ts",
-      "https://deno.land/std@0.67.0/async/pool.ts",
-      "https://deno.land/std@0.67.0/bytes/mod.ts",
-      "https://deno.land/std@0.67.0/encoding/base64.ts",
-      "https://deno.land/std@0.67.0/encoding/utf8.ts",
-      "https://deno.land/std@0.67.0/hash/sha1.ts",
-      "https://deno.land/std@0.67.0/http/_io.ts",
-      "https://deno.land/std@0.67.0/http/http_status.ts",
-      "https://deno.land/std@0.67.0/http/server.ts",
-      "https://deno.land/std@0.67.0/io/bufio.ts",
-      "https://deno.land/std@0.67.0/io/ioutil.ts",
-      "https://deno.land/std@0.67.0/textproto/mod.ts",
-      "https://deno.land/std@0.67.0/ws/mod.ts",
-      "https://deno.land/std@0.74.0/_util/assert.ts",
-      "https://deno.land/std@0.74.0/async/deferred.ts",
-      "https://deno.land/std@0.74.0/async/delay.ts",
-      "https://deno.land/std@0.74.0/async/mod.ts",
-      "https://deno.land/std@0.74.0/async/mux_async_iterator.ts",
-      "https://deno.land/std@0.74.0/async/pool.ts",
-      "https://deno.land/std@0.74.0/bytes/mod.ts",
-      "https://deno.land/std@0.74.0/encoding/utf8.ts",
-      "https://deno.land/std@0.74.0/http/_io.ts",
-      "https://deno.land/std@0.74.0/http/http_status.ts",
-      "https://deno.land/std@0.74.0/http/server.ts",
-      "https://deno.land/std@0.74.0/io/bufio.ts",
-      "https://deno.land/std@0.74.0/textproto/mod.ts",
-      "https://deno.land/x/zlib.es@v1.0.0/_BitReadStream.ts",
-      "https://deno.land/x/zlib.es@v1.0.0/_BitWriteStream.ts",
-      "https://deno.land/x/zlib.es@v1.0.0/_Uint8WriteStream.ts",
-      "https://deno.land/x/zlib.es@v1.0.0/adler32.ts",
-      "https://deno.land/x/zlib.es@v1.0.0/const.ts",
-      "https://deno.land/x/zlib.es@v1.0.0/deflate.ts",
-      "https://deno.land/x/zlib.es@v1.0.0/huffman.ts",
-      "https://deno.land/x/zlib.es@v1.0.0/inflate.ts",
-      "https://deno.land/x/zlib.es@v1.0.0/lz77.ts",
-      "https://deno.land/x/zlib.es@v1.0.0/mod.ts"
-    ]
+    "semanticDiagnosticsPerFile": []
   },
-  "version": "4.0.3"
+  "version": "4.0.5"
 }
